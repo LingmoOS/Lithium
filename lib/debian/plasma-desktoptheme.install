@@ -1,0 +1,6 @@
+usr/lib/*/qt6/plugins/kf6/kirigami/platform/KirigamiPlasmaStyle.so
+usr/lib/*/qt6/plugins/kf6/packagestructure/
+usr/lib/*/qt6/qml/org/kde/kirigami/
+usr/lib/*/qt6/qml/org/kde/plasma/
+usr/share/locale/*/*/libplasma6.mo
+usr/share/plasma/desktoptheme/

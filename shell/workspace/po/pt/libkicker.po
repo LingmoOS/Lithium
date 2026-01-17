@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_kicker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-05 02:34+0000\n"
+"PO-Revision-Date: 2021-06-08 19:40+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: mails svgz jpg KRunner KICKERFAVORITESMODEL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: actionlist.cpp:91
+#, kde-format
+msgid "Open with:"
+msgstr "Abrir com:"
+
+#: actionlist.cpp:104
+#, kde-format
+msgid "Properties"
+msgstr "Propriedades"
+
+#: actionlist.cpp:151
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Adicionar ao Ecrã"
+
+#: actionlist.cpp:158
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Fixar no Gestor de Tarefas"
+
+#: actionlist.cpp:162
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Adicionar ao Painel (Elemento)"
+
+#: actionlist.cpp:313 rootmodel.cpp:540
+#, kde-format
+msgid "Recent Files"
+msgstr "Ficheiros Recentes"
+
+#: actionlist.cpp:323
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "Esquecer os Ficheiros Recentes"
+
+#: actionlist.cpp:388
+#, kde-format
+msgid "Edit Application…"
+msgstr "Editar a Aplicação…"
+
+#: actionlist.cpp:420
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "Desinstalar ou Gerir as Extensões…"
+
+#: appentry.cpp:360
+#, kde-format
+msgid "Hide Application"
+msgstr "Esconder a Aplicação"
+
+#: appentry.cpp:422
+#, fuzzy, kde-format
+#| msgctxt "App name (Generic name)"
+#| msgid "%1 (%2)"
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:424
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:97 computermodel.cpp:225
+#: recentusagemodel.cpp:165 recentusagemodel.cpp:228
+#, kde-format
+msgid "Applications"
+msgstr "Aplicações"
+
+#: appsmodel.cpp:169
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Mostrar as Aplicações neste Sub-Menu"
+
+#: appsmodel.cpp:178
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Mostrar as Aplicações em '%1'"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Show KRunner"
+msgstr "Mostrar o KRunner"
+
+#: computermodel.cpp:95
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "Procurar, calcular ou executar um comando"
+
+#: computermodel.cpp:148
+#, kde-format
+msgid "Computer"
+msgstr "Computador"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:557 rootmodel.cpp:533 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: recentusagemodel.cpp:163
+#, kde-format
+msgid "Recently Used"
+msgstr "Usados Recentemente"
+
+#: recentusagemodel.cpp:168 recentusagemodel.cpp:321
+#, kde-format
+msgid "Files"
+msgstr "Ficheiros"
+
+#: recentusagemodel.cpp:254
+#, kde-format
+msgid "Forget Application"
+msgstr "Esquecer a Aplicação"
+
+#: recentusagemodel.cpp:319
+#, kde-format
+msgid "Folders"
+msgstr ""
+
+#: recentusagemodel.cpp:360
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Abrir a Pasta Respectiva"
+
+#: recentusagemodel.cpp:363
+#, kde-format
+msgid "Forget File"
+msgstr "Esquecer o Ficheiro"
+
+#: recentusagemodel.cpp:498
+#, kde-format
+msgid "Forget All"
+msgstr "Esquecer Tudo"
+
+#: recentusagemodel.cpp:500
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Esquecer Todas as Aplicações"
+
+#: recentusagemodel.cpp:503
+#, kde-format
+msgid "Forget All Files"
+msgstr "Esquecer Todos os Ficheiros"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "Todas as Aplicações"
+
+#: rootmodel.cpp:133
+#, kde-format
+msgid "Hide %1"
+msgstr "Esconder o %1"
+
+#: rootmodel.cpp:527
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "Isto não deveria estar visível! Use o KICKER_FAVORITES_MODEL"
+
+#: rootmodel.cpp:540
+#, kde-format
+msgid "Often Used Files"
+msgstr "Ficheiros Usados Frequentemente"
+
+#: rootmodel.cpp:549
+#, kde-format
+msgid "Recent Applications"
+msgstr "Aplicações Recentes"
+
+#: rootmodel.cpp:549
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Aplicações Frequentes"
+
+#: rootmodel.cpp:564
+#, kde-format
+msgid "Power / Session"
+msgstr "Energia / Sessão"
+
+#: runnermodel.cpp:222
+#, kde-format
+msgid "Search results"
+msgstr "Resultados da procura"
+
+#: systementry.cpp:194
+#, kde-format
+msgid "Lock"
+msgstr "Bloquear"
+
+#: systementry.cpp:197
+#, kde-format
+msgid "Log Out"
+msgstr "Sair"
+
+#: systementry.cpp:200 systementry.cpp:254
+#, kde-format
+msgid "Save Session"
+msgstr "Gravar a Sessão"
+
+#: systementry.cpp:203
+#, kde-format
+msgid "Switch User"
+msgstr "Mudar de Utilizador"
+
+#: systementry.cpp:206
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Suspender"
+
+#: systementry.cpp:209
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernar"
+
+#: systementry.cpp:212
+#, kde-format
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: systementry.cpp:215
+#, kde-format
+msgid "Shut Down"
+msgstr "Desligar"
+
+#: systementry.cpp:231
+#, kde-format
+msgid "Session"
+msgstr "Sessão"
+
+#: systementry.cpp:236
+#, kde-format
+msgid "System"
+msgstr "Sistema"
+
+#: systementry.cpp:248
+#, kde-format
+msgid "Lock screen"
+msgstr "Bloquear o ecrã"
+
+#: systementry.cpp:251
+#, kde-format
+msgid "End session"
+msgstr "Terminar a sessão"
+
+#: systementry.cpp:257
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Iniciar uma sessão paralela como um utilizador diferente"
+
+#: systementry.cpp:260
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Suspender para a RAM"
+
+#: systementry.cpp:263
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Suspender para o disco"
+
+#: systementry.cpp:266
+#, kde-format
+msgid "Restart computer"
+msgstr "Reiniciar o computador"
+
+#: systementry.cpp:269
+#, kde-format
+msgid "Turn off computer"
+msgstr "Desligar o computador"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "Acções do sistema"
+
+#~ msgid "Show Contact Information…"
+#~ msgstr "Mostrar a Informação do Contacto…"
+
+#~ msgid "Contacts"
+#~ msgstr "Contactos"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Esquecer o Contacto"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Esquecer Todos os Contactos"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Contactos Recentes"

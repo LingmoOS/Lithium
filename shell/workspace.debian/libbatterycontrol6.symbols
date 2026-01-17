@@ -1,0 +1,7 @@
+# SymbolsHelper-Confirmed: 4:6.2.0 amd64
+libbatterycontrol.so.6 libbatterycontrol6 #MINVER#
+* Build-Depends-Package: lingmo-workspace-dev
+ _Z49qml_register_types_org_kde_plasma_private_batteryv@Base 4:6.1.4
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_jESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE11equal_rangeERS2_@Base 4:6.2.0
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_jESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_@Base 4:6.2.0
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_jESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS2_@Base 4:6.2.0

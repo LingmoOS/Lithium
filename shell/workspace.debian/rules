@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DBUILD_TESTING=OFF -DPLASMA_X11_DEFAULT_SESSION=OFF -DWITH_X11=ON
+
+override_dh_auto_test:
+	# Disable auto tests at build time
+	:
+
+execute_after_dh_fixperms-arch:
+	chmod -x $(CURDIR)/debian/lingmo-workspace/usr/share/kglobalaccel/org.kde.krunner.desktop

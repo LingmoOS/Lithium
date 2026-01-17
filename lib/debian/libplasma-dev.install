@@ -1,0 +1,7 @@
+usr/include/Plasma/
+usr/include/PlasmaQuick/
+usr/lib/*/cmake/Plasma/
+usr/lib/*/cmake/PlasmaQuick/
+usr/lib/*/libPlasma.so
+usr/lib/*/libPlasmaQuick.so
+usr/share/kdevappwizard/templates/

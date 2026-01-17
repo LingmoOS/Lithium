@@ -1,0 +1,203 @@
+# SymbolsHelper-Confirmed: 4:6.4.91 amd64
+libklipper.so.6 libklipper6 #MINVER#
+* Build-Depends-Package: lingmo-workspace-dev
+ _ZN10URLGrabber10actionMenuESt10shared_ptrIK11HistoryItemEb@Base 4:6.1.90
+ _ZN10URLGrabber11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:6.1.90
+ _ZN10URLGrabber11qt_metacastEPKc@Base 4:6.1.90
+ _ZN10URLGrabber12checkNewDataESt10shared_ptrIK11HistoryItemE@Base 4:6.1.90
+ _ZN10URLGrabber12invokeActionESt10shared_ptrIK11HistoryItemE@Base 4:6.1.90
+ _ZN10URLGrabber12loadSettingsEv@Base 4:6.1.90
+ _ZN10URLGrabber13setActionListERK5QListIP10ClipActionE@Base 4:6.1.90
+ _ZN10URLGrabber15matchingActionsERK7QStringb@Base 4:6.1.90
+ _ZN10URLGrabber16slotItemSelectedEP7QAction@Base 4:6.1.90
+ _ZN10URLGrabber16staticMetaObjectE@Base 4:6.1.90
+ _ZN10URLGrabber17slotKillPopupMenuEv@Base 4:6.1.90
+ _ZN10URLGrabber19matchingMimeActionsERK7QString@Base 4:6.1.90
+ _ZN10URLGrabber8sigPopupEP5QMenu@Base 4:6.1.90
+ _ZN10URLGrabberC1EP7QObject@Base 4:6.1.90
+ _ZN10URLGrabberC2EP7QObject@Base 4:6.1.90
+ _ZN10URLGrabberD0Ev@Base 4:6.1.90
+ _ZN10URLGrabberD1Ev@Base 4:6.1.90
+ _ZN10URLGrabberD2Ev@Base 4:6.1.90
+ _ZN11HistoryItem6createERK9QSqlQuery@Base 4:6.2.90
+ _ZN11HistoryItemC1ERK7QStringRK5QListIS0_ES2_@Base 4:6.2.90
+ _ZN11HistoryItemC2ERK7QStringRK5QListIS0_ES2_@Base 4:6.2.90
+ _ZN11HistoryItemD0Ev@Base 4:6.1.90
+ _ZN11HistoryItemD1Ev@Base 4:6.1.90
+ _ZN11HistoryItemD2Ev@Base 4:6.1.90
+ _ZN12HistoryModel10removeRowsEiiRK11QModelIndex@Base 4:6.1.90
+ _ZN12HistoryModel10saveToFileE11QStringViewRK10QByteArrayS0_S0_@Base 4:6.2.90
+ (subst)_ZN12HistoryModel10setMaxSizeE{qptrdiff}@Base 4:6.1.90
+ _ZN12HistoryModel11loadHistoryEv@Base 4:6.1.90
+ _ZN12HistoryModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:6.1.90
+ _ZN12HistoryModel11qt_metacastEPKc@Base 4:6.1.90
+ _ZN12HistoryModel11slotIgnoredEN10QClipboard4ModeE@Base 4:6.2.90
+ _ZN12HistoryModel12clearHistoryEv@Base 4:6.1.90
+ _ZN12HistoryModel12loadSettingsEv@Base 4:6.1.90
+ _ZN12HistoryModel13actionInvokedERKSt10shared_ptrIK11HistoryItemE@Base 4:6.1.90
+ _ZN12HistoryModel13checkClipDataEN10QClipboard4ModeEPK9QMimeData@Base 4:6.2.90
+ _ZN12HistoryModel13moveBackToTopEv@Base 4:6.1.90
+ _ZN12HistoryModel13moveTopToBackEv@Base 4:6.1.90
+ _ZN12HistoryModel16staticMetaObjectE@Base 4:6.1.90
+ _ZN12HistoryModel20saveClipboardHistoryEv@Base 4:6.2.90
+ _ZN12HistoryModel22clearNonStarredHistoryEv@Base 4:6.4.91
+ _ZN12HistoryModel26slotReceivedEmptyClipboardEN10QClipboard4ModeE@Base 4:6.2.90
+ _ZN12HistoryModel4selfEv@Base 4:6.1.90
+ _ZN12HistoryModel5clearEv@Base 4:6.1.90
+ _ZN12HistoryModel6insertEPK9QMimeDatad@Base 4:6.2.90
+ _ZN12HistoryModel6insertERK7QString@Base 4:6.2.90
+ _ZN12HistoryModel6removeERK7QString@Base 4:6.2.90
+ _ZN12HistoryModel7changedEb@Base 4:6.1.90
+ _ZN12HistoryModel7setDataERK11QModelIndexRK8QVarianti@Base 4:6.1.90
+ _ZN12HistoryModel8settingsEv@Base 4:6.2.91
+ _ZN12HistoryModel9moveToTopERK7QString@Base 4:6.2.90
+ (subst)_ZN12HistoryModel9moveToTopE{qptrdiff}@Base 4:6.1.90
+ _ZN12HistoryModelC1Ev@Base 4:6.1.90
+ _ZN12HistoryModelC2Ev@Base 4:6.1.90
+ _ZN12HistoryModelD0Ev@Base 4:6.1.90
+ _ZN12HistoryModelD1Ev@Base 4:6.1.90
+ _ZN12HistoryModelD2Ev@Base 4:6.1.90
+ _ZN13HistoryCycler11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:6.1.90
+ _ZN13HistoryCycler11qt_metacastEPKc@Base 4:6.1.90
+ _ZN13HistoryCycler16staticMetaObjectE@Base 4:6.1.90
+ _ZN13HistoryCycler9cycleNextEv@Base 4:6.1.90
+ _ZN13HistoryCycler9cyclePrevEv@Base 4:6.1.90
+ _ZN13HistoryCyclerC1EP7QObject@Base 4:6.1.90
+ _ZN13HistoryCyclerC2EP7QObject@Base 4:6.1.90
+ _ZN13HistoryCyclerD0Ev@Base 4:6.1.90
+ _ZN13HistoryCyclerD1Ev@Base 4:6.1.90
+ _ZN13HistoryCyclerD2Ev@Base 4:6.1.90
+ _ZN15SystemClipboard11newClipDataEN10QClipboard4ModeEPK9QMimeData@Base 4:6.1.90
+ _ZN15SystemClipboard11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:6.1.90
+ _ZN15SystemClipboard11qt_metacastEPKc@Base 4:6.1.90
+ _ZN15SystemClipboard11setMimeDataEPK9QMimeDataNS_13SelectionModeENS_21ClipboardUpdateReasonE@Base 4:6.2.90
+ _ZN15SystemClipboard11setMimeDataERKSt10shared_ptrIK11HistoryItemENS_13SelectionModeENS_21ClipboardUpdateReasonE@Base 4:6.1.90
+ _ZN15SystemClipboard13checkClipDataEN10QClipboard4ModeEPK9QMimeData@Base 4:6.3.2
+ _ZN15SystemClipboard16slotCheckPendingEv@Base 4:6.1.90
+ _ZN15SystemClipboard16staticMetaObjectE@Base 4:6.1.90
+ _ZN15SystemClipboard17slotClearOverflowEv@Base 4:6.1.90
+ _ZN15SystemClipboard19setMimeDataInternalEP9QMimeDataS1_NS_21ClipboardUpdateReasonE@Base 4:6.2.90
+ _ZN15SystemClipboard20blockFetchingNewDataEv@Base 4:6.1.90
+ _ZN15SystemClipboard22receivedEmptyClipboardEN10QClipboard4ModeE@Base 4:6.1.90
+ _ZN15SystemClipboard4selfEv@Base 4:6.1.90
+ _ZN15SystemClipboard5clearENS_13SelectionModeE@Base 4:6.1.90
+ _ZN15SystemClipboard7ignoredEN10QClipboard4ModeE@Base 4:6.1.90
+ _ZN15SystemClipboard8isLockedEN10QClipboard4ModeE@Base 4:6.1.90
+ _ZN15SystemClipboardC1Ev@Base 4:6.1.90
+ _ZN15SystemClipboardC2Ev@Base 4:6.1.90
+ _ZN15SystemClipboardD0Ev@Base 4:6.1.90
+ _ZN15SystemClipboardD1Ev@Base 4:6.1.90
+ _ZN15SystemClipboardD2Ev@Base 4:6.1.90
+ _ZN5Utils14simplifiedTextERK7QStringi@Base 4:6.1.90
+ _ZN7Klipper11eventFilterEP7QObjectP6QEvent@Base 4:6.1.90
+ _ZN7Klipper11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:6.1.90
+ _ZN7Klipper11qt_metacastEPKc@Base 4:6.1.90
+ _ZN7Klipper11saveSessionEv@Base 4:6.1.90
+ _ZN7Klipper11showBarcodeESt10shared_ptrIK11HistoryItemE@Base 4:6.1.90
+ _ZN7Klipper12editFinishedESt10shared_ptrIK11HistoryItemEi@Base 4:6.1.90
+ _ZN7Klipper12loadSettingsEv@Base 4:6.1.90
+ _ZN7Klipper12passivePopupERK7QStringS2_@Base 4:6.1.90
+ _ZN7Klipper12reloadConfigEv@Base 4:6.2.90
+ _ZN7Klipper13showPopupMenuEP5QMenu@Base 4:6.1.90
+ _ZN7Klipper13slotConfigureEv@Base 4:6.1.90
+ _ZN7Klipper13slotCycleNextEv@Base 4:6.1.90
+ _ZN7Klipper13slotCyclePrevEv@Base 4:6.1.90
+ _ZN7Klipper13slotPopupMenuEv@Base 4:6.1.90
+ _ZN7Klipper15updateTimestampEv@Base 4:6.1.90
+ _ZN7Klipper16slotRepeatActionEv@Base 4:6.1.90
+ _ZN7Klipper16staticMetaObjectE@Base 4:6.1.90
+ _ZN7Klipper18slotHistoryChangedEb@Base 4:6.1.90
+ _ZN7Klipper18slotStartShowTimerEv@Base 4:6.1.90
+ _ZN7Klipper20getClipboardContentsEv@Base 4:6.1.90
+ _ZN7Klipper20saveClipboardHistoryEv@Base 4:6.1.90
+ _ZN7Klipper20setClipboardContentsERK7QString@Base 4:6.1.90
+ _ZN7Klipper20setURLGrabberEnabledEb@Base 4:6.1.90
+ _ZN7Klipper20showKlipperPopupMenuEv@Base 4:6.1.90
+ _ZN7Klipper21clearClipboardHistoryEv@Base 4:6.1.90
+ _ZN7Klipper22clearClipboardContentsEv@Base 4:6.1.90
+ _ZN7Klipper23clipboardHistoryUpdatedEv@Base 4:6.1.90
+ _ZN7Klipper23getClipboardHistoryItemEi@Base 4:6.1.90
+ _ZN7Klipper23getClipboardHistoryMenuEv@Base 4:6.1.90
+ _ZN7Klipper35showKlipperManuallyInvokeActionMenuEv@Base 4:6.1.90
+ _ZN7Klipper4selfEv@Base 4:6.1.90
+ _ZN7KlipperC1EP7QObject@Base 4:6.2.90
+ _ZN7KlipperC2EP7QObject@Base 4:6.2.90
+ _ZN7KlipperD0Ev@Base 4:6.1.90
+ _ZN7KlipperD1Ev@Base 4:6.1.90
+ _ZN7KlipperD2Ev@Base 4:6.1.90
+ _ZNK10URLGrabber10metaObjectEv@Base 4:6.1.90
+ _ZNK10URLGrabber12saveSettingsEv@Base 4:6.1.90
+ _ZNK10URLGrabber15isAvoidedWindowEv@Base 4:6.1.90
+ _ZNK10URLGrabber7executeEPK10ClipActioni@Base 4:6.1.90
+ _ZNK11HistoryItem4textEv@Base 4:6.2.90
+ _ZNK11HistoryItem4typeEv@Base 4:6.2.90
+ _ZNK12HistoryModel10metaObjectEv@Base 4:6.1.90
+ _ZNK12HistoryModel11pendingJobsEv@Base 4:6.2.90
+ _ZNK12HistoryModel13isItemStarredERK7QString@Base 4:6.4.91
+ _ZNK12HistoryModel20bindableStarredCountEv@Base 4:6.4.91
+ _ZNK12HistoryModel4dataERK11QModelIndexi@Base 4:6.1.90
+ _ZNK12HistoryModel5firstEv@Base 4:6.1.90
+ _ZNK12HistoryModel7indexOfEPK11HistoryItem@Base 4:6.1.90
+ _ZNK12HistoryModel7indexOfERK7QString@Base 4:6.2.90
+ _ZNK12HistoryModel7maxSizeEv@Base 4:6.1.90
+ _ZNK12HistoryModel8rowCountERK11QModelIndex@Base 4:6.1.90
+ _ZNK12HistoryModel9roleNamesEv@Base 4:6.1.90
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:6.1.90
+ _ZNK13HistoryCycler10metaObjectEv@Base 4:6.1.90
+ _ZNK13HistoryCycler11nextInCycleEv@Base 4:6.1.90
+ _ZNK13HistoryCycler11prevInCycleEv@Base 4:6.1.90
+ _ZNK15SystemClipboard10metaObjectEv@Base 4:6.1.90
+ _ZNK7Klipper10metaObjectEv@Base 4:6.1.90
+ _ZNK7Klipper12saveSettingsEv@Base 4:6.1.90
+ _ZNK7Klipper9cycleTextEv@Base 4:6.1.90
+ _ZTI10URLGrabber@Base 4:6.1.90
+ _ZTI11HistoryItem@Base 4:6.1.90
+ _ZTI12HistoryModel@Base 4:6.1.90
+ _ZTI12QDBusContext@Base 4:6.2.90
+ _ZTI13HistoryCycler@Base 4:6.1.90
+ _ZTI15SystemClipboard@Base 4:6.1.90
+ _ZTI7Klipper@Base 4:6.1.90
+ (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 4:6.2.3
+ (arch=armel riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel riscv64)_ZTISt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTISt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 4:6.2.3
+ (arch=armel)_ZTISt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.90
+ (arch=amd64)_ZTISt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
+ (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ _ZTS10URLGrabber@Base 4:6.1.90
+ _ZTS11HistoryItem@Base 4:6.1.90
+ _ZTS12HistoryModel@Base 4:6.1.90
+ _ZTS12QDBusContext@Base 4:6.2.90
+ _ZTS13HistoryCycler@Base 4:6.1.90
+ _ZTS15SystemClipboard@Base 4:6.1.90
+ _ZTS7Klipper@Base 4:6.1.90
+ (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 4:6.2.3
+ (arch=armel riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel riscv64)_ZTSSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTSSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ _ZTSSt19_Sp_make_shared_tag@Base 4:6.1.90
+ (arch=armel)_ZTSSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.90
+ (arch=amd64)_ZTSSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
+ (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ _ZTV10URLGrabber@Base 4:6.1.90
+ _ZTV11HistoryItem@Base 4:6.1.90
+ _ZTV12HistoryModel@Base 4:6.1.90
+ _ZTV13HistoryCycler@Base 4:6.1.90
+ _ZTV15SystemClipboard@Base 4:6.1.90
+ _ZTV7Klipper@Base 4:6.1.90
+ (arch=armel riscv64)_ZTVSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTVSt15_Sp_counted_ptrIP15SystemClipboardLN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ (arch=armel)_ZTVSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.90
+ (arch=amd64)_ZTVSt23_Sp_counted_ptr_inplaceI11HistoryItemSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.90
+ (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 4:6.2.3
+ (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI7KlipperSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 4:6.2.3
+ _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 4:6.1.90

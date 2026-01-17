@@ -1,0 +1,4 @@
+usr/lib/*/libPlasma.so.6
+usr/lib/*/libPlasma.so.6.*
+usr/share/qlogging-categories6/plasma-framework.categories
+usr/share/qlogging-categories6/plasma-framework.renamecategories

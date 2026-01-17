@@ -1,0 +1,358 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# SPDX-FileCopyrightText: 2024 X əyyam
+# SPDX-FileCopyrightText: 2024, 2025 Kheyyam Godjayev <xxmn77@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:42+0000\n"
+"PO-Revision-Date: 2025-05-06 11:09+0400\n"
+"Last-Translator: linux <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.0\n"
+
+#: contents/logout/Logout.qml:153
+#, kde-format
+msgid "Installing software updates and restarting in 1 second"
+msgid_plural "Installing software updates and restarting in %1 seconds"
+msgstr[0] ""
+"Proqram təminatı yenilənmələrini quraşdırılmaq və 1 saniyədən sonra yenidən "
+"başlatmaq"
+msgstr[1] ""
+"Proqram təminatı yenilənmələrini quraşdırılmaq və %1 saniyədən sonra yenidən "
+"başlatmaq"
+
+#: contents/logout/Logout.qml:154
+#, kde-format
+msgid "Restarting in 1 second"
+msgid_plural "Restarting in %1 seconds"
+msgstr[0] "%1 saniyədə yenidən başlatmaq"
+msgstr[1] "%1 saniyədə yenidən başlatmaq"
+
+#: contents/logout/Logout.qml:156
+#, kde-format
+msgid "Logging out in 1 second"
+msgid_plural "Logging out in %1 seconds"
+msgstr[0] "%1 saniyədə sesiyadan çıxmaq"
+msgstr[1] "%1 saniyədə sesiyadan çıxmaq"
+
+#: contents/logout/Logout.qml:159
+#, kde-format
+msgid "Installing software updates and shutting down in 1 second"
+msgid_plural "Installing software updates and shutting down in %1 seconds"
+msgstr[0] ""
+"Öpoqram təminatı yenilənmələri quraşdırılır və 1 saniyə ərzində sönəcək"
+msgstr[1] ""
+"Proqram təminatı yenilənmələri quraşdəırılır və %1 saniyə ərzində sönəcək"
+
+#: contents/logout/Logout.qml:160
+#, kde-format
+msgid "Shutting down in 1 second"
+msgid_plural "Shutting down in %1 seconds"
+msgstr[0] "%1 saniyədə söndürmək"
+msgstr[1] "%1 saniyədə söndürmək"
+
+#: contents/logout/Logout.qml:175
+#, kde-format
+msgid ""
+"One other user is currently logged in. If the computer is shut down or "
+"restarted, that user may lose work."
+msgid_plural ""
+"%1 other users are currently logged in. If the computer is shut down or "
+"restarted, those users may lose work."
+msgstr[0] ""
+"Hal-hazırda bir başqa istifadəçi qoşuldu. Əgər bu komputer söndürülsə və ya "
+"yenidən başladılsa istifadəçi işini itirə bilər."
+msgstr[1] ""
+"Hal-hazırda %1 başqa istifadəçi qoşuldu. Əgər bu komputer söndürülsə və ya "
+"yenidən başladılsa istifadəçi işini itirə bilər."
+
+#: contents/logout/Logout.qml:190
+#, kde-format
+msgid "When restarted, the computer will enter the firmware setup screen."
+msgstr ""
+"Yenidən başladıldıqda komputer proqram təminatının ayarlanması ekranına "
+"daxil olacaq"
+
+#: contents/logout/Logout.qml:203
+#, kde-format
+msgid "When restarted, the computer will enter the boot loader menu."
+msgstr "Yenidən başladıldıqda kompyuter önyükləyici menyusuna daxil olacaq."
+
+#: contents/logout/Logout.qml:216
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Slee&p"
+msgstr "&Yuxu"
+
+#: contents/logout/Logout.qml:217
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Slee&p Now"
+msgstr "İndi yuxulatmaq"
+
+#: contents/logout/Logout.qml:226
+#, kde-format
+msgid "&Hibernate"
+msgstr "&Hibernasiya"
+
+#: contents/logout/Logout.qml:227
+#, kde-format
+msgid "&Hibernate Now"
+msgstr "&Hibernasiyaya keçmək"
+
+#: contents/logout/Logout.qml:238
+#, kde-format
+msgctxt "@action:button Keep short"
+msgid "Install Updates and Restart"
+msgstr "Yenilənmələri quraşdırmaq və yenidən başlatmaq"
+
+#: contents/logout/Logout.qml:240 contents/logout/Logout.qml:259
+#, kde-format
+msgid "&Restart"
+msgstr "Y&enidən başlatmaq"
+
+#: contents/logout/Logout.qml:241 contents/logout/Logout.qml:260
+#, kde-format
+msgid "&Restart Now"
+msgstr "&İndi yenidən başladın"
+
+#: contents/logout/Logout.qml:273
+#, kde-format
+msgctxt "@action:button Keep short"
+msgid "Install Updates and Shut Down"
+msgstr "Yenilənmələri quraşdırmaq və söndürmək"
+
+#: contents/logout/Logout.qml:275 contents/logout/Logout.qml:294
+#, kde-format
+msgid "&Shut Down"
+msgstr "&Söndürmək"
+
+#: contents/logout/Logout.qml:276 contents/logout/Logout.qml:295
+#, kde-format
+msgid "&Shut Down Now"
+msgstr "İndi &söndürmək"
+
+#: contents/logout/Logout.qml:307
+#, kde-format
+msgid "&Log Out"
+msgstr "&Sesiyadan çıxış"
+
+#: contents/logout/Logout.qml:308
+#, kde-format
+msgid "&Log Out Now"
+msgstr "İndi &sessiyadan çıxmaq"
+
+#: contents/logout/Logout.qml:318
+#, kde-format
+msgid "&Cancel"
+msgstr "İm&tina"
+
+#: contents/splash/Splash.qml:79
+#, kde-format
+msgctxt ""
+"This is the first text the user sees while starting in the splash screen, "
+"should be translated as something short, is a form that can be seen on a "
+"product. Plasma is the project name so shouldn't be translated."
+msgid "Plasma made by KDE"
+msgstr "Plasma, KDE tərəfindən yaradılıb"
+
+#~ msgctxt "Percentage value"
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgctxt "@action:button Keep short"
+#~ msgid "Install Updates & Restart Now"
+#~ msgstr "Yenilənmələri quraşdırmaq və yenidən başlatmaq"
+
+#, fuzzy
+#~| msgctxt "@action:button Keep short"
+#~| msgid "Install Updates & Restart Now"
+#~ msgctxt "@action:button Keep short"
+#~ msgid "Install Updates & Shut Down Now"
+#~ msgstr "Yenilənmələri quraşdırmaq və yenidən başlatmaq"
+
+#~ msgid "Keyboard Layout: %1"
+#~ msgstr "Klaviatura qatı: %1"
+
+#~ msgid "Username"
+#~ msgstr "İstifadəçi adı"
+
+#~ msgid "Password"
+#~ msgstr "Şifrə"
+
+#~ msgid "Log In"
+#~ msgstr "Giriş"
+
+#~ msgid "Caps Lock is on"
+#~ msgstr "Caps Lock aktivdir"
+
+#~ msgctxt "For switching to a username and password prompt"
+#~ msgid "Other…"
+#~ msgstr "Digər..."
+
+#~ msgid "Type in Username and Password"
+#~ msgstr "İstifadəçi adını və Şifrəni daxil edin"
+
+#~ msgid "List Users"
+#~ msgstr "İstifadəçilər siyahısı"
+
+#~ msgctxt "Button to show/hide virtual keyboard"
+#~ msgid "Virtual Keyboard"
+#~ msgstr "Virtual Klaviatura"
+
+#~ msgid "Login Failed"
+#~ msgstr "Giriş alınmadı"
+
+#~ msgid "Desktop Session: %1"
+#~ msgstr "İş masası Seansı: %1"
+
+#~ msgctxt "@title: group"
+#~ msgid "Clock:"
+#~ msgstr "Saat:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Keep visible when unlocking prompt disappears"
+#~ msgstr "Kilidi açma sorğusu yox olduqda görünən vəziyyətdə qalsın"
+
+#~ msgctxt "@title: group"
+#~ msgid "Media controls:"
+#~ msgstr "Media idarəetməsi:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Show under unlocking prompt"
+#~ msgstr "Kilidi açma sorğusu altında göstərilsin"
+
+#~ msgid "Unlocking failed"
+#~ msgstr "Kiliddən çıxarılma alınmadı"
+
+#~ msgid "Sleep"
+#~ msgstr "Yuxu"
+
+#~ msgid "Switch User"
+#~ msgstr "İstifadəçini dəyişmək"
+
+#~ msgctxt "Button to change keyboard layout"
+#~ msgid "Switch layout"
+#~ msgstr "Qatları dəyişmək"
+
+#~ msgid "Unlock"
+#~ msgstr "Kiliddən çıxartmaq"
+
+#~ msgid "No title"
+#~ msgstr "Başlıqsız"
+
+#~ msgid "No media playing"
+#~ msgstr "Media fayl yoxdur"
+
+#~ msgid "Previous track"
+#~ msgstr "Əvvəlki media"
+
+#~ msgid "Play or Pause media"
+#~ msgstr "Medianı oynatmaq və ya fasilə vermək"
+
+#~ msgid "Next track"
+#~ msgstr "Nöbəti media"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Switch to This Session"
+#~ msgstr "Bu sesiyanı dəyişmək"
+
+#~ msgid "Start New Session"
+#~ msgstr "Yeni sesiyanı başlatmaq"
+
+#~ msgid "Back"
+#~ msgstr "Geriyə"
+
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid "Battery at %1%"
+#~ msgstr "Batareya %1%-dir"
+
+#~ msgctxt "Nobody logged in on that session"
+#~ msgid "Unused"
+#~ msgstr "İstifadə olunmamış"
+
+#~ msgctxt "User logged in on console number"
+#~ msgid "TTY %1"
+#~ msgstr "TTY %1"
+
+#~ msgctxt "User logged in on console (X display number)"
+#~ msgid "on TTY %1 (Display %2)"
+#~ msgstr "TTY %1-də(da) (Ekran %2)"
+
+#~ msgctxt "Username (location)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "Configure"
+#~ msgstr "Tənzimləmək"
+
+#~ msgid "Configure KRunner Behavior"
+#~ msgstr "KRunner davranışlarını ayarlayın"
+
+#~ msgid "Configure KRunner…"
+#~ msgstr "KRunner\"i ayarlayın…"
+
+#~ msgctxt "Textfield placeholder text, query specific KRunner"
+#~ msgid "Search '%1'…"
+#~ msgstr "'%1' axtarmaq…"
+
+#~ msgctxt "Textfield placeholder text"
+#~ msgid "Search…"
+#~ msgstr "Axtarış…"
+
+#~ msgid "Show Usage Help"
+#~ msgstr "İstifadəsi haqqında kömək"
+
+#~ msgid "Pin"
+#~ msgstr "Pin"
+
+#~ msgid "Pin Search"
+#~ msgstr "Pin axtarışı"
+
+#~ msgid "Keep Open"
+#~ msgstr "Açıq saxlamaq"
+
+#~ msgid "Recent Queries"
+#~ msgstr "sonuncu sorğular"
+
+#~ msgid "Remove"
+#~ msgstr "Silmək"
+
+#~ msgid "in category recent queries"
+#~ msgstr "kateqoriyada sonuncu sorğuları silmək"
+
+#~ msgctxt "verb, to show something"
+#~ msgid "Show:"
+#~ msgstr "Göstərmək:"
+
+#~ msgid "Configure Search Plugins"
+#~ msgstr "Axtarış əlavəsini ayarlamaq"
+
+#~ msgctxt ""
+#~ "This is the first text the user sees while starting in the splash screen, "
+#~ "should be translated as something short, is a form that can be seen on a "
+#~ "product. Plasma is the project name so shouldn't be translated."
+#~ msgid "Plasma 25th Anniversary Edition by KDE"
+#~ msgstr "KDE tərəfindən Plasmanın 25-ci ildönümü buraxılışı"
+
+#~ msgid "Close"
+#~ msgstr "Bağlamaq"
+
+#~ msgctxt "verb, to show something"
+#~ msgid "Show always"
+#~ msgstr "Yenidən göstərmək"

@@ -1,0 +1,16 @@
+lingmo-workspace: no-manual-page
+# private library
+lingmo-workspace: package-name-doesnt-match-sonames libkrdb
+# private library
+lingmo-workspace: shared-library-lacks-version usr/lib/*/libkrdb.so libkrdb.so
+# private library
+lingmo-workspace: no-symbols-control-file usr/lib/*/libkrdb.so
+# private library
+lingmo-workspace: lacks-ldconfig-trigger usr/lib/*/libkrdb.so
+lingmo-workspace: desktop-entry-unknown-type XSession [usr/share/xsessions/plasmax11.desktop]
+# systemsettings executable required for the KCMs is provided by the Recommends: systemsettings dependency
+lingmo-workspace: desktop-command-not-in-package systemsettings [usr/share/applications/kcm_*]
+# Yes sorry, lingmo-workspace does have a lot of dependencies
+lingmo-workspace: field-too-long Depends *
+# /usr/bin/false is in coreutils (which is Essential: yes)
+lingmo-workspace: desktop-command-not-in-package usr/bin/false [usr/share/applications/org.kde.klipper.desktop]

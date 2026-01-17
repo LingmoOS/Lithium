@@ -1,0 +1,297 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma-workspace package.
+# Sergiu Bivol <sergiu@cip.md>, 2012, 2013, 2020, 2021.
+# Tatiana Țurcanu <turcanu DOT tatiana91 AT gmail DOT com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-05 02:34+0000\n"
+"PO-Revision-Date: 2021-07-25 14:01+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 19.12.3\n"
+
+#: actionlist.cpp:91
+#, kde-format
+msgid "Open with:"
+msgstr "Deschide cu:"
+
+#: actionlist.cpp:104
+#, kde-format
+msgid "Properties"
+msgstr "Proprietăți"
+
+#: actionlist.cpp:151
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Adaugă la birou"
+
+#: actionlist.cpp:158
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Fixează la gestionarul de sarcini"
+
+#: actionlist.cpp:162
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Adaugă la panou (control grafic)"
+
+#: actionlist.cpp:313 rootmodel.cpp:540
+#, kde-format
+msgid "Recent Files"
+msgstr "Fișiere recente"
+
+#: actionlist.cpp:323
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "Uită fișierele recente"
+
+#: actionlist.cpp:388
+#, kde-format
+msgid "Edit Application…"
+msgstr "Modifică aplicația…"
+
+#: actionlist.cpp:420
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "Dezinstalează sau gestionează extensii…"
+
+#: appentry.cpp:360
+#, kde-format
+msgid "Hide Application"
+msgstr "Ascunde aplicația"
+
+#: appentry.cpp:422
+#, fuzzy, kde-format
+#| msgctxt "App name (Generic name)"
+#| msgid "%1 (%2)"
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:424
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:97 computermodel.cpp:225
+#: recentusagemodel.cpp:165 recentusagemodel.cpp:228
+#, kde-format
+msgid "Applications"
+msgstr "Aplicații"
+
+#: appsmodel.cpp:169
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Demaschează aplicațiile din acest submeniu"
+
+#: appsmodel.cpp:178
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Demaschează aplicațiile din „%1”"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Show KRunner"
+msgstr "Arată KRunner"
+
+#: computermodel.cpp:95
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "Caută, calculează, sau rulează o comandă"
+
+#: computermodel.cpp:148
+#, kde-format
+msgid "Computer"
+msgstr "Calculator"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:557 rootmodel.cpp:533 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "Favorite"
+
+#: recentusagemodel.cpp:163
+#, kde-format
+msgid "Recently Used"
+msgstr "Utilizate recent"
+
+#: recentusagemodel.cpp:168 recentusagemodel.cpp:321
+#, kde-format
+msgid "Files"
+msgstr "Fișiere"
+
+#: recentusagemodel.cpp:254
+#, kde-format
+msgid "Forget Application"
+msgstr "Uită aplicația"
+
+#: recentusagemodel.cpp:319
+#, kde-format
+msgid "Folders"
+msgstr ""
+
+#: recentusagemodel.cpp:360
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Deschide dosarul conținător"
+
+#: recentusagemodel.cpp:363
+#, kde-format
+msgid "Forget File"
+msgstr "Uită fișierul"
+
+#: recentusagemodel.cpp:498
+#, kde-format
+msgid "Forget All"
+msgstr "Uită tot"
+
+#: recentusagemodel.cpp:500
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Uită toate aplicațiile"
+
+#: recentusagemodel.cpp:503
+#, kde-format
+msgid "Forget All Files"
+msgstr "Uită toate fișierele"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "Toate aplicațiile"
+
+#: rootmodel.cpp:133
+#, kde-format
+msgid "Hide %1"
+msgstr "Ascunde %1"
+
+#: rootmodel.cpp:527
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "Aceasta nu ar trebui să fie vizibilă! Folosiți KICKER_FAVORITES_MODEL"
+
+#: rootmodel.cpp:540
+#, kde-format
+msgid "Often Used Files"
+msgstr "Fișiere folosite des"
+
+#: rootmodel.cpp:549
+#, kde-format
+msgid "Recent Applications"
+msgstr "Aplicații recente"
+
+#: rootmodel.cpp:549
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Aplicații folosite des"
+
+#: rootmodel.cpp:564
+#, kde-format
+msgid "Power / Session"
+msgstr "Alimentare / Sesiune"
+
+#: runnermodel.cpp:222
+#, kde-format
+msgid "Search results"
+msgstr "Rezultatele căutării"
+
+#: systementry.cpp:194
+#, kde-format
+msgid "Lock"
+msgstr "Blocare"
+
+#: systementry.cpp:197
+#, kde-format
+msgid "Log Out"
+msgstr "Ieșire din sistem"
+
+#: systementry.cpp:200 systementry.cpp:254
+#, kde-format
+msgid "Save Session"
+msgstr "Salvează sesiunea"
+
+#: systementry.cpp:203
+#, kde-format
+msgid "Switch User"
+msgstr "Schimbă utilizatorul"
+
+#: systementry.cpp:206
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Adormire"
+
+#: systementry.cpp:209
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernare"
+
+#: systementry.cpp:212
+#, kde-format
+msgid "Restart"
+msgstr "Repornire"
+
+#: systementry.cpp:215
+#, kde-format
+msgid "Shut Down"
+msgstr "Deconectare"
+
+#: systementry.cpp:231
+#, kde-format
+msgid "Session"
+msgstr "Sesiune"
+
+#: systementry.cpp:236
+#, kde-format
+msgid "System"
+msgstr "Sistem"
+
+#: systementry.cpp:248
+#, kde-format
+msgid "Lock screen"
+msgstr "Blochează ecranul"
+
+#: systementry.cpp:251
+#, kde-format
+msgid "End session"
+msgstr "Termină sesiunea"
+
+#: systementry.cpp:257
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Pornește o sesiune paralelă ca alt utilizator"
+
+#: systementry.cpp:260
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Suspendă în RAM"
+
+#: systementry.cpp:263
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Suspendă pe disc"
+
+#: systementry.cpp:266
+#, kde-format
+msgid "Restart computer"
+msgstr "Repornește calculatorul"
+
+#: systementry.cpp:269
+#, kde-format
+msgid "Turn off computer"
+msgstr "Deconectează calculatorul"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "Acțiuni de sistem"

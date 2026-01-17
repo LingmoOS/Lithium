@@ -1,0 +1,310 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+#
+# Sveinn í Felli <sv1@fellsnet.is>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-05 02:34+0000\n"
+"PO-Revision-Date: 2025-04-18 11:08+0000\n"
+"Last-Translator: Gummi <gudmundure@gmail.com>\n"
+"Language-Team: Icelandic <kde-i18n-doc@kde.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: actionlist.cpp:91
+#, kde-format
+msgid "Open with:"
+msgstr "Opna með:"
+
+#: actionlist.cpp:104
+#, kde-format
+msgid "Properties"
+msgstr "Eiginleikar"
+
+#: actionlist.cpp:151
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Bæta á skjáborð"
+
+#: actionlist.cpp:158
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Festa á verkefnastjóra"
+
+#: actionlist.cpp:162
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Bæta við skjáborðsstiku (græja)"
+
+#: actionlist.cpp:313 rootmodel.cpp:540
+#, kde-format
+msgid "Recent Files"
+msgstr "Nýlegar skrár"
+
+#: actionlist.cpp:323
+#, kde-format
+msgid "Forget Recent Files"
+msgstr "Gleyma nýlegum skrám"
+
+#: actionlist.cpp:388
+#, kde-format
+msgid "Edit Application…"
+msgstr "Breyta forriti…"
+
+#: actionlist.cpp:420
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Uninstall or Manage Add-Ons…"
+msgstr "Fjarlægja eða vinna með viðbætur…"
+
+#: appentry.cpp:360
+#, kde-format
+msgid "Hide Application"
+msgstr "Fela forrit"
+
+#: appentry.cpp:422
+#, kde-format
+msgctxt "App name (Comment or Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appentry.cpp:424
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: appsmodel.cpp:38 appsmodel.cpp:74 computermodel.cpp:97 computermodel.cpp:225
+#: recentusagemodel.cpp:165 recentusagemodel.cpp:228
+#, kde-format
+msgid "Applications"
+msgstr "Forrit"
+
+#: appsmodel.cpp:169
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Ekki fela forrit í þessari undirvalmynd"
+
+#: appsmodel.cpp:178
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Ekki fela forrit í '%1'"
+
+#: computermodel.cpp:91
+#, kde-format
+msgid "Show KRunner"
+msgstr "Sýna KRunner"
+
+#: computermodel.cpp:95
+#, kde-format
+msgid "Search, calculate, or run a command"
+msgstr "Leita, reikna eða keyra skipun"
+
+#: computermodel.cpp:148
+#, kde-format
+msgid "Computer"
+msgstr "Tölva"
+
+#. i18n.
+#: kastatsfavoritesmodel.cpp:557 rootmodel.cpp:533 simplefavoritesmodel.cpp:33
+#, kde-format
+msgid "Favorites"
+msgstr "Eftirlæti"
+
+#: recentusagemodel.cpp:163
+#, kde-format
+msgid "Recently Used"
+msgstr "Nýlega notað"
+
+#: recentusagemodel.cpp:168 recentusagemodel.cpp:321
+#, kde-format
+msgid "Files"
+msgstr "Skrár"
+
+#: recentusagemodel.cpp:254
+#, kde-format
+msgid "Forget Application"
+msgstr "Gleyma forriti"
+
+#: recentusagemodel.cpp:319
+#, kde-format
+msgid "Folders"
+msgstr "Möppur"
+
+#: recentusagemodel.cpp:360
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Opna möppu sem skráin er í"
+
+#: recentusagemodel.cpp:363
+#, kde-format
+msgid "Forget File"
+msgstr "Gleyma skrá"
+
+#: recentusagemodel.cpp:498
+#, kde-format
+msgid "Forget All"
+msgstr "Gleyma öllu"
+
+#: recentusagemodel.cpp:500
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Gleyma öllum forritum"
+
+#: recentusagemodel.cpp:503
+#, kde-format
+msgid "Forget All Files"
+msgstr "Gleyma öllum skrám"
+
+#: rootmodel.cpp:80
+#, kde-format
+msgid "All Applications"
+msgstr "Öll forrit"
+
+#: rootmodel.cpp:133
+#, kde-format
+msgid "Hide %1"
+msgstr "Fela %1"
+
+#: rootmodel.cpp:527
+#, kde-format
+msgid "This shouldn't be visible! Use KICKER_FAVORITES_MODEL"
+msgstr "Þetta ætti ekki að vera sýnilegt! Notaðu KICKER_FAVORITES_MODEL"
+
+#: rootmodel.cpp:540
+#, kde-format
+msgid "Often Used Files"
+msgstr "Oft notaðar skrár"
+
+#: rootmodel.cpp:549
+#, kde-format
+msgid "Recent Applications"
+msgstr "Nýleg forrit"
+
+#: rootmodel.cpp:549
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Oft notuð forrit"
+
+#: rootmodel.cpp:564
+#, kde-format
+msgid "Power / Session"
+msgstr "Frágangur / Seta"
+
+#: runnermodel.cpp:222
+#, kde-format
+msgid "Search results"
+msgstr "Leitarniðurstöður"
+
+#: systementry.cpp:194
+#, kde-format
+msgid "Lock"
+msgstr "Læsa"
+
+#: systementry.cpp:197
+#, kde-format
+msgid "Log Out"
+msgstr "Skrá út"
+
+#: systementry.cpp:200 systementry.cpp:254
+#, kde-format
+msgid "Save Session"
+msgstr "Vista setu"
+
+#: systementry.cpp:203
+#, kde-format
+msgid "Switch User"
+msgstr "Skipta um notanda"
+
+#: systementry.cpp:206
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Svæfa"
+
+#: systementry.cpp:209
+#, kde-format
+msgid "Hibernate"
+msgstr "Leggja í dvala"
+
+#: systementry.cpp:212
+#, kde-format
+msgid "Restart"
+msgstr "Endurræsa"
+
+#: systementry.cpp:215
+#, kde-format
+msgid "Shut Down"
+msgstr "Slökkva á tölvunni"
+
+#: systementry.cpp:231
+#, kde-format
+msgid "Session"
+msgstr "Seta"
+
+#: systementry.cpp:236
+#, kde-format
+msgid "System"
+msgstr "Kerfi"
+
+#: systementry.cpp:248
+#, kde-format
+msgid "Lock screen"
+msgstr "Læsa skjá"
+
+#: systementry.cpp:251
+#, kde-format
+msgid "End session"
+msgstr "Ljúka setu"
+
+#: systementry.cpp:257
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Byrja samhliða setu sem annar notandi"
+
+#: systementry.cpp:260
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Setja í hvíld í minni"
+
+#: systementry.cpp:263
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Setja í dvala á diski"
+
+#: systementry.cpp:266
+#, kde-format
+msgid "Restart computer"
+msgstr "Endurræsa tölvuna"
+
+#: systementry.cpp:269
+#, kde-format
+msgid "Turn off computer"
+msgstr "Slökkva á tölvunni"
+
+#: systemmodel.cpp:31
+#, kde-format
+msgid "System actions"
+msgstr "Kerfisaðgerðir"
+
+#~ msgid "Show Contact Information…"
+#~ msgstr "Birta upplýsingar um tengilið…"
+
+#~ msgid "Contacts"
+#~ msgstr "Tengiliðir"
+
+#~ msgid "Forget Contact"
+#~ msgstr "Gleyma tengilið"
+
+#~ msgid "Forget All Contacts"
+#~ msgstr "Gleyma öllum tengiliðum"
+
+#~ msgid "Recent Contacts"
+#~ msgstr "Nýlegir tengiliðir"

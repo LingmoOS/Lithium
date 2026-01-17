@@ -1,0 +1,8 @@
+include:
+- https://salsa.debian.org/salsa-ci-team/pipeline/raw/master/salsa-ci.yml
+- https://salsa.debian.org/salsa-ci-team/pipeline/raw/master/pipeline-jobs.yml
+variables:
+  # not working with terse output
+  SALSA_CI_DISABLE_BLHC: 1
+  # disable the verbose output so that the whole build log is available
+  DEB_BUILD_OPTIONS: 'terse'

@@ -1,0 +1,30 @@
+-rootPath
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/taskmanager
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/notificationmanager
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/breeze/components
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/lookandfeel
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/holidayevents
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/systemtray
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/kicker
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/keyboardindicator
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/digitalclock
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/appmenu
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/clipboard
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/battery
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/sessions
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/shell
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/containmentlayoutmanager
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/private/mpris
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/wallpapers/image
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/trianglemousefilter
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/timezoneselector
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/osd
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/keyboardlayout
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/dialogs
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/dbus
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/components
+    debian/lingmo-workspace/usr/lib/${DEB_HOST_MULTIARCH}/qt6/qml/org/kde/plasma/workspace/calendar
+-qmlFiles
+    **/*.qml
+-qrcFiles
+    krunner/qml/krunner.qrc

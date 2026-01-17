@@ -1,0 +1,19 @@
+org.kde.plasma.activityswitcher lingmo-workspace
+FingerprintModel
+kcmregionandlang
+org.kde.krunner.private.view
+org.kde.plasma.kcm.autostart
+org.kde.plasma.kcm.users
+org.kde.plasma.kcm.wallpaper
+org.kde.plasma.private.volume
+org.kde.private.kcm_cursortheme
+org.kde.private.kcms.colors
+org.kde.private.kcms.desktoptheme
+org.kde.private.kcms.lookandfeel
+org.kde.private.kcms.nightlight
+org.kde.private.kcms.nighttime
+org.kde.private.kcms.notifications
+org.kde.private.kcms.style
+org.kde.userfeedback.kcm
+plasma.applet.org.kde.plasma.mediacontroller
+plasma.applet.org.kde.plasma.notifications
