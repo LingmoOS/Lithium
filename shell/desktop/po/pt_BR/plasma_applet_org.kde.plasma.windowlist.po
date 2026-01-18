@@ -1,0 +1,71 @@
+# Translation of plasma_applet_org.kde.plasma.windowlist.po to Brazilian Portuguese
+# Copyright (C) 2014-2016 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2014, 2016.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2022.
+# SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.windowlist\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-03-01 16:58-0300\n"
+"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.2\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Geral"
+
+#: ConfigGeneral.qml:30
+#, kde-format
+msgid "Show active application's name on Panel button"
+msgstr "Mostrar nome do aplicativo ativo no botão do painel"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgid "Only icons can be shown when the Panel is vertical."
+msgstr "Somente ícones podem ser exibidos quando o painel é vertical."
+
+#: ConfigGeneral.qml:52
+#, kde-format
+msgid "Not applicable when the widget is on the Desktop."
+msgstr "Não aplicável quando o widget está na área de trabalho."
+
+#: main.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No open windows"
+msgstr "Nenhuma janela aberta"
+
+#: main.qml:119
+#, kde-format
+msgid "Plasma Desktop"
+msgstr "Área de trabalho Plasma"
+
+#~ msgid "On all desktops"
+#~ msgstr "Em todas as áreas de trabalho"
+
+#~ msgid "Window List"
+#~ msgstr "Lista de janelas"
+
+#~ msgid "Actions"
+#~ msgstr "Ações"
+
+#~ msgid "Unclutter Windows"
+#~ msgstr "Arrumar janelas"
+
+#~ msgid "Cascade Windows"
+#~ msgstr "Janelas em cascata"
+
+#~ msgctxt "%1 is the name of the desktop"
+#~ msgid "Desktop %1"
+#~ msgstr "Área de Trabalho %1"

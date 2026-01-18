@@ -1,0 +1,1072 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2015, 2020, 2021, 2022, 2023, 2024, 2025 Sergiu Bivol <sergiu@cip.md>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-10-03 13:25+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: contents/activitymanager/ActivityItem.qml:203
+#, kde-format
+msgid "Currently being used"
+msgstr "Folosită acum"
+
+#: contents/activitymanager/ActivityItem.qml:243
+#, kde-format
+msgid ""
+"Move to\n"
+"this activity"
+msgstr ""
+"Mută la\n"
+"această activitate"
+
+#: contents/activitymanager/ActivityItem.qml:273
+#, kde-format
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+"Arată și în\n"
+"această activitate"
+
+#: contents/activitymanager/ActivityItem.qml:335
+#, kde-format
+msgid "Configure"
+msgstr "Configurează"
+
+#: contents/activitymanager/ActivityManager.qml:122
+#, kde-format
+msgid "Create activity…"
+msgstr "Creează activitate…"
+
+#: contents/activitymanager/Heading.qml:59
+#, kde-format
+msgid "Activities"
+msgstr "Activități"
+
+#: contents/activitymanager/StoppedActivityItem.qml:138
+#, kde-format
+msgid "Configure activity"
+msgstr "Configurează activitatea"
+
+#: contents/activitymanager/StoppedActivityItem.qml:155
+#, kde-format
+msgid "Delete"
+msgstr "Șterge"
+
+#: contents/applet/AppletError.qml:164
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Copiază în clipboard"
+
+#: contents/applet/AppletError.qml:187
+#, kde-format
+msgid "View Error Details…"
+msgstr "Vezi detalii eroare…"
+
+#: contents/applet/CompactApplet.qml:91
+#, kde-format
+msgid "Open %1"
+msgstr "Deschide %1"
+
+#: contents/configuration/AboutPlugin.qml:21
+#: contents/configuration/AppletConfiguration.qml:320
+#, kde-format
+msgid "About"
+msgstr "Despre"
+
+#: contents/configuration/AboutPlugin.qml:50
+#, kde-format
+msgid "Send an email to %1"
+msgstr "Trimite scrisoare către %1"
+
+#: contents/configuration/AboutPlugin.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr "Deschide saitul %1"
+
+#: contents/configuration/AboutPlugin.qml:142
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr "Sait"
+
+#: contents/configuration/AboutPlugin.qml:153
+#, kde-format
+msgid "Copyright"
+msgstr "Drept de autor"
+
+#: contents/configuration/AboutPlugin.qml:170
+#, kde-format
+msgid "License:"
+msgstr "Licență:"
+
+#: contents/configuration/AboutPlugin.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr "Vezi textul licenței"
+
+#: contents/configuration/AboutPlugin.qml:189
+#, kde-format
+msgid "Authors"
+msgstr "Autori"
+
+#: contents/configuration/AboutPlugin.qml:202
+#, kde-format
+msgid "Credits"
+msgstr "Mulțumiri"
+
+#: contents/configuration/AboutPlugin.qml:216
+#, kde-format
+msgid "Translators"
+msgstr "Traducători"
+
+#: contents/configuration/AboutPlugin.qml:235
+#, kde-format
+msgid "Report a Bug…"
+msgstr "Raportează defect…"
+
+#: contents/configuration/AppletConfiguration.qml:90
+#, kde-format
+msgid "Keyboard Shortcuts"
+msgstr "Scurtături de tastatură"
+
+#: contents/configuration/AppletConfiguration.qml:368
+#, kde-format
+msgid "Apply Settings"
+msgstr "Aplică configurările"
+
+#: contents/configuration/AppletConfiguration.qml:369
+#, kde-format
+msgid ""
+"The current page has unsaved changes. Apply the changes or discard them?"
+msgstr ""
+"Pagina actuală are modificări nesalvate. Aplicați modificările sau le "
+"aruncați?"
+
+#: contents/configuration/AppletConfiguration.qml:401
+#, kde-format
+msgid "OK"
+msgstr "Bine"
+
+#: contents/configuration/AppletConfiguration.qml:408
+#, kde-format
+msgid "Apply"
+msgstr "Aplică"
+
+#: contents/configuration/AppletConfiguration.qml:414
+#, kde-format
+msgid "Cancel"
+msgstr "Renunță"
+
+#: contents/configuration/ConfigCategoryDelegate.qml:27
+#, kde-format
+msgid "Open configuration page"
+msgstr "Deschide pagina de configurare"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:20
+#, kde-format
+msgid "Left-Button"
+msgstr "Buton stâng"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:21
+#, kde-format
+msgid "Right-Button"
+msgstr "Buton drept"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:22
+#, kde-format
+msgid "Middle-Button"
+msgstr "Buton mijlociu"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:23
+#, kde-format
+msgid "Back-Button"
+msgstr "Butonul Înapoi"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:24
+#, kde-format
+msgid "Forward-Button"
+msgstr "Butonul Înainte"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:26
+#, kde-format
+msgid "Vertical-Scroll"
+msgstr "Derulare verticală"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:27
+#, kde-format
+msgid "Horizontal-Scroll"
+msgstr "Derulare orizontală"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:29
+#, kde-format
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:30
+#, kde-format
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+#, kde-format
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:73
+#, kde-format
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:142
+#: contents/configuration/MouseEventInputButton.qml:13
+#, kde-format
+msgid "Add Action"
+msgstr "Adaugă acțiune"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:77
+#, kde-format
+msgid "Layout changes have been restricted by the system administrator"
+msgstr ""
+"Modificările aranjamentului au fost restricționate de către administratorul "
+"sistemului"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:92
+#, kde-format
+msgid "Layout:"
+msgstr "Aranjament:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:115
+#, kde-format
+msgid "Wallpaper type:"
+msgstr "Tip tapet:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:154
+#, kde-format
+msgid "Get New Plugins…"
+msgstr "Obține extensii noi…"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:244
+#, kde-format
+msgid "Layout changes must be applied before other changes can be made"
+msgstr ""
+"Modificările de aranjament trebuiesc aplicate înainte de a putea face alte "
+"modificări"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:248
+#, kde-format
+msgid "Apply Now"
+msgstr "Aplică acum"
+
+#: contents/configuration/ConfigurationShortcuts.qml:18
+#, kde-format
+msgid "Shortcuts"
+msgstr "Scurtături"
+
+#: contents/configuration/ConfigurationShortcuts.qml:31
+#, kde-format
+msgctxt "@action:button set keyboard shortcut for"
+msgid "Activate widget as if clicked:"
+msgstr "Activează controlul de parcă ar fi apăsat:"
+
+#: contents/configuration/ContainmentConfiguration.qml:27
+#, kde-format
+msgid "Wallpaper"
+msgstr "Tapet"
+
+#: contents/configuration/ContainmentConfiguration.qml:32
+#, kde-format
+msgid "Mouse Actions"
+msgstr "Acțiuni maus"
+
+#: contents/configuration/MouseEventInputButton.qml:20
+#, kde-format
+msgid "Input Here"
+msgstr "Introduceți aici"
+
+#: contents/configuration/PanelConfiguration.qml:100
+#, kde-format
+msgid "Panel Settings"
+msgstr "Configurări panou"
+
+#: contents/configuration/PanelConfiguration.qml:109
+#, kde-format
+msgctxt ""
+"@action:button label of button to open a menu that lets you add widgets or "
+"spacers"
+msgid "Add New"
+msgstr "Adaugă nou"
+
+#: contents/configuration/PanelConfiguration.qml:127
+#, kde-format
+msgctxt "@action:menu add a spacer"
+msgid "Spacer"
+msgstr "Spațiator"
+
+#: contents/configuration/PanelConfiguration.qml:134
+#, kde-format
+msgctxt "@action:menu add a widget"
+msgid "Widgets…"
+msgstr "Controale grafice…"
+
+#: contents/configuration/PanelConfiguration.qml:163
+#, kde-format
+msgid "Position"
+msgstr "Poziție"
+
+#: contents/configuration/PanelConfiguration.qml:168
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Top"
+msgstr "Sus"
+
+#: contents/configuration/PanelConfiguration.qml:169
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Right"
+msgstr "Dreapta"
+
+#: contents/configuration/PanelConfiguration.qml:170
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Left"
+msgstr "Stânga"
+
+#: contents/configuration/PanelConfiguration.qml:171
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Bottom"
+msgstr "Jos"
+
+#: contents/configuration/PanelConfiguration.qml:191
+#, kde-format
+msgid "Set Position…"
+msgstr "Stabilește poziția…"
+
+#: contents/configuration/PanelConfiguration.qml:218
+#, kde-format
+msgid "Alignment"
+msgstr "Aliniere"
+
+#: contents/configuration/PanelConfiguration.qml:284
+#, kde-format
+msgid "Center"
+msgstr "Centru"
+
+#: contents/configuration/PanelConfiguration.qml:315
+#, kde-format
+msgid "Height"
+msgstr "Înălțime"
+
+#: contents/configuration/PanelConfiguration.qml:316
+#, kde-format
+msgid "Width"
+msgstr "Lățime"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, kde-format
+msgid "Fill height"
+msgstr "Umple înălțimea"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, kde-format
+msgid "Fill width"
+msgstr "Umple lățimea"
+
+#: contents/configuration/PanelConfiguration.qml:336
+#, kde-format
+msgid "Fit content"
+msgstr "Potrivește conținutul"
+
+#: contents/configuration/PanelConfiguration.qml:337
+#, kde-format
+msgid "Custom"
+msgstr "Personalizat"
+
+#: contents/configuration/PanelConfiguration.qml:370
+#, kde-format
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+#: contents/configuration/PanelConfiguration.qml:388
+#, kde-format
+msgid "Always visible"
+msgstr "Vizibil întotdeauna"
+
+#: contents/configuration/PanelConfiguration.qml:389
+#, kde-format
+msgid "Auto hide"
+msgstr "Ascunde automat"
+
+#: contents/configuration/PanelConfiguration.qml:390
+#, kde-format
+msgid "Dodge windows"
+msgstr "Ocolește ferestrele"
+
+#: contents/configuration/PanelConfiguration.qml:391
+#, kde-format
+msgid "Windows go below"
+msgstr "Ferestrele merg dedesubt"
+
+#: contents/configuration/PanelConfiguration.qml:451
+#, kde-format
+msgid "Opacity"
+msgstr "Opacitate"
+
+#: contents/configuration/PanelConfiguration.qml:467
+#, kde-format
+msgid "Adaptive"
+msgstr "Adaptivă"
+
+#: contents/configuration/PanelConfiguration.qml:468
+#, kde-format
+msgid "Opaque"
+msgstr "Opac"
+
+#: contents/configuration/PanelConfiguration.qml:469
+#, kde-format
+msgid "Translucent"
+msgstr "Translucid"
+
+#: contents/configuration/PanelConfiguration.qml:501
+#, kde-format
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr "Flotant"
+
+#: contents/configuration/PanelConfiguration.qml:517
+#, kde-format
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: contents/configuration/PanelConfiguration.qml:518
+#, kde-format
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr "Doar miniaplicații"
+
+#: contents/configuration/PanelConfiguration.qml:519
+#, kde-format
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr "Panouri și miniaplicații"
+
+#: contents/configuration/PanelConfiguration.qml:562
+#, kde-format
+msgctxt ""
+"@action:button Revert an unsupported configuration back to the defaults"
+msgid "Fix it"
+msgstr "Repară"
+
+#: contents/configuration/PanelConfiguration.qml:648
+#, kde-format
+msgid "Panel Width:"
+msgstr "Lățime panou:"
+
+#: contents/configuration/PanelConfiguration.qml:649
+#, kde-format
+msgid "Panel Height:"
+msgstr "Înălțime panou:"
+
+#: contents/configuration/PanelConfiguration.qml:672
+#, kde-format
+msgid "Focus shortcut:"
+msgstr "Scurtătură pentru focalizare:"
+
+#: contents/configuration/PanelConfiguration.qml:683
+#, kde-format
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr ""
+"Apăsați această scurtătură de taste pentru a muta focalizarea asupra panoului"
+
+#: contents/configuration/PanelConfiguration.qml:717
+#, kde-format
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "Șterge panoul"
+
+#: contents/configuration/PanelConfiguration.qml:720
+#, kde-format
+msgid "Remove this panel; this action is undo-able"
+msgstr "Elimină acest panou. Acțiunea nu poate fi desfăcută."
+
+#: contents/configuration/PanelConfiguration.qml:729
+#, kde-format
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "Clonează panoul"
+
+#: contents/configuration/PanelConfiguration.qml:733
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new panel with the same settings and applets"
+msgstr "Creează un nou panou cu aceleași configurări și miniaplicații"
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, kde-format
+msgctxt "@action:button Close the panel configuration window"
+msgid "Close"
+msgstr "Închide"
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, kde-format
+msgctxt ""
+"@action:button Close the panel configuration window and exit edit mode"
+msgid "Exit Edit Mode"
+msgstr "Ieși din regim de modificare"
+
+#: contents/configuration/PanelConfiguration.qml:745
+#, kde-format
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr ""
+"Închide fereastra cu configurări ale panoului și iese din regimul de "
+"modificare"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:32
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum height."
+msgstr "Trageți pentru a schimba înălțimea maximă."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:33
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum width."
+msgstr "Trageți pentru a schimba lățimea maximă."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:34
+#: contents/configuration/panelconfiguration/Ruler.qml:39
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Double-click to reset."
+msgstr "Dublu-clic pentru reinițializare."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:37
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum height."
+msgstr "Trageți pentru a schimba înălțimea minimă."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:38
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum width."
+msgstr "Trageți pentru a schimba lățimea minimă."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:87
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid ""
+"Drag to change position on this screen edge.\n"
+"Double-click to reset."
+msgstr ""
+"Trageți pentru a schimba poziția pe această muchie a ecranului.\n"
+"Dublu-clic pentru reinițializare."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:19
+#, kde-format
+msgid "Manage Panels and Desktops"
+msgstr "Gestionează panouri și birouri"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+#, kde-format
+msgid ""
+"You can drag Panels and Desktops around to move them to different screens."
+msgstr ""
+"Puteți trage panourile și birourile în jur pentru a le muta pe alte ecrane."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:44
+#, kde-format
+msgid "Close"
+msgstr "Închide"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
+#, kde-format
+msgid "Swap with Desktop on Screen %1"
+msgstr "Schimbă cu biroul de pe ecranul %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
+#, kde-format
+msgid "Move to Screen %1"
+msgstr "Mută pe ecranul %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
+#, kde-format
+msgid "Remove Desktop"
+msgstr "Elimină biroul"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
+#, kde-format
+msgid "Remove Panel"
+msgstr "Elimină panoul"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
+#, kde-format
+msgid "%1 (primary)"
+msgstr "%1 (primar)"
+
+#: contents/explorer/AppletAlternatives.qml:70
+#, kde-format
+msgid "Alternative Widgets"
+msgstr "Controale grafice alternative"
+
+#: contents/explorer/AppletDelegate.qml:28
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Add %1"
+msgstr "Adaugă %1"
+
+#: contents/explorer/AppletDelegate.qml:47
+#, kde-format
+msgid "Unsupported Widget"
+msgstr "Control grafic nesusținut"
+
+#: contents/explorer/AppletDelegate.qml:202
+#, kde-format
+msgctxt "Text displayed on top of newly installed widgets"
+msgid "New!"
+msgstr "Nou!"
+
+#: contents/explorer/AppletDelegate.qml:204
+#, kde-format
+msgctxt "@info:other accessible for badge showing applet count"
+msgid "%1 widget active"
+msgid_plural "%1 widgets active"
+msgstr[0] "%1 control grafic activ"
+msgstr[1] "%1 controale grafice active"
+msgstr[2] "%1 de controale grafice active"
+
+#: contents/explorer/AppletDelegate.qml:205
+#, kde-format
+msgctxt " @info:other accessible for badge indicating new widget"
+msgid "Recently installed"
+msgstr "Instalat recent"
+
+#: contents/explorer/AppletDelegate.qml:217
+#, kde-format
+msgid "Cancel Uninstallation"
+msgstr "Anulează dezinstalarea"
+
+#: contents/explorer/AppletDelegate.qml:218
+#, kde-format
+msgctxt "@info:tooltip uninstall a widget"
+msgid "Mark for Uninstallation"
+msgstr "Marchează pentru dezinstalare"
+
+#: contents/explorer/AppletDelegate.qml:222
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Cancel pending uninstallation for widget %1"
+msgstr "Anulează dezinstalarea în așteptare pentru controlul %1"
+
+#: contents/explorer/AppletDelegate.qml:223
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Mark widget %1 for uninstallation. Requires confirmation"
+msgstr "Marchează controlul %1 pentru dezinstalare. Necesită confirmare"
+
+#: contents/explorer/AppletDelegate.qml:265
+#, kde-format
+msgid "Remove all instances"
+msgstr "Elimină toate instanțele"
+
+#: contents/explorer/AppletDelegate.qml:269
+#, kde-format
+msgctxt ""
+"@action:button accessible description, %1 number of instances %2 is widget "
+"name"
+msgid "Remove running instance of widget %2"
+msgid_plural "Remove all %1 running instances of widget %2"
+msgstr[0] "Elimină instanța ce rulează a controlului %2"
+msgstr[1] "Elimină toate %1 instanțe ce rulează ale controlului %2"
+msgstr[2] "Elimină toate %1 de instanțe ce rulează ale controlului %2"
+
+#: contents/explorer/WidgetExplorer.qml:140
+#: contents/explorer/WidgetExplorer.qml:223
+#, kde-format
+msgid "All Widgets"
+msgstr "Toate controalele grafice"
+
+#: contents/explorer/WidgetExplorer.qml:169
+#, kde-format
+msgid "Widgets"
+msgstr "Controale grafice"
+
+#: contents/explorer/WidgetExplorer.qml:178
+#, kde-format
+msgctxt "@action:button The word 'new' refers to widgets"
+msgid "Get New…"
+msgstr "Obține noi…"
+
+#: contents/explorer/WidgetExplorer.qml:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Widgets…"
+msgstr "Obține controale noi…"
+
+#: contents/explorer/WidgetExplorer.qml:192
+#, kde-format
+msgctxt "@action:button accessible for close button"
+msgid "Close Widget Explorer"
+msgstr "Închide exploratorul de controale"
+
+#: contents/explorer/WidgetExplorer.qml:208
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Search through widgets"
+msgstr "Caută prin controale"
+
+#: contents/explorer/WidgetExplorer.qml:237
+#, kde-format
+msgid "Categories"
+msgstr "Categorii"
+
+#: contents/explorer/WidgetExplorer.qml:259
+#, kde-format
+msgctxt "@action:button uninstall widgets in widget explorer"
+msgid "Uninstall (%1 Widget)"
+msgid_plural "Uninstall (%1 Widgets)"
+msgstr[0] "Dezinstalează (%1 control grafic)"
+msgstr[1] "Dezinstalează (%1 controale grafice)"
+msgstr[2] "Dezinstalează (%1 de controale grafice)"
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets matched the search terms"
+msgstr "Niciun control nu se potrivește termenilor căutării"
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets available"
+msgstr "Niciun control grafic disponibil"
+
+#: contents/lockscreen/config.qml:24
+#, kde-format
+msgctxt "@title: group"
+msgid "Show clock:"
+msgstr "Arată ceasul:"
+
+#: contents/lockscreen/config.qml:25
+#, kde-format
+msgctxt "@option:radio Clock always shown"
+msgid "Always"
+msgstr "Întotdeauna"
+
+#: contents/lockscreen/config.qml:26
+#, kde-format
+msgctxt "@option:radio"
+msgid "Always show clock"
+msgstr "Arată ceasul întotdeauna"
+
+#: contents/lockscreen/config.qml:41
+#, kde-format
+msgctxt "@option:radio Clock shown only while unlock prompt is visible"
+msgid "On unlocking prompt"
+msgstr "Pe dialogul de deblocare"
+
+#: contents/lockscreen/config.qml:42
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show clock only on unlocking prompt"
+msgstr "Arată ceasul numai pe dialogul de deblocare"
+
+#: contents/lockscreen/config.qml:55
+#, kde-format
+msgctxt "@option:radio Clock never shown"
+msgid "Never"
+msgstr "Niciodată"
+
+#: contents/lockscreen/config.qml:56
+#, kde-format
+msgctxt "@option:radio"
+msgid "Never show clock"
+msgstr "Nu arăta ceasul niciodată"
+
+#: contents/lockscreen/config.qml:71
+#, kde-format
+msgctxt "@title: group UI controls for playback of multimedia content"
+msgid "Media controls:"
+msgstr "Controale multimedia:"
+
+#: contents/lockscreen/config.qml:74
+#, kde-format
+msgctxt "@option:check"
+msgid "Show under unlocking prompt"
+msgstr "Arată sub dialogul de deblocare"
+
+#: contents/lockscreen/LockScreenUi.qml:48
+#, kde-format
+msgid "Unlocking failed"
+msgstr "Deblocare eșuată"
+
+#: contents/lockscreen/LockScreenUi.qml:281
+#, kde-format
+msgid "Caps Lock is on"
+msgstr "Caps Lock e activ"
+
+#: contents/lockscreen/LockScreenUi.qml:295
+#, kde-format
+msgid "Slee&p"
+msgstr "A&dormi"
+
+#: contents/lockscreen/LockScreenUi.qml:301
+#, kde-format
+msgid "&Hibernate"
+msgstr "&Hibernează"
+
+#: contents/lockscreen/LockScreenUi.qml:307
+#, kde-format
+msgid "Switch &User"
+msgstr "Schimbă &utilizatorul"
+
+#: contents/lockscreen/LockScreenUi.qml:368
+#, kde-format
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "Tastatură virtuală"
+
+#: contents/lockscreen/LockScreenUi.qml:392
+#, kde-format
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "Schimbă aranjamentul"
+
+#: contents/lockscreen/MainBlock.qml:65
+#, kde-format
+msgid "Password"
+msgstr "Parolă"
+
+#: contents/lockscreen/MainBlock.qml:114
+#: contents/lockscreen/NoPasswordUnlock.qml:17
+#, kde-format
+msgid "Unlock"
+msgstr "Deblochează"
+
+#: contents/lockscreen/MainBlock.qml:163
+#, kde-format
+msgid "(or scan your fingerprint on the reader)"
+msgstr "(sau scanați amprenta pe cititor)"
+
+#: contents/lockscreen/MainBlock.qml:167
+#, kde-format
+msgid "(or scan your smartcard)"
+msgstr "(sau scanați smartcard-ul)"
+
+#: contents/lockscreen/MediaControls.qml:59
+#, kde-format
+msgid "No title"
+msgstr "Fără titlu"
+
+#: contents/lockscreen/MediaControls.qml:60
+#, kde-format
+msgid "No media playing"
+msgstr "Nimic în redare"
+
+#: contents/lockscreen/MediaControls.qml:88
+#, kde-format
+msgid "Previous track"
+msgstr "Pista precedentă"
+
+#: contents/lockscreen/MediaControls.qml:100
+#, kde-format
+msgid "Play or Pause media"
+msgstr "Redă sau întrerupe multimedia"
+
+#: contents/lockscreen/MediaControls.qml:110
+#, kde-format
+msgid "Next track"
+msgstr "Pista următoare"
+
+#: contents/views/DesktopEditMode.qml:121
+#, kde-format
+msgctxt "@action:button"
+msgid "More"
+msgstr "Mai mult"
+
+#: contents/views/DesktopEditMode.qml:130
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr "Ieși din regim de modificare"
+
+#: contents/views/Panel.qml:326
+#, kde-format
+msgid "Panel Focus Indicator"
+msgstr "Indicator de focalizare a panoului"
+
+#~ msgid "Stopped activities:"
+#~ msgstr "Activități oprite:"
+
+#~ msgid "Stop activity"
+#~ msgstr "Oprește activitatea"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "Uninstall"
+#~ msgstr "Dezinstalează"
+
+#~ msgctxt "Percentage value"
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet as though it had been clicked."
+#~ msgstr ""
+#~ "Această scurtătură va activa miniaplicația de parcă ar fi fost apăsată."
+
+#~ msgid "Add spacer widget to the panel"
+#~ msgstr "Adaugă control de spațiere la panou"
+
+#, fuzzy
+#~| msgid "Add Widgets…"
+#~ msgid "Add or Manage Widgets…"
+#~ msgstr "Adaugă controale…"
+
+#~ msgid "Open the widget selector to drag and drop widgets to the panel"
+#~ msgstr "Deschide selectorul de controale grafice ce pot fi trase pe panou"
+
+#~ msgctxt "@title: group"
+#~ msgid "Clock:"
+#~ msgstr "Ceas:"
+
+#~ msgid "Undo uninstall"
+#~ msgstr "Desfă dezinstalarea"
+
+#, fuzzy
+#~| msgid "Uninstall"
+#~ msgctxt "@info:tooltip uninstall a widget"
+#~ msgid "Uninstall"
+#~ msgstr "Dezinstalează"
+
+#, fuzzy
+#~| msgid "Confirm Removal Of One Widget"
+#~| msgid_plural "Confirm Removal Of %1 Widgets"
+#~ msgctxt "@action:button uninstall widgets in widget explorer"
+#~ msgid "Confirm Removal of One Widget"
+#~ msgid_plural "Confirm Removal of %1 Widgets"
+#~ msgstr[0] "Confirmă eliminarea unui control grafic"
+#~ msgstr[1] "Confirmă eliminarea a %2 controale grafice"
+#~ msgstr[2] "Confirmă eliminarea a %2 de controale grafice"
+
+#~ msgid "Style"
+#~ msgstr "Stil"
+
+#~ msgctxt "@title"
+#~ msgid "About"
+#~ msgstr "Despre"
+
+#~ msgid "Global Themes"
+#~ msgstr "Tematici globale"
+
+#~ msgid "Display Configuration"
+#~ msgstr "Configurare afișaj"
+
+#~ msgctxt "@action:button Done configuring the panel"
+#~ msgid "Done"
+#~ msgstr "Gata"
+
+#~ msgctxt "@option:check"
+#~ msgid "Keep visible when unlocking prompt disappears"
+#~ msgstr "Păstrează vizibil când dispare dialogul de deblocare"
+
+#~ msgid "Height:"
+#~ msgstr "Înălțime:"
+
+#~ msgid "Sorry! There was an error loading %1."
+#~ msgstr "Scuze! A avut loc o eroare la încărcarea %1."
+
+#~ msgid "Length"
+#~ msgstr "Lungime"
+
+#, fuzzy
+#~| msgid "Maximize Panel"
+#~ msgctxt "@action:button Make the panel as big as it can be"
+#~ msgid "Maximize"
+#~ msgstr "Maximizează panoul"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "@action:button Delete the panel"
+#~ msgid "Delete"
+#~ msgstr "Șterge"
+
+#, fuzzy
+#~| msgid "Floating Panel"
+#~ msgid "Floating:"
+#~ msgstr "Panou flotant"
+
+#~ msgid "More Options…"
+#~ msgstr "Opțiuni suplimentare…"
+
+#~ msgctxt "Minimize the length of this string as much as possible"
+#~ msgid "Drag to move"
+#~ msgstr "Trage pentru mutare"
+
+#, fuzzy
+#~| msgid "Windows Go Below"
+#~ msgid "Windows Above"
+#~ msgstr "Ferestrele merg dedesubt"
+
+#, fuzzy
+#~| msgid "Windows Can Cover"
+#~ msgid "Windows In Front"
+#~ msgstr "Ferestrele pot acoperi"
+
+#~ msgid "Appearance"
+#~ msgstr "Aspect"
+
+#~ msgid "Search…"
+#~ msgstr "Caută…"
+
+#~ msgid "Screen Edge"
+#~ msgstr "Margine ecran"
+
+#~ msgid "Click and drag the button to a screen edge to move the panel there."
+#~ msgstr ""
+#~ "Faceți clic și trageți butonul spre marginea ecranului pentru a muta "
+#~ "panoul acolo."
+
+#~ msgid ""
+#~ "This shortcut will activate the applet: it will give the keyboard focus "
+#~ "to it, and if the applet has a popup (such as the start menu), the popup "
+#~ "will be open."
+#~ msgstr ""
+#~ "Acest accelerator va activa miniaplicația: îi va transfera focalizarea "
+#~ "tastaturii și dacă miniaplicația are o fereastră-balon (cum ar fi meniul "
+#~ "de pornire), fereastra-balon se va deschide."
+
+#~ msgid "Activity name:"
+#~ msgstr "Denumire activitate:"
+
+#~ msgid "Create"
+#~ msgstr "Creează"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete the activity?"
+#~ msgid "Are you sure you want to delete this activity?"
+#~ msgstr "Sigur doriți să ștergeți activitatea?"

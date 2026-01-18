@@ -200,7 +200,7 @@ PlasmaComponents.ItemDelegate {
             visible: menuItem.shouldUseOverflowButton
             checkable: true
             display: PlasmaComponents.AbstractButton.IconOnly
-            text: checked ? i18ndc("libplasma6", "@action:button", "Collapse") : i18ndc("libplasma6", "@action:button", "Expand")
+            text: checked ? i18ndc("liblingmo6", "@action:button", "Collapse") : i18ndc("liblingmo6", "@action:button", "Expand")
             icon.name: checked ? "collapse" : "expand"
             PlasmaComponents.ToolTip.text: text
             PlasmaComponents.ToolTip.delay: Kirigami.Units.toolTipDelay

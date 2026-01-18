@@ -1,0 +1,874 @@
+# translation of plasma_applet_tasks.po to Oriya
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_tasks\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2009-01-02 11:50+0530\n"
+"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
+"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
+"Language: or\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+
+#: backend.cpp:284
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] ""
+msgstr[1] ""
+
+#: backend.cpp:368
+#, kde-format
+msgid "Recent Downloads"
+msgstr ""
+
+#: backend.cpp:370
+#, kde-format
+msgid "Recent Connections"
+msgstr ""
+
+#: backend.cpp:372
+#, kde-format
+msgid "Recent Places"
+msgstr ""
+
+#: backend.cpp:381
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr ""
+
+#: backend.cpp:383
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr ""
+
+#: backend.cpp:385
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr ""
+
+#: backend.cpp:387
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr ""
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr ""
+
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Behavior"
+msgstr ""
+
+#: package/contents/ui/AudioStream.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr ""
+
+#: package/contents/ui/AudioStream.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr ""
+
+#: package/contents/ui/AudioStream.qml:103
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Unmute %1"
+msgstr ""
+
+#: package/contents/ui/AudioStream.qml:103
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Mute %1"
+msgstr ""
+
+#: package/contents/ui/Badge.qml:52
+#, kde-format
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr ""
+
+#: package/contents/ui/Badge.qml:54
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:48
+#, kde-format
+msgctxt "@label for several checkboxes"
+msgid "General:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:49
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show small window previews when hovering over tasks"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:54
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over previews"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:59
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show an indicator when a task is playing audio"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:69
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Mute task when clicking indicator"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:77
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show media and volume controls in tooltip"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:85
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Fill free space on panel"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:97
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum task width:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:100
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:101
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:102
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:113
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-column view:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:114
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-row view:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:120
+#, kde-format
+msgctxt "@option:radio Never use multi-column view for Task Manager"
+msgid "Never"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:130
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "When panel is low on space and thick enough"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:140
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "Always when panel is thick enough"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:147
+#, kde-format
+msgctxt "@label:spinbox maximum number of columns for tasks"
+msgid "Maximum columns:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:148
+#, kde-format
+msgctxt "@label:spinbox maximum number of rows for tasks"
+msgid "Maximum rows:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:158
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Spacing between icons:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:162
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:166
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:170
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:196
+#, kde-format
+msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
+msgid "Automatically set to Large when in Touch mode"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:48
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you're using this setting to work around an application that demands "
+"attention too often, first look for a setting in the app to disable that "
+"behavior. If you don't find one, consider reporting this as a bug to the "
+"app's developer."
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:64
+#, kde-format
+msgctxt "@label:listbox how to group tasks"
+msgid "Group:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:68
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "Do not group"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:69
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "By program name"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:75
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … cycles through tasks"
+msgid "Clicking grouped task:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:82
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task cycles through "
+"tasks' "
+msgid "Cycles through tasks"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:83
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows small "
+"window previews' "
+msgid "Shows small window previews"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:84
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows large "
+"window previews' "
+msgid "Shows large window previews"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:85
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows textual "
+"list' "
+msgid "Shows textual list"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:96
+#, kde-format
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"The compositor does not support displaying windows side by side, so a "
+"textual list will be displayed instead."
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:106
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Combine into single button"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:113
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Group only when the Task Manager is full"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:125
+#, kde-format
+msgctxt "@label:listbox sort tasks in grouped task"
+msgid "Sort:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:132
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Do not sort"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:136
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Manually"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:140
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Alphabetically"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:144
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By desktop"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:148
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By activity"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:152
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By horizontal window position"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:163
+#, kde-format
+msgctxt "@option:check configure task sorting"
+msgid "Keep launchers separate"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:170
+#, kde-format
+msgctxt "@option:check for icons-and-text task manager"
+msgid "Hide launchers after application startup"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:180
+#, kde-format
+msgctxt ""
+"@label for checkbox Part of a sentence: 'Clicking active task minimizes the "
+"task'"
+msgid "Clicking active task:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:181
+#, kde-format
+msgctxt ""
+"@option:check Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:186
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Middle-clicking any task:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:190
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:191
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window "
+"or group'"
+msgid "Closes window or group"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:192
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new "
+"window'"
+msgid "Opens a new window"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:193
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/"
+"restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:194
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles "
+"grouping'"
+msgid "Toggles grouping"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:195
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to "
+"the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:205
+#, kde-format
+msgctxt ""
+"@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles "
+"through tasks/cycles through the selected task's windows'"
+msgid "Scrolling behavior:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:209
+#, kde-format
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
+msgid "Does nothing"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:210
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all "
+"tasks'"
+msgid "Cycles through all tasks"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:211
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the "
+"hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:219
+#, kde-format
+msgctxt "@option:check mouse wheel task cycling"
+msgid "Skip minimized tasks"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:229
+#, kde-format
+msgctxt ""
+"@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only tasks:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:230
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current desktop"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:235
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:240
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current screen"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:245
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "That are minimized"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:254
+#, kde-format
+msgctxt ""
+"@label for checkbox, completes sentence: … unhide if window wants attention"
+msgid "When panel is hidden:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:255
+#, kde-format
+msgctxt "@option:check completes sentence: When panel is hidden"
+msgid "Unhide when a window wants attention"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:270
+#, kde-format
+msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
+msgid "New tasks appear:"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:274
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the bottom"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:278
+#: package/contents/ui/ConfigBehavior.qml:297
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the right"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:280
+#: package/contents/ui/ConfigBehavior.qml:295
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the left"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:291
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the top"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:102
+#, kde-format
+msgid "Places"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:108
+#, kde-format
+msgid "Recent Files"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:118
+#, kde-format
+msgid "Actions"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:165
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:179
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:179
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:197
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:208
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:228
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:243
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:268
+#, kde-format
+msgid "Mute"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:279
+#, kde-format
+msgid "Open New Window"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:295
+#, kde-format
+msgid "Move to &Desktop"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:325
+#, kde-format
+msgid "Move &To Current Desktop"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:334
+#, kde-format
+msgid "&All Desktops"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:362
+#, kde-format
+msgid "&New Desktop"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:382
+#, kde-format
+msgid "Show in &Activities"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:406
+#, kde-format
+msgid "Add To Current Activity"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:416
+#, kde-format
+msgid "All Activities"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:472
+#, kde-format
+msgid "Move to %1"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:498
+#: package/contents/ui/ContextMenu.qml:514
+#, kde-format
+msgid "&Pin to Task Manager"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:566
+#, kde-format
+msgid "On All Activities"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:572
+#, kde-format
+msgid "On The Current Activity"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:596
+#, kde-format
+msgid "Unpin from Task Manager"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:611
+#, kde-format
+msgid "More"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:620
+#, kde-format
+msgid "&Move"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:629
+#, kde-format
+msgid "Re&size"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:643
+#, kde-format
+msgid "Ma&ximize"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:657
+#, kde-format
+msgid "Mi&nimize"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:667
+#, kde-format
+msgid "Keep &Above Others"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:677
+#, kde-format
+msgid "Keep &Below Others"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:689
+#, kde-format
+msgid "&Fullscreen"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:701
+#, kde-format
+msgid "&Shade"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:713
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&No Titlebar and Frame"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:729
+#, kde-format
+msgid "Allow this program to be grouped"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:775
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Close All"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:775
+#, kde-format
+msgid "&Close"
+msgstr ""
+
+#: package/contents/ui/Task.qml:156
+#, kde-format
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr ""
+
+#: package/contents/ui/Task.qml:161
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is %1 new message."
+msgid_plural "There are %1 new messages."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/Task.qml:169
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr ""
+
+#: package/contents/ui/Task.qml:173
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr ""
+
+#: package/contents/ui/Task.qml:178
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr ""
+
+#: package/contents/ui/Task.qml:182
+#, kde-format
+msgid "Activate %1"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:188
+#, kde-format
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:438
+#, kde-format
+msgctxt "button to unmute app"
+msgid "Unmute %1"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:439
+#, kde-format
+msgctxt "button to mute app"
+msgid "Mute %1"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:457
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:473
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:477
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:493
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:496
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "Pinned to all desktops"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:502
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:512
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr ""
+
+#: package/contents/ui/ToolTipInstance.qml:516
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr ""

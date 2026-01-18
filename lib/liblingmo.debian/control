@@ -1,0 +1,128 @@
+Source: liblingmo
+Section: libs
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-kf6,
+               dh-sequence-pkgkde-symbolshelper,
+               cmake (>= 3.16~),
+               doxygen,
+               extra-cmake-modules (>= 6.18.0~),
+               gettext,
+               libegl-dev,
+               libkf6archive-dev (>= 6.18.0~),
+               libkf6colorscheme-dev (>= 6.18.0~),
+               libkf6config-dev (>= 6.18.0~),
+               libkf6configwidgets-dev (>= 6.5.0~),
+               libkf6coreaddons-dev (>= 6.18.0~),
+               libkf6dbusaddons-dev (>= 6.18.0~),
+               libkf6globalaccel-dev (>= 6.18.0~),
+               libkf6guiaddons-dev (>= 6.18.0~),
+               libkf6i18n-dev (>= 6.18.0~),
+               libkf6iconthemes-dev (>= 6.18.0~),
+               libkf6kcmutils-dev (>= 6.10.0~),
+               libkf6kio-dev (>= 6.18.0~),
+               libkf6notifications-dev (>= 6.18.0~),
+               libkf6package-dev (>= 6.18.0~),
+               libkf6parts-dev (>= 6.2.0~),
+               libkf6svg-dev (>= 6.18.0~),
+               libkf6widgetsaddons-dev (>= 6.2.0~),
+               libkf6windowsystem-dev (>= 6.18.0~),
+               libkirigami-dev (>= 6.18.0~),
+               libopengl-dev,
+               liblingmoactivities-dev (>= 6.5.4~),
+               libsm-dev,
+               libwayland-dev (>= 1.9~),
+               libx11-xcb-dev,
+               libxcb-composite0-dev,
+               libxcb-damage0-dev,
+               libxcb-render0-dev,
+               libxcb-shape0-dev,
+               libxcb-xfixes0-dev,
+               pkgconf,
+               lingmo-wayland-protocols (>= 1.10.0~),
+               qt6-base-dev (>= 6.9.0~),
+               qt6-base-private-dev,
+               qt6-declarative-dev (>= 6.9.0~),
+               qt6-declarative-private-dev (>= 6.6.0+dfsg~),
+               qt6-svg-dev (>= 6.9.0~),
+               qt6-tools-dev (>= 6.6.0~),
+               qt6-wayland-dev (>= 6.9.0~),
+Standards-Version: 4.7.2
+Homepage: https://lingmo.org
+
+Package: liblingmo-dev
+Architecture: any
+Section: libdevel
+Depends: extra-cmake-modules (>= 6.18.0~),
+         libkf6config-dev (>= 6.18.0~),
+         libkf6package-dev (>= 6.18.0~),
+         libkf6windowsystem-dev (>= 6.18.0~),
+         liblingmo6 (= ${binary:Version}),
+         liblingmoquick6 (= ${binary:Version}),
+         lingmo-desktoptheme (= ${binary:Version}),
+         qt6-base-dev (>= 6.9.0~),
+         qt6-declarative-dev (>= 6.9.0~),
+         ${misc:Depends},
+Recommends: liblingmo-doc (= ${source:Version}),
+Replaces: libplasma-dev,
+Provides: libplasma-dev,
+Description: development files for liblingmo
+ Plasma library and runtime components based upon KF6 and Qt 6.
+ .
+ Contains development files for liblingmo.
+
+Package: liblingmo-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+Replaces: libplasma-doc,
+Provides: libplasma-doc,
+Description: Plasma Runtime components (documentation)
+ Plasma library and runtime components based upon KF6 and Qt 6.
+ .
+ This package contains the qch documentation files.
+Section: doc
+
+Package: liblingmo6
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Replace: libplasma6,
+Provides: libplasma6,
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF6 and Qt 6.
+
+Package: liblingmoquick6
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Replaces: libplasmaquick6,
+Provides: libplasmaquick6,
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF6 and Qt 6.
+
+Package: lingmo-desktoptheme
+Architecture: any
+Depends: qml6-module-org-kde-kirigami,
+         qml6-module-org-kde-ksvg,
+         qml6-module-qt5compat-graphicaleffects,
+         qml6-module-qtqml,
+         qml6-module-qtqml-models,
+         qml6-module-qtqml-workerscript,
+         qml6-module-qtquick,
+         qml6-module-qtquick-controls,
+         qml6-module-qtquick-layouts,
+         qml6-module-qtquick-templates,
+         qml6-module-qtquick-tooling,
+         qml6-module-qtquick-window,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: plasma-framework (<< 5.115.0-6~),
+Replaces: plasma-framework (<< 5.115.0-6~),
+          plasma-desktoptheme,
+Provides: plasma-desktoptheme,
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF6 and Qt 6.

@@ -1,0 +1,50 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Vít Pelčák <vit@pelcak.org>, 2013, 2016.
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Vit Pelcak <vit@pelcak.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-10-02 09:23+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Obecné"
+
+#: ConfigGeneral.qml:30
+#, kde-format
+msgid "Show active application's name on Panel button"
+msgstr "Zobrazit název aktivní aplikace v tlačítku panelu"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgid "Only icons can be shown when the Panel is vertical."
+msgstr "Na svislém panelu lze zobrazit pouze ikony."
+
+#: ConfigGeneral.qml:52
+#, kde-format
+msgid "Not applicable when the widget is on the Desktop."
+msgstr "Nelze použít pokud je widget na ploše."
+
+#: main.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No open windows"
+msgstr "Žádná otevřená okna"
+
+#: main.qml:119
+#, kde-format
+msgid "Plasma Desktop"
+msgstr "Pracovní plocha Plasma"

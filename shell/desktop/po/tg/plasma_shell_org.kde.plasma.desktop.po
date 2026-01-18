@@ -1,0 +1,1016 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2019, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2021-09-05 11:54-0700\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik Language Support\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.08.1\n"
+
+#: contents/activitymanager/ActivityItem.qml:203
+#, kde-format
+msgid "Currently being used"
+msgstr "Дар ҳоли истифода аст"
+
+#: contents/activitymanager/ActivityItem.qml:243
+#, fuzzy, kde-format
+#| msgid "Stop activity"
+msgid ""
+"Move to\n"
+"this activity"
+msgstr "Манъ кардан фаъолият"
+
+#: contents/activitymanager/ActivityItem.qml:273
+#, kde-format
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+
+#: contents/activitymanager/ActivityItem.qml:335
+#, kde-format
+msgid "Configure"
+msgstr "Танзимот"
+
+#: contents/activitymanager/ActivityManager.qml:122
+#, fuzzy, kde-format
+#| msgid "Create activity..."
+msgid "Create activity…"
+msgstr "Эҷод кардани фаъолият..."
+
+#: contents/activitymanager/Heading.qml:59
+#, kde-format
+msgid "Activities"
+msgstr "Фаъолиятҳо"
+
+#: contents/activitymanager/StoppedActivityItem.qml:138
+#, kde-format
+msgid "Configure activity"
+msgstr "Танзимоти фаъолият"
+
+#: contents/activitymanager/StoppedActivityItem.qml:155
+#, kde-format
+msgid "Delete"
+msgstr "Нест кардан"
+
+#: contents/applet/AppletError.qml:164
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: contents/applet/AppletError.qml:187
+#, kde-format
+msgid "View Error Details…"
+msgstr ""
+
+#: contents/applet/CompactApplet.qml:91
+#, kde-format
+msgid "Open %1"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:21
+#: contents/configuration/AppletConfiguration.qml:320
+#, kde-format
+msgid "About"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:50
+#, kde-format
+msgid "Send an email to %1"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:142
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:153
+#, kde-format
+msgid "Copyright"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:170
+#, kde-format
+msgid "License:"
+msgstr "Иҷозатнома:"
+
+#: contents/configuration/AboutPlugin.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:189
+#, fuzzy, kde-format
+#| msgid "Author:"
+msgid "Authors"
+msgstr "Муаллиф:"
+
+#: contents/configuration/AboutPlugin.qml:202
+#, kde-format
+msgid "Credits"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:216
+#, kde-format
+msgid "Translators"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:235
+#, kde-format
+msgid "Report a Bug…"
+msgstr ""
+
+#: contents/configuration/AppletConfiguration.qml:90
+#, kde-format
+msgid "Keyboard Shortcuts"
+msgstr "Миёнбурҳои клавиатура"
+
+#: contents/configuration/AppletConfiguration.qml:368
+#, kde-format
+msgid "Apply Settings"
+msgstr "Танзимотро татбиқ кардан"
+
+#: contents/configuration/AppletConfiguration.qml:369
+#, fuzzy, kde-format
+#| msgid ""
+#| "The settings of the current module have changed. Do you want to apply the "
+#| "changes or discard them?"
+msgid ""
+"The current page has unsaved changes. Apply the changes or discard them?"
+msgstr ""
+"Танзимоти модули ҷорӣ тағйир ёфт. Шумо мехоҳед, ки тағйиротро татбиқ ё рад "
+"кунед?"
+
+#: contents/configuration/AppletConfiguration.qml:401
+#, kde-format
+msgid "OK"
+msgstr "ХУБ"
+
+#: contents/configuration/AppletConfiguration.qml:408
+#, kde-format
+msgid "Apply"
+msgstr "Татбиқ кардан"
+
+#: contents/configuration/AppletConfiguration.qml:414
+#, kde-format
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+#: contents/configuration/ConfigCategoryDelegate.qml:27
+#, kde-format
+msgid "Open configuration page"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentActions.qml:20
+#, kde-format
+msgid "Left-Button"
+msgstr "Тугмаи чап"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:21
+#, kde-format
+msgid "Right-Button"
+msgstr "Тугмаи рост"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:22
+#, kde-format
+msgid "Middle-Button"
+msgstr "Тугмаи миёна"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:23
+#, kde-format
+msgid "Back-Button"
+msgstr "Тугмаи-Ба қафо"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:24
+#, kde-format
+msgid "Forward-Button"
+msgstr "Тугмаи-Ба пеш"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:26
+#, kde-format
+msgid "Vertical-Scroll"
+msgstr "Ҳаракат ба хати амудӣ"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:27
+#, kde-format
+msgid "Horizontal-Scroll"
+msgstr "Ҳаракат ба хати уфуқӣ"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:29
+#, kde-format
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:30
+#, kde-format
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+#, kde-format
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:73
+#, kde-format
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:142
+#: contents/configuration/MouseEventInputButton.qml:13
+#, kde-format
+msgid "Add Action"
+msgstr "Илова кардани амалиёт"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:77
+#, kde-format
+msgid "Layout changes have been restricted by the system administrator"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:92
+#, kde-format
+msgid "Layout:"
+msgstr "Тарҳбандӣ:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:115
+#, fuzzy, kde-format
+#| msgid "Wallpaper Type:"
+msgid "Wallpaper type:"
+msgstr "Навъи тасвири экран:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:154
+#, kde-format
+msgid "Get New Plugins…"
+msgstr "Гирифтани васлкунакҳои нав..."
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:244
+#, kde-format
+msgid "Layout changes must be applied before other changes can be made"
+msgstr ""
+"Пеш аз он ки тағйироти дигар тавонанд татбиқ карда шаванд, аввал тағйироти "
+"тарҳбандӣ бояд татбиқ карда шаванд."
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:248
+#, fuzzy, kde-format
+#| msgid "Apply now"
+msgid "Apply Now"
+msgstr "Ҳозир татбиқ кардан"
+
+#: contents/configuration/ConfigurationShortcuts.qml:18
+#, fuzzy, kde-format
+#| msgid "Keyboard Shortcuts"
+msgid "Shortcuts"
+msgstr "Миёнбурҳои клавиатура"
+
+#: contents/configuration/ConfigurationShortcuts.qml:31
+#, kde-format
+msgctxt "@action:button set keyboard shortcut for"
+msgid "Activate widget as if clicked:"
+msgstr ""
+
+#: contents/configuration/ContainmentConfiguration.qml:27
+#, kde-format
+msgid "Wallpaper"
+msgstr "Тасвири экран"
+
+#: contents/configuration/ContainmentConfiguration.qml:32
+#, kde-format
+msgid "Mouse Actions"
+msgstr "Амалиётҳои муш"
+
+#: contents/configuration/MouseEventInputButton.qml:20
+#, kde-format
+msgid "Input Here"
+msgstr "Ба ин ҷо дарҷ кардан"
+
+#: contents/configuration/PanelConfiguration.qml:100
+#, fuzzy, kde-format
+#| msgid "Apply Settings"
+msgid "Panel Settings"
+msgstr "Танзимотро татбиқ кардан"
+
+#: contents/configuration/PanelConfiguration.qml:109
+#, kde-format
+msgctxt ""
+"@action:button label of button to open a menu that lets you add widgets or "
+"spacers"
+msgid "Add New"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:127
+#, fuzzy, kde-format
+#| msgid "Add Spacer"
+msgctxt "@action:menu add a spacer"
+msgid "Spacer"
+msgstr "Илова кардани ҷудокунанда"
+
+#: contents/configuration/PanelConfiguration.qml:134
+#, fuzzy, kde-format
+#| msgid "Widgets"
+msgctxt "@action:menu add a widget"
+msgid "Widgets…"
+msgstr "Виҷетҳо"
+
+#: contents/configuration/PanelConfiguration.qml:163
+#, kde-format
+msgid "Position"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:168
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Top"
+msgstr "Боло"
+
+#: contents/configuration/PanelConfiguration.qml:169
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Right"
+msgstr "Рост"
+
+#: contents/configuration/PanelConfiguration.qml:170
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Left"
+msgstr "Чап"
+
+#: contents/configuration/PanelConfiguration.qml:171
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Bottom"
+msgstr "Поён"
+
+#: contents/configuration/PanelConfiguration.qml:191
+#, fuzzy, kde-format
+#| msgid "More Settings..."
+msgid "Set Position…"
+msgstr "Танзимоти бештар..."
+
+#: contents/configuration/PanelConfiguration.qml:218
+#, fuzzy, kde-format
+#| msgid "Panel Alignment"
+msgid "Alignment"
+msgstr "Москунии лавҳа"
+
+#: contents/configuration/PanelConfiguration.qml:284
+#, kde-format
+msgid "Center"
+msgstr "Марказ"
+
+#: contents/configuration/PanelConfiguration.qml:315
+#, fuzzy, kde-format
+#| msgid "Height"
+msgid "Height"
+msgstr "Баландӣ"
+
+#: contents/configuration/PanelConfiguration.qml:316
+#, kde-format
+msgid "Width"
+msgstr "Паҳнӣ"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, fuzzy, kde-format
+#| msgid "Panel Alignment"
+msgid "Fill height"
+msgstr "Москунии лавҳа"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, fuzzy, kde-format
+#| msgid "Uninstall widget"
+msgid "Fill width"
+msgstr "Лағв кардани насби виҷет"
+
+#: contents/configuration/PanelConfiguration.qml:336
+#, kde-format
+msgid "Fit content"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:337
+#, kde-format
+msgid "Custom"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:370
+#, fuzzy, kde-format
+#| msgid "Visibility"
+msgid "Visibility"
+msgstr "Намоёнӣ"
+
+#: contents/configuration/PanelConfiguration.qml:388
+#, fuzzy, kde-format
+#| msgid "Always Visible"
+msgid "Always visible"
+msgstr "Ҳамеша намоён"
+
+#: contents/configuration/PanelConfiguration.qml:389
+#, fuzzy, kde-format
+#| msgid "Auto Hide"
+msgid "Auto hide"
+msgstr "Пинҳон кардан ба таври худкор"
+
+#: contents/configuration/PanelConfiguration.qml:390
+#, kde-format
+msgid "Dodge windows"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:391
+#, fuzzy, kde-format
+#| msgid "Windows Go Below"
+msgid "Windows go below"
+msgstr "Намоиши дар зери равзанаҳо"
+
+#: contents/configuration/PanelConfiguration.qml:451
+#, kde-format
+msgid "Opacity"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:467
+#, kde-format
+msgid "Adaptive"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:468
+#, kde-format
+msgid "Opaque"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:469
+#, fuzzy, kde-format
+#| msgid "Always Visible"
+msgid "Translucent"
+msgstr "Ҳамеша намоён"
+
+#: contents/configuration/PanelConfiguration.qml:501
+#, kde-format
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:517
+#, kde-format
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:518
+#, kde-format
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:519
+#, kde-format
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:562
+#, kde-format
+msgctxt ""
+"@action:button Revert an unsupported configuration back to the defaults"
+msgid "Fix it"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:648
+#, fuzzy, kde-format
+#| msgid "Panel Alignment"
+msgid "Panel Width:"
+msgstr "Москунии лавҳа"
+
+#: contents/configuration/PanelConfiguration.qml:649
+#, fuzzy, kde-format
+#| msgid "Panel Alignment"
+msgid "Panel Height:"
+msgstr "Москунии лавҳа"
+
+#: contents/configuration/PanelConfiguration.qml:672
+#, fuzzy, kde-format
+#| msgid "Keyboard Shortcuts"
+msgid "Focus shortcut:"
+msgstr "Миёнбурҳои клавиатура"
+
+#: contents/configuration/PanelConfiguration.qml:683
+#, kde-format
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:717
+#, fuzzy, kde-format
+#| msgid "Remove Panel"
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "Тоза кардани лавҳа"
+
+#: contents/configuration/PanelConfiguration.qml:720
+#, kde-format
+msgid "Remove this panel; this action is undo-able"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:729
+#, fuzzy, kde-format
+#| msgid "Remove Panel"
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "Тоза кардани лавҳа"
+
+#: contents/configuration/PanelConfiguration.qml:733
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new panel with the same settings and applets"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, fuzzy, kde-format
+#| msgid "Close"
+msgctxt "@action:button Close the panel configuration window"
+msgid "Close"
+msgstr "Пӯшидан"
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, kde-format
+msgctxt ""
+"@action:button Close the panel configuration window and exit edit mode"
+msgid "Exit Edit Mode"
+msgstr ""
+
+#: contents/configuration/PanelConfiguration.qml:745
+#, kde-format
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr ""
+
+#: contents/configuration/panelconfiguration/Ruler.qml:32
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum height."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/Ruler.qml:33
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum width."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/Ruler.qml:34
+#: contents/configuration/panelconfiguration/Ruler.qml:39
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Double-click to reset."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/Ruler.qml:37
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum height."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/Ruler.qml:38
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum width."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/Ruler.qml:87
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid ""
+"Drag to change position on this screen edge.\n"
+"Double-click to reset."
+msgstr ""
+
+#: contents/configuration/ShellContainmentConfiguration.qml:19
+#, kde-format
+msgid "Manage Panels and Desktops"
+msgstr ""
+
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+#, kde-format
+msgid ""
+"You can drag Panels and Desktops around to move them to different screens."
+msgstr ""
+
+#: contents/configuration/ShellContainmentConfiguration.qml:44
+#, kde-format
+msgid "Close"
+msgstr "Пӯшидан"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
+#, kde-format
+msgid "Swap with Desktop on Screen %1"
+msgstr ""
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
+#, kde-format
+msgid "Move to Screen %1"
+msgstr ""
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
+#, fuzzy, kde-format
+#| msgid "Remove Panel"
+msgid "Remove Desktop"
+msgstr "Тоза кардани лавҳа"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
+#, kde-format
+msgid "Remove Panel"
+msgstr "Тоза кардани лавҳа"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
+#, kde-format
+msgid "%1 (primary)"
+msgstr ""
+
+#: contents/explorer/AppletAlternatives.qml:70
+#, kde-format
+msgid "Alternative Widgets"
+msgstr "Виҷетҳои иловагӣ"
+
+#: contents/explorer/AppletDelegate.qml:28
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Add %1"
+msgstr ""
+
+#: contents/explorer/AppletDelegate.qml:47
+#, kde-format
+msgid "Unsupported Widget"
+msgstr ""
+
+#: contents/explorer/AppletDelegate.qml:202
+#, kde-format
+msgctxt "Text displayed on top of newly installed widgets"
+msgid "New!"
+msgstr ""
+
+#: contents/explorer/AppletDelegate.qml:204
+#, kde-format
+msgctxt "@info:other accessible for badge showing applet count"
+msgid "%1 widget active"
+msgid_plural "%1 widgets active"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/explorer/AppletDelegate.qml:205
+#, kde-format
+msgctxt " @info:other accessible for badge indicating new widget"
+msgid "Recently installed"
+msgstr ""
+
+#: contents/explorer/AppletDelegate.qml:217
+#, fuzzy, kde-format
+#| msgid "Uninstall"
+msgid "Cancel Uninstallation"
+msgstr "Лағв кардани насб"
+
+#: contents/explorer/AppletDelegate.qml:218
+#, kde-format
+msgctxt "@info:tooltip uninstall a widget"
+msgid "Mark for Uninstallation"
+msgstr ""
+
+#: contents/explorer/AppletDelegate.qml:222
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Cancel pending uninstallation for widget %1"
+msgstr ""
+
+#: contents/explorer/AppletDelegate.qml:223
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Mark widget %1 for uninstallation. Requires confirmation"
+msgstr ""
+
+#: contents/explorer/AppletDelegate.qml:265
+#, fuzzy, kde-format
+#| msgid "Remove Panel"
+msgid "Remove all instances"
+msgstr "Тоза кардани лавҳа"
+
+#: contents/explorer/AppletDelegate.qml:269
+#, kde-format
+msgctxt ""
+"@action:button accessible description, %1 number of instances %2 is widget "
+"name"
+msgid "Remove running instance of widget %2"
+msgid_plural "Remove all %1 running instances of widget %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/explorer/WidgetExplorer.qml:140
+#: contents/explorer/WidgetExplorer.qml:223
+#, kde-format
+msgid "All Widgets"
+msgstr "Ҳамаи виҷетҳо"
+
+#: contents/explorer/WidgetExplorer.qml:169
+#, kde-format
+msgid "Widgets"
+msgstr "Виҷетҳо"
+
+#: contents/explorer/WidgetExplorer.qml:178
+#, fuzzy, kde-format
+#| msgid "Get New Plugins…"
+msgctxt "@action:button The word 'new' refers to widgets"
+msgid "Get New…"
+msgstr "Гирифтани васлкунакҳои нав..."
+
+#: contents/explorer/WidgetExplorer.qml:179
+#, fuzzy, kde-format
+#| msgid "Get New Widgets…"
+msgctxt "@action:button"
+msgid "Get New Widgets…"
+msgstr "Гирифтани виҷетҳои нав..."
+
+#: contents/explorer/WidgetExplorer.qml:192
+#, kde-format
+msgctxt "@action:button accessible for close button"
+msgid "Close Widget Explorer"
+msgstr ""
+
+#: contents/explorer/WidgetExplorer.qml:208
+#, fuzzy, kde-format
+#| msgid "Lock Widgets"
+msgctxt "@label:textbox accessible"
+msgid "Search through widgets"
+msgstr "Қулф кардани виҷетҳо"
+
+#: contents/explorer/WidgetExplorer.qml:237
+#, kde-format
+msgid "Categories"
+msgstr "Намунаҳо"
+
+#: contents/explorer/WidgetExplorer.qml:259
+#, fuzzy, kde-format
+#| msgid "Uninstall widget"
+msgctxt "@action:button uninstall widgets in widget explorer"
+msgid "Uninstall (%1 Widget)"
+msgid_plural "Uninstall (%1 Widgets)"
+msgstr[0] "Лағв кардани насби виҷет"
+msgstr[1] "Лағв кардани насби виҷет"
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets matched the search terms"
+msgstr ""
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets available"
+msgstr ""
+
+#: contents/lockscreen/config.qml:24
+#, kde-format
+msgctxt "@title: group"
+msgid "Show clock:"
+msgstr ""
+
+#: contents/lockscreen/config.qml:25
+#, fuzzy, kde-format
+#| msgid "Always Visible"
+msgctxt "@option:radio Clock always shown"
+msgid "Always"
+msgstr "Ҳамеша намоён"
+
+#: contents/lockscreen/config.qml:26
+#, kde-format
+msgctxt "@option:radio"
+msgid "Always show clock"
+msgstr ""
+
+#: contents/lockscreen/config.qml:41
+#, kde-format
+msgctxt "@option:radio Clock shown only while unlock prompt is visible"
+msgid "On unlocking prompt"
+msgstr ""
+
+#: contents/lockscreen/config.qml:42
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show clock only on unlocking prompt"
+msgstr ""
+
+#: contents/lockscreen/config.qml:55
+#, kde-format
+msgctxt "@option:radio Clock never shown"
+msgid "Never"
+msgstr ""
+
+#: contents/lockscreen/config.qml:56
+#, kde-format
+msgctxt "@option:radio"
+msgid "Never show clock"
+msgstr ""
+
+#: contents/lockscreen/config.qml:71
+#, kde-format
+msgctxt "@title: group UI controls for playback of multimedia content"
+msgid "Media controls:"
+msgstr ""
+
+#: contents/lockscreen/config.qml:74
+#, kde-format
+msgctxt "@option:check"
+msgid "Show under unlocking prompt"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:48
+#, kde-format
+msgid "Unlocking failed"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:281
+#, kde-format
+msgid "Caps Lock is on"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:295
+#, kde-format
+msgid "Slee&p"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:301
+#, kde-format
+msgid "&Hibernate"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:307
+#, fuzzy, kde-format
+#| msgid "Switch"
+msgid "Switch &User"
+msgstr "Гузариш"
+
+#: contents/lockscreen/LockScreenUi.qml:368
+#, kde-format
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr ""
+
+#: contents/lockscreen/LockScreenUi.qml:392
+#, fuzzy, kde-format
+#| msgid "Switch"
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "Гузариш"
+
+#: contents/lockscreen/MainBlock.qml:65
+#, kde-format
+msgid "Password"
+msgstr ""
+
+#: contents/lockscreen/MainBlock.qml:114
+#: contents/lockscreen/NoPasswordUnlock.qml:17
+#, kde-format
+msgid "Unlock"
+msgstr ""
+
+#: contents/lockscreen/MainBlock.qml:163
+#, kde-format
+msgid "(or scan your fingerprint on the reader)"
+msgstr ""
+
+#: contents/lockscreen/MainBlock.qml:167
+#, kde-format
+msgid "(or scan your smartcard)"
+msgstr ""
+
+#: contents/lockscreen/MediaControls.qml:59
+#, kde-format
+msgid "No title"
+msgstr ""
+
+#: contents/lockscreen/MediaControls.qml:60
+#, kde-format
+msgid "No media playing"
+msgstr ""
+
+#: contents/lockscreen/MediaControls.qml:88
+#, kde-format
+msgid "Previous track"
+msgstr ""
+
+#: contents/lockscreen/MediaControls.qml:100
+#, kde-format
+msgid "Play or Pause media"
+msgstr ""
+
+#: contents/lockscreen/MediaControls.qml:110
+#, kde-format
+msgid "Next track"
+msgstr ""
+
+#: contents/views/DesktopEditMode.qml:121
+#, kde-format
+msgctxt "@action:button"
+msgid "More"
+msgstr ""
+
+#: contents/views/DesktopEditMode.qml:130
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr ""
+
+#: contents/views/Panel.qml:326
+#, kde-format
+msgid "Panel Focus Indicator"
+msgstr ""
+
+#~ msgid "Stopped activities:"
+#~ msgstr "Фаъолиятҳои манъшуда:"
+
+#~ msgid "Stop activity"
+#~ msgstr "Манъ кардан фаъолият"
+
+#~ msgid "Author:"
+#~ msgstr "Муаллиф:"
+
+#~ msgid "Email:"
+#~ msgstr "Почтаи электронӣ:"
+
+#~ msgid "Uninstall"
+#~ msgstr "Лағв кардани насб"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet as though it had been clicked."
+#~ msgstr ""
+#~ "Миёнбури зерин зербарномаро фаъол мекунад, гӯё ки шумо онро зер кардед."
+
+#, fuzzy
+#~| msgid "Add Widgets..."
+#~ msgid "Add or Manage Widgets…"
+#~ msgstr "Илова кардани виҷетҳо..."
+
+#~ msgid "Undo uninstall"
+#~ msgstr "Ботил сохтани лағви насб"
+
+#, fuzzy
+#~| msgid "Uninstall"
+#~ msgctxt "@info:tooltip uninstall a widget"
+#~ msgid "Uninstall"
+#~ msgstr "Лағв кардани насб"
+
+#, fuzzy
+#~| msgid "Height"
+#~ msgid "Height:"
+#~ msgstr "Баландӣ"
+
+#, fuzzy
+#~| msgid "Maximize Panel"
+#~ msgctxt "@action:button Make the panel as big as it can be"
+#~ msgid "Maximize"
+#~ msgstr "Лавҳаро ба ҳадди аксар сохтан"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "@action:button Delete the panel"
+#~ msgid "Delete"
+#~ msgstr "Нест кардан"
+
+#, fuzzy
+#~| msgid "Windows Go Below"
+#~ msgid "Windows Above"
+#~ msgstr "Намоиши дар зери равзанаҳо"
+
+#, fuzzy
+#~| msgid "Windows Can Cover"
+#~ msgid "Windows In Front"
+#~ msgstr "Намоиши дар пеши равзанаҳо"
+
+#~ msgid "Search…"
+#~ msgstr "Ҷустуҷӯ..."
+
+#~ msgid "Screen Edge"
+#~ msgstr "Канори экран"
+
+#~ msgid "Click and drag the button to a screen edge to move the panel there."
+#~ msgstr ""
+#~ "Барои ҳаракат кардани лавҳа ба канори дилхоҳи экран, ин тугмаро зер "
+#~ "карда, ба канори дилхоҳ ҳаракат кунед."
+
+#~ msgid "Click and drag the button to resize the panel."
+#~ msgstr "Барои иваз кардани андозаи лавҳа тугмаро зер карда, кашед."
+
+#~ msgid "Layout cannot be changed while widgets are locked"
+#~ msgstr "Тарҳбандӣ иваз карда намешавад, агар виҷетҳо қулф шуда бошанд"

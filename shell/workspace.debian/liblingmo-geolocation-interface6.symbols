@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:6.1.4 amd64 arm64 armel armhf i386 mips64el ppc64 ppc64el riscv64 s390x
-libplasma-geolocation-interface.so.6 libplasma-geolocation-interface6 #MINVER#
+liblingmo-geolocation-interface.so.6 liblingmo-geolocation-interface6 #MINVER#
 * Build-Depends-Package: lingmo-workspace-dev
  _ZGVZN9QMetaType21registerConverterImplI4QMapI7QString8QVariantE9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0
  _ZGVZN9QMetaType23registerMutableViewImplI4QMapI7QString8QVariantE9QIterableI16QMetaAssociationEEEbSt8functionIFbPvS9_EES_S_E10unregister@Base 4:6.1.0
@@ -41,7 +41,7 @@ libplasma-geolocation-interface.so.6 libplasma-geolocation-interface6 #MINVER#
  _ZTV19GeolocationProvider@Base 4:6.1.0
  (optional=templinst)_ZZN9QMetaType21registerConverterImplI4QMapI7QString8QVariantE9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0
  (optional=templinst)_ZZN9QMetaType23registerMutableViewImplI4QMapI7QString8QVariantE9QIterableI16QMetaAssociationEEEbSt8functionIFbPvS9_EES_S_E10unregister@Base 4:6.1.0
-libplasma-geolocation-interface.so.6 libplasma-geolocation-interface6 #MINVER#
+liblingmo-geolocation-interface.so.6 liblingmo-geolocation-interface6 #MINVER#
 * Build-Depends-Package: lingmo-workspace-dev
  _ZGVZN9QMetaType21registerConverterImplI4QMapI7QString8QVariantE9QIterableI16QMetaAssociationEEEbSt8functionIFbPKvPvEES_S_E10unregister@Base 4:6.1.0
  _ZGVZN9QMetaType23registerMutableViewImplI4QMapI7QString8QVariantE9QIterableI16QMetaAssociationEEEbSt8functionIFbPvS9_EES_S_E10unregister@Base 4:6.1.0

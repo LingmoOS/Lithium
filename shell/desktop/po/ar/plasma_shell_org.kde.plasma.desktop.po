@@ -1,0 +1,1167 @@
+# Language  translations for KDE package.
+# Copyright (C) 2014 This_file_is_part_of_KDE
+# This file is distributed under the same license as the KDE package.
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014, 2015, 2016.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 5\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-08-17 21:58+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: contents/activitymanager/ActivityItem.qml:203
+#, kde-format
+msgid "Currently being used"
+msgstr "مُستخدم حاليًّا"
+
+#: contents/activitymanager/ActivityItem.qml:243
+#, kde-format
+msgid ""
+"Move to\n"
+"this activity"
+msgstr ""
+"انقل إلى\n"
+"هذا النشاط"
+
+#: contents/activitymanager/ActivityItem.qml:273
+#, kde-format
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+"أظهر أيضا\n"
+"في هذه النشاط"
+
+#: contents/activitymanager/ActivityItem.qml:335
+#, kde-format
+msgid "Configure"
+msgstr "اضبط"
+
+#: contents/activitymanager/ActivityManager.qml:122
+#, kde-format
+msgid "Create activity…"
+msgstr "أنشئ نشاطًا..."
+
+#: contents/activitymanager/Heading.qml:59
+#, kde-format
+msgid "Activities"
+msgstr "الأنشطة"
+
+#: contents/activitymanager/StoppedActivityItem.qml:138
+#, kde-format
+msgid "Configure activity"
+msgstr "اضبط النّشاط"
+
+#: contents/activitymanager/StoppedActivityItem.qml:155
+#, kde-format
+msgid "Delete"
+msgstr "احذف"
+
+#: contents/applet/AppletError.qml:164
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "انسخ إلى الحافظة"
+
+#: contents/applet/AppletError.qml:187
+#, kde-format
+msgid "View Error Details…"
+msgstr "استعرض تفاصيل الخطأ…"
+
+#: contents/applet/CompactApplet.qml:91
+#, kde-format
+msgid "Open %1"
+msgstr "افتح %1"
+
+#: contents/configuration/AboutPlugin.qml:21
+#: contents/configuration/AppletConfiguration.qml:320
+#, kde-format
+msgid "About"
+msgstr "عن"
+
+#: contents/configuration/AboutPlugin.qml:50
+#, kde-format
+msgid "Send an email to %1"
+msgstr "أرسِل بريد الإلكتروني إلى %1"
+
+#: contents/configuration/AboutPlugin.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr "افتح موقع %1"
+
+#: contents/configuration/AboutPlugin.qml:142
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr "موقع الوبّ"
+
+#: contents/configuration/AboutPlugin.qml:153
+#, kde-format
+msgid "Copyright"
+msgstr "حقوق النسخ"
+
+#: contents/configuration/AboutPlugin.qml:170
+#, kde-format
+msgid "License:"
+msgstr "الرّخصة:"
+
+#: contents/configuration/AboutPlugin.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr "اعرض نص الترخيص"
+
+#: contents/configuration/AboutPlugin.qml:189
+#, kde-format
+msgid "Authors"
+msgstr "المؤلفين"
+
+#: contents/configuration/AboutPlugin.qml:202
+#, kde-format
+msgid "Credits"
+msgstr "الإشادات"
+
+#: contents/configuration/AboutPlugin.qml:216
+#, kde-format
+msgid "Translators"
+msgstr "المترجمون"
+
+#: contents/configuration/AboutPlugin.qml:235
+#, kde-format
+msgid "Report a Bug…"
+msgstr "بلغ عن علة…"
+
+#: contents/configuration/AppletConfiguration.qml:90
+#, kde-format
+msgid "Keyboard Shortcuts"
+msgstr "اختصارات لوحة المفاتيح"
+
+#: contents/configuration/AppletConfiguration.qml:368
+#, kde-format
+msgid "Apply Settings"
+msgstr "طبّق الإعدادات"
+
+#: contents/configuration/AppletConfiguration.qml:369
+#, kde-format
+msgid ""
+"The current page has unsaved changes. Apply the changes or discard them?"
+msgstr ""
+"تحوي الصفحة الحالية على تغيرات غير محفوظة. أتريد تطبيق الإعدادات أو رفضها؟"
+
+#: contents/configuration/AppletConfiguration.qml:401
+#, kde-format
+msgid "OK"
+msgstr "حسنًا"
+
+#: contents/configuration/AppletConfiguration.qml:408
+#, kde-format
+msgid "Apply"
+msgstr "طبّق"
+
+#: contents/configuration/AppletConfiguration.qml:414
+#, kde-format
+msgid "Cancel"
+msgstr "ألغ"
+
+#: contents/configuration/ConfigCategoryDelegate.qml:27
+#, kde-format
+msgid "Open configuration page"
+msgstr "افتح صفحة الضبط"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:20
+#, kde-format
+msgid "Left-Button"
+msgstr "الزّرّ الأيسر"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:21
+#, kde-format
+msgid "Right-Button"
+msgstr "الزّرّ الأيمن"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:22
+#, kde-format
+msgid "Middle-Button"
+msgstr "الزّرّ الأوسط"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:23
+#, kde-format
+msgid "Back-Button"
+msgstr "زرّ العودة"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:24
+#, kde-format
+msgid "Forward-Button"
+msgstr "زرّ التّقدّم"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:26
+#, kde-format
+msgid "Vertical-Scroll"
+msgstr "التّمرير الرّأسيّ"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:27
+#, kde-format
+msgid "Horizontal-Scroll"
+msgstr "التّمرير الأفقيّ"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:29
+#, kde-format
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:30
+#, kde-format
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+#, kde-format
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:73
+#, kde-format
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:142
+#: contents/configuration/MouseEventInputButton.qml:13
+#, kde-format
+msgid "Add Action"
+msgstr "أضف إجراءً"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:77
+#, kde-format
+msgid "Layout changes have been restricted by the system administrator"
+msgstr "قُيد تغييرات التخطيط من قبل مسؤول النظام "
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:92
+#, kde-format
+msgid "Layout:"
+msgstr "التخطيط:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:115
+#, kde-format
+msgid "Wallpaper type:"
+msgstr "نوع الخلفيّة:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:154
+#, kde-format
+msgid "Get New Plugins…"
+msgstr "احصل على ملحقات جديدة..."
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:244
+#, kde-format
+msgid "Layout changes must be applied before other changes can be made"
+msgstr "يجب تطبيق تغييرات التخطيط قبل إجراء تغييرات أخرى"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:248
+#, kde-format
+msgid "Apply Now"
+msgstr "طبّق الآن"
+
+#: contents/configuration/ConfigurationShortcuts.qml:18
+#, kde-format
+msgid "Shortcuts"
+msgstr "الاختصارات"
+
+#: contents/configuration/ConfigurationShortcuts.qml:31
+#, kde-format
+msgctxt "@action:button set keyboard shortcut for"
+msgid "Activate widget as if clicked:"
+msgstr "فعّل تطبيق سطح المكتب عند الضغط على:"
+
+#: contents/configuration/ContainmentConfiguration.qml:27
+#, kde-format
+msgid "Wallpaper"
+msgstr "الخلفيّة"
+
+#: contents/configuration/ContainmentConfiguration.qml:32
+#, kde-format
+msgid "Mouse Actions"
+msgstr "إجراءات الفأرة"
+
+#: contents/configuration/MouseEventInputButton.qml:20
+#, kde-format
+msgid "Input Here"
+msgstr "أدخل هنا"
+
+#: contents/configuration/PanelConfiguration.qml:100
+#, kde-format
+msgid "Panel Settings"
+msgstr "إعدادات اللوحة"
+
+#: contents/configuration/PanelConfiguration.qml:109
+#, kde-format
+msgctxt ""
+"@action:button label of button to open a menu that lets you add widgets or "
+"spacers"
+msgid "Add New"
+msgstr "أضف أيضاً"
+
+#: contents/configuration/PanelConfiguration.qml:127
+#, kde-format
+msgctxt "@action:menu add a spacer"
+msgid "Spacer"
+msgstr "مُباعد"
+
+#: contents/configuration/PanelConfiguration.qml:134
+#, kde-format
+msgctxt "@action:menu add a widget"
+msgid "Widgets…"
+msgstr "أدوات…"
+
+#: contents/configuration/PanelConfiguration.qml:163
+#, kde-format
+msgid "Position"
+msgstr "الموضع"
+
+#: contents/configuration/PanelConfiguration.qml:168
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Top"
+msgstr "الأعلى"
+
+#: contents/configuration/PanelConfiguration.qml:169
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Right"
+msgstr "اليمين"
+
+#: contents/configuration/PanelConfiguration.qml:170
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Left"
+msgstr "اليسار"
+
+#: contents/configuration/PanelConfiguration.qml:171
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Bottom"
+msgstr "الأسفل"
+
+#: contents/configuration/PanelConfiguration.qml:191
+#, kde-format
+msgid "Set Position…"
+msgstr "عين موضع…"
+
+#: contents/configuration/PanelConfiguration.qml:218
+#, kde-format
+msgid "Alignment"
+msgstr "المحاذاة"
+
+#: contents/configuration/PanelConfiguration.qml:284
+#, kde-format
+msgid "Center"
+msgstr "الوسط"
+
+#: contents/configuration/PanelConfiguration.qml:315
+#, kde-format
+msgid "Height"
+msgstr "الارتفاع"
+
+#: contents/configuration/PanelConfiguration.qml:316
+#, kde-format
+msgid "Width"
+msgstr "العرض"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, kde-format
+msgid "Fill height"
+msgstr "ارتفاع الملء"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, kde-format
+msgid "Fill width"
+msgstr "عرض الملء"
+
+#: contents/configuration/PanelConfiguration.qml:336
+#, kde-format
+msgid "Fit content"
+msgstr "لائم المحتوى"
+
+#: contents/configuration/PanelConfiguration.qml:337
+#, kde-format
+msgid "Custom"
+msgstr "مخصّص"
+
+#: contents/configuration/PanelConfiguration.qml:370
+#, kde-format
+msgid "Visibility"
+msgstr "الرّؤية"
+
+#: contents/configuration/PanelConfiguration.qml:388
+#, kde-format
+msgid "Always visible"
+msgstr "ظاهرة دائمًا"
+
+#: contents/configuration/PanelConfiguration.qml:389
+#, kde-format
+msgid "Auto hide"
+msgstr "إخفاء آليّ"
+
+#: contents/configuration/PanelConfiguration.qml:390
+#, kde-format
+msgid "Dodge windows"
+msgstr "تجنب النوافذ"
+
+#: contents/configuration/PanelConfiguration.qml:391
+#, kde-format
+msgid "Windows go below"
+msgstr "النّوافذ تذهب تحتها"
+
+#: contents/configuration/PanelConfiguration.qml:451
+#, kde-format
+msgid "Opacity"
+msgstr "العتمة"
+
+#: contents/configuration/PanelConfiguration.qml:467
+#, kde-format
+msgid "Adaptive"
+msgstr "متكيف"
+
+#: contents/configuration/PanelConfiguration.qml:468
+#, kde-format
+msgid "Opaque"
+msgstr "معتم"
+
+#: contents/configuration/PanelConfiguration.qml:469
+#, kde-format
+msgid "Translucent"
+msgstr "شفاف"
+
+#: contents/configuration/PanelConfiguration.qml:501
+#, kde-format
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr "التعويم"
+
+#: contents/configuration/PanelConfiguration.qml:517
+#, kde-format
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr "معطّل"
+
+#: contents/configuration/PanelConfiguration.qml:518
+#, kde-format
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr "البُريجِمات فقط"
+
+#: contents/configuration/PanelConfiguration.qml:519
+#, kde-format
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr "اللوحات والبُريجِمات"
+
+#: contents/configuration/PanelConfiguration.qml:562
+#, kde-format
+msgctxt ""
+"@action:button Revert an unsupported configuration back to the defaults"
+msgid "Fix it"
+msgstr "أصلحها"
+
+#: contents/configuration/PanelConfiguration.qml:648
+#, kde-format
+msgid "Panel Width:"
+msgstr "عرض اللوح:"
+
+#: contents/configuration/PanelConfiguration.qml:649
+#, kde-format
+msgid "Panel Height:"
+msgstr "ارتفاع اللوحة:"
+
+#: contents/configuration/PanelConfiguration.qml:672
+#, kde-format
+msgid "Focus shortcut:"
+msgstr "اختصار التركيز:"
+
+#: contents/configuration/PanelConfiguration.qml:683
+#, kde-format
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr "اضغط على اختصار لوحة المفاتيح هذا لتنقل التركيز للوحة"
+
+#: contents/configuration/PanelConfiguration.qml:717
+#, kde-format
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "احذف اللوح"
+
+#: contents/configuration/PanelConfiguration.qml:720
+#, kde-format
+msgid "Remove this panel; this action is undo-able"
+msgstr "أزِل هذه اللوحة؛ لا يمكن التراجع عن هذا الإجراء"
+
+#: contents/configuration/PanelConfiguration.qml:729
+#, kde-format
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "استنسخ اللوحة"
+
+#: contents/configuration/PanelConfiguration.qml:733
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new panel with the same settings and applets"
+msgstr "أنشئ لوحة جديدة بنفس الإعدادات والتطبيقات الصغيرة"
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, kde-format
+msgctxt "@action:button Close the panel configuration window"
+msgid "Close"
+msgstr "أغلق"
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, kde-format
+msgctxt ""
+"@action:button Close the panel configuration window and exit edit mode"
+msgid "Exit Edit Mode"
+msgstr "اخرج من نمط التحرير"
+
+#: contents/configuration/PanelConfiguration.qml:745
+#, kde-format
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr "أغلق إعدادات اللوحة واخرج من نمط التحرير"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:32
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum height."
+msgstr "اسحب لتغير الارتفاع الأقصى"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:33
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum width."
+msgstr "اسحب لتغير العرض الأقصى"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:34
+#: contents/configuration/panelconfiguration/Ruler.qml:39
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Double-click to reset."
+msgstr "انقر مزدوجًا للتصفير."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:37
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum height."
+msgstr "اسحب لتغير الارتفاع الأدنى"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:38
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum width."
+msgstr "اسحب لتغير العرض الأدنى."
+
+#: contents/configuration/panelconfiguration/Ruler.qml:87
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid ""
+"Drag to change position on this screen edge.\n"
+"Double-click to reset."
+msgstr ""
+"اسحب لتغير موضع على حافة هذه الشاشة.\n"
+"انقر مزدوجاً للتصفير."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:19
+#, kde-format
+msgid "Manage Panels and Desktops"
+msgstr "أدر أسطح المكتب واللوحات"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+#, kde-format
+msgid ""
+"You can drag Panels and Desktops around to move them to different screens."
+msgstr "يمكنك سحب اللوحات وأسطح المكتب لنقلها إلى شاشات مختلفة."
+
+#: contents/configuration/ShellContainmentConfiguration.qml:44
+#, kde-format
+msgid "Close"
+msgstr "أغلق"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
+#, kde-format
+msgid "Swap with Desktop on Screen %1"
+msgstr "بدل بسطح مكتب على الشاشة %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
+#, kde-format
+msgid "Move to Screen %1"
+msgstr "انقل إلى الشّاشة %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
+#, kde-format
+msgid "Remove Desktop"
+msgstr "أزل سطح المكتب"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
+#, kde-format
+msgid "Remove Panel"
+msgstr "أزل اللوحة"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
+#, kde-format
+msgid "%1 (primary)"
+msgstr "‏%1 (أولي)"
+
+#: contents/explorer/AppletAlternatives.qml:70
+#, kde-format
+msgid "Alternative Widgets"
+msgstr "أدوات بديلة"
+
+#: contents/explorer/AppletDelegate.qml:28
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Add %1"
+msgstr "أضف %1"
+
+#: contents/explorer/AppletDelegate.qml:47
+#, kde-format
+msgid "Unsupported Widget"
+msgstr "أداة غير مدعومة"
+
+#: contents/explorer/AppletDelegate.qml:202
+#, kde-format
+msgctxt "Text displayed on top of newly installed widgets"
+msgid "New!"
+msgstr "جديد!"
+
+#: contents/explorer/AppletDelegate.qml:204
+#, kde-format
+msgctxt "@info:other accessible for badge showing applet count"
+msgid "%1 widget active"
+msgid_plural "%1 widgets active"
+msgstr[0] "لا تتوفر أدوات"
+msgstr[1] "أداة واحدة نشطة"
+msgstr[2] "أداتان نشيطتان"
+msgstr[3] "%1 أدوات نشطة"
+msgstr[4] "%1 أداة نشطة"
+msgstr[5] "%1 أداة نشطة"
+
+#: contents/explorer/AppletDelegate.qml:205
+#, kde-format
+msgctxt " @info:other accessible for badge indicating new widget"
+msgid "Recently installed"
+msgstr "المثبتة حديثًا"
+
+#: contents/explorer/AppletDelegate.qml:217
+#, kde-format
+msgid "Cancel Uninstallation"
+msgstr "ألغ إزالة التّثبيت"
+
+#: contents/explorer/AppletDelegate.qml:218
+#, kde-format
+msgctxt "@info:tooltip uninstall a widget"
+msgid "Mark for Uninstallation"
+msgstr "علّم لإزالة التثبيت"
+
+#: contents/explorer/AppletDelegate.qml:222
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Cancel pending uninstallation for widget %1"
+msgstr "ألغِ إلغاء التثبيت المعلق للأداة %1"
+
+#: contents/explorer/AppletDelegate.qml:223
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Mark widget %1 for uninstallation. Requires confirmation"
+msgstr "علّم الأداة %1 لإلغاء التثبيت. يتطلب التأكيد"
+
+#: contents/explorer/AppletDelegate.qml:265
+#, kde-format
+msgid "Remove all instances"
+msgstr "أزل كل النسخ"
+
+#: contents/explorer/AppletDelegate.qml:269
+#, kde-format
+msgctxt ""
+"@action:button accessible description, %1 number of instances %2 is widget "
+"name"
+msgid "Remove running instance of widget %2"
+msgid_plural "Remove all %1 running instances of widget %2"
+msgstr[0] "أزل النسخة المشغل حاليا للأداة %2"
+msgstr[1] "أزل النسخة المشغل حاليا للأداة %2"
+msgstr[2] "أزل النسخةين المشغلين حاليا للأداة %2"
+msgstr[3] "أزل %1 النسخةات المشغلة حاليا للأداة %2"
+msgstr[4] "أزل %1 نسخةًا مشغلًا حاليا للأداة %2"
+msgstr[5] "أزل %1 نسخة مشغل حاليا للأداة %2"
+
+#: contents/explorer/WidgetExplorer.qml:140
+#: contents/explorer/WidgetExplorer.qml:223
+#, kde-format
+msgid "All Widgets"
+msgstr "كلّ الأدوات"
+
+#: contents/explorer/WidgetExplorer.qml:169
+#, kde-format
+msgid "Widgets"
+msgstr "الأدوات"
+
+#: contents/explorer/WidgetExplorer.qml:178
+#, kde-format
+msgctxt "@action:button The word 'new' refers to widgets"
+msgid "Get New…"
+msgstr "احصل على جديدة…"
+
+#: contents/explorer/WidgetExplorer.qml:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Widgets…"
+msgstr "اجلب أدوات جديدة..."
+
+#: contents/explorer/WidgetExplorer.qml:192
+#, kde-format
+msgctxt "@action:button accessible for close button"
+msgid "Close Widget Explorer"
+msgstr "أغلق متصفح الأدوات"
+
+#: contents/explorer/WidgetExplorer.qml:208
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Search through widgets"
+msgstr "ابحث في الأدوات"
+
+#: contents/explorer/WidgetExplorer.qml:237
+#, kde-format
+msgid "Categories"
+msgstr "الفئات"
+
+#: contents/explorer/WidgetExplorer.qml:259
+#, kde-format
+msgctxt "@action:button uninstall widgets in widget explorer"
+msgid "Uninstall (%1 Widget)"
+msgid_plural "Uninstall (%1 Widgets)"
+msgstr[0] "أزل تثبيت (لا شيء)"
+msgstr[1] "أزل تثبيت (أداة واحدة)"
+msgstr[2] "أزل تثبيت (أداتين)"
+msgstr[3] "أزل تثبيت (%1 أدوات)"
+msgstr[4] "أزل تثبيت (%1 أداة)"
+msgstr[5] "أزل تثبيت (%1 أداة)"
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets matched the search terms"
+msgstr "لا توجد أدوات مطابقة لشروط البحث"
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets available"
+msgstr "لا تتوفر أدوات"
+
+#: contents/lockscreen/config.qml:24
+#, kde-format
+msgctxt "@title: group"
+msgid "Show clock:"
+msgstr "عرض الساعة:"
+
+#: contents/lockscreen/config.qml:25
+#, kde-format
+msgctxt "@option:radio Clock always shown"
+msgid "Always"
+msgstr "دائمًا"
+
+#: contents/lockscreen/config.qml:26
+#, kde-format
+msgctxt "@option:radio"
+msgid "Always show clock"
+msgstr "اعرض الساعة دائمًا"
+
+#: contents/lockscreen/config.qml:41
+#, kde-format
+msgctxt "@option:radio Clock shown only while unlock prompt is visible"
+msgid "On unlocking prompt"
+msgstr "في محث فك القفل"
+
+#: contents/lockscreen/config.qml:42
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show clock only on unlocking prompt"
+msgstr "اعرض الساعة في محث فك القفل"
+
+#: contents/lockscreen/config.qml:55
+#, kde-format
+msgctxt "@option:radio Clock never shown"
+msgid "Never"
+msgstr "البتة"
+
+#: contents/lockscreen/config.qml:56
+#, kde-format
+msgctxt "@option:radio"
+msgid "Never show clock"
+msgstr "لا تعرض الساعة مطلقًا"
+
+#: contents/lockscreen/config.qml:71
+#, kde-format
+msgctxt "@title: group UI controls for playback of multimedia content"
+msgid "Media controls:"
+msgstr "متحكمات الوسائط:"
+
+#: contents/lockscreen/config.qml:74
+#, kde-format
+msgctxt "@option:check"
+msgid "Show under unlocking prompt"
+msgstr "اعرضها تحت محث فك القفل"
+
+#: contents/lockscreen/LockScreenUi.qml:48
+#, kde-format
+msgid "Unlocking failed"
+msgstr "فشل فكّ القفل"
+
+#: contents/lockscreen/LockScreenUi.qml:281
+#, kde-format
+msgid "Caps Lock is on"
+msgstr "مفتاح Caps Lock مفعّل"
+
+#: contents/lockscreen/LockScreenUi.qml:295
+#, kde-format
+msgid "Slee&p"
+msgstr "&علّق"
+
+#: contents/lockscreen/LockScreenUi.qml:301
+#, kde-format
+msgid "&Hibernate"
+msgstr "أ&سبِت"
+
+#: contents/lockscreen/LockScreenUi.qml:307
+#, kde-format
+msgid "Switch &User"
+msgstr "بدّل ال&مستخدم"
+
+#: contents/lockscreen/LockScreenUi.qml:368
+#, kde-format
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "لوحة مفاتيح افتراضية"
+
+#: contents/lockscreen/LockScreenUi.qml:392
+#, kde-format
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "بدّل التخطيط"
+
+#: contents/lockscreen/MainBlock.qml:65
+#, kde-format
+msgid "Password"
+msgstr "كلمة السّر"
+
+#: contents/lockscreen/MainBlock.qml:114
+#: contents/lockscreen/NoPasswordUnlock.qml:17
+#, kde-format
+msgid "Unlock"
+msgstr "فكّ القفل"
+
+#: contents/lockscreen/MainBlock.qml:163
+#, kde-format
+msgid "(or scan your fingerprint on the reader)"
+msgstr "(أو امحُ بصمة إصبعك على القارئ)"
+
+#: contents/lockscreen/MainBlock.qml:167
+#, kde-format
+msgid "(or scan your smartcard)"
+msgstr "(أو امحُ بطاقتك الذكية)"
+
+#: contents/lockscreen/MediaControls.qml:59
+#, kde-format
+msgid "No title"
+msgstr "دون عنوان"
+
+#: contents/lockscreen/MediaControls.qml:60
+#, kde-format
+msgid "No media playing"
+msgstr "لا وسائط تعمل"
+
+#: contents/lockscreen/MediaControls.qml:88
+#, kde-format
+msgid "Previous track"
+msgstr "المقطوعة السابقة"
+
+#: contents/lockscreen/MediaControls.qml:100
+#, kde-format
+msgid "Play or Pause media"
+msgstr "شغّل أو أوقف الوسيط"
+
+#: contents/lockscreen/MediaControls.qml:110
+#, kde-format
+msgid "Next track"
+msgstr "المقطوعة التالية"
+
+#: contents/views/DesktopEditMode.qml:121
+#, kde-format
+msgctxt "@action:button"
+msgid "More"
+msgstr "المزيد"
+
+#: contents/views/DesktopEditMode.qml:130
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr "اخرج من نمط التحرير"
+
+#: contents/views/Panel.qml:326
+#, kde-format
+msgid "Panel Focus Indicator"
+msgstr "مؤشر التركيز على اللوحة"
+
+#~ msgid "Stopped activities:"
+#~ msgstr "الأنشطة الموقفة:"
+
+#~ msgid "Stop activity"
+#~ msgstr "أوقف النّشاط"
+
+#~ msgid "Author:"
+#~ msgstr "المؤلّف:"
+
+#~ msgid "Email:"
+#~ msgstr "البريد الإلكترونيّ:"
+
+#~ msgid "Uninstall"
+#~ msgstr "أزل التّثبيت"
+
+#~ msgctxt "Percentage value"
+#~ msgid "%1%"
+#~ msgstr "%1٪"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet as though it had been clicked."
+#~ msgstr "سيؤدي هذا الاختصار إلى تنشيط التطبيق الصغير كما لو تم النقر عليه."
+
+#~ msgid "Add spacer widget to the panel"
+#~ msgstr "أضف مُباعد إلى اللوح"
+
+#~ msgid "Add or Manage Widgets…"
+#~ msgstr "أضف أو أدر الأدوات…"
+
+#~ msgid "Open the widget selector to drag and drop widgets to the panel"
+#~ msgstr "افتح محدد الأدوات لسحب وإفلات الأدوات إلى اللوح"
+
+#~ msgctxt "@title: group"
+#~ msgid "Clock:"
+#~ msgstr "الساعة:"
+
+#~ msgid "Undo uninstall"
+#~ msgstr "تراجع عن إزالة التّثبيت"
+
+#~ msgctxt "@info:tooltip uninstall a widget"
+#~ msgid "Uninstall"
+#~ msgstr "أزل التّثبيت"
+
+#~ msgctxt "@action:button uninstall widgets in widget explorer"
+#~ msgid "Confirm Removal of One Widget"
+#~ msgid_plural "Confirm Removal of %1 Widgets"
+#~ msgstr[0] "أكد حذف الودجة"
+#~ msgstr[1] "أكد حذف ودجة واحدة"
+#~ msgstr[2] "أكد حذف ودجتين"
+#~ msgstr[3] "أكد حذف %1 ودجات"
+#~ msgstr[4] "أكد حذف %1 ودجة"
+#~ msgstr[5] "أكد حذف %1 ودجة"
+
+#~ msgid "Style"
+#~ msgstr "النّمط"
+
+#~ msgctxt "@title"
+#~ msgid "About"
+#~ msgstr "حول"
+
+#~ msgid "Global Themes"
+#~ msgstr "السمات الشاملة"
+
+#~ msgid "Display Configuration"
+#~ msgstr "ضبط العرض"
+
+#~ msgctxt "@action:button Done configuring the panel"
+#~ msgid "Done"
+#~ msgstr "تمّ"
+
+#~ msgctxt "@option:check"
+#~ msgid "Keep visible when unlocking prompt disappears"
+#~ msgstr "أبقها مرئية عندما تختفي محث فك القفل"
+
+#~ msgid "Height:"
+#~ msgstr "الارتفاع:"
+
+#~ msgid "Sorry! There was an error loading %1."
+#~ msgstr "للأسف! حصل خطأ أثناء تحميل %1."
+
+#~ msgid "Length"
+#~ msgstr "الطّول"
+
+#~ msgctxt "@action:button Make the panel as big as it can be"
+#~ msgid "Maximize"
+#~ msgstr "كبّر"
+
+#~ msgid "Make this panel as tall as possible"
+#~ msgstr "اجعل هذه اللوحة أطول ما يمكن"
+
+#~ msgid "Make this panel as wide as possible"
+#~ msgstr "اجعل هذه اللوحة أعرض ما يمكن"
+
+#~ msgctxt "@action:button Delete the panel"
+#~ msgid "Delete"
+#~ msgstr "احذف"
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the top; no effect when panel is maximized"
+#~ msgstr ""
+#~ "تحاذي اللوحة غير المكبرة إلى الأعلى، لن يكون هناك تأثير إذا كانت مكبرة."
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the left; no effect when panel is "
+#~ "maximized"
+#~ msgstr ""
+#~ "تحاذي اللوحة غير المكبرة إلى اليسار، لن يكون هناك تأثير إذا كانت مكبرة."
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the center; no effect when panel is "
+#~ "maximized"
+#~ msgstr ""
+#~ "تحاذي اللوحة غير المكبرة إلى الوسط، لن يكون هناك تأثير إذا كانت مكبرة."
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the bottom; no effect when panel is "
+#~ "maximized"
+#~ msgstr ""
+#~ "تحاذي اللوحة غير المكبرة إلى الأسفل، لن يكون هناك تأثير إذا كانت مكبرة."
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the right; no effect when panel is "
+#~ "maximized"
+#~ msgstr ""
+#~ "تحاذي اللوحة غير المكبرة إلى اليمين، لن يكون هناك تأثير إذا كانت مكبرة."
+
+#~ msgid ""
+#~ "Panel is hidden, but reveals itself when the cursor touches the panel's "
+#~ "screen edge"
+#~ msgstr ""
+#~ "اللوحة مخفية، لكنها تكشف عن نفسها عندما يلمس المؤشر حافة شاشة اللوحة"
+
+#~ msgid ""
+#~ "Panel is opaque when any windows are touching it, and translucent at "
+#~ "other times"
+#~ msgstr ""
+#~ "تكون اللوحة معتمة عندما تلمسها أي نوافذ، وتكون شفافة في الأوقات الأخرى"
+
+#~ msgid "Floating:"
+#~ msgstr "التعويم:"
+
+#~ msgid "Panel visibly floats away from its screen edge"
+#~ msgstr "تطفو اللوحة بشكل واضح بعيدًا عن حافة الشاشة"
+
+#~ msgid "Attached"
+#~ msgstr "ملحقة"
+
+#~ msgid "Panel is attached to its screen edge"
+#~ msgstr "اللوحة متصلة بحافة الشاشة"
+
+#~ msgid "More Options…"
+#~ msgstr "خيارات أكثر..."
+
+#~ msgctxt "Minimize the length of this string as much as possible"
+#~ msgid "Drag to move"
+#~ msgstr "اسحب للتحريك"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Use arrow keys to move the panel"
+#~ msgstr "استخدم مفاتيح الأسهم لتحرك اللوحة"
+
+#, fuzzy
+#~| msgid "Windows Behind"
+#~ msgid "Windows Above"
+#~ msgstr "النّوافذ في الخلف"
+
+#, fuzzy
+#~| msgid ""
+#~| "Makes the panel remain visible always but part of the maximized windows "
+#~| "shall go below the panel as though the panel did not exist."
+#~ msgid ""
+#~ "Like \"Always Visible\", but maximized and tiled windows go under the "
+#~ "panel as though it didn't exist"
+#~ msgstr ""
+#~ "يجعل اللوحة تظل مرئية دائمًا ولكن يجب أن يكون جزء من النوافذ المكبرة أسفل "
+#~ "اللوحة كما لو أن اللوحة غير موجودة."
+
+#~ msgid "Windows In Front"
+#~ msgstr "النوافذ في الأمام"
+
+#~ msgid "Aligns the panel"
+#~ msgstr "محاذاة اللوحة"
+
+#~ msgid "Center aligns the panel if the panel is not maximized."
+#~ msgstr "تحاذي اللوحة إلى الوسط إذا لم تكن مكبرة."
+
+#~ msgid ""
+#~ "Makes the panel hidden always but reveals it when mouse enters the area "
+#~ "where the panel would have been if it were not hidden."
+#~ msgstr ""
+#~ "يجعل اللوحة مخفية دائما ولكن تظهر عندما يدخل مؤشر الفأرة  المنطقة التي "
+#~ "بها اللوحة."
+
+#~ msgid ""
+#~ "Makes the panel remain visible always but maximized windows shall cover "
+#~ "it. It is revealed when mouse enters the area where the panel would have "
+#~ "been if it were not covered."
+#~ msgstr ""
+#~ "يجعل اللوحة تبقى مرئية دائما ولكن النوافذ التي في حالة التكبير تغطيها. "
+#~ "وتظهر اللوحة عندما يدخل مؤشر الفأرة  المنطقة التي بها اللوحة."
+
+#~ msgid "Makes the panel translucent except when some windows touch it."
+#~ msgstr "يجعل اللوحة شفافة باستثناء عندما تلمسها النوافذ."
+
+#~ msgid "Makes the panel translucent always."
+#~ msgstr "يجعل اللوحة شفافة دائما."
+
+#~ msgid "Makes the panel float from the edge of the screen."
+#~ msgstr "يجعل اللوحة تطفو من جانب الشاشة."
+
+#~ msgid "Makes the panel remain attached to the edge of the screen."
+#~ msgstr "يجعل اللوحة تظل ملحقة بجانب الشاشة."
+
+#~ msgid "Appearance"
+#~ msgstr "المظهر"
+
+#~ msgid "Search…"
+#~ msgstr "ابحث..."
+
+#~ msgid "Screen Edge"
+#~ msgstr "حافّة الشّاشة"
+
+#~ msgid "Click and drag the button to a screen edge to move the panel there."
+#~ msgstr "انقر واسحب الزر إلى حافة الشاشة لتحريك اللوحة هناك."
+
+#, fuzzy
+#~| msgid "Layout cannot be changed whilst widgets are locked"
+#~ msgid "Layout cannot be changed while widgets are locked"
+#~ msgstr "لا يمكن تغير التّخطيط والودجات مقفلة"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet: it will give the keyboard focus "
+#~ "to it, and if the applet has a popup (such as the start menu), the popup "
+#~ "will be open."
+#~ msgstr ""
+#~ "سينشّط هذا الاختصار البريمج: سيعطي تركيز لوحة المفاتيح إليه، وإن كان "
+#~ "للبريمج مبثقة (كقائمة البدء)، ستُفتح المنبثقة هذه."
+
+#~ msgid "Activity name:"
+#~ msgstr "اسم النّشاط:"
+
+#~ msgid "Create"
+#~ msgstr "أنشئ"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete the activity?"
+#~ msgid "Are you sure you want to delete this activity?"
+#~ msgstr "أتريد حقًّا حذف النشاط؟"

@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DBUILD_TESTING=OFF
+
+override_dh_auto_test:
+	# Disable dh_auto_test, fourth test never ends
+	# xvfb-run -a dh_auto_test
+	:
+
+execute_after_dh_auto_install:
+	# do not ship helper scripts for extracting l10n catalogs
+	find debian/tmp -name Messages.sh -print -delete

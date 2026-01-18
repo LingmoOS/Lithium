@@ -1,0 +1,241 @@
+# translation of plasma_applet_pager.po to Italian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Marcello Anni <marcello.anni@alice.it>, 2007, 2008, 2009.
+# SPDX-FileCopyrightText: 2009, 2014, 2018, 2019, 2021, 2022, 2024, 2025 Vincenzo Reale <smart2128vr@gmail.com>
+# Federico Zenith <federico.zenith@member.fsf.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_pager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-06-10 08:42+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.2\n"
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Generale"
+
+#: package/contents/ui/configGeneral.qml:38
+#, kde-format
+msgid "General:"
+msgstr "Generale:"
+
+#: package/contents/ui/configGeneral.qml:40
+#, kde-format
+msgid "Show window outlines"
+msgstr "Mostra i contorni della finestra"
+
+#: package/contents/ui/configGeneral.qml:45
+#, kde-format
+msgid "Show application icons on window outlines"
+msgstr "Mostra icone delle applicazioni nei contorni della finestra"
+
+#: package/contents/ui/configGeneral.qml:51
+#, kde-format
+msgid "Show only current screen"
+msgstr "Mostra solo lo schermo attuale"
+
+#: package/contents/ui/configGeneral.qml:56
+#, kde-format
+msgid "Navigation wraps around"
+msgstr "La navigazione si riavvolge"
+
+#: package/contents/ui/configGeneral.qml:68
+#, kde-format
+msgid "Layout:"
+msgstr "Disposizione:"
+
+#: package/contents/ui/configGeneral.qml:70
+#, kde-format
+msgctxt "The pager layout"
+msgid "Default"
+msgstr "Predefinita"
+
+#: package/contents/ui/configGeneral.qml:70
+#, kde-format
+msgid "Horizontal"
+msgstr "Orizzontale"
+
+#: package/contents/ui/configGeneral.qml:70
+#, kde-format
+msgid "Vertical"
+msgstr "Verticale"
+
+#: package/contents/ui/configGeneral.qml:84
+#, kde-format
+msgid "Text display:"
+msgstr "Visualizzazione del testo:"
+
+#: package/contents/ui/configGeneral.qml:87
+#, kde-format
+msgid "No text"
+msgstr "Nessun testo"
+
+#: package/contents/ui/configGeneral.qml:95
+#, kde-format
+msgid "Activity number"
+msgstr "Numero dell'attività"
+
+#: package/contents/ui/configGeneral.qml:95
+#, kde-format
+msgid "Desktop number"
+msgstr "Numero del desktop"
+
+#: package/contents/ui/configGeneral.qml:103
+#, kde-format
+msgid "Activity name"
+msgstr "Nome dell'attività"
+
+#: package/contents/ui/configGeneral.qml:103
+#, kde-format
+msgid "Desktop name"
+msgstr "Nome del desktop"
+
+#: package/contents/ui/configGeneral.qml:118
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current activity does nothing/shows "
+"the desktop'"
+msgid "Selecting current Activity:"
+msgstr "Selezione dell'attività attuale:"
+
+#: package/contents/ui/configGeneral.qml:119
+#, kde-format
+msgctxt ""
+"@label Start of the sentence 'Selecting current virtual desktop does nothing/"
+"shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "Selezione del desktop virtuale attuale:"
+
+#: package/contents/ui/configGeneral.qml:122
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop does nothing'"
+msgid "Does nothing"
+msgstr "Non fa niente"
+
+#: package/contents/ui/configGeneral.qml:130
+#, kde-format
+msgctxt ""
+"option:check completes the sentence 'Selecting current activity/virtual "
+"desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "Mostra il desktop"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "...e %1 altra finestra"
+msgstr[1] "...e %1 altre finestre"
+
+#: package/contents/ui/main.qml:344
+#, kde-format
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 finestra:"
+msgstr[1] "%1 finestre:"
+
+#: package/contents/ui/main.qml:356
+#, kde-format
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 Minimized Window:"
+msgstr[1] "%1 finestre minimizzate:"
+
+#: package/contents/ui/main.qml:432
+#, kde-format
+msgid "Desktop %1"
+msgstr "Desktop %1"
+
+#: package/contents/ui/main.qml:433
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr "Passa a %1"
+
+#: package/contents/ui/main.qml:577
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr "Mostra il gestore delle attività"
+
+#: package/contents/ui/main.qml:583
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "Aggiungi desktop virtuale"
+
+#: package/contents/ui/main.qml:589
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "Rimuovi desktop virtuale"
+
+#: package/contents/ui/main.qml:596
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "&Configura le attività…"
+
+#: package/contents/ui/main.qml:601
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "Configura desktop virtuali..."
+
+#~ msgid "Activate %1"
+#~ msgstr "Attiva %1"
+
+#~ msgid "Icons"
+#~ msgstr "Icone"
+
+#~ msgid "Configure Desktops..."
+#~ msgstr "Configura i desktop..."
+
+#~ msgid "Shows the dashboard"
+#~ msgstr "Mostra il quadro degli strumenti"
+
+#~ msgid "Display icons:"
+#~ msgstr "Mostra icone:"
+
+#~ msgid "&Add Virtual Desktop"
+#~ msgstr "&Aggiungi desktop virtuale"
+
+#~ msgid "&Remove Last Virtual Desktop"
+#~ msgstr "&Rimuovi l'ultimo desktop virtuale"
+
+#~ msgid "Configure Pager"
+#~ msgstr "Configura cambiadesktop"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Numero di colonne:"
+
+#~ msgid "Number of rows:"
+#~ msgstr "Numero di righe:"
+
+#~ msgid "Change the number of rows"
+#~ msgstr "Cambia il numero di righe"
+
+#~ msgid "buttonGroupText"
+#~ msgstr "buttonGroupText"
+
+#~ msgid "buttonGroupAction"
+#~ msgstr "buttonGroupAction"
+
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgid "What will appear when the mouse is over a desktop miniature"
+#~ msgstr "Cosa succede quando il mouse è sopra una miniatura desktop"

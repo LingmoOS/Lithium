@@ -1,4 +1,4 @@
-# translation of libplasma.po to Slovak
+# translation of liblingmo.po to Slovak
 # Roman Paholik <wizzardsk@gmail.com>, 2012, 2013, 2014, 2015, 2016.
 # Mthw <jari_45@hotmail.com>, 2019.
 # Matej Mrenica <matejm98mthw@gmail.com>, 2019, 2020, 2021, 2022, 2023.
@@ -6,7 +6,7 @@
 # SPDX-FileCopyrightText: 2025 Lucia Mrenica <lucia.mrenica@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: libplasma\n"
+"Project-Id-Version: liblingmo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-25 02:35+0000\n"
 "PO-Revision-Date: 2025-04-25 15:28+0200\n"

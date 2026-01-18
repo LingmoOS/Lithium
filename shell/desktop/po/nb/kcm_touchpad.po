@@ -1,0 +1,344 @@
+# Translation of kcm_touchpad to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-04-04 13:33+0200\n"
+"Last-Translator: Martin Hansen <mh306602@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.12.3\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:59
+#, kde-format
+msgid "Querying input devices failed. Please reopen this settings module."
+msgstr ""
+"Feil ved søk etter innenheter. Prøv å åpne denne innstillingsmodulen på nytt."
+
+#: backends/kwin_wayland/kwinwaylandbackend.cpp:74
+#, kde-format
+msgid "Critical error on reading fundamental device infos for touchpad %1."
+msgstr "Kritisk feil ved lasting av fundamentale enhetsinfo for styreplata %1."
+
+#: backends/x11/xlibbackend.cpp:69
+#, kde-format
+msgid "Cannot connect to X server"
+msgstr "Klarte ikke koble til X-tjeneren"
+
+#: backends/x11/xlibbackend.cpp:80 ui/main.qml:59
+#, kde-format
+msgid "No touchpad found"
+msgstr "Fant ingen styreplate"
+
+#: backends/x11/xlibbackend.cpp:120
+#, kde-format
+msgid "Cannot apply touchpad configuration"
+msgstr "Klarte ikke ta i bruk styreplate-oppsettet"
+
+#: backends/x11/xlibbackend.cpp:134
+#, kde-format
+msgid "Cannot read touchpad configuration"
+msgstr "Klarte ikke lese styreplate-oppsettet"
+
+#: backends/x11/xlibbackend.cpp:147
+#, kde-format
+msgid "Cannot read default touchpad configuration"
+msgstr "Klarte ikke lese standard styreplate-oppsett"
+
+#: kcm.cpp:107
+#, kde-format
+msgid ""
+"Error while loading values. See logs for more information. Please restart "
+"this configuration module."
+msgstr ""
+"Feil ved innlesing av data. Se loggen for mer informasjon. Prøv å starte "
+"oppsettsmodulen på nytt."
+
+#: kcm.cpp:110
+#, kde-format
+msgid "No touchpad found. Connect touchpad now."
+msgstr "Fant ingen styreplate. Prøv å koble den til."
+
+#: kcm.cpp:119
+#, kde-format
+msgid ""
+"Not able to save all changes. See logs for more information. Please restart "
+"this configuration module and try again."
+msgstr ""
+"Klarte ikke lagre alle endringene. Se loggen for mer informasjon. Prøv å "
+"starte oppsettsmodulen på nytt og prøv igjen."
+
+#: kcm.cpp:138
+#, kde-format
+msgid ""
+"Error while loading default values. Failed to set some options to their "
+"default values."
+msgstr ""
+"Klarte ikke laste standardverdiene. Noen av verdiene kunne ikke settes til "
+"standardverdier."
+
+#: kcm.cpp:154
+#, kde-format
+msgid ""
+"Error while adding newly connected device. Please reconnect it and restart "
+"this configuration module."
+msgstr ""
+"Klarte ikke legge til nylig tilkoblet enhet. Prøv og koble den til en gang "
+"til, og start så oppsettsmodulen på nytt."
+
+#: kcm.cpp:169
+#, kde-format
+msgid "Touchpad disconnected. Closed its setting dialog."
+msgstr "Styreplata er koblet fra, og innstillingsvinduet blir derfor lukket."
+
+#: kcm.cpp:171
+#, kde-format
+msgid "Touchpad disconnected. No other touchpads found."
+msgstr "Styreplata er koblet fra. Fant ingen andre styreplater."
+
+#: ui/main.qml:60
+#, kde-format
+msgid "Connect an external touchpad"
+msgstr "Koblet til en ekstern styreplate"
+
+#: ui/main.qml:75
+#, kde-format
+msgid "Device:"
+msgstr "Enhet:"
+
+#: ui/main.qml:100
+#, kde-format
+msgid "General:"
+msgstr "Generelt:"
+
+#: ui/main.qml:101
+#, kde-format
+msgid "Device enabled"
+msgstr "Enhet tilgjengelig"
+
+#: ui/main.qml:115
+#, kde-format
+msgctxt "@option:check"
+msgid "Disable while mouse is connected"
+msgstr "Slå av når musa er tilkoblet"
+
+#: ui/main.qml:137
+#, kde-format
+msgid "Disable while typing"
+msgstr "Slå av styreplata under tasting"
+
+#: ui/main.qml:160
+#, kde-format
+msgctxt "@label 'this' refers to the 'disable touchpad while typing' feature"
+msgid "This can interfere with video games."
+msgstr "Dette kan ødelegge for dataspill."
+
+#: ui/main.qml:170
+#, kde-format
+msgid "Left-handed mode"
+msgstr "Venstrehåndsmodus"
+
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@option:check"
+msgid "Press left and right buttons to middle-click"
+msgstr "Trykk på venstre- og høyreknappen samtidig for midtklikk"
+
+#: ui/main.qml:199
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Activating this setting increases click latency by 50ms. The extra delay is "
+"needed to correctly detect simultaneous left and right button presses."
+msgstr ""
+"Hvis du slår på denne funksjonen, blir alle museklikkene forsinket med 50 "
+"ms. Denne forsinkelsen trengs for å kunne oppdage «samtidige» venstre- og "
+"høyreklikk."
+
+#: ui/main.qml:209
+#, kde-format
+msgid "Pointer speed:"
+msgstr "Pekerhastighet:"
+
+#: ui/main.qml:289
+#, kde-format
+msgid "Enable pointer acceleration"
+msgstr "Slå på pekerakselerasjon:"
+
+#: ui/main.qml:304
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"When enabled, pointer travel distance increases with faster movement speed."
+msgstr "Når i bruk, så vil pekerekkevidden øke med raskere musebevegelser."
+
+#: ui/main.qml:314
+#, kde-format
+msgid "Scrolling speed:"
+msgstr "Rullehastighet:"
+
+#: ui/main.qml:365
+#, kde-format
+msgctxt "Slower Scroll"
+msgid "Slower"
+msgstr "Saktere"
+
+#: ui/main.qml:372
+#, kde-format
+msgctxt "Faster Scroll Speed"
+msgid "Faster"
+msgstr "Raskere"
+
+#: ui/main.qml:380
+#, kde-format
+msgid "Scrolling:"
+msgstr "Rulling:"
+
+#: ui/main.qml:399
+#, kde-format
+msgid "Two fingers"
+msgstr "To fingre"
+
+#: ui/main.qml:406
+#, kde-format
+msgid "Touchpad edges"
+msgstr "Styreplate-kanter"
+
+#: ui/main.qml:414
+#, kde-format
+msgid "Invert scroll direction (Natural scrolling)"
+msgstr "Omvendt rulleretning (naturlig rulling)"
+
+#: ui/main.qml:428
+#, kde-format
+msgid "Disable horizontal scrolling"
+msgstr "Slå av vannrett rulling"
+
+#: ui/main.qml:448
+#, kde-format
+msgctxt "@label for checkbox, tap-to-click"
+msgid "Tapping:"
+msgstr "Trykking:"
+
+#: ui/main.qml:449
+#, kde-format
+msgctxt "@option:check"
+msgid "Tap-to-click"
+msgstr "Trykk for å klikke"
+
+#: ui/main.qml:465
+#, kde-format
+msgid "Tap-and-drag"
+msgstr "Trykk-og-dra"
+
+#: ui/main.qml:478
+#, kde-format
+msgctxt "@info:tooltip from ContextualHelpButton"
+msgid ""
+"Tap, then tap and immediately slide finger over the touchpad to drag. Lift "
+"finger to drop."
+msgstr ""
+
+#: ui/main.qml:485
+#, kde-format
+msgid "Allow briefly lifting finger during tap-and-drag"
+msgstr ""
+
+#: ui/main.qml:499
+#, kde-format
+msgid "Two-finger tap:"
+msgstr "Tofingertrykk:"
+
+#: ui/main.qml:519
+#, kde-format
+msgid "Right-click (three-finger tap to middle-click)"
+msgstr "Høyreklikk (trefingertrykk for midtklikk)"
+
+#: ui/main.qml:520
+#, kde-format
+msgid "Right-click"
+msgstr "Høyreklikk"
+
+#: ui/main.qml:528
+#, kde-format
+msgid "Middle-click (three-finger tap to right-click)"
+msgstr "Midtklikk (trefingertrykk for høyreklikk)"
+
+#: ui/main.qml:529
+#, kde-format
+msgid "Middle-click"
+msgstr "Midtklikk"
+
+#: ui/main.qml:541
+#, kde-format
+msgctxt ""
+"@label for radiobutton group, configure right-click with touch-pad "
+"integrated button (pressing into the touchpad)"
+msgid "Integrated right-click:"
+msgstr "Integrert høyreklikking:"
+
+#: ui/main.qml:562
+#, kde-format
+msgctxt "@option:radio touchpad integrated right-click"
+msgid "Press bottom-right corner"
+msgstr "Trykk nederst til høyre"
+
+#: ui/main.qml:577
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing both bottom corners."
+msgstr "Midtklikk ved å trykke på begge nederste hjørner samtidig."
+
+#: ui/main.qml:578
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing bottom center."
+msgstr "Midtklikk ved å trykke nederst i midten."
+
+#: ui/main.qml:586
+#, kde-format
+msgctxt "@option:radio touchpad integrated right-click"
+msgid "Press touchpad with two fingers"
+msgstr "Trykk på styreplata med to fingre"
+
+#: ui/main.qml:601
+#, kde-format
+msgctxt "@info shown below radio button"
+msgid "Middle-click by pressing with three fingers."
+msgstr "Midtklikk ved å trykke med tre fingre."
+
+#: ui/main.qml:610
+#, kde-format
+msgctxt ""
+"@label for radiobutton group, configure middle-click with touch-pad "
+"integrated button (pressing into the touchpad)"
+msgid "Integrated middle-click:"
+msgstr "Integrert midtklikk:"
+
+#: ui/main.qml:631
+#, kde-format
+msgctxt "@option:radio touchpad integrated middle-click"
+msgid "Press bottom middle edge"
+msgstr "Trykk nederst på midtkanten"
+
+#: ui/main.qml:638
+#, kde-format
+msgctxt "@option:radio touchpad integrated middle-click"
+msgid "Press bottom left and bottom right corners"
+msgstr "Trykk nederste venstre- og høyreknappe hjørne"
+
+#: ui/main.qml:645
+#, kde-format
+msgctxt "@option:check touchpad integrated middle-click"
+msgid "Press touchpad with three fingers"
+msgstr "Trykk på styreplata med tre fingre"

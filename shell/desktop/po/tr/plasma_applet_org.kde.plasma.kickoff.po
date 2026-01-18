@@ -1,0 +1,355 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017, 2021.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-08-27 09:11+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.0\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Sık Kullanılanlardan Kaldır"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Sık Kullanılanlara Ekle"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Yalnızca Geçerli Etkinlikte"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Sık Kullanılanlarda Göster"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Genel"
+
+#: ConfigGeneral.qml:48
+#, kde-format
+msgid "Icon:"
+msgstr "Simge:"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Uygulama Başlatıcısı Simgesini Değiştir"
+
+#: ConfigGeneral.qml:55
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"Geçerli simge %1. Menüyü açıp geçerli simgeyi değiştirmek veya öntanımlı "
+"simgeye geri dönmek için tıklayın."
+
+#: ConfigGeneral.qml:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "Simge adı “%1”"
+
+#: ConfigGeneral.qml:94
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Seç…"
+
+#: ConfigGeneral.qml:96
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Uygulama Başlatıcısı için bir simge seç"
+
+#: ConfigGeneral.qml:100
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Öntanımlı Simgeye Dön"
+
+#: ConfigGeneral.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Simgeyi Kaldır"
+
+#: ConfigGeneral.qml:121
+#, kde-format
+msgid "Show applications as:"
+msgstr "Uygulamayı şöyle göster:"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name only"
+msgstr "Yalnızca ad"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description only"
+msgstr "Yalnızca açıklama"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name (Description)"
+msgstr "Ad (açıklama)"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description (Name)"
+msgstr "Açıklama (ad)"
+
+#: ConfigGeneral.qml:133
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Metin etiketi:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Metin etiketi eklemek için yaz…"
+
+#: ConfigGeneral.qml:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Menü etiketini sıfırla"
+
+#: ConfigGeneral.qml:162
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr "Panel dikeyken bir metin etiketi ayarlanamaz."
+
+#: ConfigGeneral.qml:172
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Genel:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Uygulamaları abecesel olarak sırala"
+
+#: ConfigGeneral.qml:180
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Bu, uygulamaların arama sonuçlarında veya sık kullanılanlar sayfasında nasıl "
+"sıralandığını etkilemez."
+
+#: ConfigGeneral.qml:186
+#, kde-format
+msgid "Use compact list item style"
+msgstr "Sıkışık liste ögesi biçemini kullan"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+msgid "Automatically disabled when in Touch Mode"
+msgstr "Dokunmatik Kip’teyken kendiliğinden devre dışıdır"
+
+#: ConfigGeneral.qml:200
+#, kde-format
+msgid "Highlight newly installed applications"
+msgstr "Yeni kurulan uygulamaları vurgula"
+
+#: ConfigGeneral.qml:205
+#, kde-format
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Üzerine gelindiğinde kenar çubuğu kategorisine geç"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Arama Eklentilerini Yapılandır…"
+
+#: ConfigGeneral.qml:221
+#, kde-format
+msgid "Sidebar position:"
+msgstr "Kenar çubuğu konumu:"
+
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
+#, kde-format
+msgid "Right"
+msgstr "Sağ"
+
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
+#, kde-format
+msgid "Left"
+msgstr "Sol"
+
+#: ConfigGeneral.qml:238
+#, kde-format
+msgid "Show favorites:"
+msgstr "Sık kullanılanları göster:"
+
+#: ConfigGeneral.qml:239
+#, kde-format
+msgctxt "Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "Izgara içinde"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "Liste olarak"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgid "Show other applications:"
+msgstr "Diğer uygulamaları göster:"
+
+#: ConfigGeneral.qml:256
+#, kde-format
+msgctxt "Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "Izgara içinde"
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "Liste olarak"
+
+#: ConfigGeneral.qml:276
+#, kde-format
+msgid "Show buttons for:"
+msgstr "Şunlar için düğmeleri göster:"
+
+#: ConfigGeneral.qml:277 LeaveButtons.qml:171
+#, kde-format
+msgid "Power"
+msgstr "Güç"
+
+#: ConfigGeneral.qml:286 LeaveButtons.qml:171
+#, kde-format
+msgid "Session"
+msgstr "Oturum"
+
+#: ConfigGeneral.qml:295
+#, kde-format
+msgid "Power and session"
+msgstr "Güç ve oturum"
+
+#: ConfigGeneral.qml:304
+#, kde-format
+msgid "Show action button captions"
+msgstr "Eylem düğmesi başlıklarını göster"
+
+#: Footer.qml:101
+#, kde-format
+msgid "Applications"
+msgstr "Uygulamalar"
+
+#: Footer.qml:117
+#, kde-format
+msgid "Places"
+msgstr "Yerler"
+
+#: FullRepresentation.qml:154
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Eşleşme yok"
+
+#: Header.qml:86
+#, kde-format
+msgid "Open user settings"
+msgstr "Kullanıcı ayarlarını aç"
+
+#: Header.qml:266
+#, kde-format
+msgid "Keep Open"
+msgstr "Açık tut"
+
+#: KickoffGridDelegate.qml:60 KickoffListDelegate.qml:119
+#, kde-format
+msgctxt "Newly installed app, badge, keep short"
+msgid "New!"
+msgstr "Yeni!"
+
+#: KickoffGridDelegate.qml:61 KickoffListDelegate.qml:121
+#, kde-format
+msgid "Newly installed application"
+msgstr "Yeni kurulmuş uygulama"
+
+#: KickoffGridView.qml:102
+#, kde-format
+msgid "Grid with %1 rows, %2 columns"
+msgstr "%1 satırlı, %2 sütunlu ızgara"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgid "There is a newly installed application in this category"
+msgstr "Bu kategoride yeni kurulmuş bir uygulama var"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgid "More"
+msgstr "Daha Fazla"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgid "Session and Power"
+msgstr "Oturum ve Güç"
+
+#: main.qml:356
+#, kde-format
+msgid "Edit Applications…"
+msgstr "Uygulamaları Düzenle…"
+
+#: PlacesPage.qml:63
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Bilgisayar"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Geçmiş"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Sık Kullanılan"
+
+#~ msgid "Leave"
+#~ msgstr "Ayrıl"

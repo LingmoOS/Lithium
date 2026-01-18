@@ -1,0 +1,56 @@
+# Translation of plasma_applet_org.kde.panel to Norwegian Nynorsk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2024-08-25 12:06+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.11.70\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: ConfigOverlay.qml:304 ConfigOverlay.qml:341
+#, kde-format
+msgid "Remove"
+msgstr "Fjern"
+
+#: ConfigOverlay.qml:314
+#, kde-format
+msgid "Configure…"
+msgstr "Set opp …"
+
+#: ConfigOverlay.qml:325
+#, kde-format
+msgid "Show Alternatives…"
+msgstr "Vis alternativ …"
+
+#: ConfigOverlay.qml:351
+#, kde-format
+msgid "Spacer width"
+msgstr "Mellomromsbreidd"
+
+#: ConfigOverlay.qml:374
+#, kde-format
+msgctxt ""
+"@option:check Whether to allow a spacer widget to fill available space"
+msgid "Flexible size"
+msgstr "Fleksibel storleik"
+
+#: main.qml:453
+#, kde-format
+msgid "Open Panel configuration ui"
+msgstr "Opna brukarflate for paneloppsett"
+
+#: main.qml:460
+#, kde-format
+msgid "Add Widgets…"
+msgstr "Legg til element …"

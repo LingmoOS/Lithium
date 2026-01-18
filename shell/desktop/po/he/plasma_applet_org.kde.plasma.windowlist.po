@@ -1,0 +1,55 @@
+# elkana bardugo <ttv200@gmail.com>, 2016.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+# SPDX-FileCopyrightText: 2025 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.windowlist\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-02-25 07:58+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Lokalize 24.12.2\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "כללי"
+
+#: ConfigGeneral.qml:30
+#, kde-format
+msgid "Show active application's name on Panel button"
+msgstr "הצגת שם היישום הפעיל בכפתור הלוח."
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgid "Only icons can be shown when the Panel is vertical."
+msgstr "אפשר להציג רק סמלים כאשר הלוח אנכי."
+
+#: ConfigGeneral.qml:52
+#, kde-format
+msgid "Not applicable when the widget is on the Desktop."
+msgstr "לא תקף כאשר הווידג׳ט הוא על שולחן העבודה."
+
+#: main.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No open windows"
+msgstr "אין חלונות פתוחים"
+
+#: main.qml:119
+#, kde-format
+msgid "Plasma Desktop"
+msgstr "שולחן העבודה פלזמה"
+
+#~ msgid "On all desktops"
+#~ msgstr "על כל שולחנות העבודה"
+
+#~ msgid "Window List"
+#~ msgstr "רשימת חלונות"

@@ -1,0 +1,7 @@
+usr/include/Plasma/
+usr/include/PlasmaQuick/
+usr/lib/*/cmake/Plasma/
+usr/lib/*/cmake/PlasmaQuick/
+usr/lib/*/libLingmo.so
+usr/lib/*/libLingmoQuick.so
+usr/share/kdevappwizard/templates/

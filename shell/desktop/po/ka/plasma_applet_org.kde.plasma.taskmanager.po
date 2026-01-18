@@ -1,0 +1,939 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-08-12 05:13+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: backend.cpp:284
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] "კიდევ %1 ადგილი…"
+msgstr[1] "კიდევ %1 ადგილი…"
+
+#: backend.cpp:368
+#, kde-format
+msgid "Recent Downloads"
+msgstr "ახლახანს გადმოწერილები"
+
+#: backend.cpp:370
+#, kde-format
+msgid "Recent Connections"
+msgstr "ახლახანს მიერთებული"
+
+#: backend.cpp:372
+#, kde-format
+msgid "Recent Places"
+msgstr "ბოლოს ნანახი ადგილები"
+
+#: backend.cpp:381
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr "ახლახანს გადმოწერილების დავიწყება"
+
+#: backend.cpp:383
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr "ახლახანს მიერთებულების დავიწყება"
+
+#: backend.cpp:385
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr "ბოლოს ნანახი ადგილების დავიწყება"
+
+#: backend.cpp:387
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "ბოლო ფაილების დავიწყება"
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "გარემოს იერსახე"
+
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Behavior"
+msgstr "ქცევა"
+
+#: package/contents/ui/AudioStream.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "დადუმების გამორთვა"
+
+#: package/contents/ui/AudioStream.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "დადუმება"
+
+#: package/contents/ui/AudioStream.qml:103
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Unmute %1"
+msgstr "დადუმების გამორთვა: %1"
+
+#: package/contents/ui/AudioStream.qml:103
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Mute %1"
+msgstr "დადუმება: %1"
+
+#: package/contents/ui/Badge.qml:52
+#, kde-format
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "—"
+
+#: package/contents/ui/Badge.qml:54
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9,999+"
+
+#: package/contents/ui/ConfigAppearance.qml:48
+#, kde-format
+msgctxt "@label for several checkboxes"
+msgid "General:"
+msgstr "საერთო:"
+
+#: package/contents/ui/ConfigAppearance.qml:49
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show small window previews when hovering over tasks"
+msgstr "ამოცანაზე თაგუნას გადატარებისას ფანჯრების მინიატურის ჩვენება"
+
+#: package/contents/ui/ConfigAppearance.qml:54
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over previews"
+msgstr "სხვა ფანჯრების დამალვა მინიატურებზე თაგუნას გადატარებისას"
+
+#: package/contents/ui/ConfigAppearance.qml:59
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show an indicator when a task is playing audio"
+msgstr "მაჩვენებელი, როცა ამოცანა ხმას უკრავს"
+
+#: package/contents/ui/ConfigAppearance.qml:69
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Mute task when clicking indicator"
+msgstr "ამოცანის დადუმება მაჩვენებელზე დაწკაპუნებისას"
+
+#: package/contents/ui/ConfigAppearance.qml:77
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show media and volume controls in tooltip"
+msgstr "მედიის და ხმის კონტროლის მართვის ელემენტების ჩვენება მინიშნებაზე"
+
+#: package/contents/ui/ConfigAppearance.qml:85
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Fill free space on panel"
+msgstr "პანელზე თავისუფალი სივრცის შევსება"
+
+#: package/contents/ui/ConfigAppearance.qml:97
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Maximum task width:"
+msgstr "ამოცანის მაქსიმალური სიგანე:"
+
+#: package/contents/ui/ConfigAppearance.qml:100
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Narrow"
+msgstr "ვიწრო"
+
+#: package/contents/ui/ConfigAppearance.qml:101
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Medium"
+msgstr "საშუალო"
+
+#: package/contents/ui/ConfigAppearance.qml:102
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Wide"
+msgstr "ფართო"
+
+#: package/contents/ui/ConfigAppearance.qml:113
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-column view:"
+msgstr "მრავალსვეტიანი ხედის გამოყენება:"
+
+#: package/contents/ui/ConfigAppearance.qml:114
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-row view:"
+msgstr "მრავალმწკრივიანი ხედის გამოყენება:"
+
+#: package/contents/ui/ConfigAppearance.qml:120
+#, kde-format
+msgctxt "@option:radio Never use multi-column view for Task Manager"
+msgid "Never"
+msgstr "არასდროს"
+
+#: package/contents/ui/ConfigAppearance.qml:130
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "When panel is low on space and thick enough"
+msgstr "როცა პანელზე ადგილი ცოტაა და ის საკმარისად სქელია"
+
+#: package/contents/ui/ConfigAppearance.qml:140
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "Always when panel is thick enough"
+msgstr "ყოველთვის, როცა პანელი საკმარისად სქელია"
+
+#: package/contents/ui/ConfigAppearance.qml:147
+#, kde-format
+msgctxt "@label:spinbox maximum number of columns for tasks"
+msgid "Maximum columns:"
+msgstr "სვეტების მაქსიმალური რაოდენობა:"
+
+#: package/contents/ui/ConfigAppearance.qml:148
+#, kde-format
+msgctxt "@label:spinbox maximum number of rows for tasks"
+msgid "Maximum rows:"
+msgstr "მწკრივების მაქსიმალური რაოდენობა:"
+
+#: package/contents/ui/ConfigAppearance.qml:158
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Spacing between icons:"
+msgstr "ხატულებს შორის დაშორება:"
+
+#: package/contents/ui/ConfigAppearance.qml:162
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "პატარა"
+
+#: package/contents/ui/ConfigAppearance.qml:166
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "ჩვეულებრივი"
+
+#: package/contents/ui/ConfigAppearance.qml:170
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "დიდი"
+
+#: package/contents/ui/ConfigAppearance.qml:196
+#, kde-format
+msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
+msgid "Automatically set to Large when in Touch mode"
+msgstr "შეხების რეჟიმში ავტომატურად დიდი ზომების დაყენება"
+
+#: package/contents/ui/ConfigBehavior.qml:48
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you're using this setting to work around an application that demands "
+"attention too often, first look for a setting in the app to disable that "
+"behavior. If you don't find one, consider reporting this as a bug to the "
+"app's developer."
+msgstr ""
+"თუ ამ პარამეტრს იყენებთ იმისთვის, რომ გვერდი აუაროთ პროგრამას, რომელიც "
+"ყურადღებას მეტისმეტად ხშირად ითხოვს, ჯერ შეხედეთ პროგრამის პარამეტრებს, თუ "
+"თვითონ მას შეუძლია, ეს გამორთოს. თუ ვერ იპოვეთ, სცადეთ, პროგრამის ავტორის "
+"მიწეროთ."
+
+#: package/contents/ui/ConfigBehavior.qml:64
+#, kde-format
+msgctxt "@label:listbox how to group tasks"
+msgid "Group:"
+msgstr "ჯგუფი:"
+
+#: package/contents/ui/ConfigBehavior.qml:68
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "Do not group"
+msgstr "არ დააჯგუფო"
+
+#: package/contents/ui/ConfigBehavior.qml:69
+#, kde-format
+msgctxt "@item:inlistbox how to group tasks"
+msgid "By program name"
+msgstr "პროგრამის სახელით"
+
+#: package/contents/ui/ConfigBehavior.qml:75
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … cycles through tasks"
+msgid "Clicking grouped task:"
+msgstr "დაჯგუფებულ ამოცანაზე დაწკაპუნება:"
+
+#: package/contents/ui/ConfigBehavior.qml:82
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task cycles through "
+"tasks' "
+msgid "Cycles through tasks"
+msgstr "გადართავს ამოცანებს შორის"
+
+#: package/contents/ui/ConfigBehavior.qml:83
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows small "
+"window previews' "
+msgid "Shows small window previews"
+msgstr "ფანჯრების პატარა გადახედვების ჩვენება"
+
+#: package/contents/ui/ConfigBehavior.qml:84
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows large "
+"window previews' "
+msgid "Shows large window previews"
+msgstr "ფანჯრების დიდი გადახედვების ჩვენება"
+
+#: package/contents/ui/ConfigBehavior.qml:85
+#, kde-format
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows textual "
+"list' "
+msgid "Shows textual list"
+msgstr "ტექსტალური სიის ჩვენება"
+
+#: package/contents/ui/ConfigBehavior.qml:96
+#, kde-format
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"The compositor does not support displaying windows side by side, so a "
+"textual list will be displayed instead."
+msgstr ""
+"კომპოზიტორს არ აქვს ფანჯრების გვერდიგვერდ ჩვენების მხარდაჭერა, ამიტომ მის "
+"ნაცვლად ტექსტალური სია გამოჩნდება."
+
+#: package/contents/ui/ConfigBehavior.qml:106
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Combine into single button"
+msgstr "ერთ ღილაკში გაერთიანება"
+
+#: package/contents/ui/ConfigBehavior.qml:113
+#, kde-format
+msgctxt "@option:check grouped task"
+msgid "Group only when the Task Manager is full"
+msgstr "გაერთიანება, მხოლოდ როცა ამოცანების მმართველი სავსეა"
+
+#: package/contents/ui/ConfigBehavior.qml:125
+#, kde-format
+msgctxt "@label:listbox sort tasks in grouped task"
+msgid "Sort:"
+msgstr "დალაგება:"
+
+#: package/contents/ui/ConfigBehavior.qml:132
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Do not sort"
+msgstr "არ დაალაგო"
+
+#: package/contents/ui/ConfigBehavior.qml:136
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Manually"
+msgstr "ხელით"
+
+#: package/contents/ui/ConfigBehavior.qml:140
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Alphabetically"
+msgstr "ანბანის მიხედვით"
+
+#: package/contents/ui/ConfigBehavior.qml:144
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By desktop"
+msgstr "სამუშაო მაგიდის მიხედვით"
+
+#: package/contents/ui/ConfigBehavior.qml:148
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By activity"
+msgstr "აქტივობის მიხედვით"
+
+#: package/contents/ui/ConfigBehavior.qml:152
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By horizontal window position"
+msgstr "ფანჯრის ჰორიზონტალური პოზიციით"
+
+#: package/contents/ui/ConfigBehavior.qml:163
+#, kde-format
+msgctxt "@option:check configure task sorting"
+msgid "Keep launchers separate"
+msgstr "გამშვებების ცალცალკე გაშვება"
+
+#: package/contents/ui/ConfigBehavior.qml:170
+#, kde-format
+msgctxt "@option:check for icons-and-text task manager"
+msgid "Hide launchers after application startup"
+msgstr "გამშვებების დამალვა აპლიკაციის გაშვების შემდეგ"
+
+#: package/contents/ui/ConfigBehavior.qml:180
+#, kde-format
+msgctxt ""
+"@label for checkbox Part of a sentence: 'Clicking active task minimizes the "
+"task'"
+msgid "Clicking active task:"
+msgstr "აქტიურ ამოცანაზე დაწკაპუნება:"
+
+#: package/contents/ui/ConfigBehavior.qml:181
+#, kde-format
+msgctxt ""
+"@option:check Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "ჩაკეცავს ამოცანას"
+
+#: package/contents/ui/ConfigBehavior.qml:186
+#, kde-format
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Middle-clicking any task:"
+msgstr "შუა-წკაპი ამოცანაზე:"
+
+#: package/contents/ui/ConfigBehavior.qml:190
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "არაფერს აკეთებს"
+
+#: package/contents/ui/ConfigBehavior.qml:191
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window "
+"or group'"
+msgid "Closes window or group"
+msgstr "დახურავს ფანჯარას ან ჯგუფს"
+
+#: package/contents/ui/ConfigBehavior.qml:192
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new "
+"window'"
+msgid "Opens a new window"
+msgstr "ახალ ფანჯარას გახსნის"
+
+#: package/contents/ui/ConfigBehavior.qml:193
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/"
+"restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "ჩაკეცავს/ამოკეცავს ფანჯარას ან ჯგუფს"
+
+#: package/contents/ui/ConfigBehavior.qml:194
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles "
+"grouping'"
+msgid "Toggles grouping"
+msgstr "დაჯგუფების გადართვა"
+
+#: package/contents/ui/ConfigBehavior.qml:195
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to "
+"the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "შემოიტანს მიმდინარე ვირტუალური სამუშაო მაგიდაზე"
+
+#: package/contents/ui/ConfigBehavior.qml:205
+#, kde-format
+msgctxt ""
+"@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles "
+"through tasks/cycles through the selected task's windows'"
+msgid "Scrolling behavior:"
+msgstr "გადახვევა ქცევა:"
+
+#: package/contents/ui/ConfigBehavior.qml:209
+#, kde-format
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
+msgid "Does nothing"
+msgstr "არაფერს აკეთებს"
+
+#: package/contents/ui/ConfigBehavior.qml:210
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all "
+"tasks'"
+msgid "Cycles through all tasks"
+msgstr "გადართავს ყველა ამოცანას შორის"
+
+#: package/contents/ui/ConfigBehavior.qml:211
+#, kde-format
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the "
+"hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
+msgstr "გადართავს მონიშნული ამოცანის ფანჯრებს შორის"
+
+#: package/contents/ui/ConfigBehavior.qml:219
+#, kde-format
+msgctxt "@option:check mouse wheel task cycling"
+msgid "Skip minimized tasks"
+msgstr "ჩაკეცილი ამოცანის გამოტოვება"
+
+#: package/contents/ui/ConfigBehavior.qml:229
+#, kde-format
+msgctxt ""
+"@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only tasks:"
+msgstr "მხოლოდ ამოცანების ჩვენება:"
+
+#: package/contents/ui/ConfigBehavior.qml:230
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current desktop"
+msgstr "მიმდინარე სამუშაო მაგიდიდან"
+
+#: package/contents/ui/ConfigBehavior.qml:235
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current activity"
+msgstr "მიმდინარე აქტივობიდან"
+
+#: package/contents/ui/ConfigBehavior.qml:240
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current screen"
+msgstr "მიმდინარე ეკრანიდან"
+
+#: package/contents/ui/ConfigBehavior.qml:245
+#, kde-format
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "That are minimized"
+msgstr "ჩაკეცილები"
+
+#: package/contents/ui/ConfigBehavior.qml:254
+#, kde-format
+msgctxt ""
+"@label for checkbox, completes sentence: … unhide if window wants attention"
+msgid "When panel is hidden:"
+msgstr "როცა პანელი დამალულია:"
+
+#: package/contents/ui/ConfigBehavior.qml:255
+#, kde-format
+msgctxt "@option:check completes sentence: When panel is hidden"
+msgid "Unhide when a window wants attention"
+msgstr "გამოჩენა, როცა ფანჯარას ყურადღება სჭირდება"
+
+#: package/contents/ui/ConfigBehavior.qml:270
+#, kde-format
+msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
+msgid "New tasks appear:"
+msgstr "ახალი ამოცანები გამოჩნდება:"
+
+#: package/contents/ui/ConfigBehavior.qml:274
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the bottom"
+msgstr "სულ ქვემოთ"
+
+#: package/contents/ui/ConfigBehavior.qml:278
+#: package/contents/ui/ConfigBehavior.qml:297
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the right"
+msgstr "მარჯვნივ"
+
+#: package/contents/ui/ConfigBehavior.qml:280
+#: package/contents/ui/ConfigBehavior.qml:295
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the left"
+msgstr "მარცხნივ"
+
+#: package/contents/ui/ConfigBehavior.qml:291
+#, kde-format
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the top"
+msgstr "სულ ზემოთ"
+
+#: package/contents/ui/ContextMenu.qml:102
+#, kde-format
+msgid "Places"
+msgstr "ადგილები"
+
+#: package/contents/ui/ContextMenu.qml:108
+#, kde-format
+msgid "Recent Files"
+msgstr "ბოლო ფაილები"
+
+#: package/contents/ui/ContextMenu.qml:118
+#, kde-format
+msgid "Actions"
+msgstr "ქმედებები"
+
+#: package/contents/ui/ContextMenu.qml:165
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "წინა აუდიობილიკი"
+
+#: package/contents/ui/ContextMenu.qml:179
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "შეჩერება"
+
+#: package/contents/ui/ContextMenu.qml:179
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "დაკვრა"
+
+#: package/contents/ui/ContextMenu.qml:197
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "შემდეგი აუდიობილიკი"
+
+#: package/contents/ui/ContextMenu.qml:208
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "შეჩერება"
+
+#: package/contents/ui/ContextMenu.qml:228
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "დატოვება"
+
+#: package/contents/ui/ContextMenu.qml:243
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "აღდგენა"
+
+#: package/contents/ui/ContextMenu.qml:268
+#, kde-format
+msgid "Mute"
+msgstr "დადუმება"
+
+#: package/contents/ui/ContextMenu.qml:279
+#, kde-format
+msgid "Open New Window"
+msgstr "ახალ ფანჯრის გახსნა"
+
+#: package/contents/ui/ContextMenu.qml:295
+#, kde-format
+msgid "Move to &Desktop"
+msgstr "სამუშაო მაგიდაზე გადატანა"
+
+#: package/contents/ui/ContextMenu.qml:325
+#, kde-format
+msgid "Move &To Current Desktop"
+msgstr "მიმდინარე სამუშაო მაგიდაზე გადატანა"
+
+#: package/contents/ui/ContextMenu.qml:334
+#, kde-format
+msgid "&All Desktops"
+msgstr "&ყველა სამუშაო მაგიდა"
+
+#: package/contents/ui/ContextMenu.qml:362
+#, kde-format
+msgid "&New Desktop"
+msgstr "&ახალი სამუშაო მაგიდა"
+
+#: package/contents/ui/ContextMenu.qml:382
+#, kde-format
+msgid "Show in &Activities"
+msgstr "აქტივობებში &ჩვენება"
+
+#: package/contents/ui/ContextMenu.qml:406
+#, kde-format
+msgid "Add To Current Activity"
+msgstr "მიმდინარე აქტივობაზე დამატება"
+
+#: package/contents/ui/ContextMenu.qml:416
+#, kde-format
+msgid "All Activities"
+msgstr "ყველა აქტივობა"
+
+#: package/contents/ui/ContextMenu.qml:472
+#, kde-format
+msgid "Move to %1"
+msgstr "%1-ზე გადატანა"
+
+#: package/contents/ui/ContextMenu.qml:498
+#: package/contents/ui/ContextMenu.qml:514
+#, kde-format
+msgid "&Pin to Task Manager"
+msgstr "ამოცანების მმართველზე &მიმაგრება"
+
+#: package/contents/ui/ContextMenu.qml:566
+#, kde-format
+msgid "On All Activities"
+msgstr "ყველა აქტივობაზე"
+
+#: package/contents/ui/ContextMenu.qml:572
+#, kde-format
+msgid "On The Current Activity"
+msgstr "მიმდინარე აქტივობაზე"
+
+#: package/contents/ui/ContextMenu.qml:596
+#, kde-format
+msgid "Unpin from Task Manager"
+msgstr "ამოცანების მმართველზე მიმაგრების მოხსნა"
+
+#: package/contents/ui/ContextMenu.qml:611
+#, kde-format
+msgid "More"
+msgstr "მეტი"
+
+#: package/contents/ui/ContextMenu.qml:620
+#, kde-format
+msgid "&Move"
+msgstr "&გადატანა"
+
+#: package/contents/ui/ContextMenu.qml:629
+#, kde-format
+msgid "Re&size"
+msgstr "&ზომის შეცვლა"
+
+#: package/contents/ui/ContextMenu.qml:643
+#, kde-format
+msgid "Ma&ximize"
+msgstr "&აკეცვა"
+
+#: package/contents/ui/ContextMenu.qml:657
+#, kde-format
+msgid "Mi&nimize"
+msgstr "&ჩაკეცვა"
+
+#: package/contents/ui/ContextMenu.qml:667
+#, kde-format
+msgid "Keep &Above Others"
+msgstr "დანარჩენი ფანჯრების ზემოთ &ქონა"
+
+#: package/contents/ui/ContextMenu.qml:677
+#, kde-format
+msgid "Keep &Below Others"
+msgstr "სხვა ფანჯრების &ქვემოთ ქონა"
+
+#: package/contents/ui/ContextMenu.qml:689
+#, kde-format
+msgid "&Fullscreen"
+msgstr "&მთელ ეკრანზე"
+
+#: package/contents/ui/ContextMenu.qml:701
+#, kde-format
+msgid "&Shade"
+msgstr "&დაჩრდილვა"
+
+#: package/contents/ui/ContextMenu.qml:713
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&No Titlebar and Frame"
+msgstr "&სათაურისა და ჩარჩოს გარეშე"
+
+#: package/contents/ui/ContextMenu.qml:729
+#, kde-format
+msgid "Allow this program to be grouped"
+msgstr "პროგრამების დაჯგუფების ჩართვა"
+
+#: package/contents/ui/ContextMenu.qml:775
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Close All"
+msgstr "ყველას &დახურვა"
+
+#: package/contents/ui/ContextMenu.qml:775
+#, kde-format
+msgid "&Close"
+msgstr "&დახურვა"
+
+#: package/contents/ui/Task.qml:156
+#, kde-format
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "%1-ს გაშვება"
+
+#: package/contents/ui/Task.qml:161
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is %1 new message."
+msgid_plural "There are %1 new messages."
+msgstr[0] "%1 ახალი შეტყობინება."
+msgstr[1] "%1 ახალი შეტყობინება."
+
+#: package/contents/ui/Task.qml:169
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "%1-ის ამოცანის მინიატურის ჩვენება"
+
+#: package/contents/ui/Task.qml:173
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "%1-სთვის ფანჯრების გვერდიგვერდ ჩვენება"
+
+#: package/contents/ui/Task.qml:178
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "%1-სთვის ტექსტუალური სის გახსნა"
+
+#: package/contents/ui/Task.qml:182
+#, kde-format
+msgid "Activate %1"
+msgstr "%1-ის აქტივაცია"
+
+#: package/contents/ui/ToolTipInstance.qml:188
+#, kde-format
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr "ფანჯრის დახურვა"
+
+#: package/contents/ui/ToolTipInstance.qml:438
+#, kde-format
+msgctxt "button to unmute app"
+msgid "Unmute %1"
+msgstr "დადუმების გამორთვა: %1"
+
+#: package/contents/ui/ToolTipInstance.qml:439
+#, kde-format
+msgctxt "button to mute app"
+msgid "Mute %1"
+msgstr "დადუმება: %1"
+
+#: package/contents/ui/ToolTipInstance.qml:457
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "%1-ის ხმის მორგება"
+
+#: package/contents/ui/ToolTipInstance.qml:473
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: package/contents/ui/ToolTipInstance.qml:477
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: package/contents/ui/ToolTipInstance.qml:493
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "%1-ზე"
+
+#: package/contents/ui/ToolTipInstance.qml:496
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "Pinned to all desktops"
+msgstr "ყველა სამუშაო მაგიდაზე მიმაგრება"
+
+#: package/contents/ui/ToolTipInstance.qml:502
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "ხელმისაწვდომია ყველა აქტივობაზე"
+
+#: package/contents/ui/ToolTipInstance.qml:512
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "ასევე ხელმისაწვდომია %1-ზე"
+
+#: package/contents/ui/ToolTipInstance.qml:516
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "ხელმისაწვდომია %1-ზე"
+
+#~ msgctxt ""
+#~ "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
+#~ msgid "Does nothing"
+#~ msgstr "არაფერს აკეთებს"
+
+#~ msgctxt ""
+#~ "@label for checkbox Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Mouse wheel:"
+#~ msgstr "თაგუნას რგოლი:"
+
+#~ msgctxt ""
+#~ "@option:check Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "გადართავს ამოცანებს შორის"
+
+#~ msgctxt "@option:check section General"
+#~ msgid "Use audio indicators to mute tasks"
+#~ msgstr "აუდიოს მაჩვენებლების გამოყენება ამოცანების დასადუმებლად"
+
+#~ msgctxt "@option:check section General"
+#~ msgid "Mark applications that play audio"
+#~ msgstr "იმ ამოცანის დანიშვნა, რომლებიც ხმას გამოსცემენ"
+
+#~ msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "გადართავს ამოცანებს შორის"
+
+#~ msgctxt "1 = number of desktop, 2 = desktop name"
+#~ msgid "&%1 %2"
+#~ msgstr "&%1 %2"
+
+#~ msgid "Always arrange tasks in rows of as many columns"
+#~ msgstr ""
+#~ "ამოცანები ყოველთვის იგივე რაოდენობის მწკრივში დალაგდება, რამდენიც სვეტია"
+
+#~ msgid "Always arrange tasks in columns of as many rows"
+#~ msgstr ""
+#~ "ამოცანები ყოველთვის იგივე რაოდენობის სვეტში დალაგდება, რამდენიც მწკრივია"
+
+#~ msgid ""
+#~ "Tooltips are disabled, so the windows will be displayed side by side "
+#~ "instead."
+#~ msgstr "მინიატურები გათიშულია, ასე რომ ფანჯრები გვერდიგვერდ გამოჩნდებიან."
+
+#~ msgid ""
+#~ "Tooltips are disabled, and the compositor does not support displaying "
+#~ "windows side by side, so a textual list will be displayed instead"
+#~ msgstr ""
+#~ "ინსტრუმენტების მინიშნებები გამორთულია და კომპოზიტორს არ აქვს ფანჯრების "
+#~ "გვერდიგვერდ ჩვენების მხარდაჭერა, ამიტომ მის ნაცვლად ტექსტუალური სია "
+#~ "გამოჩნდება"
+
+#~ msgid "Show tooltips"
+#~ msgstr "მინიშნებების ჩვენება"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows tooltip window "
+#~ "thumbnails' "
+#~ msgid "Shows tooltip window thumbnails"
+#~ msgstr "ფანჯრის მინიატურების ჩვენება"

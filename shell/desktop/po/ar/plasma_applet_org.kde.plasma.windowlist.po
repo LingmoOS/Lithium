@@ -1,0 +1,66 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014.
+# SPDX-FileCopyrightText: 2022, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-03-02 10:38+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "عام"
+
+#: ConfigGeneral.qml:30
+#, kde-format
+msgid "Show active application's name on Panel button"
+msgstr "اعرض اسم التطبيق النشط على زر اللوحة"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgid "Only icons can be shown when the Panel is vertical."
+msgstr "يمكن عرض الرموز فقط عندما تكون اللوحة عمودية."
+
+#: ConfigGeneral.qml:52
+#, kde-format
+msgid "Not applicable when the widget is on the Desktop."
+msgstr "لا ينطبق عندما تكون الأداة على سطح المكتب."
+
+#: main.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No open windows"
+msgstr "لا يوجد نوافذ مفتوحة"
+
+#: main.qml:119
+#, kde-format
+msgid "Plasma Desktop"
+msgstr "سطح مكتب بلازما"
+
+#~ msgid "On all desktops"
+#~ msgstr "على كلّ أسطح المكتب"
+
+#~ msgid "Window List"
+#~ msgstr "قائمة النوافذ"
+
+#~ msgid "Actions"
+#~ msgstr "الإجراءات"
+
+#, fuzzy
+#~| msgid "Desktop"
+#~ msgctxt "%1 is the name of the desktop"
+#~ msgid "Desktop %1"
+#~ msgstr "سطح المكتب"

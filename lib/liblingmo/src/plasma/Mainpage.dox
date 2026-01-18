@@ -1,4 +1,4 @@
-/*! @page libplasma Plasma framework
+/*! @page liblingmo Plasma framework
 
 Plasma framework is the core of the Plasma desktop.  It provides a framework of graphical
 widgets (Plasma::Applet) that can be organised into managed groupings
@@ -27,14 +27,14 @@ Other important classes are:
  - Plasma::View: a QWidget for displaying a containment
  - Plasma::Theme: provides theming support
  - Plasma::Package: provides descriptions of packages containing plugins
-   for libplasma
+   for liblingmo
  - Plasma::Svg and Plasma::FrameSvg: provides themable, cached SVGs
 
 
 The
 <a href="https://techbase.kde.org/Development/Tutorials/Plasma5">Plasma tutorials</a>
 on TechBase provide a good introduction to writing plugins, such as widgets and
-data engines, for libplasma-based applications.
+data engines, for liblingmo-based applications.
 
 @authors
 Aaron Seigo \<aseigo@kde.org\><br>

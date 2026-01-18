@@ -1,4 +1,4 @@
-# translation of libplasma.po to Russian
+# translation of liblingmo.po to Russian
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -16,7 +16,7 @@
 # Alexander Yavorsky <kekcuha@gmail.com>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: libplasma\n"
+"Project-Id-Version: liblingmo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-25 02:35+0000\n"
 "PO-Revision-Date: 2024-09-15 13:46+0300\n"

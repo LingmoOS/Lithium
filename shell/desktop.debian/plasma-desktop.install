@@ -1,0 +1,13 @@
+etc/xdg/autostart/kaccess.desktop
+usr/bin/
+usr/lib/*/libexec/
+usr/lib/*/qt6/plugins/
+usr/lib/*/qt6/qml/org/kde/plasma/
+usr/lib/*/qt6/qml/org/kde/private/
+usr/lib/kf6/kauth/libexec/kcmdatetimehelper
+usr/lib/systemd/user/plasma-kaccess.service
+usr/share/applications/
+usr/share/config.kcfg/
+usr/share/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
+usr/share/metainfo/
+usr/share/qlogging-categories6/kcm*

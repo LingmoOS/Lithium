@@ -59,9 +59,9 @@ PlasmaExtras.ActionTextField {
         source: "search"
     }
 
-    placeholderText: i18nd("libplasma6", "Search…")
+    placeholderText: i18nd("liblingmo6", "Search…")
 
-    Accessible.name: i18nd("libplasma6", "Search")
+    Accessible.name: i18nd("liblingmo6", "Search")
     Accessible.searchEdit: true
 
     focusSequence: StandardKey.Find
@@ -72,7 +72,7 @@ PlasmaExtras.ActionTextField {
             //ltr confusingly refers to the direction of the arrow in the icon, not the text direction which it should be used in
             icon.name: root.effectiveHorizontalAlignment === TextInput.AlignRight ? "edit-clear-locationbar-ltr" : "edit-clear-locationbar-rtl"
             visible: root.text.length > 0
-            text: i18nd("libplasma6", "Clear search")
+            text: i18nd("liblingmo6", "Clear search")
             onTriggered: {
                 root.clear();
                 root.accepted();

@@ -1,4 +1,4 @@
-# Translation of libplasma5.po to Brazilian Portuguese
+# Translation of liblingmo5.po to Brazilian Portuguese
 # Copyright (C) 2013-2019 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -7,7 +7,7 @@
 # SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: libplasma5\n"
+"Project-Id-Version: liblingmo5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-25 02:35+0000\n"
 "PO-Revision-Date: 2025-02-02 02:38-0300\n"

@@ -1,0 +1,357 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2013, 2020, 2021, 2022, 2023, 2024, 2025 Sergiu Bivol <sergiu@cip.md>
+# Ovidiu-Florin Bogdan <ovidiu.b13@gmail.com>, 2015.
+#
+# Viorel-Cătălin Răpițeanu <rapiteanu DOT catalin AT gmail DOT com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-10-03 13:57+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.08.1\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Elimină din favorite"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Adaugă la favorite"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "Pe toate activitățile"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Pe activitatea curentă"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Arată în favorite"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Generale"
+
+#: ConfigGeneral.qml:48
+#, kde-format
+msgid "Icon:"
+msgstr "Pictogramă:"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Schimbă pictograma lansatorului aplicației"
+
+#: ConfigGeneral.qml:55
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"Pictograma actuală e %1. Apăsați pentru a deschide meniul pentru schimbarea "
+"pictogramei actuale sau reinițializarea la cea implicită."
+
+#: ConfigGeneral.qml:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "Denumirea pictogramei e „%1”"
+
+#: ConfigGeneral.qml:94
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Alege…"
+
+#: ConfigGeneral.qml:96
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Alege o pictogramă pentru lansatorul de aplicații"
+
+#: ConfigGeneral.qml:100
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Reinițializează la pictograma implicită"
+
+#: ConfigGeneral.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Elimină pictograma"
+
+#: ConfigGeneral.qml:121
+#, kde-format
+msgid "Show applications as:"
+msgstr "Arată aplicațiile ca:"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name only"
+msgstr "Doar denumirea"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description only"
+msgstr "Doar descrierea"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name (Description)"
+msgstr "Denumire (descriere)"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description (Name)"
+msgstr "Descriere (denumire)"
+
+#: ConfigGeneral.qml:133
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Etichetă textuală:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Tastați aici pentru a adăuga o etichetă textuală"
+
+#: ConfigGeneral.qml:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Reinițializează eticheta meniului"
+
+#: ConfigGeneral.qml:162
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr "Eticheta textuală nu poate fi adăugată când panoul e vertical."
+
+#: ConfigGeneral.qml:172
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Generale:"
+
+#: ConfigGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Sortează aplicațiile alfabetic"
+
+#: ConfigGeneral.qml:180
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Aceasta nu afectează sortarea aplicațiilor în rezultatele căutării sau "
+"pagina cu favorite."
+
+#: ConfigGeneral.qml:186
+#, kde-format
+msgid "Use compact list item style"
+msgstr "Folosește stil compact pentru elementele listei"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+msgid "Automatically disabled when in Touch Mode"
+msgstr "Dezactivată automat în regim tactil"
+
+#: ConfigGeneral.qml:200
+#, kde-format
+msgid "Highlight newly installed applications"
+msgstr "Evidențiază aplicațiile instalate recent"
+
+#: ConfigGeneral.qml:205
+#, kde-format
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Schimbă categoriile barei laterale la planarea deasupra lor"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Configurează extensiile de căutare…"
+
+#: ConfigGeneral.qml:221
+#, kde-format
+msgid "Sidebar position:"
+msgstr "Poziția barei laterale:"
+
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
+#, kde-format
+msgid "Right"
+msgstr "Dreapta"
+
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
+#, kde-format
+msgid "Left"
+msgstr "Stânga"
+
+#: ConfigGeneral.qml:238
+#, kde-format
+msgid "Show favorites:"
+msgstr "Arată favoritele:"
+
+#: ConfigGeneral.qml:239
+#, kde-format
+msgctxt "Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "într-o grilă"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "într-o listă"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgid "Show other applications:"
+msgstr "Arată alte aplicații:"
+
+#: ConfigGeneral.qml:256
+#, kde-format
+msgctxt "Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "într-o grilă"
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "într-o listă"
+
+#: ConfigGeneral.qml:276
+#, kde-format
+msgid "Show buttons for:"
+msgstr "Arată butoane pentru:"
+
+#: ConfigGeneral.qml:277 LeaveButtons.qml:171
+#, kde-format
+msgid "Power"
+msgstr "Alimentare"
+
+#: ConfigGeneral.qml:286 LeaveButtons.qml:171
+#, kde-format
+msgid "Session"
+msgstr "Sesiune"
+
+#: ConfigGeneral.qml:295
+#, kde-format
+msgid "Power and session"
+msgstr "Alimentare și sesiune"
+
+#: ConfigGeneral.qml:304
+#, kde-format
+msgid "Show action button captions"
+msgstr "Arată etichete pentru butoane de acțiune"
+
+#: Footer.qml:101
+#, kde-format
+msgid "Applications"
+msgstr "Aplicații"
+
+#: Footer.qml:117
+#, kde-format
+msgid "Places"
+msgstr "Locuri"
+
+#: FullRepresentation.qml:154
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Nicio potrivire"
+
+#: Header.qml:86
+#, kde-format
+msgid "Open user settings"
+msgstr "Deschide configurările utilizatorului"
+
+#: Header.qml:266
+#, kde-format
+msgid "Keep Open"
+msgstr "Ține deschis"
+
+#: KickoffGridDelegate.qml:60 KickoffListDelegate.qml:119
+#, kde-format
+msgctxt "Newly installed app, badge, keep short"
+msgid "New!"
+msgstr "Nouă!"
+
+#: KickoffGridDelegate.qml:61 KickoffListDelegate.qml:121
+#, kde-format
+msgid "Newly installed application"
+msgstr "Aplicație instalată recent"
+
+#: KickoffGridView.qml:102
+#, kde-format
+msgid "Grid with %1 rows, %2 columns"
+msgstr "Grilă cu %1 rânduri, %2 coloane"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgid "There is a newly installed application in this category"
+msgstr "În această categorie este o aplicație instalată recent"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgid "More"
+msgstr "Mai multe"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgid "Session and Power"
+msgstr "Sesiune și alimentare"
+
+#: main.qml:356
+#, kde-format
+msgid "Edit Applications…"
+msgstr "Modifică aplicații…"
+
+#: PlacesPage.qml:63
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Calculator"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Istoric"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Folosite frecvent"
+
+#~ msgid "Leave"
+#~ msgstr "Pleacă"

@@ -33,30 +33,30 @@ set(platformtheme_SRCS
 
 qt6_add_dbus_interface(platformtheme_SRCS org.kde.StatusNotifierWatcher.xml statusnotifierwatcher_interface)
 kconfig_add_kcfg_files(platformtheme_SRCS renderersettings.kcfgc)
-add_library(KDEPlasmaPlatformTheme6 MODULE)
+add_library(LingmoPlatformTheme MODULE)
 
 # TODO KF6 Port D-Bus menu support
-target_compile_definitions(KDEPlasmaPlatformTheme6 PRIVATE -DKF6_TODO_DBUS_MENUBAR)
+target_compile_definitions(LingmoPlatformTheme PRIVATE -DKF6_TODO_DBUS_MENUBAR)
 
 if (Qt6_VERSION VERSION_GREATER_EQUAL "6.8.0")
     set(private_code_option  "PRIVATE_CODE")
 endif()
-qt6_generate_wayland_protocol_client_sources(KDEPlasmaPlatformTheme6
+qt6_generate_wayland_protocol_client_sources(LingmoPlatformTheme
     ${private_code_option}
     FILES
         ${PLASMA_WAYLAND_PROTOCOLS_DIR}/server-decoration-palette.xml
 )
 if (Qt6_VERSION VERSION_LESS "6.9.0")
-    qt6_generate_wayland_protocol_client_sources(KDEPlasmaPlatformTheme6
+    qt6_generate_wayland_protocol_client_sources(LingmoPlatformTheme
         ${private_code_option}
         FILES
             ${PLASMA_WAYLAND_PROTOCOLS_DIR}/appmenu.xml
     )
 endif()
 
-target_sources(KDEPlasmaPlatformTheme6 PRIVATE ${platformtheme_SRCS})
+target_sources(LingmoPlatformTheme PRIVATE ${platformtheme_SRCS})
 
-target_link_libraries(KDEPlasmaPlatformTheme6
+target_link_libraries(LingmoPlatformTheme
     PRIVATE
         Qt6::Core
         Qt6::Gui
@@ -81,11 +81,11 @@ target_link_libraries(KDEPlasmaPlatformTheme6
         Wayland::Client
 )
 
-target_link_libraries(KDEPlasmaPlatformTheme6 PRIVATE KF6::ColorScheme)
+target_link_libraries(LingmoPlatformTheme PRIVATE KF6::ColorScheme)
 
 if(HAVE_X11)
-  target_link_libraries(KDEPlasmaPlatformTheme6 PRIVATE ${X11_Xcursor_LIB} ${XCB_XCB_LIBRARY})
+  target_link_libraries(LingmoPlatformTheme PRIVATE ${X11_Xcursor_LIB} ${XCB_XCB_LIBRARY})
 endif()
 
-set_target_properties(KDEPlasmaPlatformTheme6 PROPERTIES LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/platformthemes/")
-install(TARGETS KDEPlasmaPlatformTheme6 DESTINATION ${KDE_INSTALL_QTPLUGINDIR}/platformthemes)
+set_target_properties(LingmoPlatformTheme PROPERTIES LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/platformthemes/")
+install(TARGETS LingmoPlatformTheme DESTINATION ${KDE_INSTALL_QTPLUGINDIR}/platformthemes)

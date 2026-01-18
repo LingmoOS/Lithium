@@ -1,4 +1,4 @@
-remove_definitions(-DTRANSLATION_DOMAIN=\"libplasma6\")  # Undo the global domain
+remove_definitions(-DTRANSLATION_DOMAIN=\"liblingmo6\")  # Undo the global domain
 add_definitions(-DTRANSLATION_DOMAIN=\"plasma_containmentactions_test\")
 
 set(plasma_containmentactions_test_SRCS

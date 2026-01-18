@@ -1,6 +1,6 @@
-/*! @page libplasmaquick Plasmoid Interfaces
+/*! @page liblingmoquick Plasmoid Interfaces
 
-libplasmaquick is an internal part of lib plasma.
+liblingmoquick is an internal part of lib plasma.
 
 It should not be used directly, however some classes are exposed to Plasma as attached properties.
 

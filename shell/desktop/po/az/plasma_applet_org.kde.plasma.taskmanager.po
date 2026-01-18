@@ -1,0 +1,1069 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Xəyyam Qocayev <xxmn77@gmail.com>, 2020, 2021, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2023-02-19 16:51+0400\n"
+"Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.2\n"
+
+#: backend.cpp:284
+#, fuzzy, kde-format
+#| msgctxt "Show all user Places"
+#| msgid "%1 more Place"
+#| msgid_plural "%1 more Places"
+msgctxt "Show all user Places"
+msgid "%1 more Place…"
+msgid_plural "%1 more Places…"
+msgstr[0] "Daha %1 Giriş Nöqtəsi"
+msgstr[1] "Daha %1 Giriş Nöqtəsi"
+
+#: backend.cpp:368
+#, kde-format
+msgid "Recent Downloads"
+msgstr "Sonuncu endirmələr"
+
+#: backend.cpp:370
+#, kde-format
+msgid "Recent Connections"
+msgstr "Sonuncu qoşulmalar"
+
+#: backend.cpp:372
+#, kde-format
+msgid "Recent Places"
+msgstr "Sonuncu yerlər"
+
+#: backend.cpp:381
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Downloads"
+msgstr "Sonuncu endirmələri unutmaq"
+
+#: backend.cpp:383
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Connections"
+msgstr "Sonuncu qoşulmaları unutmaq"
+
+#: backend.cpp:385
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Places"
+msgstr "Sonuncu yerləri unutmaq"
+
+#: backend.cpp:387
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Forget Recent Files"
+msgstr "Sonuncu faylları unutmaq"
+
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "Appearance"
+msgstr "Xarici görünüş"
+
+#: package/contents/config/config.qml:18
+#, kde-format
+msgid "Behavior"
+msgstr "Davranış"
+
+#: package/contents/ui/AudioStream.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "Səsi açın"
+
+#: package/contents/ui/AudioStream.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "Susdurun"
+
+#: package/contents/ui/AudioStream.qml:103
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Unmute %1"
+msgstr "%1 səsini açın"
+
+#: package/contents/ui/AudioStream.qml:103
+#, kde-format
+msgctxt "@info:tooltip %1 is the window title"
+msgid "Mute %1"
+msgstr "%1 susdurun"
+
+#: package/contents/ui/Badge.qml:52
+#, kde-format
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "—"
+
+#: package/contents/ui/Badge.qml:54
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9,999+"
+
+#: package/contents/ui/ConfigAppearance.qml:48
+#, fuzzy, kde-format
+#| msgid "General:"
+msgctxt "@label for several checkboxes"
+msgid "General:"
+msgstr "Əsas:"
+
+#: package/contents/ui/ConfigAppearance.qml:49
+#, fuzzy, kde-format
+#| msgid "Show small window previews when hovering over Tasks"
+msgctxt "@option:check section General"
+msgid "Show small window previews when hovering over tasks"
+msgstr "Kursor tapşırığın üzərində dayandıqda pəncərəyə önbaxışı göstərmək"
+
+#: package/contents/ui/ConfigAppearance.qml:54
+#, fuzzy, kde-format
+#| msgid "Hide other windows when hovering over previews"
+msgctxt "@option:check section General"
+msgid "Hide other windows when hovering over previews"
+msgstr "Kursor pəncərəyə önbaxış üzərində durduqda başqa pəncərələri gizlətmək"
+
+#: package/contents/ui/ConfigAppearance.qml:59
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show an indicator when a task is playing audio"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:69
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Mute task when clicking indicator"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:77
+#, kde-format
+msgctxt "@option:check section General"
+msgid "Show media and volume controls in tooltip"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:85
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Fill free space on Panel"
+msgctxt "@option:check section General"
+msgid "Fill free space on panel"
+msgstr "Paneldəki boş yeri doldurun"
+
+#: package/contents/ui/ConfigAppearance.qml:97
+#, fuzzy, kde-format
+#| msgid "Maximum rows:"
+msgctxt "@label:listbox"
+msgid "Maximum task width:"
+msgstr "Maksimum sətirlər:"
+
+#: package/contents/ui/ConfigAppearance.qml:100
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:101
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:102
+#, kde-format
+msgctxt "@item:inlistbox how wide a task item should be"
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:113
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-column view:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:114
+#, kde-format
+msgctxt ""
+"@label for radio button group, completes sentence: … when panel is low on "
+"space etc."
+msgid "Use multi-row view:"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:120
+#, kde-format
+msgctxt "@option:radio Never use multi-column view for Task Manager"
+msgid "Never"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:130
+#, kde-format
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "When panel is low on space and thick enough"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:140
+#, fuzzy, kde-format
+#| msgid "When panel is hidden:"
+msgctxt "@option:radio completes sentence: Use multi-column/row view"
+msgid "Always when panel is thick enough"
+msgstr "Panel gizləndikdə:"
+
+#: package/contents/ui/ConfigAppearance.qml:147
+#, fuzzy, kde-format
+#| msgid "Maximum columns:"
+msgctxt "@label:spinbox maximum number of columns for tasks"
+msgid "Maximum columns:"
+msgstr "Maksimum sütunlar:"
+
+#: package/contents/ui/ConfigAppearance.qml:148
+#, fuzzy, kde-format
+#| msgid "Maximum rows:"
+msgctxt "@label:spinbox maximum number of rows for tasks"
+msgid "Maximum rows:"
+msgstr "Maksimum sətirlər:"
+
+#: package/contents/ui/ConfigAppearance.qml:158
+#, fuzzy, kde-format
+#| msgid "Spacing between icons:"
+msgctxt "@label:listbox"
+msgid "Spacing between icons:"
+msgstr "Nişanlar arasındakı boşluq:"
+
+#: package/contents/ui/ConfigAppearance.qml:162
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Small"
+msgstr "Kiçik"
+
+#: package/contents/ui/ConfigAppearance.qml:166
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Normal"
+msgstr "Normal"
+
+#: package/contents/ui/ConfigAppearance.qml:170
+#, kde-format
+msgctxt "@item:inlistbox Icon spacing"
+msgid "Large"
+msgstr "Böyük"
+
+#: package/contents/ui/ConfigAppearance.qml:196
+#, fuzzy, kde-format
+#| msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
+#| msgid "Automatically set to Large when in Touch Mode"
+msgctxt "@info:usagetip under a set of radio buttons when Touch Mode is on"
+msgid "Automatically set to Large when in Touch mode"
+msgstr "Planşet rejimində avtomatik \"Böyük\" ölçü təyin edilsin"
+
+#: package/contents/ui/ConfigBehavior.qml:48
+#, kde-format
+msgctxt "@info"
+msgid ""
+"If you're using this setting to work around an application that demands "
+"attention too often, first look for a setting in the app to disable that "
+"behavior. If you don't find one, consider reporting this as a bug to the "
+"app's developer."
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:64
+#, fuzzy, kde-format
+#| msgid "Group:"
+msgctxt "@label:listbox how to group tasks"
+msgid "Group:"
+msgstr "Qruplaşdırmaq:"
+
+#: package/contents/ui/ConfigBehavior.qml:68
+#, fuzzy, kde-format
+#| msgid "Do not group"
+msgctxt "@item:inlistbox how to group tasks"
+msgid "Do not group"
+msgstr "Qruplaşdırmamaq"
+
+#: package/contents/ui/ConfigBehavior.qml:69
+#, fuzzy, kde-format
+#| msgid "By program name"
+msgctxt "@item:inlistbox how to group tasks"
+msgid "By program name"
+msgstr "Proqram adına görə"
+
+#: package/contents/ui/ConfigBehavior.qml:75
+#, fuzzy, kde-format
+#| msgid "Clicking grouped task:"
+msgctxt "@label:listbox completes sentence like: … cycles through tasks"
+msgid "Clicking grouped task:"
+msgstr "Qruplaşdırılmış tapşırığı klikləyərək:"
+
+#: package/contents/ui/ConfigBehavior.qml:82
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Completes the sentence 'Clicking grouped task cycles through tasks' "
+#| msgid "Cycles through tasks"
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task cycles through "
+"tasks' "
+msgid "Cycles through tasks"
+msgstr "Tapşırıqlar arası keçid"
+
+#: package/contents/ui/ConfigBehavior.qml:83
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Completes the sentence 'Clicking grouped task shows tooltip window "
+#| "thumbnails' "
+#| msgid "Shows small window previews"
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows small "
+"window previews' "
+msgid "Shows small window previews"
+msgstr "Pəncərəyə kiçik önbaxışları göstərir"
+
+#: package/contents/ui/ConfigBehavior.qml:84
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Completes the sentence 'Clicking grouped task shows windows side by side' "
+#| msgid "Shows large window previews"
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows large "
+"window previews' "
+msgid "Shows large window previews"
+msgstr "Pəncərəyə geniş önbaxışları göstərir"
+
+#: package/contents/ui/ConfigBehavior.qml:85
+#, fuzzy, kde-format
+#| msgctxt "Completes the sentence 'Clicking grouped task shows textual list' "
+#| msgid "Shows textual list"
+msgctxt ""
+"@item:inlistbox Completes the sentence 'Clicking grouped task shows textual "
+"list' "
+msgid "Shows textual list"
+msgstr "Mətn siyahısını göstərir"
+
+#: package/contents/ui/ConfigBehavior.qml:96
+#, fuzzy, kde-format
+#| msgid ""
+#| "The compositor does not support displaying windows side by side, so a "
+#| "textual list will be displayed instead."
+msgctxt "@info displayed as InlineMessage"
+msgid ""
+"The compositor does not support displaying windows side by side, so a "
+"textual list will be displayed instead."
+msgstr ""
+"Effekt təminatı pəncərələrin yan-yana göstərilməsini dəstəkləmir, bu halda "
+"onun əvəzinə mətn siyahısı göstəriləcək."
+
+#: package/contents/ui/ConfigBehavior.qml:106
+#, fuzzy, kde-format
+#| msgid "Combine into single button"
+msgctxt "@option:check grouped task"
+msgid "Combine into single button"
+msgstr "Bir düymədə birləşdirmək"
+
+#: package/contents/ui/ConfigBehavior.qml:113
+#, fuzzy, kde-format
+#| msgid "Group only when the Task Manager is full"
+msgctxt "@option:check grouped task"
+msgid "Group only when the Task Manager is full"
+msgstr "Yalnız Tapşırıq meneceri dolmadan qruplaşdırmamaq"
+
+#: package/contents/ui/ConfigBehavior.qml:125
+#, fuzzy, kde-format
+#| msgid "Sort:"
+msgctxt "@label:listbox sort tasks in grouped task"
+msgid "Sort:"
+msgstr "Çeşidləmək:"
+
+#: package/contents/ui/ConfigBehavior.qml:132
+#, fuzzy, kde-format
+#| msgid "Do not sort"
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Do not sort"
+msgstr "Çeşidləməmək"
+
+#: package/contents/ui/ConfigBehavior.qml:136
+#, fuzzy, kde-format
+#| msgid "Manually"
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Manually"
+msgstr "Əl ilə"
+
+#: package/contents/ui/ConfigBehavior.qml:140
+#, fuzzy, kde-format
+#| msgid "Alphabetically"
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "Alphabetically"
+msgstr "Əlifba sırası ilə"
+
+#: package/contents/ui/ConfigBehavior.qml:144
+#, fuzzy, kde-format
+#| msgid "By desktop"
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By desktop"
+msgstr "İş masasına görə"
+
+#: package/contents/ui/ConfigBehavior.qml:148
+#, fuzzy, kde-format
+#| msgid "By activity"
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By activity"
+msgstr "İş otağına görə"
+
+#: package/contents/ui/ConfigBehavior.qml:152
+#, kde-format
+msgctxt "@item:inlistbox sort tasks in grouped task"
+msgid "By horizontal window position"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:163
+#, fuzzy, kde-format
+#| msgid "Keep launchers separate"
+msgctxt "@option:check configure task sorting"
+msgid "Keep launchers separate"
+msgstr "Başalama düyməsi ilə yerdəyişmə etməmək"
+
+#: package/contents/ui/ConfigBehavior.qml:170
+#, kde-format
+msgctxt "@option:check for icons-and-text task manager"
+msgid "Hide launchers after application startup"
+msgstr ""
+
+#: package/contents/ui/ConfigBehavior.qml:180
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Clicking active task minimizes the task'"
+#| msgid "Clicking active task:"
+msgctxt ""
+"@label for checkbox Part of a sentence: 'Clicking active task minimizes the "
+"task'"
+msgid "Clicking active task:"
+msgstr "Aktiv tapşırığı klikləyərək:"
+
+#: package/contents/ui/ConfigBehavior.qml:181
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Clicking active task minimizes the task'"
+#| msgid "Minimizes the task"
+msgctxt ""
+"@option:check Part of a sentence: 'Clicking active task minimizes the task'"
+msgid "Minimizes the task"
+msgstr "Tapşırığı endirin"
+
+#: package/contents/ui/ConfigBehavior.qml:186
+#, fuzzy, kde-format
+#| msgid "Middle-clicking any task:"
+msgctxt "@label:listbox completes sentence like: … does nothing"
+msgid "Middle-clicking any task:"
+msgstr "Hər hansı tapşırığa orta klik:"
+
+#: package/contents/ui/ConfigBehavior.qml:190
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
+#| msgid "Does nothing"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task does nothing'"
+msgid "Does nothing"
+msgstr "Edilməli bir şey yoxdur"
+
+#: package/contents/ui/ConfigBehavior.qml:191
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Part of a sentence: 'Middle-clicking any task closes window or group'"
+#| msgid "Closes window or group"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task closes window "
+"or group'"
+msgid "Closes window or group"
+msgstr "Pəncərəni və ya qrupu bağlayır"
+
+#: package/contents/ui/ConfigBehavior.qml:192
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Middle-clicking any task opens a new window'"
+#| msgid "Opens a new window"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task opens a new "
+"window'"
+msgid "Opens a new window"
+msgstr "Yeni pəncərə açın"
+
+#: package/contents/ui/ConfigBehavior.qml:193
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Part of a sentence: 'Middle-clicking any task minimizes/restores window "
+#| "or group'"
+#| msgid "Minimizes/Restores window or group"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task minimizes/"
+"restores window or group'"
+msgid "Minimizes/Restores window or group"
+msgstr "Pəncərəni və ya pəncərələr qruplarını Yığır/Açır"
+
+#: package/contents/ui/ConfigBehavior.qml:194
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Middle-clicking any task toggles grouping'"
+#| msgid "Toggles grouping"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task toggles "
+"grouping'"
+msgid "Toggles grouping"
+msgstr "Qrupları dəyişdirir"
+
+#: package/contents/ui/ConfigBehavior.qml:195
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Part of a sentence: 'Middle-clicking any task brings it to the current "
+#| "virtual desktop'"
+#| msgid "Brings it to the current virtual desktop"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Middle-clicking any task brings it to "
+"the current virtual desktop'"
+msgid "Brings it to the current virtual desktop"
+msgstr "Cari Virtual İş masasına gətirir"
+
+#: package/contents/ui/ConfigBehavior.qml:205
+#, fuzzy, kde-format
+#| msgid "Show only tasks:"
+msgctxt ""
+"@label:listbox Part of a sentence: 'Scrolling behavior does nothing/cycles "
+"through tasks/cycles through the selected task's windows'"
+msgid "Scrolling behavior:"
+msgstr "Yalnız tətbiqlər göstərmək:"
+
+#: package/contents/ui/ConfigBehavior.qml:209
+#, fuzzy, kde-format
+#| msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
+#| msgid "Does nothing"
+msgctxt "@item:inlistbox Part of a sentence: 'Scrolling behavior does nothing'"
+msgid "Does nothing"
+msgstr "Edilməli bir şey yoxdur"
+
+#: package/contents/ui/ConfigBehavior.qml:210
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Completes the sentence 'Clicking grouped task cycles through tasks' "
+#| msgid "Cycles through tasks"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through all "
+"tasks'"
+msgid "Cycles through all tasks"
+msgstr "Tapşırıqlar arası keçid"
+
+#: package/contents/ui/ConfigBehavior.qml:211
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Completes the sentence 'Clicking grouped task cycles through tasks' "
+#| msgid "Cycles through tasks"
+msgctxt ""
+"@item:inlistbox Part of a sentence: 'Scrolling behavior cycles through the "
+"hovered task's windows'"
+msgid "Cycles through the hovered task’s windows"
+msgstr "Tapşırıqlar arası keçid"
+
+#: package/contents/ui/ConfigBehavior.qml:219
+#, fuzzy, kde-format
+#| msgid "Skip minimized tasks"
+msgctxt "@option:check mouse wheel task cycling"
+msgid "Skip minimized tasks"
+msgstr "Yığılmış tapşırıqları ötürün"
+
+#: package/contents/ui/ConfigBehavior.qml:229
+#, fuzzy, kde-format
+#| msgid "Show only tasks:"
+msgctxt ""
+"@label for checkbox group, completes sentence like: … from current screen"
+msgid "Show only tasks:"
+msgstr "Yalnız tətbiqlər göstərmək:"
+
+#: package/contents/ui/ConfigBehavior.qml:230
+#, fuzzy, kde-format
+#| msgid "From current desktop"
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current desktop"
+msgstr "Cari İş masasından"
+
+#: package/contents/ui/ConfigBehavior.qml:235
+#, fuzzy, kde-format
+#| msgid "From current activity"
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current activity"
+msgstr "Cari İş otağından"
+
+#: package/contents/ui/ConfigBehavior.qml:240
+#, fuzzy, kde-format
+#| msgid "From current screen"
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "From the current screen"
+msgstr "Cari ekrandan"
+
+#: package/contents/ui/ConfigBehavior.qml:245
+#, fuzzy, kde-format
+#| msgid "That are minimized"
+msgctxt "@option:check completes sentence: show only tasks"
+msgid "That are minimized"
+msgstr "Yığılmış"
+
+#: package/contents/ui/ConfigBehavior.qml:254
+#, fuzzy, kde-format
+#| msgid "When panel is hidden:"
+msgctxt ""
+"@label for checkbox, completes sentence: … unhide if window wants attention"
+msgid "When panel is hidden:"
+msgstr "Panel gizləndikdə:"
+
+#: package/contents/ui/ConfigBehavior.qml:255
+#, fuzzy, kde-format
+#| msgid "Unhide when a window wants attention"
+msgctxt "@option:check completes sentence: When panel is hidden"
+msgid "Unhide when a window wants attention"
+msgstr "Pəncərə diqqət tələb etdiyi zaman gizlətməmək"
+
+#: package/contents/ui/ConfigBehavior.qml:270
+#, fuzzy, kde-format
+#| msgid "New tasks appear:"
+msgctxt "@label for radiobutton group completes sentence like: … on the bottom"
+msgid "New tasks appear:"
+msgstr "Yeni tapşırıqlar görünür:"
+
+#: package/contents/ui/ConfigBehavior.qml:274
+#, fuzzy, kde-format
+#| msgid "On the bottom"
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the bottom"
+msgstr "Aşağıda"
+
+#: package/contents/ui/ConfigBehavior.qml:278
+#: package/contents/ui/ConfigBehavior.qml:297
+#, fuzzy, kde-format
+#| msgid "To the right"
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the right"
+msgstr "Sağa"
+
+#: package/contents/ui/ConfigBehavior.qml:280
+#: package/contents/ui/ConfigBehavior.qml:295
+#, fuzzy, kde-format
+#| msgid "To the left"
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "To the left"
+msgstr "Sola"
+
+#: package/contents/ui/ConfigBehavior.qml:291
+#, fuzzy, kde-format
+#| msgid "On the Top"
+msgctxt "@option:check completes sentence: New tasks appear"
+msgid "On the top"
+msgstr "Yuxarıda"
+
+#: package/contents/ui/ContextMenu.qml:102
+#, kde-format
+msgid "Places"
+msgstr "Giriş Nöqtələri"
+
+#: package/contents/ui/ContextMenu.qml:108
+#, kde-format
+msgid "Recent Files"
+msgstr "Sonuncu fayllar"
+
+#: package/contents/ui/ContextMenu.qml:118
+#, kde-format
+msgid "Actions"
+msgstr "Fəaliyyətlər"
+
+#: package/contents/ui/ContextMenu.qml:165
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Əvvəlki fayla keçid"
+
+#: package/contents/ui/ContextMenu.qml:179
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Fasilə"
+
+#: package/contents/ui/ContextMenu.qml:179
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Səsləndirmək"
+
+#: package/contents/ui/ContextMenu.qml:197
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Növbəti fayl"
+
+#: package/contents/ui/ContextMenu.qml:208
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Dayandırmaq"
+
+#: package/contents/ui/ContextMenu.qml:228
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "Pleyerdən çıxış"
+
+#: package/contents/ui/ContextMenu.qml:243
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "Pleyeri göstərmək"
+
+#: package/contents/ui/ContextMenu.qml:268
+#, kde-format
+msgid "Mute"
+msgstr "Susdurmaq"
+
+#: package/contents/ui/ContextMenu.qml:279
+#, kde-format
+msgid "Open New Window"
+msgstr "Yeni pəncərə açın"
+
+#: package/contents/ui/ContextMenu.qml:295
+#, kde-format
+msgid "Move to &Desktop"
+msgstr "İş masasına &köşürmək"
+
+#: package/contents/ui/ContextMenu.qml:325
+#, kde-format
+msgid "Move &To Current Desktop"
+msgstr "&Cari İş masasına köçürmək"
+
+#: package/contents/ui/ContextMenu.qml:334
+#, kde-format
+msgid "&All Desktops"
+msgstr "Bütün &İş Masaları"
+
+#: package/contents/ui/ContextMenu.qml:362
+#, kde-format
+msgid "&New Desktop"
+msgstr "&Yeni İş masası"
+
+#: package/contents/ui/ContextMenu.qml:382
+#, kde-format
+msgid "Show in &Activities"
+msgstr "&İş otaqlarında göstərmək"
+
+#: package/contents/ui/ContextMenu.qml:406
+#, kde-format
+msgid "Add To Current Activity"
+msgstr "Cari İş otağına əlavə etmək"
+
+#: package/contents/ui/ContextMenu.qml:416
+#, kde-format
+msgid "All Activities"
+msgstr "Bütün İş otaqları"
+
+#: package/contents/ui/ContextMenu.qml:472
+#, kde-format
+msgid "Move to %1"
+msgstr "%1 qovluğuna köçürün"
+
+#: package/contents/ui/ContextMenu.qml:498
+#: package/contents/ui/ContextMenu.qml:514
+#, kde-format
+msgid "&Pin to Task Manager"
+msgstr "Tapşırıq panelinə &bərkitmək"
+
+#: package/contents/ui/ContextMenu.qml:566
+#, kde-format
+msgid "On All Activities"
+msgstr "Bütün İş otaqlarında"
+
+#: package/contents/ui/ContextMenu.qml:572
+#, kde-format
+msgid "On The Current Activity"
+msgstr "Cari İş otağında"
+
+#: package/contents/ui/ContextMenu.qml:596
+#, kde-format
+msgid "Unpin from Task Manager"
+msgstr "Tapşırıq menecerindən ayırmaq"
+
+#: package/contents/ui/ContextMenu.qml:611
+#, kde-format
+msgid "More"
+msgstr "Daha çox"
+
+#: package/contents/ui/ContextMenu.qml:620
+#, kde-format
+msgid "&Move"
+msgstr "&köçürün"
+
+#: package/contents/ui/ContextMenu.qml:629
+#, kde-format
+msgid "Re&size"
+msgstr "&Ölçüsünü dəyişmək"
+
+#: package/contents/ui/ContextMenu.qml:643
+#, kde-format
+msgid "Ma&ximize"
+msgstr "&Genişləndirmək"
+
+#: package/contents/ui/ContextMenu.qml:657
+#, kde-format
+msgid "Mi&nimize"
+msgstr "&Yığmaq"
+
+#: package/contents/ui/ContextMenu.qml:667
+#, kde-format
+msgid "Keep &Above Others"
+msgstr "Digərilərinin üzərində &tutmaq"
+
+#: package/contents/ui/ContextMenu.qml:677
+#, kde-format
+msgid "Keep &Below Others"
+msgstr "Arxa &planda tutmaq"
+
+#: package/contents/ui/ContextMenu.qml:689
+#, kde-format
+msgid "&Fullscreen"
+msgstr "&Tam ekran"
+
+#: package/contents/ui/ContextMenu.qml:701
+#, kde-format
+msgid "&Shade"
+msgstr "&Başlığa endirmək"
+
+#: package/contents/ui/ContextMenu.qml:713
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&No Titlebar and Frame"
+msgstr ""
+
+#: package/contents/ui/ContextMenu.qml:729
+#, kde-format
+msgid "Allow this program to be grouped"
+msgstr "Bu proqramı qruplaşdırmaq"
+
+#: package/contents/ui/ContextMenu.qml:775
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Close All"
+msgstr "&Hamısını bağla"
+
+#: package/contents/ui/ContextMenu.qml:775
+#, kde-format
+msgid "&Close"
+msgstr "&Bağlayın"
+
+#: package/contents/ui/Task.qml:156
+#, kde-format
+msgctxt "@info:usagetip %1 application name"
+msgid "Launch %1"
+msgstr "%1 başladın"
+
+#: package/contents/ui/Task.qml:161
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is %1 new message."
+msgid_plural "There are %1 new messages."
+msgstr[0] "%1 yeni ismarıc var."
+msgstr[1] "%1 yeni ismarıc var."
+
+#: package/contents/ui/Task.qml:169
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show Task tooltip for %1"
+msgstr "%1 üçün ipucları göstərilsin"
+
+#: package/contents/ui/Task.qml:173
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Show windows side by side for %1"
+msgstr "%1 üçün pəncərələr yan-yana göstərilsin"
+
+#: package/contents/ui/Task.qml:178
+#, kde-format
+msgctxt "@info:usagetip %1 task name"
+msgid "Open textual list of windows for %1"
+msgstr "%1 üçün pəncərələrin mətn şəklində siyahısını açmaq"
+
+#: package/contents/ui/Task.qml:182
+#, kde-format
+msgid "Activate %1"
+msgstr "%1 aktiv edin"
+
+#: package/contents/ui/ToolTipInstance.qml:188
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "Part of a sentence: 'Middle-clicking any task closes window or group'"
+#| msgid "Closes window or group"
+msgctxt "@info:tooltip Close this window"
+msgid "Close window"
+msgstr "Pəncərəni və ya qrupu bağlayır"
+
+#: package/contents/ui/ToolTipInstance.qml:438
+#, kde-format
+msgctxt "button to unmute app"
+msgid "Unmute %1"
+msgstr "%1 səsini açın"
+
+#: package/contents/ui/ToolTipInstance.qml:439
+#, kde-format
+msgctxt "button to mute app"
+msgid "Mute %1"
+msgstr "%1 susdurun"
+
+#: package/contents/ui/ToolTipInstance.qml:457
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "%1 üçün səs səviyyəsini təyin edin"
+
+#: package/contents/ui/ToolTipInstance.qml:473
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: package/contents/ui/ToolTipInstance.qml:477
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: package/contents/ui/ToolTipInstance.qml:493
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "%1 iş masasında"
+
+#: package/contents/ui/ToolTipInstance.qml:496
+#, kde-format
+msgctxt "Comma-separated list of desktops"
+msgid "Pinned to all desktops"
+msgstr "Bütün İş Masalarına Sancaqlamaq"
+
+#: package/contents/ui/ToolTipInstance.qml:502
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "Bütün İş otaqlarında mövcuddur"
+
+#: package/contents/ui/ToolTipInstance.qml:512
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "Yalnız %1 İş otağında"
+
+#: package/contents/ui/ToolTipInstance.qml:516
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "Yalnız %1-də"
+
+#, fuzzy
+#~| msgctxt "Part of a sentence: 'Middle-clicking any task does nothing'"
+#~| msgid "Does nothing"
+#~ msgctxt ""
+#~ "@item:inlistbox Part of a sentence: 'Scrolling on any task does nothing'"
+#~ msgid "Does nothing"
+#~ msgstr "Edilməli bir şey yoxdur"
+
+#, fuzzy
+#~| msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~| msgid "Mouse wheel:"
+#~ msgctxt ""
+#~ "@label for checkbox Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Mouse wheel:"
+#~ msgstr "Siçan diyircəyi:"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Completes the sentence 'Clicking grouped task cycles through tasks' "
+#~| msgid "Cycles through tasks"
+#~ msgctxt ""
+#~ "@option:check Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "Tapşırıqlar arası keçid"
+
+#, fuzzy
+#~| msgid "Mark applications that play audio"
+#~ msgctxt "@option:check section General"
+#~ msgid "Mark applications that play audio"
+#~ msgstr "Audio səsləndirən tətbiqləri işarələmək"
+
+#~ msgctxt "Part of a sentence: 'Mouse wheel cycles through tasks'"
+#~ msgid "Cycles through tasks"
+#~ msgstr "Tapşırıqlar arası keçid"
+
+#~ msgctxt "1 = number of desktop, 2 = desktop name"
+#~ msgid "&%1 %2"
+#~ msgstr "&%1 %2"
+
+#~ msgid "Always arrange tasks in rows of as many columns"
+#~ msgstr "Sətirlər maksimum saya çatmadan yenisini başlatmamaq"
+
+#~ msgid "Always arrange tasks in columns of as many rows"
+#~ msgstr "Sütunlar maksimum saya çatmadan yenisini başlatmamaq"
+
+#~ msgid ""
+#~ "Tooltips are disabled, so the windows will be displayed side by side "
+#~ "instead."
+#~ msgstr "İpucları söndürülüb, buna görə də pəncərələr yan-yana göstəriləcək."
+
+#~ msgid ""
+#~ "Tooltips are disabled, and the compositor does not support displaying "
+#~ "windows side by side, so a textual list will be displayed instead"
+#~ msgstr ""
+#~ "İpucları söndürülüb və effekt təminatı pəncərələrin yan-yana "
+#~ "göstərilməsini dəstəkləmir, bu halda onun əvəzinə mətn siyahısı "
+#~ "göstəriləcək"
+
+#~ msgid "Show tooltips"
+#~ msgstr "Məsləhətləri göstərmək"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows tooltip window "
+#~ "thumbnails' "
+#~ msgid "Shows tooltip window thumbnails"
+#~ msgstr "İpucları pəncərələrinin miniatürlərini göstərir"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Progress for the current Task is %1 percent."
+#~ msgstr "Cari tapşırıq üçün icra olunma mərhələsi %1faizdir."
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows 'Present Windows' "
+#~ "effect' "
+#~ msgid "Shows 'Present Windows' effect"
+#~ msgstr "\"Bütün Pəncərələr\" effektini göstərir"
+
+#~ msgid "Huge"
+#~ msgstr "Çox geniş"
+
+#~ msgid "Icon size:"
+#~ msgstr "İkon Ölçüsü:"
+
+#~ msgid "Start New Instance"
+#~ msgstr "Yeni nümunəni başlatmaq"
+
+#~ msgid "More Actions"
+#~ msgstr "Daha çox fəaliyyətlər"
+
+#~ msgid "Panel Hiding:"
+#~ msgstr "Panelin gizlənir:"
+
+#~ msgid "Cycle through tasks"
+#~ msgstr "Tətbiqlər arası keçid"
+
+#~ msgid "On middle-click:"
+#~ msgstr "Siçanın orta düyməsi:"
+
+#~ msgctxt "The click action"
+#~ msgid "None"
+#~ msgstr "Heç biri"
+
+#~ msgctxt "When clicking it would toggle grouping windows of a specific app"
+#~ msgid "Group/Ungroup"
+#~ msgstr "Qruplaşdırmaq və ya pəncərə qruplarına bölmək"

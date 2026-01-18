@@ -1,0 +1,52 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# SPDX-FileCopyrightText: 2021, 2022, 2025 Kishore G <kishore96@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-03-09 12:57+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.12.3\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "பொதுவானவை"
+
+#: ConfigGeneral.qml:30
+#, kde-format
+msgid "Show active application's name on Panel button"
+msgstr "பலகைப் பட்டனில் செயலிலுள்ள செயலியின் பெயரைக் காட்டு"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgid "Only icons can be shown when the Panel is vertical."
+msgstr "பலகை செங்குத்தாக இருக்கும்போது சின்னங்களை மட்டும்தான் காட்ட முடியும்."
+
+#: ConfigGeneral.qml:52
+#, kde-format
+msgid "Not applicable when the widget is on the Desktop."
+msgstr "பிளாஸ்மாய்டு பணிமேடையில் இருக்கும்போது பொருந்தாது."
+
+#: main.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No open windows"
+msgstr "திறந்துள்ள சாளரங்கள் இல்லை"
+
+#: main.qml:119
+#, kde-format
+msgid "Plasma Desktop"
+msgstr "பிளாஸ்மா பணிமேடை"
+
+#~ msgid "On all desktops"
+#~ msgstr "எல்லா பணிமேடைகளிலும்"

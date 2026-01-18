@@ -69,7 +69,7 @@ Build-Depends: debhelper-compat (= 13),
                libphonon4qt6experimental-dev,
                libpipewire-0.3-dev,
                liblingmo-dev (>= 6.5.4~),
-               libplasma5support-dev (>= 4:6.5.4~),
+               liblingmo5support-dev (>= 4:6.5.4~),
                libplasmaactivities-dev (>= 6.5.4~),
                libplasmaactivitiesstats-dev (>= 6.5.4~),
                libpolkit-qt6-1-dev,
@@ -345,7 +345,7 @@ Package: lingmo-workspace-dev
 Architecture: any
 Section: libdevel
 Depends: libkf6itemmodels-dev (>= 6.18.0~),
-         libplasma-dev (>= 6.5.4~),
+         liblingmo-dev (>= 6.5.4~),
          qt6-base-dev (>= 6.9.0~),
          qt6-declarative-dev (>= 6.9.0~),
          ${misc:Depends},

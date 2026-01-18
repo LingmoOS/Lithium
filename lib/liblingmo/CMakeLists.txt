@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 set(PROJECT_VERSION "6.5.4")
-project(libplasma VERSION ${PROJECT_VERSION})
+project(liblingmo VERSION ${PROJECT_VERSION})
 
 set(QT_MIN_VERSION "6.9.0")
 set(PROJECT_DEP_VERSION "6.5.4")
@@ -156,7 +156,7 @@ endif()
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 ################# list the subdirectories #################
-add_definitions(-DTRANSLATION_DOMAIN=\"libplasma6\")
+add_definitions(-DTRANSLATION_DOMAIN=\"liblingmo6\")
 ki18n_install(po)
 add_subdirectory(src)
 

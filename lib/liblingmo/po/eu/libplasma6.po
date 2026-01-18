@@ -1,4 +1,4 @@
-# Translation for libplasma6.po to Euskara/Basque (eu).
+# Translation for liblingmo6.po to Euskara/Basque (eu).
 # Copyright (C) 2017-2024 This file is copyright:
 # This file is distributed under the same license as the plasma-framework package.
 # SPDX-FileCopyrightText: 2023, 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>

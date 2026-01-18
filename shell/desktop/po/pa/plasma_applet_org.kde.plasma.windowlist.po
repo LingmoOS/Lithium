@@ -1,0 +1,70 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2014, 2023, 2024, 2025 A S Alam <aalam@users.sf.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-02-28 10:46-0600\n"
+"Last-Translator: A S Alam <aman@punlinux.org>\n"
+"Language-Team: pa\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.12.2\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "ਆਮ"
+
+#: ConfigGeneral.qml:30
+#, kde-format
+msgid "Show active application's name on Panel button"
+msgstr "ਪੈਨਲ ਬਟਨ ਉੱਤੇ ਸਰਗਰਮ ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਨਾਂ ਵੇਖਾਓ"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgid "Only icons can be shown when the Panel is vertical."
+msgstr "ਜਦੋਂ ਪੈਨਲ ਖੜ੍ਹਵਾਂ ਹੁੰਦੀ ਹੈ ਤਾਂ ਸਿਰਫ਼ ਆਈਕਾਨ ਦਿਖਾਏ ਜਾ ਸਕਦੇ ਹਨ।"
+
+#: ConfigGeneral.qml:52
+#, kde-format
+msgid "Not applicable when the widget is on the Desktop."
+msgstr "ਡੈਸਕਟਾਪ ਉੱਤੇ ਵਿਜੈਟ ਹੋਣ ਦੌਰਾਨ ਲਾਗੂ ਨਹੀਂ ਹੁੰਦਾ ਹੈ।"
+
+#: main.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No open windows"
+msgstr "ਕੋਈ ਖੁੱਲ੍ਹੀ ਵਿੰਡੋ ਨਹੀਂ ਹੈ"
+
+#: main.qml:119
+#, kde-format
+msgid "Plasma Desktop"
+msgstr "ਪਲਾਜ਼ਮਾ ਡੈਸਕਟਾਪ"
+
+#~ msgid "On all desktops"
+#~ msgstr "ਸਭ ਡੈਸਕਟਾਪਾਂ ਉੱਤੇ"
+
+#~ msgid "Window List"
+#~ msgstr "ਵਿੰਡੋ ਲਿਸਟ"
+
+#~ msgid "Actions"
+#~ msgstr "ਕਾਰਵਾਈਆਂ"
+
+#~ msgid "Unclutter Windows"
+#~ msgstr "ਅਣ-ਕਲੱਸਟਰ ਵਿੰਡੋ"
+
+#~ msgid "Cascade Windows"
+#~ msgstr "ਸਮਾਂਤਰ ਵਿੰਡੋ"
+
+#, fuzzy
+#~| msgid "Desktop"
+#~ msgctxt "%1 is the name of the desktop"
+#~ msgid "Desktop %1"
+#~ msgstr "ਡੈਸਕਟਾਪ"

@@ -1,0 +1,70 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2014, 2016.
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-02-24 22:24+0100\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.5\n"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Splošno"
+
+#: ConfigGeneral.qml:30
+#, kde-format
+msgid "Show active application's name on Panel button"
+msgstr "Prikaži ime dejavne aplikacije na gumbu plošče"
+
+#: ConfigGeneral.qml:50
+#, kde-format
+msgid "Only icons can be shown when the Panel is vertical."
+msgstr "Prikaži samo ikone, kadar je plošča navpična."
+
+#: ConfigGeneral.qml:52
+#, kde-format
+msgid "Not applicable when the widget is on the Desktop."
+msgstr "Ni smiselno, kadar je gradnik na namizju."
+
+#: main.qml:92
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No open windows"
+msgstr "Ni odprtih oken"
+
+#: main.qml:119
+#, kde-format
+msgid "Plasma Desktop"
+msgstr "Namizje Plasma"
+
+#~ msgid "On all desktops"
+#~ msgstr "Na vseh namizjih"
+
+#~ msgid "Window List"
+#~ msgstr "Seznam oken"
+
+#~ msgid "Actions"
+#~ msgstr "Dejanja"
+
+#~ msgid "Unclutter Windows"
+#~ msgstr "Razmakni okna"
+
+#~ msgid "Cascade Windows"
+#~ msgstr "Okna v kaskado"
+
+#~ msgctxt "%1 is the name of the desktop"
+#~ msgid "Desktop %1"
+#~ msgstr "Namizje %1"

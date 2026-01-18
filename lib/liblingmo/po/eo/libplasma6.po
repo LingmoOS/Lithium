@@ -1,4 +1,4 @@
-# translation of libplasma6.pot to esperanto
+# translation of liblingmo6.pot to esperanto
 # Copyright (C) 2014 Free Software Foundation, Inc.
 # This file is distributed under the same license as the plasma-framework package.
 # Oliver Kellogg <olivermkellogg@gmail.com>, 2023.

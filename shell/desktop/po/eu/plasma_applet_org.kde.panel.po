@@ -1,0 +1,58 @@
+# Translation for plasma_applet_org.kde.panel.po to Euskara/Basque (eu).
+# Copyright (C) 2018-2024 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# SPDX-FileCopyrightText: 2023, 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2018, 2019, 2021, 2023, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2024-08-21 12:32+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.05.2\n"
+
+#: ConfigOverlay.qml:304 ConfigOverlay.qml:341
+#, kde-format
+msgid "Remove"
+msgstr "Kendu"
+
+#: ConfigOverlay.qml:314
+#, kde-format
+msgid "Configure…"
+msgstr "Konfiguratu..."
+
+#: ConfigOverlay.qml:325
+#, kde-format
+msgid "Show Alternatives…"
+msgstr "Erakutsi aukerabideak..."
+
+#: ConfigOverlay.qml:351
+#, kde-format
+msgid "Spacer width"
+msgstr "Bereizlearen zabalera"
+
+#: ConfigOverlay.qml:374
+#, kde-format
+msgctxt ""
+"@option:check Whether to allow a spacer widget to fill available space"
+msgid "Flexible size"
+msgstr "Neurri malgua"
+
+#: main.qml:453
+#, kde-format
+msgid "Open Panel configuration ui"
+msgstr "Ireki Panela konfigurazioaren erabiltzaile-interfazea"
+
+#: main.qml:460
+#, kde-format
+msgid "Add Widgets…"
+msgstr "Gehitu trepetak…"

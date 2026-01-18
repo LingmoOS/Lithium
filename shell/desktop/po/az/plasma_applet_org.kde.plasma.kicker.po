@@ -1,0 +1,215 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# Xəyyam Qocayev <xxmn77@gmail.com>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-23 02:38+0000\n"
+"PO-Revision-Date: 2022-07-06 17:49+0400\n"
+"Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.04.2\n"
+
+#: code/tools.js:43
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Seçilmişlərdən silmək"
+
+#: code/tools.js:47
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Seçilmişlərə əlavə etmək"
+
+#: code/tools.js:73
+#, kde-format
+msgid "On All Activities"
+msgstr "Bütün İş otaqlarında"
+
+#: code/tools.js:123
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Cari İş otağında"
+
+#: code/tools.js:137
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Seçilmişlərdə göstərmək"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Əsas"
+
+#: ConfigGeneral.qml:46
+#, kde-format
+msgid "Icon:"
+msgstr "İkon:"
+
+#: ConfigGeneral.qml:131
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Seçim…"
+
+#: ConfigGeneral.qml:136
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "İkonu silmək"
+
+#: ConfigGeneral.qml:155
+#, kde-format
+msgid "Show applications as:"
+msgstr "Tətbiqlərin adlandırma forması:"
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgid "Name only"
+msgstr "Yalnız adı"
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgid "Description only"
+msgstr "Yalnız təsviri"
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgid "Name (Description)"
+msgstr "Ad (Təsviri)"
+
+#: ConfigGeneral.qml:157
+#, kde-format
+msgid "Description (Name)"
+msgstr "Təsviri (Adı)"
+
+#: ConfigGeneral.qml:167
+#, kde-format
+msgid "Behavior:"
+msgstr "Davranış:"
+
+#: ConfigGeneral.qml:169
+#, kde-format
+msgid "Sort applications alphabetically"
+msgstr "Tətbiqləri əlifba sırası ilə çeşidləmək"
+
+#: ConfigGeneral.qml:177
+#, kde-format
+msgid "Flatten sub-menus to a single level"
+msgstr "Alt menyuları bir səviyyədə düzmək"
+
+#: ConfigGeneral.qml:185
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr "Yuxarı səviyyədəki elementlərin nişanlarını göstərmək"
+
+#: ConfigGeneral.qml:195
+#, kde-format
+msgid "Show categories:"
+msgstr "Kateqoriyaları göstərmək:"
+
+#: ConfigGeneral.qml:198
+#, kde-format
+msgid "Recent applications"
+msgstr "Sonuncu tətbiqlər"
+
+#: ConfigGeneral.qml:199
+#, kde-format
+msgid "Often used applications"
+msgstr "Tez-tez istifadə olunan tətbiqlər"
+
+#: ConfigGeneral.qml:206
+#, kde-format
+msgid "Recent files"
+msgstr "Sonuncu fayllar"
+
+#: ConfigGeneral.qml:207
+#, kde-format
+msgid "Often used files"
+msgstr "Tez-tez istifadə olunan fayllar"
+
+#: ConfigGeneral.qml:213
+#, kde-format
+msgid "Sort items in categories by:"
+msgstr "Kateqoriyadakı elementlərin çeşidlənməsi:"
+
+#: ConfigGeneral.qml:214
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Son istifadə olunanlar"
+
+#: ConfigGeneral.qml:214
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+msgid "Often used"
+msgstr "Tez-tez istifadə olunanlar"
+
+#: ConfigGeneral.qml:224
+#, kde-format
+msgid "Search:"
+msgstr "Axtarış:"
+
+#: ConfigGeneral.qml:226
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Əlfəcinlər, fayllar və e-poçtlar arasında axtarmaq"
+
+#: ConfigGeneral.qml:234
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "Axtarış nəticələrini aşağıda yerləşdirmək"
+
+#: DashboardRepresentation.qml:285
+#, kde-format
+msgid "Favorites"
+msgstr "Seçilmişlər"
+
+#: main.qml:235
+#, kde-format
+msgid "Edit Applications…"
+msgstr "Tətbiqər siyahısına düzəliş…"
+
+#: MenuRepresentation.qml:315
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr ""
+
+#~ msgid "Searching for '%1'"
+#~ msgstr "\"%1\" axtarışı"
+
+#, fuzzy
+#~| msgid "Type to search…"
+#~ msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+#~ msgid "Type to search…"
+#~ msgstr "Axtarış sözünü daxil edin"
+
+#~ msgid "Widgets"
+#~ msgstr "Vidjetlər"
+
+#~ msgid "Apps & Docs"
+#~ msgstr "Tətbiqlər və sənədlər"
+
+#~ msgid "Recent contacts"
+#~ msgstr "Sonuncu əlaqələr"
+
+#~ msgid "Often used contacts"
+#~ msgstr "Tez-tez istifadə olunan əlaqələri göstərmək"
+
+#~ msgid "Search…"
+#~ msgstr "Axtarış…"
+
+#~ msgid "Search..."
+#~ msgstr "Axtarış..."
+
+#~ msgid "Often used documents"
+#~ msgstr "Tez-tez istifadə olunan sənədlər"

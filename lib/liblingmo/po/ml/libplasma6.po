@@ -1,4 +1,4 @@
-# Malayalam localization of libplasma5
+# Malayalam localization of liblingmo5
 # Copyright (C) 2019 This file is copyright:
 # This file is distributed under the same license as the plasma-framework package.
 # ലക്ഷ്മി സുനില്‍ <lakshmisunil12@gmail.com>, 2019.

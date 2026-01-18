@@ -1,0 +1,812 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: plasma-desktop
+Source: https://invent.kde.org/plasma/plasma-desktop
+Upstream-Contact: plasma-devel@kde.org
+
+Files: *
+Copyright: 2018, <furkantokac34@gmail.com>
+           2007, Aaron Seigo <aseigo@kde.org>
+           2023, Akseli Lahtinen <akselmo@akselmo.dev>
+           2014, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+           2021-2022, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2020-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2013, Alexander Mezin <mezin.alexander@gmail.com>
+           2022, Alexander Wilms <f.alexander.wilms@gmail.com>
+           Andras Mantia <andras.mantia@kdab.com>
+           2020-2021, Andrey Butirsky <butirsky@gmail.com>
+           2010-2011, Andriy Rysin <rysin@kde.org>
+           2016, Anthony Fieroni <bvbfan@abv.bg>
+           2024, Arthur Kasimov <kodemeister@outlook.com>
+           2014, Ashish Madeti <ashishmadeti@gmail.com>
+           2019, Atul Bisht <atulbisht26@gmail.com>
+           2013, Aurélien Gâteau <agateau@kde.org>
+           2009, Ben Cooksley <ben@eclipse.endoftheinternet.org>
+           1998, Bernd Wuebben
+           2025, Bharadwaj Raju <bharadwaj.raju777@protonmail.com>
+           2020, Carl Schwan <carl@carlschwan.eu>
+           2020, Carl Schwan <carlschwan@kde.org>
+           2022, Carson Black <uhhadd@gmail.com>
+           1998, Christian Tibirna
+           2019-2021, Cyril Rossi <cyril.rossi@enioka.com>
+           2012, Dan Vratil <dvratil@redhat.com>
+           2007, Daniel Laidig <d.laidig@gmx.de>
+           2002, Daniel Molkentin <molkentin@kde.org>
+           2013-2022, David Edmundson <davidedmundson@kde.org>
+           2014, David Edmundson <kde@davidedmundson.co.uk>
+           1998-2007, David Faure <faure@kde.org>
+           2020, David Redondo <david@david-redondo.de>
+           2021, Derek Christ <christ.derek@gmail.com>
+           2016, Eike Hein <hein.org>
+           2012-2018, Eike Hein <hein@kde.org>
+           2024, Evgeny Chesnokov <echesnokov@astralinux.ru>
+           2008-2009, Fredrik Höglund <fredrik@kde.org>
+           2018, Furkan Tokac <furkantokac34@gmail.com>
+           2021-2025, Fushan Wen <qydwhotmail@gmail.com>
+           2004, George Staikos <staikos@kde.org>
+           2012, Gregor Taetzner <gregor@freenet.de>
+           2023, Harald Sitter <sitter@kde.org>
+           2013, Heena Mahour <heena393@gmail.com>
+           2021-2023, Ismael Asensio <isma.af@gmail.com>
+           2022, ivan (@ratijas) tkachenko <me@ratijas.tk>
+           2014-2020, Ivan Cukic <ivan.cukic(at)kde.org>
+           2012-2017, Ivan Cukic <ivan.cukic@kde.org>
+           2022-2024, ivan tkachenko <me@ratijas.tk>
+           2024-2025, Jakob Petsovits <jpetso@petsovits.com>
+           2023-2025, Jeremy Whiting <jpwhiting@kde.org>
+           2022, Jin Liu <ad.liu.jin@gmail.com>
+           2023-2024, Joshua Goins <josh@redstrate.com>
+           Joshua Goins <josh@redstrate.com>
+           2024, Joshua Goins <joshua.goins@kdab.com>
+           Joshua Goins <joshua.goins@kdab.com>
+           2024, Joshua Goins <joshua.gons@kdab.com>
+           2020-2025, Kai Uwe Broulik <kde@broulik.de>
+           2015, Kai UWe Broulik <kde@privat.broulik.de>
+           2015-2019, Kai Uwe Broulik <kde@privat.broulik.de>
+           Ken <https://stackoverflow.com/users/1568857/ken>
+           2019-2020, Kevin Ottens <kevin.ottens@enioka.com>
+           2017-2022, Klarälvdalens Datakonsult AB a KDAB Group company <info@kdab.com>
+           2025, Kristen McWilliam <kristen@kde.org>
+           2000, Kurt Granroth <granroth@kde.org>
+           2016, Leslie Zhai <xiangzhai83@gmail.com>
+           2003-2005, Lubos Lunak <l.lunak@kde.org>
+           1998, Luca Montecchiani <m.luca@usa.net>
+           2012, Luís Gabriel Lima <lampih@gmail.com>
+           2011-2024, Marco Martin <mart@kde.org>
+           2011, Martin *Gräßlin <mgraesslin@kde.org>
+           2009-2011, Martin Gräßlin <mgraesslin@kde.org>
+           1996, Martin R. Jones
+           1999-2000, Matthias Ettrich <ettrich@kde.org>
+           2010, Matthias Fuchs <mat69@gmx.net>
+           1999, Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+           2020-2021, Mikel Johnson <mikel5764@gmail.com>
+           2023, Méven Car <meven@kde.org>
+           2019-2025, Nate Graham <nate@kde.org>
+           2023, Niccolò Venerandi <niccolo.venerandi@kde.org>
+           2022-2024, Niccolò Venerandi <niccolo@venerandi.com>
+           2020-2025, Nicolas Fella <nicolas.fella@gmx.de>
+           2021, Noah Davis <noahadvs@gmail.com>
+           2000, Oswald Buddenhagen <ob6@inf.tu-dresden.de>
+           2000-2002, Oswald Buddenhagen <ossi@kde.org>
+           2008, Petri Damsten <damu@iki.fi>
+           2008, Rafael Fernández López <ereslibre@kde.org>
+           2007, Riccardo Iaconelli <riccardo@kde.org>
+           2017-2019, Roman Gilg <subdiff@gmail.com>
+           2011-2015, Sebastian Kügler <sebas@kde.org>
+           2018-2020, Stasiek Michalski <hellcp@opensuse.org>
+           2022-2023, Tanbir Jishan <tantalising007@gmail.com>
+           2024, Thomas Duckworth <tduck973564@gmail.com>
+           2009-2010, Trever Fischer <tdfischer@fedoraproject.org>
+           2009, Trever Fischer <wm161@wm161.net>
+           2014, Vishesh Handa <me@vhanda.in>
+           2025, Vlad Zahorodnii <vlad.zahorodnii@kde.org>
+           2009, Wang Hoi <zealot.hoi@gmail.com>
+           2011-2017, Weng Xuetian <wengxt@gmail.com>
+           2007, Will Stephenson <wstephenson@kde.org>
+           2022, Xaver Hugl <xaver.hugl@gmail.com>
+           2017, Xuetian Weng <wengxt@gmail.com>
+           2025, Yifan Zhu <fanzhuyifan@gmail.com>
+           2021, Yuri Chornoivan <yurchor@ukr.net>
+License: GPL-2.0-or-later
+Comment: Automatically extracted
+
+Files: po/*
+Copyright: 2020-2024, A S Alam <aalam.yellow@gmail.com>
+           2024, A S Alam <aalam@punlinux.org>
+           2021-2024, A S Alam <aalam@satluj.org>
+           2007-2025, A S Alam <aalam@users.sf.net>
+           2018-2025, A S Alam <alam.yellow@gmail.com>
+           2024, aalam <aalam@punlinux.org>
+           2018-2024, Adrian Chaves <adrian@chaves.io>
+           2023-2025, Adrián Chaves (Gallaecio)
+           2024, Agron Selimaj <as9902613@gmail.com>
+           2025, Alexander Becker <alex-at-kde-l10n-de@freenet.de>
+           2018-2025, Alexander Yavorsky <kekcuha@gmail.com>
+           2022-2025, Alois Spitzbart <spitz234@hotmail.com>
+           2024-2025, Alois.spitzbart <spitz234@hotmail.com>
+           2023, Alosra <Aleomoeini@gmail.com>
+           2004-2024, Amanpreet Singh Alam <aalam@redhat.com>
+           2024, Antikruk <nashtlumach@gmail.com>
+           2014-2024, Antoni Bella Pérez <antonibella5@yahoo.com>
+           2012-2024, Antonis Geralis <capoiosct@gmail.com>
+           2008-2021, Burkhard Lück <lueck@hube-lueck.de>
+           2010-2011, Cristina Yenyxe González García <the.blue.valkyrie@gmail.com>
+           2024, Dimitrys Meliates <demetresmeliates+i18n@gmail.com>
+           2005-2025, Eloy Cuadra <ecuadra@eloihr.net>
+           2022-2025, Emir SARI <emir_sari@icloud.com>
+           2025, Emir SARI <emir_sari@îcloud.com>
+           2023-2024, Enol P. <enolp@softastur.org>
+           2022-2024, enolp <enolp@softastur.org>
+           2007-2009, Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
+           2009, Enrique Matias Sanchez (Quique) <cronopios@gmail.com>
+           2010, Felix Schweighofer <felix.schweighofer@googlemail.com>
+           2024-2025, Flori G <Renner03@protonmail.com>
+           2022, Frank Steinmetzger <dev-kde@felsenfleischer.de>
+           2020-2021, Frank Steinmetzger <dev@felsenfleischer.de>
+           2011, Frank Steinmetzger <Warp_7@gmx.de>
+           2008-2023, Frederik Schwarzer <schwarzer@kde.org>
+           2009-2025, Freek de Kruijf <f.de.kruijf@hetnet.nl>
+           2009-2025, Freek de Kruijf <freekdekruijf@kde.nl>
+           2014-2025, G.Sora <g.sora@tiscali.it>
+           2010-2025, g.sora <g.sora@tiscali.it>
+           2023-2025, Geraldo Simiao <geraldosimiao@fedoraproject.org>
+           2017-2025, giovanni <g.sora@tiscali.it>
+           2013-2025, Giovanni Sora <g.sora@tiscali.it>
+           2025, Guilherme Marçal Silva <guimarcalsilva@gmail.com>
+           2022-2025, gummi <gudmundure@gmail.com>
+           2022-2025, Guðmundur Erlingsson <gudmundure@gmail.com>
+           2009, Ignacio Poggi <ignaciop.3@gmail.com>
+           2014-2025, Iñigo Salvador Azurmendi <xalba@euskalnet.net>
+           2024-2025, Iñigo Salvador Azurmendi <xalba@ni.eus>
+           2023-2024, Iñigo Salvador Azurmendi <xalba@ni.eus>, 2025.
+           2003-2009, Jaime Robles <jaime@kde.org>
+           2009, Jaime Robles <jaime@robles.es>
+           2005-2007, Jaime Robles <jaime@robles.nu>
+           2024, Janet Blackquill <uhhadd@gmail.com>
+           2023, Jannick Kuhr <kde-dev@kuhr.org>
+           2023, Jannick Kuhr <opensource@kuhr.org>
+           2011-2014, Javier Vinal <fjvinal@gmail.com>
+           2009-2024, Johannes Obermayr <johannesobermayr@gmx.de>
+           2007-2025, Josep M. Ferrer <txemaq@gmail.com>
+           2005, Juan Manuel Garcia Molina <juanma@superiodico.net>
+           2006-2024, Jure Repinc <jlp@holodeck1.com>
+           2024, kali <shreekantkalwar@gmail.com>
+           2024, kali <skkalwar999@gmail.com>
+           2023-2025, KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+           2023-2025, KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+           2024-2025, KDE euskaraz proiektuaren arduraduna <xalba@ni.eus>
+           2024, Kimmo Kujansuu <mrkujansuu@gmail.com>
+           2022-2025, Kisaragi Hiu <mail@kisaragi-hiu.com>
+           2020-2025, Kishore G <kishore96@gmail.com>
+           2017-2023, Kiszel Kristóf <kiszel.kristof@gmail.com>
+           2018-2025, Kristof Kiszel <kiszel.kristof@gmail.com>
+           2021-2025, Kristof Kiszel <ulysses@fsf.hu>
+           2020-2023, Kristóf Kiszel <kiszel.kristof@gmail.com>
+           2011-2024, Lasse Liehu <lasse.liehu@gmail.com>
+           2022-2024, Lasse Liehu <lasse.liehu@iki.fi>
+           2024, Last-Translator :
+           2023, Linerly <linerly@linerly.xyz>
+           2025, Lucia Mrenica <lucia.mrenica@gmail.com>
+           2015-2025, Luigi Toscano <luigi.toscano@tiscali.it>
+           2025, Marcus Gama <marcus.gama@gmail.com>
+           2010-2025, Marcus Vinícius de Andrade Gama <marcus.gama@gmail.com>
+           2010-2013, Markus Slopianka <markus.s@kdemail.net>
+           2019-2024, Matej Mrenica <matejm98mthw@gmail.com>
+           2020-2025, Matjaž Jeran <matjaz.jeran@amis.net>
+           2003-2004, Miguel Revilla Rodríguez <yo@miguelrevilla.com>
+           2022-2025, Mincho Kondarev <mkondarev@yahoo.de>
+           2024, Mirko Schaal <mirsch@mirsch.me>
+           2015, Nils Naumann <nau@gmx.net>
+           2024-2025, Olesya Gerasimenko <translation-team@basealt.ru>
+           2004-2005, Pablo de Vicente <p.devicente@wanadoo.es>
+           2000-2006, Pablo de Vicente <pablo.devicente@gmail.com>
+           2000-2003, Pablo de Vicente <vicente@oan.es>
+           2010-2011, Panagiotis Papadopoulos <pano_90@gmx.net>
+           2016-2025, Paolo Zamponi <feus73@gmail.com>
+           2025, Philipp Kiemle <l10n@prly.mozmail.com>
+           2023-2024, pieter <pieterkristensen@gmail.com>
+           2024-2025, rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>
+           2012, Raul Gonzalez <raulgf83@gmail.com>
+           2024, Roman Paholik <wizzardsk@gmail.com>
+           2023, Roman Paholík <wizzardsk@gmail.com>
+           2022-2025, Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+           2008, Santi <santi@kde-es.org>
+           2005, Santiago Fernandez Sancho <santi@kde-es.org>
+           2008-2025, Sergiu Bivol <sergiu@cip.md>
+           2007-2025, Shinjo Park <kde@peremen.name>
+           2002-2025, Stefan Asserhäll <stefan.asserhall@gmail.com>
+           2005-2006, Stephan Johach <hunsum@gmx.de>
+           2014-2024, Steve Allewell <steve.allewell@gmail.com>
+           2004, Thomas Diehl <th.diehl@gmx.net>
+           2002-2004, Thomas Diehl <thd@kde.org>
+           2005-2010, Thomas Reitelbach <tr@erdfunkstelle.de>
+           2009-2025, Tommi Nieminen <translator@legisign.org>
+           2023-2025, Toms Trasuns <toms.trasuns@posteo.net>
+           2024-2025, Toms Trasūns <toms.trasuns@posteo.net>
+           2008-2025, Vincenzo Reale <smart2128vr@gmail.com>
+           2012-2025, Vit Pelcak <vit@pelcak.org>
+           2025, Vit Pelcak <vpelcak@suse.cz>
+           2010-2024, Vít Pelčák <vit@pelcak.org>
+           2017-2025, Wantoyo <wantoyek@gmail.com>
+           2018-2024, wantoyo <wantoyek@gmail.com>
+           2022-2024, Wantoyèk <wantoyek@gmail.com>
+           2024, X əyyam
+           2011-2025, Xavier Besnard <xavier.besnard@kde.org>
+           2023-2025, Yaron Shahrabani <sh.yaron@gmail.com>
+           2008-2025, zayed <zayed.alsaidi@gmail.com>
+           2009-2025, Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+           2023-2025, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmai.com>
+           2011-2025, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+License: GPL-2.0-or-later
+Comment: Automatically extracted but no explicit license
+
+Files: kcms/mouse/misc/cursor_large.bdf
+Copyright: 2000, Rik Hemsley <rik@kde.org>
+License: GPL-2.0-or-later
+Comment: Manually collected
+
+Files: kcms/gamecontroller/CMakeLists.txt
+       runners/keys/CMakeLists.txt
+Copyright: 2025, Fushan Wen <qydwhotmail@gmail.com>
+           2023, Joshua Goins <josh@redstrate.com>
+License: BSD-2-Clause
+
+Files: appiumtests/applets/CMakeLists.txt
+       appiumtests/applets/kickofftest/kickofftest.py
+       appiumtests/CMakeLists.txt
+       appiumtests/desktop/CMakeLists.txt
+       appiumtests/kcms/CMakeLists.txt
+       applets/window-list/CMakeLists.txt
+       cmake/modules/FindXdgUserDir.cmake
+       kcms/libkwindevices/CMakeLists.txt
+       kcms/runners/CMakeLists.txt
+       kcms/runners/plasmasearch/CMakeLists.txt
+       kcms/runners/plugininstaller/autotests/CMakeLists.txt
+       kcms/runners/plugininstaller/CMakeLists.txt
+Copyright: 2022, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2023, Fushan Wen <qydwhotmail@gmail.com>
+           2022-2023, Harald Sitter <sitter@kde.org>
+           2021, Méven Car meven.car@enioka.com
+           2025, Nicolas Fella <nicolas.fella@gmx.de>
+License: BSD-3-Clause
+
+Files: .gitlab-ci.yml
+       kcms/gamecontroller/Messages.sh
+       .kde-ci.yml
+       kde-mimeapps.list
+       runners/keys/Messages.sh
+       runners/keys/plasma-runner-keys.json
+Copyright: None
+License: CC0-1.0
+Comment: Automatically extracted
+
+Files: org.kde.plasmashell.metainfo.xml
+Copyright: None
+License: CC0-1.0
+Comment: Manually collected
+
+Files: applets/kimpanel/backend/ibus/ibus15/app.cpp
+       applets/kimpanel/backend/ibus/ibus15/app.h
+       applets/kimpanel/backend/ibus/ibus15/enginemanager.cpp
+       applets/kimpanel/backend/ibus/ibus15/enginemanager.h
+       applets/kimpanel/backend/ibus/ibus15/main.cpp
+       applets/kimpanel/backend/ibus/ibus15/panel.cpp
+       applets/kimpanel/backend/ibus/ibus15/panel.h
+       applets/kimpanel/backend/ibus/ibus15/propertymanager.cpp
+       applets/kimpanel/backend/ibus/ibus15/propertymanager.h
+       applets/kimpanel/backend/ibus/ibus15/xkblayoutmanager.cpp
+       applets/kimpanel/backend/ibus/ibus15/xkblayoutmanager.h
+       applets/kimpanel/plugin/kimpanel.cpp
+       applets/kimpanel/plugin/kimpanel.h
+       applets/kimpanel/plugin/screen.cpp
+       applets/kimpanel/plugin/screen.h
+       applets/margins-separator/contents/ui/main.qml
+       emojier/app/emojier.cpp
+       emojier/app/ui/CategoryAction.qml
+       emojier/app/ui/CategoryPage.qml
+       emojier/app/ui/Emojier.qml
+       emojier/emojierplugin.cpp
+       kcms/access/ui/ActivationShortcuts.qml
+       kcms/access/ui/Bell.qml
+       kcms/access/ui/Invert.qml
+       kcms/access/ui/KeyboardFilters.qml
+       kcms/access/ui/main.qml
+       kcms/access/ui/ModifierKeys.qml
+       kcms/access/ui/MouseNavigation.qml
+       kcms/access/ui/ScreenReader.qml
+       kcms/access/ui/ShakeCursor.qml
+       kcms/access/ui/ZoomMagnifier.qml
+       kcms/activities/activityconfig.cpp
+       kcms/activities/activityconfig.h
+       kcms/activities/kcm_activities.cpp
+       kcms/activities/kcm_activities.h
+       kcms/activities/utils/d_ptr.h
+       kcms/activities/utils/d_ptr_implementation.h
+       kcms/baloo/baloodata.cpp
+       kcms/baloo/baloodata.h
+       kcms/baloo/ui/main.qml
+       kcms/kded/filterproxymodel.cpp
+       kcms/kded/filterproxymodel.h
+       kcms/kded/modulesmodel.cpp
+       kcms/kded/modulesmodel.h
+       kcms/kded/ui/main.qml
+       kcms/keyboard/tastenbrett/application.cpp
+       kcms/keyboard/tastenbrett/application.h
+       kcms/keyboard/tastenbrett.cpp
+       kcms/keyboard/tastenbrett/doodad.cpp
+       kcms/keyboard/tastenbrett/doodad.h
+       kcms/keyboard/tastenbrett/geometry.cpp
+       kcms/keyboard/tastenbrett/geometry.h
+       kcms/keyboard/tastenbrett.h
+       kcms/keyboard/tastenbrett/key.cpp
+       kcms/keyboard/tastenbrett/key.h
+       kcms/keyboard/tastenbrett/main.cpp
+       kcms/keyboard/tastenbrett/outline.cpp
+       kcms/keyboard/tastenbrett/outline.h
+       kcms/keyboard/tastenbrett/qml/IndicatorDoodad.qml
+       kcms/keyboard/tastenbrett/qml/KeyCapLabel.qml
+       kcms/keyboard/tastenbrett/qml/KeyCap.qml
+       kcms/keyboard/tastenbrett/qml/Key.qml
+       kcms/keyboard/tastenbrett/qml/main.qml
+       kcms/keyboard/tastenbrett/qml/ShapeCanvas.qml
+       kcms/keyboard/tastenbrett/qml/ShapeDoodad.qml
+       kcms/keyboard/tastenbrett/qml/TextDoodad.qml
+       kcms/keyboard/tastenbrett/row.cpp
+       kcms/keyboard/tastenbrett/row.h
+       kcms/keyboard/tastenbrett/section.cpp
+       kcms/keyboard/tastenbrett/section.h
+       kcms/keyboard/tastenbrett/shape.cpp
+       kcms/keyboard/tastenbrett/shape.h
+       kcms/keyboard/tastenbrett/xkbobject.cpp
+       kcms/keyboard/tastenbrett/xkbobject.h
+       kcms/keys/basemodel.cpp
+       kcms/keys/basemodel.h
+       kcms/keys/filteredmodel.cpp
+       kcms/keys/filteredmodel.h
+       kcms/keys/globalaccelmodel.h
+       kcms/keys/kcm_keys.cpp
+       kcms/keys/kcm_keys.h
+       kcms/keys/keysdata.cpp
+       kcms/keys/keysdata.h
+       kcms/keys/shortcutsmodel.cpp
+       kcms/keys/shortcutsmodel.h
+       kcms/keys/standardshortcutsmodel.cpp
+       kcms/keys/standardshortcutsmodel.h
+       kcms/recentFiles/common/dbus/common.h
+       kcms/recentFiles/definitions.h
+       kcms/recentFiles/ExcludedApplicationsModel.cpp
+       kcms/recentFiles/ExcludedApplicationsModel.h
+       kcms/recentFiles/kcm_recentFiles.cpp
+       kcms/recentFiles/kcm_recentFiles.h
+       kcms/recentFiles/utils/d_ptr.h
+       kcms/recentFiles/utils/d_ptr_implementation.h
+       kcms/spellchecking/spellchecking.cpp
+       kcms/spellchecking/spellcheckingdata.cpp
+       kcms/spellchecking/spellcheckingdata.h
+       kcms/spellchecking/spellchecking.h
+       kcms/spellchecking/spellcheckingskeleton.cpp
+       kcms/spellchecking/spellcheckingskeleton.h
+Copyright: 2008, Albert Astals Cid <aacid@kde.org>
+           2019, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2020, Benjamin Port <benjamin.port@enioka.com>
+           2015, David Faure <david.faure@kdab.com>
+           2020, David Redondo <kde@david-redondo.de>
+           2019, Harald Sitter <sitter@kde.org>
+           2023-2024, Ismael Asensio <isma.af@gmail.com>
+           2010-2016, Ivan Cukic <ivan.cukic@kde.org>
+           2020, Kai Uwe Broulik <kde@broulik.de>
+           2020, Kai Uwe Broulik <kde@pbroulik.de>
+           2020, Kai Uwe Broulik <kde@privat.broulik.de>
+           2015, Klarälvdalens Datakonsult AB a KDAB Group company <info@kdab.com>
+           2022, Méven Car <meven.car@kdenet.net>
+           2011-2012, Ni Hui <shuizhuyuanluo@126.com>
+           2020, Niccolò Venerandi <niccolo@venerandi.com>
+           2025, Oliver Beard <olib141@outlook.com>
+           2018, Tomaz Canabrava <tcanabrava@kde.org>
+           2024, Vlad Zahorodnii <vlad.zahorodnii@kde.org>
+           2013-2020, Weng Xuetian <wengxt@gmail.com>
+License: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+
+Files: kcms/baloo/fileexcludefilters.cpp
+       kcms/baloo/fileexcludefilters.h
+       kcms/baloo/kcm.cpp
+       kcms/baloo/kcm.h
+       kcms/ksplash/kcm.cpp
+       kcms/ksplash/kcm.h
+       kcms/ksplash/ui/main.qml
+       kcms/landingpage/ui/MostUsedIcon.qml
+       kcms/runners/plasmasearch/kcm.cpp
+       kcms/runners/plasmasearch/kcm.h
+       runners/kwin/kwin-runner.cpp
+       runners/kwin/kwin-runner.h
+       runners/plasma-desktop/plasma-desktop-runner.cpp
+       runners/plasma-desktop/plasma-desktop-runner.h
+Copyright: 2009, Aaron Seigo <aseigo@kde.org>
+           2020-2022, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2020, Benjamin Port <benjamin.port@enioka.com>
+           2019-2020, Cyril Rossi <cyril.rossi@enioka.com>
+           2023, ivan tkachenko <me@ratijas.tk>
+           2014-2017, Marco Martin <mart@kde.org>
+           2016, Martin Gräßlin <mgraesslin@kde.org>
+           2022, Nate Graham <nate@kde.org>
+           2007-2010, Sebastian Trueg <trueg@kde.org>
+           2012-2014, Vishesh Handa <me@vhanda.in>
+License: LGPL-2.0-only
+
+Files: applets/kickoff/ApplicationsPage.qml
+       applets/kickoff/DropAreaGridView.qml
+       applets/kickoff/DropAreaListView.qml
+       applets/kickoff/EmptyPage.qml
+       applets/kickoff/HorizontalStackView.qml
+       applets/kickoff/KickoffDropArea.qml
+       applets/kickoff/KickoffSingleton.qml
+       applets/kickoff/NormalPage.qml
+       applets/kickoff/PlacesPage.qml
+       applets/kickoff/VerticalStackView.qml
+       applets/kimpanel/backend/ibus/ibus15/gdkkeynames_p.c
+       applets/kimpanel/backend/ibus/ibus15/gdkkeynames_p.h
+       applets/kimpanel/backend/ibus/ibus15/gdkkeysyms_p.h
+       applets/kimpanel/backend/ibus/ibus15/gtkaccelparse_p.c
+       applets/kimpanel/backend/ibus/ibus15/gtkaccelparse_p.h
+       applets/kimpanel/backend/ibus/ibus15/keyname-table.h
+       applets/kimpanel/backend/ibus/launcher.cpp
+       applets/showActivityManager/package/contents/config/config.qml
+       applets/showActivityManager/package/contents/ui/ConfigAppearance.qml
+       applets/showActivityManager/package/contents/ui/main.qml
+       applets/taskmanager/package/contents/ui/PipeWireThumbnail.qml
+       applets/taskmanager/package/contents/ui/PlayerController.qml
+       applets/taskmanager/package/contents/ui/ScrollableTextWrapper.qml
+       applets/taskmanager/package/contents/ui/ToolTipDelegate.qml
+       applets/taskmanager/package/contents/ui/ToolTipInstance.qml
+       applets/taskmanager/package/contents/ui/ToolTipWindowMouseArea.qml
+       applets/trash/dirmodel.cpp
+       applets/trash/dirmodel.h
+       applets/trash/trash.cpp
+       applets/trash/trash.h
+       containments/desktop/package/contents/ui/ActionButton.qml
+       containments/desktop/package/contents/ui/ConfigOverlay.qml
+       containments/desktop/plugins/folder/eventgenerator.cpp
+       containments/desktop/plugins/folder/eventgenerator.h
+       containments/desktop/plugins/folder/itemviewadapter.cpp
+       containments/panel/LayoutManager.js
+       desktoppackage/contents/activitymanager/ActivityManager.qml
+       desktoppackage/contents/configuration/AboutPlugin.qml
+       desktoppackage/contents/configuration/shellcontainmentconfiguration/Delegate.qml
+       desktoppackage/contents/configuration/ShellContainmentConfiguration.qml
+       desktoppackage/contents/explorer/AppletDelegate.qml
+       desktoppackage/contents/explorer/WidgetExplorer.qml
+       desktoppackage/contents/InteractiveConsole.qml
+       desktoppackage/contents/lockscreen/MainBlock.qml
+       emojier/data/update-emoji-data.py
+       emojier/emojicategory.cpp
+       emojier/emojicategory.h
+       emojier/emojidict.cpp
+       emojier/emojidict.h
+       emojier/emojierplugin.h
+       kcms/landingpage/split.frag
+       kcms/landingpage/split.vert
+       kcms/qtquicksettings/kcmqtquicksettings.cpp
+       kcms/qtquicksettings/kcmqtquicksettings.h
+       kcms/runners/krunner.knsrc
+       kcms/runners/plugininstaller/AbstractJob.cpp
+       kcms/runners/plugininstaller/AbstractJob.h
+       kcms/runners/plugininstaller/autotests/plugininstallerrctest.cpp
+       kcms/runners/plugininstaller/KRunnerPluginInstallerRcJob.cpp
+       kcms/runners/plugininstaller/KRunnerPlugininstallerRcJob.h
+       kcms/runners/plugininstaller/main.cpp
+       kcms/runners/plugininstaller/PackageKitConfirmationDialog.h
+       kcms/runners/plugininstaller/PackageKitJob.cpp
+       kcms/runners/plugininstaller/PackageKitJob.h
+       kcms/runners/plugininstaller/ScriptConfirmationDialog.h
+       kcms/runners/plugininstaller/ScriptJob.cpp
+       kcms/runners/plugininstaller/ScriptJob.h
+       kcms/runners/plugininstaller/ZypperRPMJob.cpp
+       kcms/runners/plugininstaller/ZypperRPMJob.h
+       kcms/tablet/calibrationtool.cpp
+       kcms/tablet/calibrationtool.h
+       kcms/tablet/inputsequence.cpp
+       kcms/tablet/inputsequence.h
+       kcms/tablet/kcmtablet.cpp
+       kcms/tablet/kcmtablet.h
+       kcms/tablet/tabletmoduledata.cpp
+       kcms/tablet/tabletmoduledata.h
+       kcms/touchscreen/kcmtouchscreen.cpp
+       kcms/touchscreen/kcmtouchscreen.h
+       sddm-theme/Background.qml
+       sddm-theme/KeyboardButton.qml
+       sddm-theme/Main.qml
+       sddm-theme/SessionButton.qml
+       toolboxes/paneltoolbox/contents/ui/main.qml
+Copyright: 2014, Aaron Seigo <aseigo@kde.org>
+           2018-2021, Aleix Pol Gonzalez <aleixpol@blue-systems.com>
+           2020-2022, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2020-2023, Alexander Lohnau <alexander.lohnau@gmx.de>
+           2016, Boudhayan Gupta <bgupta@kde.org>
+           2021, Cyril Rossi <cyril.rossi@enioka.com>
+           2016-2017, David Edmundson <davidedmundson@kde.org>
+           2020, David Redondo <kde@david-redondo.de>
+           2015, Eike Hein <hein@kde.org>
+           2008, Fredrik Höglund <fredrik@kde.org>
+           2005-2009, GNOME Foundation
+           2012, Gregor Taetzner <gregor@freenet.de>
+           2022, Harald Sitter <sitter@kde.org>
+           2014, Ivan Cukic <ivan.cukic@kde.org>
+           2020, Ivan Čukić <ivan.cukic at kde.org>
+           1995-1997, Josh MacDonald
+           2024, Joshua Goins <josh@redstrate.com>
+           2024, Joshua Goins <joshua.goins@kdab.com>
+           2025, Kai Uwe Broulik <kde@broulik.de>
+           2015-2016, Kai Uwe Broulik <kde@privat.broulik.de>
+           2022, Klarälvdalens Datakonsult AB a KDAB Group company <info@kdab.com>
+           2011-2022, Marco Martin <mart@kde.org>
+           2015, Marco Martin <notmart@gmail.com>
+           2014, Martin Gräßlin <mgraesslin@kde.org>
+           2021, Mikel Johnson <mikel5764@gmail.com>
+           2020-2024, Nate Graham <nate@kde.org>
+           2022, Niccolò Venerandi <niccolo@venerandi.com>
+           2021, Noah Davis <noahadvs@gmail.com>
+           1995-1997, Peter Mattis
+           2017, Roman Gilg <subdiff@gmail.com>
+           2011-2013, Sebastian Kügler <sebas@kde.org>
+           1995-1997, Spencer Kimball
+           2020, Tranter Madi <trmdi@yandex.com>
+           2025, Vlad Zahorodnii <vlad.zahorodnii@kde.org>
+           2022, Weng Xuetian <wegnxt@gmail.com>
+           2017-2022, Weng Xuetian <wengxt@gmail.com>
+License: LGPL-2.0-or-later
+
+Files: attica-kde/kdeplugin/kdeplatformdependent.cpp
+       attica-kde/kdeplugin/kdeplatformdependent.h
+       kaccess/kaccess.cpp
+       kaccess/kaccess.h
+       kaccess/main.cpp
+       kcms/access/kcmaccess.cpp
+       kcms/access/kcmaccess.h
+Copyright: 2019, Dan Leinir Turthra Jensen <admin@leinir.dk>
+           2009, Eckhart Wörner <ewoerner@kde.org>
+           2010-2014, Frederik Gladhorn <gladhorn@kde.org>
+           2024, Harald Sitter <sitter@kde.or>
+           2000, Matthias Hölzer-Klüpfel <hoelzer@kde.org>
+License: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+Comment: Automatically extracted
+
+Files: po/ca/*.po
+       po/ca@valencia/*.po
+       po/uk/*.po
+Copyright: 2004-2005, Albert Astals Cid <aacid@kde.org>
+           2019, Alfredo Vicente <alviboi@gmail.com>
+           2002-2007, Andriy Rysin <arysin@bcsii.com>
+           2002-2006, Andriy Rysin <rysin@kde.org>
+           2002-2023, Antoni Bella Pérez <antonibella5@yahoo.com>
+           2002, Dmytro Kovalov <kov@tokyo.email.ne.jp>
+           2019, Empar Montoro Martín <montoro_mde@gva.es>
+           2002-2005, Eugene Onischenko <oneugene@ukr.net>
+           2004, Ivan Lloro Boada <antispam@wanadoo.es>
+           2005-2008, Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>
+           2009, Joan Maspons <joanmaspons@gmail.com>
+           2007-2025, Josep M. Ferrer <txemaq@gmail.com>
+           2009, Manuel Tortosa <manutortosa@gmail.com>
+           2008, Orestes Mas Casals <orestes@tsc.upc.edu>
+           2010, Orestes Mas <orestes@tsc.upc.edu>
+           1998-2006, Sebastià Pla i Sanz <sps@sastia.com>
+           2008-2025, Yuri Chornoivan <yurchor@ukr.net>
+License: LGPL-2.1-only or LGPL-3.0-only or LicenseRef-KDE-Accepted-LGPL
+Comment: Manually collected
+
+Files: kcms/baloo/filteredfoldermodel.cpp
+       kcms/baloo/filteredfoldermodel.h
+Copyright: 2020, Benjamin Port <benjamin.port@enioka.com>
+           2019, Tomaz Canabrava <tcanabrava@kde.org>
+           2014, Vishesh Handa <me@vhanda.in>
+License: LGPL-2.1-or-later
+
+Files: appiumtests/applets/taskmanagertest.py
+       appiumtests/applets/taskmanager_visiblelabel.py
+       appiumtests/desktop/bug472909_activewindow.py
+       appiumtests/desktop/bug472909.py
+       appiumtests/desktop/bug476968.py
+       appiumtests/desktop/bug488736_adaptive_opacity.py
+       appiumtests/desktop/desktoptest_testwindow.py
+       appiumtests/desktop/folderviewtest.py
+       appiumtests/desktop/panelfocustest.py
+       appiumtests/emojiertest.py
+       appiumtests/kcms/kcm_kded_test.py
+       appiumtests/kcms/kcm_keys_test.py
+       appiumtests/kcms/kcm_plasmasearch_test.py
+Copyright: 2023-2025, Fushan Wen <qydwhotmail@gmail.com>
+           2023-2024, Niccolò Venerandi <niccolo@venerandi.com>
+License: MIT
+
+Files: debian/*
+Copyright: 2022-2025, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+           2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
+           2022, Patrick Franz <deltaone@debian.org>
+License: GPL-2.0-or-later
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all
+ copyright and related and neighboring rights to this software to the
+ public domain worldwide. This software is distributed without any
+ warranty.
+ .
+ On Debian systems, the complete text of the CC0 Public Domain
+ Dedication can be found in `/usr/share/common-licenses/CC0-1.0’.
+
+License: GPL-2.0-only
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2’.
+
+License: GPL-2.0-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2’.
+
+License: GPL-3.0-only
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GPL License as published by the Free
+ Software Foundation, version 3.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3’.
+
+License: LGPL-2.0-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version
+ 2 as published by the Free Software Foundation.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in
+ `/usr/share/common-licenses/LGPL-2’.
+
+License: LGPL-2.0-or-later
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option)  any later version.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in
+ `/usr/share/common-licenses/LGPL-2’.
+
+License: LGPL-2.1-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version
+ 2.1 as published by the Free Software Foundation.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in
+ `/usr/share/common-licenses/LGPL-2.1’.
+
+License: LGPL-2.1-or-later
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2.1 of the
+ License, or (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in
+ `/usr/share/common-licenses/LGPL-2.1’.
+
+License: LGPL-3.0-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version
+ 3 as published by the Free Software Foundation.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3’.
+
+License: LicenseRef-KDE-Accepted-GPL
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the license or (at
+ your option) at any later version that is accepted by the membership
+ of KDE e.V. (or its successor approved by the membership of KDE
+ e.V.), which shall act as a proxy as defined in Section 14 of
+ version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+
+License: LicenseRef-KDE-Accepted-LGPL
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 3 of the
+ license or (at your option) any later version that is accepted by
+ the membership of KDE e.V. (or its successor approved by the
+ membership of KDE e.V.), which shall act as a proxy as defined in
+ Section 6 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation files
+ (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.

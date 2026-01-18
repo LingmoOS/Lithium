@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2023-01-10 09:53+0000\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: mails\n"
+
+#: code/tools.js:32
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Remover dos Favoritos"
+
+#: code/tools.js:36
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Adicionar aos Favoritos"
+
+#: code/tools.js:60
+#, kde-format
+msgid "On All Activities"
+msgstr "Em Todas as Actividades"
+
+#: code/tools.js:110
+#, kde-format
+msgid "On the Current Activity"
+msgstr "Na Actividade Actual"
+
+#: code/tools.js:124
+#, kde-format
+msgid "Show in Favorites"
+msgstr "Mostrar nos Favoritos"
+
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Geral"
+
+#: ConfigGeneral.qml:48
+#, kde-format
+msgid "Icon:"
+msgstr "Ícone:"
+
+#: ConfigGeneral.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Change Application Launcher's icon"
+msgstr "Mudar o ícone do Lançador de Aplicações"
+
+#: ConfigGeneral.qml:55
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Current icon is %1. Click to open menu to change the current icon or reset "
+"to the default icon."
+msgstr ""
+"O ícone actual é o %1. Carregue para abrir um menu que lhe permite modificar "
+"o ícone actual ou repor o predefinido."
+
+#: ConfigGeneral.qml:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Icon name is \"%1\""
+msgstr "O nome do ícone é \"%1\""
+
+#: ConfigGeneral.qml:94
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Escolher…"
+
+#: ConfigGeneral.qml:96
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Choose an icon for Application Launcher"
+msgstr "Escolher um ícone para o Lançador de Aplicações"
+
+#: ConfigGeneral.qml:100
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Reset to default icon"
+msgstr "Repor o ícone predefinido"
+
+#: ConfigGeneral.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove icon"
+msgstr "Remover o ícone"
+
+#: ConfigGeneral.qml:121
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgid "Show applications as:"
+msgstr "Mostrar as outras aplicações:"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name only"
+msgstr ""
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description only"
+msgstr ""
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name (Description)"
+msgstr ""
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description (Name)"
+msgstr ""
+
+#: ConfigGeneral.qml:133
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Text label:"
+msgstr "Legenda de texto:"
+
+#: ConfigGeneral.qml:135
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type here to add a text label"
+msgstr "Escreva aqui para adicionar uma legenda de texto"
+
+#: ConfigGeneral.qml:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset menu label"
+msgstr "Repor a legenda do menu"
+
+#: ConfigGeneral.qml:162
+#, kde-format
+msgctxt "@info"
+msgid "A text label cannot be set when the Panel is vertical."
+msgstr ""
+"Não é possível definir uma Legenda de Texto quando o painel está na vertical."
+
+#: ConfigGeneral.qml:172
+#, kde-format
+msgctxt "General options"
+msgid "General:"
+msgstr "Geral:"
+
+#: ConfigGeneral.qml:176
+#, fuzzy, kde-format
+#| msgid "Always sort applications alphabetically"
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Ordenar sempre as aplicações alfabeticamente"
+
+#: ConfigGeneral.qml:180
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+
+#: ConfigGeneral.qml:186
+#, kde-format
+msgid "Use compact list item style"
+msgstr "Usar um estilo compacto de itens da lista"
+
+#: ConfigGeneral.qml:192
+#, kde-format
+msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
+msgid "Automatically disabled when in Touch Mode"
+msgstr "Desactivado automaticamente no Modo por Toque"
+
+#: ConfigGeneral.qml:200
+#, kde-format
+msgid "Highlight newly installed applications"
+msgstr ""
+
+#: ConfigGeneral.qml:205
+#, kde-format
+msgid "Switch sidebar categories when hovering over them"
+msgstr ""
+
+#: ConfigGeneral.qml:211
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Configure Enabled Search Plugins…"
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Configurar os 'Plugins' de Pesquisa Activos…"
+
+#: ConfigGeneral.qml:221
+#, kde-format
+msgid "Sidebar position:"
+msgstr ""
+
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
+#, kde-format
+msgid "Right"
+msgstr ""
+
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
+#, kde-format
+msgid "Left"
+msgstr ""
+
+#: ConfigGeneral.qml:238
+#, kde-format
+msgid "Show favorites:"
+msgstr "Mostrar os favoritos:"
+
+#: ConfigGeneral.qml:239
+#, kde-format
+msgctxt "Part of a sentence: 'Show favorites in a grid'"
+msgid "In a grid"
+msgstr "Numa grelha"
+
+#: ConfigGeneral.qml:247
+#, kde-format
+msgctxt "Part of a sentence: 'Show favorites in a list'"
+msgid "In a list"
+msgstr "Numa lista"
+
+#: ConfigGeneral.qml:255
+#, kde-format
+msgid "Show other applications:"
+msgstr "Mostrar as outras aplicações:"
+
+#: ConfigGeneral.qml:256
+#, kde-format
+msgctxt "Part of a sentence: 'Show other applications in a grid'"
+msgid "In a grid"
+msgstr "Numa grelha"
+
+#: ConfigGeneral.qml:264
+#, kde-format
+msgctxt "Part of a sentence: 'Show other applications in a list'"
+msgid "In a list"
+msgstr "Numa lista"
+
+#: ConfigGeneral.qml:276
+#, kde-format
+msgid "Show buttons for:"
+msgstr "Mostrar os botões de:"
+
+#: ConfigGeneral.qml:277 LeaveButtons.qml:171
+#, kde-format
+msgid "Power"
+msgstr "Energia"
+
+#: ConfigGeneral.qml:286 LeaveButtons.qml:171
+#, kde-format
+msgid "Session"
+msgstr "Sessão"
+
+#: ConfigGeneral.qml:295
+#, kde-format
+msgid "Power and session"
+msgstr "Energia e sessão"
+
+#: ConfigGeneral.qml:304
+#, kde-format
+msgid "Show action button captions"
+msgstr "Mostrar os títulos dos botões de acções"
+
+#: Footer.qml:101
+#, kde-format
+msgid "Applications"
+msgstr "Aplicações"
+
+#: Footer.qml:117
+#, kde-format
+msgid "Places"
+msgstr "Locais"
+
+#: FullRepresentation.qml:154
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr "Sem correspondências"
+
+#: Header.qml:86
+#, kde-format
+msgid "Open user settings"
+msgstr "Abrir a configuração do utilizador"
+
+#: Header.qml:266
+#, kde-format
+msgid "Keep Open"
+msgstr "Manter Aberto"
+
+#: KickoffGridDelegate.qml:60 KickoffListDelegate.qml:119
+#, kde-format
+msgctxt "Newly installed app, badge, keep short"
+msgid "New!"
+msgstr ""
+
+#: KickoffGridDelegate.qml:61 KickoffListDelegate.qml:121
+#, fuzzy, kde-format
+#| msgid "Show other applications:"
+msgid "Newly installed application"
+msgstr "Mostrar as outras aplicações:"
+
+#: KickoffGridView.qml:102
+#, kde-format
+msgid "Grid with %1 rows, %2 columns"
+msgstr "Grelha com %1 linhas e %2 colunas"
+
+#: KickoffListDelegate.qml:120
+#, kde-format
+msgid "There is a newly installed application in this category"
+msgstr ""
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgid "More"
+msgstr "Mais"
+
+#: LeaveButtons.qml:171
+#, kde-format
+msgid "Session and Power"
+msgstr ""
+
+#: main.qml:356
+#, kde-format
+msgid "Edit Applications…"
+msgstr "Editar as Aplicações…"
+
+#: PlacesPage.qml:63
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Computer"
+msgstr "Computador"
+
+#: PlacesPage.qml:64
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "History"
+msgstr "Histórico"
+
+#: PlacesPage.qml:65
+#, kde-format
+msgctxt "category in Places sidebar"
+msgid "Frequently Used"
+msgstr "Usados Frequentemente"
+
+#~ msgid "Leave"
+#~ msgstr "Sair"

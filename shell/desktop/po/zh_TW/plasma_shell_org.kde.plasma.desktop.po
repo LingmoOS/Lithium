@@ -1,0 +1,1119 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013, 2014, 2015.
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 14:41+0000\n"
+"PO-Revision-Date: 2025-08-16 14:42+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.07.70\n"
+
+#: contents/activitymanager/ActivityItem.qml:203
+#, kde-format
+msgid "Currently being used"
+msgstr "目前使用中的"
+
+#: contents/activitymanager/ActivityItem.qml:243
+#, kde-format
+msgid ""
+"Move to\n"
+"this activity"
+msgstr ""
+"移至\n"
+"此活動"
+
+#: contents/activitymanager/ActivityItem.qml:273
+#, kde-format
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+"也在\n"
+"此活動顯示"
+
+#: contents/activitymanager/ActivityItem.qml:335
+#, kde-format
+msgid "Configure"
+msgstr "設定"
+
+#: contents/activitymanager/ActivityManager.qml:122
+#, kde-format
+msgid "Create activity…"
+msgstr "建立活動…"
+
+#: contents/activitymanager/Heading.qml:59
+#, kde-format
+msgid "Activities"
+msgstr "活動"
+
+#: contents/activitymanager/StoppedActivityItem.qml:138
+#, kde-format
+msgid "Configure activity"
+msgstr "設定活動"
+
+#: contents/activitymanager/StoppedActivityItem.qml:155
+#, kde-format
+msgid "Delete"
+msgstr "刪除"
+
+#: contents/applet/AppletError.qml:164
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "複製到剪貼簿"
+
+#: contents/applet/AppletError.qml:187
+#, kde-format
+msgid "View Error Details…"
+msgstr "檢視錯誤詳細資訊…"
+
+#: contents/applet/CompactApplet.qml:91
+#, kde-format
+msgid "Open %1"
+msgstr "開啟 %1"
+
+#: contents/configuration/AboutPlugin.qml:21
+#: contents/configuration/AppletConfiguration.qml:320
+#, kde-format
+msgid "About"
+msgstr "關於"
+
+#: contents/configuration/AboutPlugin.qml:50
+#, kde-format
+msgid "Send an email to %1"
+msgstr "傳送電子郵件給 %1"
+
+#: contents/configuration/AboutPlugin.qml:64
+#, kde-format
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr "開啟網站 %1"
+
+#: contents/configuration/AboutPlugin.qml:142
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr "網站"
+
+#: contents/configuration/AboutPlugin.qml:153
+#, kde-format
+msgid "Copyright"
+msgstr "版權"
+
+#: contents/configuration/AboutPlugin.qml:170
+#, kde-format
+msgid "License:"
+msgstr "授權條款："
+
+#: contents/configuration/AboutPlugin.qml:175
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr "檢視授權文字"
+
+#: contents/configuration/AboutPlugin.qml:189
+#, kde-format
+msgid "Authors"
+msgstr "作者群"
+
+#: contents/configuration/AboutPlugin.qml:202
+#, kde-format
+msgid "Credits"
+msgstr "致謝"
+
+#: contents/configuration/AboutPlugin.qml:216
+#, kde-format
+msgid "Translators"
+msgstr "翻譯者"
+
+#: contents/configuration/AboutPlugin.qml:235
+#, kde-format
+msgid "Report a Bug…"
+msgstr "回報問題…"
+
+#: contents/configuration/AppletConfiguration.qml:90
+#, kde-format
+msgid "Keyboard Shortcuts"
+msgstr "鍵盤快捷鍵"
+
+#: contents/configuration/AppletConfiguration.qml:368
+#, kde-format
+msgid "Apply Settings"
+msgstr "套用設定"
+
+#: contents/configuration/AppletConfiguration.qml:369
+#, kde-format
+msgid ""
+"The current page has unsaved changes. Apply the changes or discard them?"
+msgstr "目前頁面有尚未儲存的變更。您要套用還是要捨棄這些變更？"
+
+#: contents/configuration/AppletConfiguration.qml:401
+#, kde-format
+msgid "OK"
+msgstr "確定"
+
+#: contents/configuration/AppletConfiguration.qml:408
+#, kde-format
+msgid "Apply"
+msgstr "套用"
+
+#: contents/configuration/AppletConfiguration.qml:414
+#, kde-format
+msgid "Cancel"
+msgstr "取消"
+
+#: contents/configuration/ConfigCategoryDelegate.qml:27
+#, kde-format
+msgid "Open configuration page"
+msgstr "開啟設定頁面"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:20
+#, kde-format
+msgid "Left-Button"
+msgstr "滑鼠左鍵"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:21
+#, kde-format
+msgid "Right-Button"
+msgstr "滑鼠右鍵"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:22
+#, kde-format
+msgid "Middle-Button"
+msgstr "滑鼠中鍵"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:23
+#, kde-format
+msgid "Back-Button"
+msgstr "向後鍵"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:24
+#, kde-format
+msgid "Forward-Button"
+msgstr "向前鈕"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:26
+#, kde-format
+msgid "Vertical-Scroll"
+msgstr "垂直捲軸"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:27
+#, kde-format
+msgid "Horizontal-Scroll"
+msgstr "水平捲軸"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:29
+#, kde-format
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:30
+#, kde-format
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+#, kde-format
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:73
+#, kde-format
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:142
+#: contents/configuration/MouseEventInputButton.qml:13
+#, kde-format
+msgid "Add Action"
+msgstr "新增動作"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:77
+#, kde-format
+msgid "Layout changes have been restricted by the system administrator"
+msgstr "佈局變更已被系統管理員限制"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:92
+#, kde-format
+msgid "Layout:"
+msgstr "佈局："
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:115
+#, kde-format
+msgid "Wallpaper type:"
+msgstr "桌布類型："
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:154
+#, kde-format
+msgid "Get New Plugins…"
+msgstr "取得新的外掛程式…"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:244
+#, kde-format
+msgid "Layout changes must be applied before other changes can be made"
+msgstr "佈局的變動必須在其他變動做出前套用"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:248
+#, kde-format
+msgid "Apply Now"
+msgstr "立刻套用"
+
+#: contents/configuration/ConfigurationShortcuts.qml:18
+#, kde-format
+msgid "Shortcuts"
+msgstr "鍵盤快捷鍵"
+
+#: contents/configuration/ConfigurationShortcuts.qml:31
+#, kde-format
+msgctxt "@action:button set keyboard shortcut for"
+msgid "Activate widget as if clicked:"
+msgstr "如同點擊一般觸發元件："
+
+#: contents/configuration/ContainmentConfiguration.qml:27
+#, kde-format
+msgid "Wallpaper"
+msgstr "桌布"
+
+#: contents/configuration/ContainmentConfiguration.qml:32
+#, kde-format
+msgid "Mouse Actions"
+msgstr "滑鼠動作"
+
+#: contents/configuration/MouseEventInputButton.qml:20
+#, kde-format
+msgid "Input Here"
+msgstr "在此輸入"
+
+#: contents/configuration/PanelConfiguration.qml:100
+#, kde-format
+msgid "Panel Settings"
+msgstr "面板設定"
+
+#: contents/configuration/PanelConfiguration.qml:109
+#, kde-format
+msgctxt ""
+"@action:button label of button to open a menu that lets you add widgets or "
+"spacers"
+msgid "Add New"
+msgstr "新增"
+
+#: contents/configuration/PanelConfiguration.qml:127
+#, kde-format
+msgctxt "@action:menu add a spacer"
+msgid "Spacer"
+msgstr "間隔器"
+
+#: contents/configuration/PanelConfiguration.qml:134
+#, kde-format
+msgctxt "@action:menu add a widget"
+msgid "Widgets…"
+msgstr "元件…"
+
+#: contents/configuration/PanelConfiguration.qml:163
+#, kde-format
+msgid "Position"
+msgstr "位置"
+
+#: contents/configuration/PanelConfiguration.qml:168
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Top"
+msgstr "上"
+
+#: contents/configuration/PanelConfiguration.qml:169
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Right"
+msgstr "靠右"
+
+#: contents/configuration/PanelConfiguration.qml:170
+#: contents/configuration/PanelConfiguration.qml:283
+#, kde-format
+msgid "Left"
+msgstr "靠左"
+
+#: contents/configuration/PanelConfiguration.qml:171
+#: contents/configuration/PanelConfiguration.qml:285
+#, kde-format
+msgid "Bottom"
+msgstr "下"
+
+#: contents/configuration/PanelConfiguration.qml:191
+#, kde-format
+msgid "Set Position…"
+msgstr "設定位置…"
+
+#: contents/configuration/PanelConfiguration.qml:218
+#, kde-format
+msgid "Alignment"
+msgstr "對齊"
+
+#: contents/configuration/PanelConfiguration.qml:284
+#, kde-format
+msgid "Center"
+msgstr "置中"
+
+#: contents/configuration/PanelConfiguration.qml:315
+#, kde-format
+msgid "Height"
+msgstr "高度"
+
+#: contents/configuration/PanelConfiguration.qml:316
+#, kde-format
+msgid "Width"
+msgstr "寬度"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, kde-format
+msgid "Fill height"
+msgstr "填滿高度"
+
+#: contents/configuration/PanelConfiguration.qml:335
+#, kde-format
+msgid "Fill width"
+msgstr "填滿寬度"
+
+#: contents/configuration/PanelConfiguration.qml:336
+#, kde-format
+msgid "Fit content"
+msgstr "符合內容"
+
+#: contents/configuration/PanelConfiguration.qml:337
+#, kde-format
+msgid "Custom"
+msgstr "自訂"
+
+#: contents/configuration/PanelConfiguration.qml:370
+#, kde-format
+msgid "Visibility"
+msgstr "可見度"
+
+#: contents/configuration/PanelConfiguration.qml:388
+#, kde-format
+msgid "Always visible"
+msgstr "永遠可見"
+
+#: contents/configuration/PanelConfiguration.qml:389
+#, kde-format
+msgid "Auto hide"
+msgstr "自動隱藏"
+
+#: contents/configuration/PanelConfiguration.qml:390
+#, kde-format
+msgid "Dodge windows"
+msgstr "躲避視窗"
+
+#: contents/configuration/PanelConfiguration.qml:391
+#, kde-format
+msgid "Windows go below"
+msgstr "視窗在下面"
+
+#: contents/configuration/PanelConfiguration.qml:451
+#, kde-format
+msgid "Opacity"
+msgstr "透明度"
+
+#: contents/configuration/PanelConfiguration.qml:467
+#, kde-format
+msgid "Adaptive"
+msgstr "自動調整"
+
+#: contents/configuration/PanelConfiguration.qml:468
+#, kde-format
+msgid "Opaque"
+msgstr "不透明"
+
+#: contents/configuration/PanelConfiguration.qml:469
+#, kde-format
+msgid "Translucent"
+msgstr "半透明"
+
+#: contents/configuration/PanelConfiguration.qml:501
+#, kde-format
+msgctxt "@title:group Degree of floatingness of panel and applets"
+msgid "Floating"
+msgstr "浮動"
+
+#: contents/configuration/PanelConfiguration.qml:517
+#, kde-format
+msgctxt "@item:inlistbox Option to disable floating panels or applets"
+msgid "Disabled"
+msgstr "已停用"
+
+#: contents/configuration/PanelConfiguration.qml:518
+#, kde-format
+msgctxt "@item:inlistbox Option to make only panel applets always float"
+msgid "Applets only"
+msgstr "僅小程式"
+
+#: contents/configuration/PanelConfiguration.qml:519
+#, kde-format
+msgctxt "@item:inlistbox Option to make panel and applets floating"
+msgid "Panel and applets"
+msgstr "面板與小程式"
+
+#: contents/configuration/PanelConfiguration.qml:562
+#, kde-format
+msgctxt ""
+"@action:button Revert an unsupported configuration back to the defaults"
+msgid "Fix it"
+msgstr "修正它"
+
+#: contents/configuration/PanelConfiguration.qml:648
+#, kde-format
+msgid "Panel Width:"
+msgstr "面板寬度："
+
+#: contents/configuration/PanelConfiguration.qml:649
+#, kde-format
+msgid "Panel Height:"
+msgstr "面板高度："
+
+#: contents/configuration/PanelConfiguration.qml:672
+#, kde-format
+msgid "Focus shortcut:"
+msgstr "取得焦點快捷鍵："
+
+#: contents/configuration/PanelConfiguration.qml:683
+#, kde-format
+msgid "Press this keyboard shortcut to move focus to the Panel"
+msgstr "按這個鍵盤快捷鍵來移動焦點到面板上"
+
+#: contents/configuration/PanelConfiguration.qml:717
+#, kde-format
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "刪除面板"
+
+#: contents/configuration/PanelConfiguration.qml:720
+#, kde-format
+msgid "Remove this panel; this action is undo-able"
+msgstr "移除這個面板；這個動作是可以復原的"
+
+#: contents/configuration/PanelConfiguration.qml:729
+#, kde-format
+msgctxt "@action:button Clone the panel"
+msgid "Clone Panel"
+msgstr "建立面板複本"
+
+#: contents/configuration/PanelConfiguration.qml:733
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new panel with the same settings and applets"
+msgstr "建立擁有同樣設定值與小程式的新面板"
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, kde-format
+msgctxt "@action:button Close the panel configuration window"
+msgid "Close"
+msgstr "關閉"
+
+#: contents/configuration/PanelConfiguration.qml:742
+#, kde-format
+msgctxt ""
+"@action:button Close the panel configuration window and exit edit mode"
+msgid "Exit Edit Mode"
+msgstr "離開編輯模式"
+
+#: contents/configuration/PanelConfiguration.qml:745
+#, kde-format
+msgid "Close Panel Settings window and exit Edit Mode"
+msgstr "關閉面板設定視窗並離開編輯模式"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:32
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum height."
+msgstr "拖曳來變更最大高度。"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:33
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change maximum width."
+msgstr "拖曳來變更最大寬度。"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:34
+#: contents/configuration/panelconfiguration/Ruler.qml:39
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Double-click to reset."
+msgstr "雙擊來重設。"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:37
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum height."
+msgstr "拖曳來變更最小高度。"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:38
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid "Drag to change minimum width."
+msgstr "拖曳來變更最小寬度。"
+
+#: contents/configuration/panelconfiguration/Ruler.qml:87
+#, kde-format
+msgctxt "@info:tooltip slider handle"
+msgid ""
+"Drag to change position on this screen edge.\n"
+"Double-click to reset."
+msgstr ""
+"拖曳來變更在這個螢幕邊緣上的位置。\n"
+"雙擊來重設。"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:19
+#, kde-format
+msgid "Manage Panels and Desktops"
+msgstr "管理面板與桌面"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+#, kde-format
+msgid ""
+"You can drag Panels and Desktops around to move them to different screens."
+msgstr "您可以拖曳面板與桌面來將它們移動到不同的螢幕。"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:44
+#, kde-format
+msgid "Close"
+msgstr "關閉"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:187
+#, kde-format
+msgid "Swap with Desktop on Screen %1"
+msgstr "與螢幕 %1 上的桌面交換"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:188
+#, kde-format
+msgid "Move to Screen %1"
+msgstr "移動到螢幕 %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:202
+#, kde-format
+msgid "Remove Desktop"
+msgstr "移除桌面"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:203
+#, kde-format
+msgid "Remove Panel"
+msgstr "移除面板"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:279
+#, kde-format
+msgid "%1 (primary)"
+msgstr "%1（主要）"
+
+#: contents/explorer/AppletAlternatives.qml:70
+#, kde-format
+msgid "Alternative Widgets"
+msgstr "替代元件"
+
+#: contents/explorer/AppletDelegate.qml:28
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Add %1"
+msgstr "加入 %1"
+
+#: contents/explorer/AppletDelegate.qml:47
+#, kde-format
+msgid "Unsupported Widget"
+msgstr "不支援的元件"
+
+# 這種時候 (badge for new stuff) 感覺好像通常會直接看到寫 "new!"
+# --Kisaragi
+#: contents/explorer/AppletDelegate.qml:202
+#, kde-format
+msgctxt "Text displayed on top of newly installed widgets"
+msgid "New!"
+msgstr "New!"
+
+#: contents/explorer/AppletDelegate.qml:204
+#, kde-format
+msgctxt "@info:other accessible for badge showing applet count"
+msgid "%1 widget active"
+msgid_plural "%1 widgets active"
+msgstr[0] "%1 個作用中的元件"
+
+#: contents/explorer/AppletDelegate.qml:205
+#, kde-format
+msgctxt " @info:other accessible for badge indicating new widget"
+msgid "Recently installed"
+msgstr "最近安裝"
+
+#: contents/explorer/AppletDelegate.qml:217
+#, kde-format
+msgid "Cancel Uninstallation"
+msgstr "取消解除安裝"
+
+#: contents/explorer/AppletDelegate.qml:218
+#, kde-format
+msgctxt "@info:tooltip uninstall a widget"
+msgid "Mark for Uninstallation"
+msgstr "標記解除安裝"
+
+#: contents/explorer/AppletDelegate.qml:222
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Cancel pending uninstallation for widget %1"
+msgstr "取消元件 %1 保留中的解除安裝操作"
+
+#: contents/explorer/AppletDelegate.qml:223
+#, kde-format
+msgctxt "@action:button accessible only, %1 is widget name"
+msgid "Mark widget %1 for uninstallation. Requires confirmation"
+msgstr "標記要解除安裝元件 %1。需要確認"
+
+#: contents/explorer/AppletDelegate.qml:265
+#, kde-format
+msgid "Remove all instances"
+msgstr "移除所有實體"
+
+#: contents/explorer/AppletDelegate.qml:269
+#, kde-format
+msgctxt ""
+"@action:button accessible description, %1 number of instances %2 is widget "
+"name"
+msgid "Remove running instance of widget %2"
+msgid_plural "Remove all %1 running instances of widget %2"
+msgstr[0] "移除元件 %2 的 %1 個執行中的實體"
+
+#: contents/explorer/WidgetExplorer.qml:140
+#: contents/explorer/WidgetExplorer.qml:223
+#, kde-format
+msgid "All Widgets"
+msgstr "所有元件"
+
+#: contents/explorer/WidgetExplorer.qml:169
+#, kde-format
+msgid "Widgets"
+msgstr "元件"
+
+#: contents/explorer/WidgetExplorer.qml:178
+#, kde-format
+msgctxt "@action:button The word 'new' refers to widgets"
+msgid "Get New…"
+msgstr "取得新的…"
+
+#: contents/explorer/WidgetExplorer.qml:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Get New Widgets…"
+msgstr "取得新元件…"
+
+#: contents/explorer/WidgetExplorer.qml:192
+#, kde-format
+msgctxt "@action:button accessible for close button"
+msgid "Close Widget Explorer"
+msgstr "關閉元件瀏覽器"
+
+#: contents/explorer/WidgetExplorer.qml:208
+#, kde-format
+msgctxt "@label:textbox accessible"
+msgid "Search through widgets"
+msgstr "搜尋元件"
+
+#: contents/explorer/WidgetExplorer.qml:237
+#, kde-format
+msgid "Categories"
+msgstr "類別"
+
+#: contents/explorer/WidgetExplorer.qml:259
+#, kde-format
+msgctxt "@action:button uninstall widgets in widget explorer"
+msgid "Uninstall (%1 Widget)"
+msgid_plural "Uninstall (%1 Widgets)"
+msgstr[0] "解除安裝（%1 個元件）"
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets matched the search terms"
+msgstr "沒有元件符合搜尋字詞"
+
+#: contents/explorer/WidgetExplorer.qml:388
+#, kde-format
+msgid "No widgets available"
+msgstr "沒有可用元件"
+
+#: contents/lockscreen/config.qml:24
+#, kde-format
+msgctxt "@title: group"
+msgid "Show clock:"
+msgstr "顯示時鐘："
+
+#: contents/lockscreen/config.qml:25
+#, kde-format
+msgctxt "@option:radio Clock always shown"
+msgid "Always"
+msgstr "總是"
+
+#: contents/lockscreen/config.qml:26
+#, kde-format
+msgctxt "@option:radio"
+msgid "Always show clock"
+msgstr "總是顯示時鐘"
+
+#: contents/lockscreen/config.qml:41
+#, kde-format
+msgctxt "@option:radio Clock shown only while unlock prompt is visible"
+msgid "On unlocking prompt"
+msgstr "解除鎖定對話框出現時"
+
+#: contents/lockscreen/config.qml:42
+#, kde-format
+msgctxt "@option:radio"
+msgid "Show clock only on unlocking prompt"
+msgstr "只在解除鎖定對話框出現時顯示時鐘"
+
+#: contents/lockscreen/config.qml:55
+#, kde-format
+msgctxt "@option:radio Clock never shown"
+msgid "Never"
+msgstr "永不"
+
+#: contents/lockscreen/config.qml:56
+#, kde-format
+msgctxt "@option:radio"
+msgid "Never show clock"
+msgstr "不要顯示時鐘"
+
+#: contents/lockscreen/config.qml:71
+#, kde-format
+msgctxt "@title: group UI controls for playback of multimedia content"
+msgid "Media controls:"
+msgstr "媒體控制："
+
+#: contents/lockscreen/config.qml:74
+#, kde-format
+msgctxt "@option:check"
+msgid "Show under unlocking prompt"
+msgstr "在解除鎖定對話框下方顯示"
+
+#: contents/lockscreen/LockScreenUi.qml:48
+#, kde-format
+msgid "Unlocking failed"
+msgstr "解除鎖定失敗"
+
+#: contents/lockscreen/LockScreenUi.qml:281
+#, kde-format
+msgid "Caps Lock is on"
+msgstr "大寫鎖定已開啟"
+
+#: contents/lockscreen/LockScreenUi.qml:295
+#, kde-format
+msgid "Slee&p"
+msgstr "睡眠(&P)"
+
+#: contents/lockscreen/LockScreenUi.qml:301
+#, kde-format
+msgid "&Hibernate"
+msgstr "休眠(&H)"
+
+#: contents/lockscreen/LockScreenUi.qml:307
+#, kde-format
+msgid "Switch &User"
+msgstr "切換使用者(&U)"
+
+#: contents/lockscreen/LockScreenUi.qml:368
+#, kde-format
+msgctxt "Button to show/hide virtual keyboard"
+msgid "Virtual Keyboard"
+msgstr "虛擬鍵盤"
+
+#: contents/lockscreen/LockScreenUi.qml:392
+#, kde-format
+msgctxt "Button to change keyboard layout"
+msgid "Switch layout"
+msgstr "切換佈局"
+
+#: contents/lockscreen/MainBlock.qml:65
+#, kde-format
+msgid "Password"
+msgstr "密碼"
+
+#: contents/lockscreen/MainBlock.qml:114
+#: contents/lockscreen/NoPasswordUnlock.qml:17
+#, kde-format
+msgid "Unlock"
+msgstr "解除鎖定"
+
+#: contents/lockscreen/MainBlock.qml:163
+#, kde-format
+msgid "(or scan your fingerprint on the reader)"
+msgstr "（或是在辨識器上掃描您的指紋）"
+
+#: contents/lockscreen/MainBlock.qml:167
+#, kde-format
+msgid "(or scan your smartcard)"
+msgstr "（或是掃描您的智慧卡）"
+
+#: contents/lockscreen/MediaControls.qml:59
+#, kde-format
+msgid "No title"
+msgstr "無標題"
+
+#: contents/lockscreen/MediaControls.qml:60
+#, kde-format
+msgid "No media playing"
+msgstr "沒有播放任何媒體"
+
+#: contents/lockscreen/MediaControls.qml:88
+#, kde-format
+msgid "Previous track"
+msgstr "上一個音軌"
+
+#: contents/lockscreen/MediaControls.qml:100
+#, kde-format
+msgid "Play or Pause media"
+msgstr "播放或暫停媒體"
+
+#: contents/lockscreen/MediaControls.qml:110
+#, kde-format
+msgid "Next track"
+msgstr "下一個音軌"
+
+#: contents/views/DesktopEditMode.qml:121
+#, kde-format
+msgctxt "@action:button"
+msgid "More"
+msgstr "更多"
+
+#: contents/views/DesktopEditMode.qml:130
+#, kde-format
+msgid "Exit Edit Mode"
+msgstr "離開編輯模式"
+
+#: contents/views/Panel.qml:326
+#, kde-format
+msgid "Panel Focus Indicator"
+msgstr "面板焦點指示器"
+
+#~ msgid "Stopped activities:"
+#~ msgstr "已停止的活動："
+
+#~ msgid "Stop activity"
+#~ msgstr "停止活動"
+
+#~ msgid "Author:"
+#~ msgstr "作者："
+
+#~ msgid "Email:"
+#~ msgstr "電子郵件："
+
+#~ msgid "Uninstall"
+#~ msgstr "解除安裝"
+
+#~ msgctxt "Percentage value"
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid ""
+#~ "This shortcut will activate the applet as though it had been clicked."
+#~ msgstr "此快捷鍵將會如按下般啟用此元件。"
+
+#~ msgid "Add spacer widget to the panel"
+#~ msgstr "新增間隔器元件到面板中"
+
+#~ msgid "Add or Manage Widgets…"
+#~ msgstr "新增或管理元件…"
+
+#~ msgid "Open the widget selector to drag and drop widgets to the panel"
+#~ msgstr "開啟元件選擇器並將元件拖放到面板上"
+
+#~ msgctxt "@title: group"
+#~ msgid "Clock:"
+#~ msgstr "時鐘："
+
+#~ msgid "Undo uninstall"
+#~ msgstr "復原解除安裝"
+
+#~ msgctxt "@info:tooltip uninstall a widget"
+#~ msgid "Uninstall"
+#~ msgstr "解除安裝"
+
+#~ msgctxt "@action:button uninstall widgets in widget explorer"
+#~ msgid "Confirm Removal of One Widget"
+#~ msgid_plural "Confirm Removal of %1 Widgets"
+#~ msgstr[0] "確認移除 %1 個元件"
+
+#~ msgid "Style"
+#~ msgstr "風格"
+
+#~ msgctxt "@title"
+#~ msgid "About"
+#~ msgstr "關於"
+
+#~ msgid "Global Themes"
+#~ msgstr "全域主題"
+
+#~ msgid "Display Configuration"
+#~ msgstr "顯示器設定"
+
+#~ msgctxt "@action:button Done configuring the panel"
+#~ msgid "Done"
+#~ msgstr "完成"
+
+#~ msgctxt "@option:check"
+#~ msgid "Keep visible when unlocking prompt disappears"
+#~ msgstr "解除鎖定對話框消失後維持可見"
+
+#~ msgid "Height:"
+#~ msgstr "高度："
+
+#~ msgid "Sorry! There was an error loading %1."
+#~ msgstr "很抱歉！載入 %1 時發生錯誤。"
+
+#~ msgid "Length"
+#~ msgstr "長度"
+
+#~ msgctxt "@action:button Make the panel as big as it can be"
+#~ msgid "Maximize"
+#~ msgstr "最大化"
+
+#~ msgid "Make this panel as tall as possible"
+#~ msgstr "讓此面板高度最大化"
+
+#~ msgid "Make this panel as wide as possible"
+#~ msgstr "讓此面板寬度最大化"
+
+#~ msgctxt "@action:button Delete the panel"
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the top; no effect when panel is maximized"
+#~ msgstr "將未最大化的面板對齊到上方；面板已最大化時沒有效果"
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the left; no effect when panel is "
+#~ "maximized"
+#~ msgstr "將未最大化的面板靠左對齊；面板已最大化時沒有效果"
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the center; no effect when panel is "
+#~ "maximized"
+#~ msgstr "將未最大化的面板置中對齊；面板已最大化時沒有效果"
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the bottom; no effect when panel is "
+#~ "maximized"
+#~ msgstr "將未最大化的面板對齊到下方；面板已最大化時沒有效果"
+
+#~ msgid ""
+#~ "Aligns a non-maximized panel to the right; no effect when panel is "
+#~ "maximized"
+#~ msgstr "將未最大化的面板靠右對齊；面板已最大化時沒有效果"
+
+#~ msgid ""
+#~ "Panel is hidden, but reveals itself when the cursor touches the panel's "
+#~ "screen edge"
+#~ msgstr "面板是隱藏的，但游標碰到面板所在的螢幕邊緣時會顯示"
+
+#~ msgid ""
+#~ "Panel is opaque when any windows are touching it, and translucent at "
+#~ "other times"
+#~ msgstr "面板在有視窗碰到它時是不透明的，其他時候則是半透明的"
+
+#~ msgid "Floating:"
+#~ msgstr "浮動："
+
+#~ msgid "Panel visibly floats away from its screen edge"
+#~ msgstr "面板看起來漂浮在所屬的螢幕邊緣旁"
+
+#~ msgid "Attached"
+#~ msgstr "接附"
+
+#~ msgid "Panel is attached to its screen edge"
+#~ msgstr "面板貼附在所屬的螢幕邊緣上"
+
+#~ msgid "More Options…"
+#~ msgstr "更多選項…"
+
+#~ msgctxt "Minimize the length of this string as much as possible"
+#~ msgid "Drag to move"
+#~ msgstr "拖曳來移動"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Use arrow keys to move the panel"
+#~ msgstr "用方向鍵來移動面板"
+
+#, fuzzy
+#~| msgid "Windows Behind"
+#~ msgid "Windows Above"
+#~ msgstr "視窗在後方"
+
+#, fuzzy
+#~| msgid ""
+#~| "Makes the panel remain visible always but part of the maximized windows "
+#~| "shall go below the panel as though the panel did not exist."
+#~ msgid ""
+#~ "Like \"Always Visible\", but maximized and tiled windows go under the "
+#~ "panel as though it didn't exist"
+#~ msgstr ""
+#~ "讓面板維持可見，但讓最大化視窗的一部分出現在它的後方，如同面板不存在一樣。"
+
+#~ msgid "Windows In Front"
+#~ msgstr "視窗在前方"
+
+#~ msgid "Aligns the panel"
+#~ msgstr "對齊面板"
+
+#~ msgid "Center aligns the panel if the panel is not maximized."
+#~ msgstr "讓面板未最大化時置中對齊。"
+
+#~ msgid ""
+#~ "Makes the panel hidden always but reveals it when mouse enters the area "
+#~ "where the panel would have been if it were not hidden."
+#~ msgstr "讓面板總是隱藏，但在滑鼠進入它原先會在的區域時顯示它。"
+
+#~ msgid ""
+#~ "Makes the panel remain visible always but maximized windows shall cover "
+#~ "it. It is revealed when mouse enters the area where the panel would have "
+#~ "been if it were not covered."
+#~ msgstr ""
+#~ "讓面板維持可見，但讓最大化視窗覆蓋它。面板被覆蓋時，若滑鼠進入它原先會在的"
+#~ "區域時會顯示它。"
+
+#~ msgid "Makes the panel translucent except when some windows touch it."
+#~ msgstr "讓面板維持半透明，除非有視窗碰到它。"
+
+#~ msgid "Makes the panel translucent always."
+#~ msgstr "讓面板總是半透明。"
+
+#~ msgid "Makes the panel float from the edge of the screen."
+#~ msgstr "讓面板與螢幕邊緣維持一個距離，如同浮動一般。"
+
+#~ msgid "Makes the panel remain attached to the edge of the screen."
+#~ msgstr "讓面板接附在螢幕邊緣。"
+
+#, fuzzy
+#~| msgid "Search..."
+#~ msgid "Search…"
+#~ msgstr "搜尋..."
+
+#~ msgid "Screen Edge"
+#~ msgstr "螢幕邊緣"
+
+#~ msgid "Click and drag the button to a screen edge to move the panel there."
+#~ msgstr "把按鈕長按拖曳到一螢幕邊緣，以移動面板至該位置。"
+
+#~ msgid "Click and drag the button to resize the panel."
+#~ msgstr "長按拖曳按鈕來縮放面板。"
+
+#~ msgid "Layout cannot be changed while widgets are locked"
+#~ msgstr "元件被鎖定時不能變更佈局"

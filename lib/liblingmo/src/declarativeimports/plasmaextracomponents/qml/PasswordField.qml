@@ -47,7 +47,7 @@ PlasmaExtras.ActionTextField {
     }
 
     echoMode: root.showPassword ? TextInput.Normal : TextInput.Password
-    placeholderText: i18nd("libplasma6", "Password")
+    placeholderText: i18nd("liblingmo6", "Password")
     inputMethodHints: Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText | Qt.ImhSensitiveData
 
     rightActions: Kirigami.Action {
