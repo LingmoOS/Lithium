@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Description": "Window decoration",
+        "EnabledByDefault": true,
+        "Id": "org.lingmo.decoration",
+        "Name": "LingmoOS Window Frame",
+        "ServiceTypes": [
+            "org.kde.kdecoration3"
+        ]
+    },
+    "org.kde.kdecoration3": {
+        "blur": false
+    }
+}

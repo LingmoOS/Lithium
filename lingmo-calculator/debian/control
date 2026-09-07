@@ -1,0 +1,32 @@
+Source: lingmo-calculator
+Section: devel
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: cmake,
+               debhelper-compat (= 13),
+               extra-cmake-modules,
+               qt6-base-dev,
+               qt6-declarative-dev,
+               qt6-declarative-private-dev,
+               libqt6quickcontrols2-6,
+               qt6-tools-dev,
+               qt6-tools-dev-tools,
+               lingmoui3
+Standards-Version: 4.5.1
+Homepage: https://github.com/LingmoOS/lingmo-calculator
+
+Package: lingmo-calculator
+Architecture: any
+Depends: qml6-module-qtquick-controls,
+         qml6-module-qtquick,
+         qml6-module-qtquick-layouts,
+         qml6-module-qt-labs-platform,
+         qml6-module-qt-labs-settings,
+         qml6-module-qtqml,
+         qml6-module-qtquick-window,
+         qml6-module-qtquick-shapes,
+         qml6-module-qtquick-dialogs,
+         lingmoui3,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: LingmoOS Calculator

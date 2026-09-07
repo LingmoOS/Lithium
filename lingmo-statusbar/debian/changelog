@@ -1,0 +1,11 @@
+lingmo-statusbar (2.0.0) UNRELEASED; urgency=medium
+
+  * Migrate to Qt6
+
+ -- Lingmo OS Team <support@lingmo.org>  Mon, 23 Dec 2024 23:22:25 +0800
+
+lingmo-statusbar (1.9.9-20) unstable; urgency=high
+
+  * Release update
+
+ -- Lingmo OS Team <support@lingmo.org>  Sun, 21 Jan 2024 10:32:20 +0800

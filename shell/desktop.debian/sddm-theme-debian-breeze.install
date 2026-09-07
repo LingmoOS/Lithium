@@ -1,3 +1,0 @@
-#! /usr/bin/dh-exec
-debian/sddm-theme-debian-breeze-preview.png => usr/share/sddm/themes/debian-breeze/preview.png
-usr/share/sddm/themes/debian-breeze

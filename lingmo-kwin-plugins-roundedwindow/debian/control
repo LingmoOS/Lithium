@@ -1,0 +1,21 @@
+Source: lingmo-kwin-plugins-roundedwindow
+Section: devel
+Priority: optional
+Maintainer: LingmoOS <lingmo@lingmo.org>
+Build-Depends:  debhelper-compat (= 13),
+                git, 
+                cmake, 
+                g++, 
+                extra-cmake-modules, 
+                kwin-dev, 
+                qt6-base-private-dev, 
+                qt6-base-dev-tools, 
+                libkf6kcmutils-dev
+Standards-Version: 4.5.1
+Homepage: https://lingmo.org
+
+Package: lingmo-kwin-plugins-roundedwindow
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: LingmoOS KWin Plugins - Rounded Window

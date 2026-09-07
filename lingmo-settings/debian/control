@@ -1,0 +1,65 @@
+Source: lingmo-settings
+Section: devel
+Priority: optional
+Maintainer: LingmoOS <lingmo@lingmo.org>
+Build-Depends: cmake,
+               debhelper-compat (= 13),
+               extra-cmake-modules,
+               liblingmo,
+               libicu-dev,
+               libcrypt-dev,
+               libx11-dev,
+               libxi-dev,
+               libxcursor-dev,
+               libfreetype6-dev,
+               libqt5concurrent5,
+               libfontconfig1-dev,
+               libkf6networkmanagerqt-dev,
+               libkf6config-dev,
+               libkf6modemmanagerqt-dev,
+               qt6-base-dev,
+               qt6-base-private-dev,
+               qt6-5compat-dev,
+               qt6-declarative-dev,
+               qt6-declarative-private-dev,
+               qt6-tools-dev,
+               qt6-tools-dev-tools,
+               libpackagekitqt6-dev,
+               libkf6bluezqt-dev (>= 5.50.0~),
+               network-manager
+Standards-Version: 4.5.1
+Homepage: https://lingmo.org
+
+Package: lingmo-settings
+Architecture: any
+Depends: qml6-module-qtquick-controls,
+         qml6-module-qtquick,
+         qml6-module-qtquick-layouts,
+         qml6-module-qt-labs-platform,
+         qml6-module-qt-labs-settings,
+         qml6-module-qtqml,
+         qml6-module-qtquick-window,
+         qml6-module-qtquick-shapes,
+         qml6-module-qtquick-dialogs,
+         qml6-module-qtquick-particles,
+         curl,
+         openssl,
+         gnupg,
+         pkexec,
+         polkitd,
+         network-manager,
+         libnotify-bin,
+         desktop-file-utils,
+         liblingmo,
+         lingmoui3,
+         kscreen,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: zenity,
+            aria2
+Description: Lingmo OS
+
+Package: lingmo-settings-dev
+Architecture: any
+Depends: lingmo-settings (= ${binary:Version}), ${misc:Depends}, ${shlib:Depends}, ${dist:Depends}
+Description: LingmoOS Settings Dev

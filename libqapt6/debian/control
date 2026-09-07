@@ -1,0 +1,50 @@
+Source: libqapt
+Section: kde
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>,
+Build-Depends: cmake (>= 2.8.12),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 0.0.14),
+               gettext,
+               libapt-pkg-dev (>= 0.8.0),
+               libdebconf-kde-dev (>= 1.0.0),
+               libglib2.0-dev,
+               libgstreamer-plugins-base1.0-dev,
+               libgstreamer1.0-dev,
+               libkf6auth-dev (>= 5.0.0),
+               libkf6coreaddons-dev (>= 5.0.0),
+               libkf6i18n-dev (>= 5.0.0),
+               libkf6iconthemes-dev (>= 5.0.0),
+               libkf6kio-dev (>= 5.0.0),
+               libplasma-dev,
+               libkf6runner-dev (>= 5.0.0),
+               libkf6textwidgets-dev (>= 5.0.0),
+               libkf6widgetsaddons-dev (>= 5.0.0),
+               libkf6windowsystem-dev (>= 5.0.0),
+               libpolkit-qt6-1-dev (>= 0.112),
+               libxapian-dev,
+               pkg-config,
+               pkg-kde-tools (>> 0.15.15),
+               qt6-base-dev (>= 6.0.0),
+               qt6-tools-dev,
+               qt6-tools-dev-tools,
+               qt6-5compat-dev
+Standards-Version: 4.6.1
+Rules-Requires-Root: no
+Homepage: https://invent.kde.org/system/libqapt
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/qapt
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/qapt.git
+
+Package: libqapt6
+Section: libs
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: QApt library package
+ LibQApt is a Qt wrapper around the libapt-pkg library as well as an APT
+ implementation using libapt-pkg. The aim is to provide a sane API for
+ package management to ease the development of package managers written in Qt
+ and C++
+ .
+ This package contains the QApt library and dev libs
