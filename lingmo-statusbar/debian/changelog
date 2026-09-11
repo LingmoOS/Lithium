@@ -1,3 +1,9 @@
+lingmo-statusbar (2.0.1+lingmo5u1) unstable; urgency=medium
+
+  * New release for Lingmo OS.
+
+ -- Lingmo OS Team <team@lingmo.org>  Fri, 11 Sept 2026 23:12:00 +0800
+
 lingmo-statusbar (2.0.0) UNRELEASED; urgency=medium
 
   * Migrate to Qt6
