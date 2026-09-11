@@ -1,3 +1,9 @@
+libqapt (3.0.5+lingmo5u1) unstable; urgency=medium
+
+  * Rebuild for Lingmo OS.
+
+ -- Lingmo OS Team <team@lingmo.org>  Fri, 11 Sept 2026 23:06:00 +0800
+
 libqapt (3.0.5-2) unstable; urgency=medium
 
   * Bump Standards-Version to 4.6.1, no changes required.
