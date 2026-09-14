@@ -3,8 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Reion Wong <reion@lingmoos.com>
 Build-Depends:
+ debhelper-compat (= 13)
 Standards-Version: 3.9.6
-Homepage: https://lingmoos.com
+Homepage: https://lingmo.org
 Vcs-Git: https://github.com/LingmoOS/
 
 Package: lingmo-cursor-themes
