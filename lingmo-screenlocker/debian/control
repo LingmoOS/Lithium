@@ -1,7 +1,7 @@
 Source: lingmo-screenlocker
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -14,7 +14,7 @@ Build-Depends: cmake,
                libpam0g-dev,
                libx11-dev
 Standards-Version: 4.5.0
-Homepage: https://cuteos.com
+Homepage: https://lingmo.org
 
 Package: lingmo-screenlocker
 Architecture: any
