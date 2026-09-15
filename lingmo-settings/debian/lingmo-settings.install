@@ -1,0 +1,4 @@
+usr/bin/lingmo-settings
+usr/share/applications/lingmo-settings.desktop
+usr/share/lingmo-settings
+usr/share/polkit-1/actions/org.lingmo.settings.update.lminstall.policy
