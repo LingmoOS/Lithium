@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Reion Wong <reion@lingmoos.com>
 Build-Depends:
- debhelper-compat (= 13)
+ debhelper (>= 13)
 Standards-Version: 3.9.6
 Homepage: https://lingmo.org
 Vcs-Git: https://github.com/LingmoOS/
