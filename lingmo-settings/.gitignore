@@ -59,7 +59,6 @@ obj-*linux-gnu/
 /debian/files
 /debian/*.log
 /debian/*.substvars
-/debian/*.install
 /debian/.debhelper
 /debian/lingmo-settings
 /debian/lingmo-settings-dev
