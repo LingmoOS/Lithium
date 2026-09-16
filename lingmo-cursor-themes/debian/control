@@ -3,6 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Reion Wong <reion@lingmoos.com>
 Build-Depends:
+ cmake,
  debhelper-compat (= 13)
 Standards-Version: 3.9.6
 Homepage: https://lingmo.org
