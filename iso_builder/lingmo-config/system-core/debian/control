@@ -1,0 +1,38 @@
+Source: system-core
+Section: lingmo
+Priority: required
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Uploaders: Lingmo OS Team <team@lingmo.org>
+Build-Depends: debhelper (>= 12), cmake
+Standards-Version: 4.5.0
+
+Package: system-core
+Architecture: any
+Section: lingmo
+Priority: required
+Replaces: lingmo-shell-data
+Depends: appmotor,
+         lingmo-base-files,
+         fcitx5-rime,
+         kscreen,
+         khotkeys,
+         liblingmo,
+         lingmo-core,
+         lingmo-cursor-themes,
+         lingmo-calculator,
+         lingmo-grub-config,
+         lingmo-daemon,
+         lingmo-dock,
+         lingmo-filemanager,
+         lingmo-kwin-plugins,
+         lingmo-kwin-plugins-roundedwindow,
+         lingmo-launcher,
+         lingmo-screenlocker,
+         lingmo-sddm-theme,
+         lingmo-settings,
+         lingmo-statusbar,
+         lingmo-systemicons,
+         lingmo-terminal,
+         lingmo-wallpapers,
+         lingmoui3
+Description: Informational list of lingmo-workspace-base packages.

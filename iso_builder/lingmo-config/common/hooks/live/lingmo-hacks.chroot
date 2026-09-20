@@ -1,0 +1,131 @@
+#!/usr/bin/env bash
+
+# Handle systems where /lib is not merged in /usr/lib
+if [ ! -h /lib ]; then
+  mv /usr/lib/live/config/* /lib/live/config/
+fi
+
+# Enable cryptsetup in the initramfs for later use if the user
+# adds an encrypted persistence partition.
+# This is until https://bugs.debian.org/908220 has a proper fix.
+if [ -e /etc/cryptsetup-initramfs/conf-hook ]; then
+  if grep -q '^#CRYPTSETUP=' /etc/cryptsetup-initramfs/conf-hook; then
+    sed -i -e 's/^#CRYPTSETUP=.*/CRYPTSETUP=y/' /etc/cryptsetup-initramfs/conf-hook
+  else
+    echo "CRYPTSETUP=y" >>/etc/cryptsetup-initramfs/conf-hook
+  fi
+fi
+
+# Rebuild the initramfs to include the last change
+update-initramfs -u
+
+# Run updatedb to initialize the database for the locate command
+if [ -x "$(which updatedb 2>/dev/null)" ]; then
+  updatedb
+fi
+
+# ========== Lingmo OS 统一版本配置（修改此处即可全局生效） ==========
+
+DISTRO_NAME="Lingmo OS"
+VERSION="5.0"
+CODENAME="Lithium"
+codename="lithium"
+DEBIAN_VER="13.7"
+
+# 内部构建版本（格式：YY[R|b|a]NN）
+BUILD_VER="${BUILD_VER:-26a05}"
+
+VARIANT="Desktop"
+variant_id="desktop"
+
+case "$BUILD_VER" in
+    *a*) VERSION_TYPE="Alpha" ;;
+    *b*) VERSION_TYPE="Beta" ;;
+    *)   VERSION_TYPE="Release" ;;
+esac
+
+KERNEL_DEFAULT="$(
+    dpkg-query -W -f='${Package}\n' 'linux-image-[0-9]*' 2>/dev/null |
+    sed 's/^linux-image-//' |
+    sed 's/-amd64$//' |
+    sort -V |
+    tail -n1
+)"
+
+# ===================================================================
+
+# Mark kernel related packages on hold so that they are not upgraded in
+# the live system
+for pkg in $(dpkg-query -W -f'${db:Status-Status} ${binary:Package}\n' 'linux-image-*' 'linux-headers-*' 'linux-kbuild-*' | sed -ne 's/^installed //p'); do
+  apt-mark hold $pkg | true
+done
+
+# Mark lingmo DE as manually installed
+for pkg in $(dpkg-query -W -f'${db:Status-Status} ${binary:Package}\n' 'lingmo*' | sed -ne 's/^installed //p'); do
+  apt-mark manual $pkg | true
+done
+
+# apt install system-core -y | true
+
+# Remove unwanted packages
+apt remove systemsettings -y | true
+apt remove plasma-desktop -y | true
+# apt remove network-manager-gnome konsole kde-baseapps -y | true
+apt remove zutty -y | true
+apt remove breeze eog -y | true
+apt remove xterm -y | true
+apt autoremove -y | true
+# apt update | true
+
+# Install OnlyOffice
+get_arch=$(arch)
+if [[ $get_arch =~ "x86_64" ]]; then
+  apt update
+  curl -o onlyoffice.deb https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb
+  apt install -y --no-install-recommends ./onlyoffice.deb
+  rm -rfv ./onlyoffice.deb
+fi
+
+chmod +x /bin/config-installer
+
+rm -f /usr/lib/os-release
+
+cat > /usr/lib/os-release <<EOF
+PRETTY_NAME="$DISTRO_NAME $VERSION ($CODENAME)"
+NAME="$DISTRO_NAME"
+VERSION_ID="$VERSION"
+VERSION="$VERSION ($CODENAME)"
+BUILD_VERSION="$BUILD_VER"
+BUILD_ID="$(date +%Y%m%d)"
+VERSION_TYPE="$VERSION_TYPE"
+VERSION_CODENAME="$codename"
+DEBIAN_VERSION_FULL="$DEBIAN_VER"
+ID=lingmo
+ID_LIKE=debian
+ANSI_COLOR="1;34"
+LOGO=lingmo
+CPE_NAME="cpe:2.3:o:lingmo:lingmo_os:$VERSION:*:*:*:*:*:*:*"
+VARIANT="$VARIANT"
+VARIANT_ID="$variant_id"
+HOME_URL="https://lingmo.org/"
+SUPPORT_URL="https://lingmo.org/support"
+BUG_REPORT_URL="https://bugs.lingmo.org/"
+EOF
+
+# Fixing os-release
+rm /etc/os-release
+ln -s /usr/lib/os-release /etc/os-release
+
+cat > /org.build_lingmo <<EOF
+DIST="$DISTRO_NAME"
+CODE_NAME="$CODENAME ($codename)"
+VERSION="$VERSION"
+DEBUG_BUILD=false
+ARCH_BUILD=0
+KERNEL_DEFAULT="$KERNEL_DEFAULT"
+BUILD_ID="$BUILD_VER"
+BUILD_DATE="$(date +%y_%m)"
+ID_LIKE="debian"
+TYPE=1
+SYSTEM_LOGO=1
+EOF
