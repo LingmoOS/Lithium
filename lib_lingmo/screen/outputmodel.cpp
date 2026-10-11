@@ -120,7 +120,7 @@ bool OutputModel::setData(const QModelIndex &index,
     case PrimaryRole:
         if (value.canConvert<bool>()) {
             bool primary = value.toBool();
-            if (output.ptr->isPrimary() == primary) {
+            if ((m_config->config()->primaryOutput() == output.ptr) == primary) {
                 return false;
             }
             m_config->config()->setOutputPriority(output.ptr, 1);

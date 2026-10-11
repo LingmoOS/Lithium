@@ -154,7 +154,7 @@
     <message>
         <location filename="../src/qml/SystemUpdate/FirstPage.qml" line="329"/>
         <source>Lingmo OS</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lingmo OS</translation>
     </message>
 </context>
 <context>
@@ -978,7 +978,7 @@
     <message>
         <location filename="../src/qml/DefaultApp/Main.qml" line="30"/>
         <source>Default Applications</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">デフォルトのアプリケーション</translation>
     </message>
     <message>
         <location filename="../src/qml/DefaultApp/Main.qml" line="50"/>
@@ -1013,7 +1013,7 @@
     <message>
         <location filename="../src/qml/Proxy/Main.qml" line="32"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">プロキシ</translation>
     </message>
     <message>
         <location filename="../src/qml/Proxy/Main.qml" line="70"/>
