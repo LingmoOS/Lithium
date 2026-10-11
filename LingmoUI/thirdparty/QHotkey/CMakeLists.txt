@@ -25,7 +25,7 @@ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 include(KDEInstallDirs)
 
-find_package(Qt${QT_DEFAULT_MAJOR_VERSION} 6.2.0 COMPONENTS Core Gui REQUIRED)
+find_package(Qt${QT_DEFAULT_MAJOR_VERSION} 6.2.0 COMPONENTS Core Gui GuiPrivate REQUIRED)
 
 add_library(qhotkey QHotkey/qhotkey.cpp)
 add_library(QHotkey::QHotkey ALIAS qhotkey)

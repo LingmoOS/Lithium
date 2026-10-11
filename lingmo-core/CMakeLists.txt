@@ -7,7 +7,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # add_compile_options(-Wall)
@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/)
 
-set(QT Core Gui Widgets Quick QuickControls2 DBus Xml LinguistTools)
+set(QT Core Gui GuiPrivate Widgets Quick QuickControls2 DBus Xml LinguistTools)
 find_package(Qt6 REQUIRED ${QT})
 
 # find_package(LingmoUI REQUIRED)

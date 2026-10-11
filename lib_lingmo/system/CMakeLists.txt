@@ -4,7 +4,7 @@ set(SCREEN_SRCS
     plugin.cpp
 )
 
-find_package(Qt5 REQUIRED COMPONENTS DBus)
+find_package(Qt6 REQUIRED COMPONENTS DBus)
 
 add_library(lingmosystem_qmlplugins SHARED ${SCREEN_SRCS})
 

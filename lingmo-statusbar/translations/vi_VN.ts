@@ -7,6 +7,11 @@
         <source>Desktop</source>
         <translation type="vanished">Màn hình chính</translation>
     </message>
+    <message>
+        <location filename="../src/activity.cpp" line="168"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ControlCenter</name>

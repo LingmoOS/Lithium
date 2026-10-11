@@ -51,7 +51,7 @@ QVariant OutputModel::data(const QModelIndex &index, int role) const
     case InternalRole:
         return output->type() == KScreen::Output::Type::Panel;
     case PrimaryRole:
-        return output->isPrimary();
+        return m_config->config()->primaryOutput() == output;
     case SizeRole:
         return output->geometry().size();
     case PositionRole:
@@ -123,7 +123,7 @@ bool OutputModel::setData(const QModelIndex &index,
             if (output.ptr->isPrimary() == primary) {
                 return false;
             }
-            m_config->config()->setPrimaryOutput(output.ptr);
+            m_config->config()->setOutputPriority(output.ptr, 1);
             Q_EMIT dataChanged(index, index, {role});
             return true;
         }

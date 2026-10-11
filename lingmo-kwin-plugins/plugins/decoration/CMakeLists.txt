@@ -1,5 +1,5 @@
 project (lingdecoration)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
@@ -20,7 +20,7 @@ add_compile_definitions(KDECORATION_MAJOR=${KDECORATION_MAJOR})
 add_compile_definitions(KDECORATION_MINOR=${KDECORATION_MINOR})
 add_compile_definitions(KDECORATION_PATCH=${KDECORATION_PATCH})
 
-find_package(Qt6 CONFIG REQUIRED COMPONENTS Gui Widgets Core)
+find_package(Qt6 CONFIG REQUIRED COMPONENTS Gui GuiPrivate Widgets Core)
 
 # Get the installation directory from qmake
 if(ECM_VERSION VERSION_LESS 5.93.0)

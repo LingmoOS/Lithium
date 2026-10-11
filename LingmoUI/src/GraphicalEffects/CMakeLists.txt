@@ -3,7 +3,7 @@ qt_standard_project_setup()
 # Create Qt6 library target
 qt_add_library(${TARGET}.GraphicalEffects SHARED)
 
-target_include_directories(${TARGET}.GraphicalEffects PRIVATE ${Qt6Quick_PRIVATE_INCLUDE_DIRS})
+# include dirs come from Qt6::QuickPrivate (linked above)
 
 
 target_link_libraries(${TARGET}.GraphicalEffects
@@ -12,6 +12,8 @@ target_link_libraries(${TARGET}.GraphicalEffects
         Qt6::Gui
         Qt6::Qml
         Qt6::Quick
+        PRIVATE
+        Qt6::QuickPrivate
         )
 
 

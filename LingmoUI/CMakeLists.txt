@@ -22,7 +22,7 @@ project(${PROJECT_NAME} VERSION ${MODULE_VERSION})
 option(BUILD_PYTHON "Build Python bindings" OFF)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(QT_DEFAULT_MAJOR_VERSION 6)
@@ -33,7 +33,7 @@ find_package(ECM REQUIRED NO_MODULE)
 list(APPEND CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})
 message(STATUS "ECM version: ${ECM_VERSION}")
 
-set(QT Core Widgets Quick QuickControls2 DBus Core5Compat)
+set(QT Core Widgets Quick QuickControls2 DBus Core5Compat GuiPrivate QuickPrivate)
 find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED ${QT})
 if (UNIX)
     if (NOT APPLE)

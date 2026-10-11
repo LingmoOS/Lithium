@@ -93,7 +93,7 @@
     <message>
         <location filename="../qml/Dialogs/EmptyTrashDialog.qml" line="30"/>
         <source>File Manager</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">مدير الملفات</translation>
     </message>
     <message>
         <location filename="../qml/Dialogs/EmptyTrashDialog.qml" line="77"/>
@@ -153,7 +153,7 @@
     <message>
         <location filename="../model/foldermodel.cpp" line="1760"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">فتح</translation>
     </message>
     <message>
         <location filename="../model/foldermodel.cpp" line="1763"/>
@@ -259,7 +259,7 @@
     <message>
         <location filename="../qml/FolderPage.qml" line="200"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">فتح</translation>
     </message>
     <message>
         <location filename="../qml/FolderPage.qml" line="64"/>
@@ -368,7 +368,7 @@
     <message>
         <location filename="../qml/Dialogs/OpenWithDialog.qml" line="180"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">فتح</translation>
     </message>
     <message>
         <location filename="../dialogs/openwithdialog.cpp" line="32"/>
@@ -539,7 +539,7 @@
     <message>
         <location filename="../qml/main.qml" line="35"/>
         <source>File Manager</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">مدير الملفات</translation>
     </message>
 </context>
 </TS>

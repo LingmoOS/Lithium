@@ -2,6 +2,14 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ne">
 <context>
+    <name>Activity</name>
+    <message>
+        <location filename="../src/activity.cpp" line="168"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ControlCenter</name>
     <message>
         <location filename="../qml/ControlCenter.qml" line="244"/>

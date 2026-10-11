@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.16)
 
 project(statusbar LANGUAGES CXX)
 
@@ -8,10 +8,10 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 CONFIG REQUIRED Widgets DBus Gui Concurrent LinguistTools QuickControls2)
+find_package(Qt6 CONFIG REQUIRED Widgets DBus Gui GuiPrivate Concurrent LinguistTools QuickControls2)
 find_package(LingmoUI3 REQUIRED)
 find_package(KF6WindowSystem REQUIRED)
 find_package(PkgConfig REQUIRED)

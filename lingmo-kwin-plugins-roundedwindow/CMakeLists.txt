@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.20)
 
 project(kwin4_effect_shapecorners VERSION 0.6.2 LANGUAGES CXX)
 
+# KF6 (KScreen, KDecoration3, ...) headers need C++20
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 include(cmake/default-vars.cmake)
 
 find_package(ECM "5.100" REQUIRED NO_MODULE)
