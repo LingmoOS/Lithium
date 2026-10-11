@@ -23,6 +23,7 @@ OBS_BINARY="$ARCHIVES/lingmo.list.binary"
 LOCAL_LIST="$ARCHIVES/lingmo-local.list.chroot"
 
 restore() {
+    [ -n "${REPO_HTTP_PID:-}" ] && kill "$REPO_HTTP_PID" 2>/dev/null || true
     rm -f "$LOCAL_LIST" "$ARCHIVES/lingmo-local.list.binary"
     [ -f "$OBS_CHROOT.off" ] && mv -f "$OBS_CHROOT.off" "$OBS_CHROOT"
     [ -f "$OBS_BINARY.off" ] && mv -f "$OBS_BINARY.off" "$OBS_BINARY"
@@ -46,9 +47,16 @@ cp -f "$DEB_DIR"/*.deb "$REPO_DIR/"
 echo "== 3/4 构建期间用本地仓库替代 OBS 源"
 [ -f "$OBS_CHROOT" ] && mv -f "$OBS_CHROOT" "$OBS_CHROOT.off"
 [ -f "$OBS_BINARY" ] && mv -f "$OBS_BINARY" "$OBS_BINARY.off"
+# The build chroot has its own filesystem, so a file:// source is invisible to
+# it; serve the repository over HTTP instead (the chroot shares the network).
+REPO_PORT="${REPO_PORT:-8899}"
+python3 -m http.server "$REPO_PORT" --bind 127.0.0.1 --directory "$REPO_DIR" \
+    > /tmp/lingmo-repo-http.log 2>&1 &
+REPO_HTTP_PID=$!
+
 cat > "$LOCAL_LIST" <<EOF
 # Locally built Lingmo OS packages (temporary, see ci/iso-local.sh)
-deb [trusted=yes] file://$REPO_DIR ./
+deb [trusted=yes] http://127.0.0.1:$REPO_PORT/ ./
 EOF
 cp -f "$LOCAL_LIST" "$ARCHIVES/lingmo-local.list.binary"
 
