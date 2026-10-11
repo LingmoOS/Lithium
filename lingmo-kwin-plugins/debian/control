@@ -27,7 +27,6 @@ Package: lingmo-kwin-plugins
 Architecture: any
 Depends: qml-module-qtquick-controls2,
          qml-module-qtquick2,
-         lingmo-kwin-plugins-roundedwindow,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: LingmoOS KWin Plugins
