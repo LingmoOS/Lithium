@@ -40,16 +40,19 @@
 <context>
     <name>main</name>
     <message>
+        <location filename="../qml/main.qml" line="117"/>
         <source>Trash</source>
-        <translation type="vanished">סל המיחזור</translation>
+        <translation>סל המיחזור</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="152"/>
         <source>Open</source>
-        <translation type="vanished">פתח</translation>
+        <translation>פתח</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="157"/>
         <source>Empty Trash</source>
-        <translation type="vanished">רוקן את סל המיחזור</translation>
+        <translation>רוקן את סל המיחזור</translation>
     </message>
 </context>
 </TS>

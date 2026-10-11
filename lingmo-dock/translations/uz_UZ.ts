@@ -40,16 +40,19 @@
 <context>
     <name>main</name>
     <message>
+        <location filename="../qml/main.qml" line="117"/>
         <source>Trash</source>
-        <translation type="vanished">Quticha</translation>
+        <translation>Quticha</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="152"/>
         <source>Open</source>
-        <translation type="vanished">Ochish</translation>
+        <translation>Ochish</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="157"/>
         <source>Empty Trash</source>
-        <translation type="vanished">Qutichani bo&apos;shatish</translation>
+        <translation>Qutichani bo&apos;shatish</translation>
     </message>
 </context>
 </TS>

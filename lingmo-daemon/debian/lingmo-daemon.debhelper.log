@@ -15,3 +15,7 @@ dh_fixperms
 dh_missing
 dh_strip
 dh_makeshlibs
+dh_installdeb
+dh_gencontrol
+dh_md5sums
+dh_builddeb

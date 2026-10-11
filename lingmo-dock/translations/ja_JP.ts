@@ -40,16 +40,19 @@
 <context>
     <name>main</name>
     <message>
+        <location filename="../qml/main.qml" line="117"/>
         <source>Trash</source>
-        <translation type="vanished">ゴミ箱</translation>
+        <translation>ゴミ箱</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="152"/>
         <source>Open</source>
-        <translation type="vanished">開く</translation>
+        <translation>開く</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="157"/>
         <source>Empty Trash</source>
-        <translation type="vanished">ごみ箱を空にする</translation>
+        <translation>ごみ箱を空にする</translation>
     </message>
 </context>
 </TS>

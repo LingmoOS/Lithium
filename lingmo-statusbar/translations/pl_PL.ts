@@ -12,8 +12,9 @@
 <context>
     <name>ControlCenter</name>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="242"/>
         <source>Wi-Fi</source>
-        <translation type="vanished">Wi-Fi</translation>
+        <translation>Wi-Fi</translation>
     </message>
     <message>
         <source>On</source>
@@ -24,23 +25,68 @@
         <translation type="vanished">Wyłączony</translation>
     </message>
     <message>
-        <source>Bluetooth</source>
-        <translation type="vanished">Bluetooth</translation>
+        <location filename="../qml/ControlCenter.qml" line="171"/>
+        <source>Control Center</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="257"/>
+        <source>Bluetooth</source>
+        <translation>Bluetooth</translation>
+    </message>
+    <message>
+        <location filename="../qml/ControlCenter.qml" line="273"/>
         <source>Dark Mode</source>
-        <translation type="vanished">Tryb ciemny</translation>
+        <translation>Tryb ciemny</translation>
+    </message>
+    <message>
+        <location filename="../qml/ControlCenter.qml" line="283"/>
+        <source>Do Not Disturb</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/ControlCenter.qml" line="293"/>
+        <source>Screenshot</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownDialog</name>
+    <message>
+        <location filename="../qml/ShutdownDialog.qml" line="138"/>
+        <source>Shutdown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/ShutdownDialog.qml" line="153"/>
+        <source>Reboot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/ShutdownDialog.qml" line="168"/>
+        <source>Log out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/ShutdownDialog.qml" line="183"/>
+        <source>Lock Screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/ShutdownDialog.qml" line="198"/>
+        <source>Suspend</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../qml/main.qml" line="100"/>
+        <location filename="../qml/main.qml" line="105"/>
         <source>Close</source>
         <translation>Zamknij</translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="279"/>
+        <location filename="../qml/main.qml" line="284"/>
         <source>is using the camera</source>
         <translation type="unfinished"></translation>
     </message>

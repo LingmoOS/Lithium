@@ -40,16 +40,19 @@
 <context>
     <name>main</name>
     <message>
+        <location filename="../qml/main.qml" line="117"/>
         <source>Trash</source>
-        <translation type="vanished">Papirkurv</translation>
+        <translation>Papirkurv</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="152"/>
         <source>Open</source>
-        <translation type="vanished">Åbn</translation>
+        <translation>Åbn</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="157"/>
         <source>Empty Trash</source>
-        <translation type="vanished">Tøm Papirkurv</translation>
+        <translation>Tøm Papirkurv</translation>
     </message>
 </context>
 </TS>

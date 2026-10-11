@@ -40,16 +40,19 @@
 <context>
     <name>main</name>
     <message>
+        <location filename="../qml/main.qml" line="117"/>
         <source>Trash</source>
-        <translation type="vanished">Šiukšlinė</translation>
+        <translation>Šiukšlinė</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="152"/>
         <source>Open</source>
-        <translation type="vanished">Atverti</translation>
+        <translation>Atverti</translation>
     </message>
     <message>
+        <location filename="../qml/main.qml" line="157"/>
         <source>Empty Trash</source>
-        <translation type="vanished">Išvalyti šiukšlinę</translation>
+        <translation>Išvalyti šiukšlinę</translation>
     </message>
 </context>
 </TS>

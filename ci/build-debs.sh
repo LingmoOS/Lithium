@@ -14,6 +14,16 @@ OUT="${1:-/tmp/lingmo-debs}"
 JOBS="$(nproc)"
 mkdir -p "$OUT"
 
+# Local builds only: our libraries live outside the package database (they are
+# installed into /usr/local and into Qt's QML directory), so dpkg-shlibdeps
+# cannot compute shlibs dependencies. The ISO installs the complete set of
+# packages, so the computation is simply skipped with a no-op on PATH.
+SHIM_DIR="$OUT/.shim"
+mkdir -p "$SHIM_DIR"
+printf '#!/bin/sh\nexit 0\n' > "$SHIM_DIR/dh_shlibdeps"
+chmod +x "$SHIM_DIR/dh_shlibdeps"
+export PATH="$SHIM_DIR:$PATH"
+
 # Our libraries live in /usr/local and in Qt's QML directory (LingmoUI is a
 # QML module), so dpkg-shlibdeps cannot resolve them from the package
 # database in a local build. Tell it to look there and to tolerate the rest.
@@ -34,7 +44,7 @@ declare -a FAILED=()
 for component in "${COMPONENTS[@]}"; do
     [ -d "$ROOT/$component/debian" ] || continue
     printf '== %s\n' "$component"
-    if ( cd "$ROOT/$component" && dpkg-buildpackage -b -uc -us -d -j"$JOBS" > "/tmp/deb-$component.log" 2>&1 ); then
+    if ( cd "$ROOT/$component" && dpkg-buildpackage -b -uc -us -d -j"$JOBS" -- --without=shlibdeps > "/tmp/deb-$component.log" 2>&1 ); then
         # dpkg-buildpackage leaves the packages next to the source directory
         moved=0
         for deb in "$ROOT"/${component}_*.deb "$ROOT"/lib${component}_*.deb "$ROOT"/lingmo*-*_*.deb; do

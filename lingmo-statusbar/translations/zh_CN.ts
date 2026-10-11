@@ -16,62 +16,73 @@
 <context>
     <name>ControlCenter</name>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="242"/>
         <source>Wi-Fi</source>
-        <translation type="vanished">无线网络</translation>
+        <translation>无线网络</translation>
     </message>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="171"/>
         <source>Control Center</source>
-        <translation type="vanished">控制中心</translation>
+        <translation>控制中心</translation>
     </message>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="257"/>
         <source>Bluetooth</source>
-        <translation type="vanished">蓝牙</translation>
+        <translation>蓝牙</translation>
     </message>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="273"/>
         <source>Dark Mode</source>
-        <translation type="vanished">深色模式</translation>
+        <translation>深色模式</translation>
     </message>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="283"/>
         <source>Do Not Disturb</source>
-        <translation type="vanished">勿扰模式</translation>
+        <translation>勿扰模式</translation>
     </message>
     <message>
+        <location filename="../qml/ControlCenter.qml" line="293"/>
         <source>Screenshot</source>
-        <translation type="vanished">截图</translation>
+        <translation>截图</translation>
     </message>
 </context>
 <context>
     <name>ShutdownDialog</name>
     <message>
+        <location filename="../qml/ShutdownDialog.qml" line="138"/>
         <source>Shutdown</source>
-        <translation type="vanished">关机</translation>
+        <translation>关机</translation>
     </message>
     <message>
+        <location filename="../qml/ShutdownDialog.qml" line="153"/>
         <source>Reboot</source>
-        <translation type="vanished">重启</translation>
+        <translation>重启</translation>
     </message>
     <message>
+        <location filename="../qml/ShutdownDialog.qml" line="168"/>
         <source>Log out</source>
-        <translation type="vanished">注销</translation>
+        <translation>注销</translation>
     </message>
     <message>
+        <location filename="../qml/ShutdownDialog.qml" line="183"/>
         <source>Lock Screen</source>
-        <translation type="vanished">锁屏</translation>
+        <translation>锁屏</translation>
     </message>
     <message>
+        <location filename="../qml/ShutdownDialog.qml" line="198"/>
         <source>Suspend</source>
-        <translation type="vanished">休眠</translation>
+        <translation>休眠</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../qml/main.qml" line="100"/>
+        <location filename="../qml/main.qml" line="105"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="279"/>
+        <location filename="../qml/main.qml" line="284"/>
         <source>is using the camera</source>
         <translation>正在使用相机</translation>
     </message>

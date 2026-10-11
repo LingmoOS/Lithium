@@ -20,6 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -56,12 +57,14 @@ events:
       - "/mnt/c/Users/24225/.bun/bin/"
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
       - "/usr/sbin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -126,6 +129,7 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -162,12 +166,14 @@ events:
       - "/mnt/c/Users/24225/.bun/bin/"
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/sbin/gmake"
     found: "/usr/bin/gmake"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -231,6 +237,7 @@ events:
     found: "/usr/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -311,6 +318,7 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -348,6 +356,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-ar"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -406,6 +415,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -443,6 +453,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-ranlib"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -501,6 +512,7 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -538,6 +550,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-strip"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -596,6 +609,7 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -633,6 +647,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-ld"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -691,6 +706,7 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -728,6 +744,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-nm"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -786,6 +803,7 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -823,6 +841,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-objdump"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -881,6 +900,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -918,6 +938,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-objcopy"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -976,6 +997,7 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1013,6 +1035,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-readelf"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1071,6 +1094,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1107,6 +1131,7 @@ events:
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/"
     searched_directories:
       - "/usr/bin/x86_64-linux-gnu-dlltool"
+      - "/tmp/lingmo-debs/.shim/x86_64-linux-gnu-dlltool"
       - "/usr/local/sbin/x86_64-linux-gnu-dlltool"
       - "/usr/local/bin/x86_64-linux-gnu-dlltool"
       - "/usr/sbin/x86_64-linux-gnu-dlltool"
@@ -1142,6 +1167,7 @@ events:
       - "/mnt/c/Users/24225/.bun/bin/x86_64-linux-gnu-dlltool"
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/x86_64-linux-gnu-dlltool"
       - "/usr/bin/dlltool"
+      - "/tmp/lingmo-debs/.shim/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/usr/sbin/dlltool"
@@ -1179,6 +1205,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1237,6 +1264,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1274,6 +1302,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-addr2line"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1332,6 +1361,7 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1368,6 +1398,7 @@ events:
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/"
     searched_directories:
       - "/usr/bin/x86_64-linux-gnu-tapi"
+      - "/tmp/lingmo-debs/.shim/x86_64-linux-gnu-tapi"
       - "/usr/local/sbin/x86_64-linux-gnu-tapi"
       - "/usr/local/bin/x86_64-linux-gnu-tapi"
       - "/usr/sbin/x86_64-linux-gnu-tapi"
@@ -1403,6 +1434,7 @@ events:
       - "/mnt/c/Users/24225/.bun/bin/x86_64-linux-gnu-tapi"
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/x86_64-linux-gnu-tapi"
       - "/usr/bin/tapi"
+      - "/tmp/lingmo-debs/.shim/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/usr/sbin/tapi"
@@ -1440,6 +1472,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1500,6 +1533,7 @@ events:
       - "x86_64-linux-gnu-gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1536,6 +1570,7 @@ events:
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/"
     searched_directories:
       - "/usr/bin/x86_64-linux-gnu-gcc-ar-16.2"
+      - "/tmp/lingmo-debs/.shim/x86_64-linux-gnu-gcc-ar-16.2"
       - "/usr/local/sbin/x86_64-linux-gnu-gcc-ar-16.2"
       - "/usr/local/bin/x86_64-linux-gnu-gcc-ar-16.2"
       - "/usr/sbin/x86_64-linux-gnu-gcc-ar-16.2"
@@ -1573,6 +1608,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-gcc-ar-16"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1633,6 +1669,7 @@ events:
       - "x86_64-linux-gnu-gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1669,6 +1706,7 @@ events:
       - "/mnt/d/JetBrains/RustRover 2026.2.1/bin/"
     searched_directories:
       - "/usr/bin/x86_64-linux-gnu-gcc-ranlib-16.2"
+      - "/tmp/lingmo-debs/.shim/x86_64-linux-gnu-gcc-ranlib-16.2"
       - "/usr/local/sbin/x86_64-linux-gnu-gcc-ranlib-16.2"
       - "/usr/local/bin/x86_64-linux-gnu-gcc-ranlib-16.2"
       - "/usr/sbin/x86_64-linux-gnu-gcc-ranlib-16.2"
@@ -1706,6 +1744,7 @@ events:
     found: "/usr/bin/x86_64-linux-gnu-gcc-ranlib-16"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1751,8 +1790,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6"
-      binary: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6"
+      source: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te"
+      binary: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1763,14 +1802,14 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6'
+        Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ee19/fast
-        gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9ee19.dir/build.make CMakeFiles/cmTC_9ee19.dir/build
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6'
-        Building CXX object CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a09cc/fast
+        gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a09cc.dir/build.make CMakeFiles/cmTC_a09cc.dir/build
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te'
+        Building CXX object CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1780,8 +1819,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.0 (Debian 16.2.0-3) 
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9ee19.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9ee19.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/cc2BzImi.s
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a09cc.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a09cc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/ccrB4Ivm.s
         GNU C++20 (Debian 16.2.0-3) version 16.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.28-GMP
         
@@ -1802,14 +1841,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 6d9c773dc78814fe154a3a23a87e6498
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9ee19.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2BzImi.s
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a09cc.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrB4Ivm.s
         GNU assembler version 2.47 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.47
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9ee19
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee19.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a09cc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a09cc.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper
@@ -1822,15 +1861,15 @@ events:
         gcc version 16.2.0 (Debian 16.2.0-3) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_9ee19' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9ee19.'
-         /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfx1WvE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9ee19 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_a09cc' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a09cc.'
+         /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoL52mx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a09cc /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
         collect2 version 16.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfx1WvE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9ee19 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoL52mx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a09cc /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Debian) 2.47
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_9ee19' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9ee19.'
-        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro -v -Wl,-v CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9ee19
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6'
-        gmake[1]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6'
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_a09cc' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a09cc.'
+        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro -v -Wl,-v CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a09cc
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te'
+        gmake[1]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te'
         
       exitCode: 0
   -
@@ -1871,14 +1910,14 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6']
+        ignore line: [Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ee19/fast]
-        ignore line: [gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6']
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9ee19.dir/build.make CMakeFiles/cmTC_9ee19.dir/build]
-        ignore line: [gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-zqWpk6']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a09cc/fast]
+        ignore line: [gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a09cc.dir/build.make CMakeFiles/cmTC_a09cc.dir/build]
+        ignore line: [gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-1jH9Te']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1888,8 +1927,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.0 (Debian 16.2.0-3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9ee19.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9ee19.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/cc2BzImi.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a09cc.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a09cc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/ccrB4Ivm.s]
         ignore line: [GNU C++20 (Debian 16.2.0-3) version 16.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -1910,14 +1949,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 6d9c773dc78814fe154a3a23a87e6498]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9ee19.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2BzImi.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a09cc.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrB4Ivm.s]
         ignore line: [GNU assembler version 2.47 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.47]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9ee19]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee19.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a09cc]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a09cc.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper]
@@ -1930,13 +1969,13 @@ events:
         ignore line: [gcc version 16.2.0 (Debian 16.2.0-3) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_9ee19' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9ee19.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfx1WvE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9ee19 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_a09cc' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a09cc.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoL52mx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a09cc /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccfx1WvE.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccoL52mx.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1953,7 +1992,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9ee19] ==> ignore
+          arg [cmTC_a09cc] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o]
@@ -1969,7 +2008,7 @@ events:
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-zrelro] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1981,7 +2020,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 16.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfx1WvE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9ee19 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_9ee19.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoL52mx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a09cc /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_a09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2028,8 +2067,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th"
-      binary: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th"
+      source: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh"
+      binary: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2040,19 +2079,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th'
+        Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2c567/fast
-        gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2c567.dir/build.make CMakeFiles/cmTC_2c567.dir/build
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th'
-        Building CXX object CMakeFiles/cmTC_2c567.dir/src.cxx.o
-        /usr/bin/x86_64-linux-gnu-g++ -DCMAKE_HAVE_LIBC_PTHREAD  -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -std=gnu++20 -o CMakeFiles/cmTC_2c567.dir/src.cxx.o -c /home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th/src.cxx
-        Linking CXX executable cmTC_2c567
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c567.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_2c567.dir/src.cxx.o -o cmTC_2c567
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th'
-        gmake[1]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-RmU0Th'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7a4b4/fast
+        gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7a4b4.dir/build.make CMakeFiles/cmTC_7a4b4.dir/build
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh'
+        Building CXX object CMakeFiles/cmTC_7a4b4.dir/src.cxx.o
+        /usr/bin/x86_64-linux-gnu-g++ -DCMAKE_HAVE_LIBC_PTHREAD  -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -std=gnu++20 -o CMakeFiles/cmTC_7a4b4.dir/src.cxx.o -c /home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh/src.cxx
+        Linking CXX executable cmTC_7a4b4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a4b4.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_7a4b4.dir/src.cxx.o -o cmTC_7a4b4
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh'
+        gmake[1]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CEBykh'
         
       exitCode: 0
   -
@@ -2071,8 +2110,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV"
-      binary: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV"
+      source: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi"
+      binary: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2083,19 +2122,19 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV'
+        Change Dir: '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bb16f/fast
-        gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_bb16f.dir/build.make CMakeFiles/cmTC_bb16f.dir/build
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV'
-        Building CXX object CMakeFiles/cmTC_bb16f.dir/src.cxx.o
-        /usr/bin/x86_64-linux-gnu-g++ -DHAVE_STDATOMIC  -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -std=gnu++20 -o CMakeFiles/cmTC_bb16f.dir/src.cxx.o -c /home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV/src.cxx
-        Linking CXX executable cmTC_bb16f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb16f.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_bb16f.dir/src.cxx.o -o cmTC_bb16f
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV'
-        gmake[1]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-aq4hKV'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf38b/fast
+        gmake[1]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf38b.dir/build.make CMakeFiles/cmTC_bf38b.dir/build
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi'
+        Building CXX object CMakeFiles/cmTC_bf38b.dir/src.cxx.o
+        /usr/bin/x86_64-linux-gnu-g++ -DHAVE_STDATOMIC  -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -std=gnu++20 -o CMakeFiles/cmTC_bf38b.dir/src.cxx.o -c /home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi/src.cxx
+        Linking CXX executable cmTC_bf38b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf38b.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-daemon=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_bf38b.dir/src.cxx.o -o cmTC_bf38b
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi'
+        gmake[1]: Leaving directory '/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fiNPoi'
         
       exitCode: 0
   -
@@ -2181,6 +2220,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/tmp/lingmo-debs/.shim/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/Qt6CoreTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/qt6coretools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/Qt6CoreTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/qt6coretools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/Qt6CoreTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/qt6coretools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/usr/local/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2250,6 +2321,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2417,6 +2489,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2548,6 +2621,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/tmp/lingmo-debs/.shim/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/Qt6GuiTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/qt6guitools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/Qt6GuiTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/qt6guitools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/Qt6GuiTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/qt6guitools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/usr/local/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2617,6 +2722,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2745,6 +2851,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/tmp/lingmo-debs/.shim/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/Qt6WidgetsTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/qt6widgetstools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/Qt6WidgetsTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/qt6widgetstools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/Qt6WidgetsTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/qt6widgetstools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/usr/local/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2814,6 +2952,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2890,6 +3029,7 @@ events:
     names:
       - "GL/gl.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2947,6 +3087,7 @@ events:
       - "/usr/openwin/share/include/"
       - "/opt/graphics/OpenGL/include/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/GL/gl.h"
       - "/usr/local/sbin/GL/gl.h"
       - "/usr/local/bin/GL/gl.h"
       - "/usr/sbin/GL/gl.h"
@@ -2989,6 +3130,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3067,6 +3209,7 @@ events:
     names:
       - "GL/glx.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3121,6 +3264,7 @@ events:
       - "/opt/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/GL/glx.h"
       - "/usr/local/sbin/GL/glx.h"
       - "/usr/local/bin/GL/glx.h"
       - "/usr/sbin/GL/glx.h"
@@ -3163,6 +3307,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3241,6 +3386,7 @@ events:
     names:
       - "EGL/egl.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3295,6 +3441,7 @@ events:
       - "/opt/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/EGL/egl.h"
       - "/usr/local/sbin/EGL/egl.h"
       - "/usr/local/bin/EGL/egl.h"
       - "/usr/sbin/EGL/egl.h"
@@ -3337,6 +3484,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3415,6 +3563,7 @@ events:
     names:
       - "GLES2/gl2.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3469,6 +3618,7 @@ events:
       - "/opt/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/GLES2/gl2.h"
       - "/usr/local/sbin/GLES2/gl2.h"
       - "/usr/local/bin/GLES2/gl2.h"
       - "/usr/sbin/GLES2/gl2.h"
@@ -3511,6 +3661,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3589,6 +3740,7 @@ events:
     names:
       - "GLES3/gl3.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3643,6 +3795,7 @@ events:
       - "/opt/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/GLES3/gl3.h"
       - "/usr/local/sbin/GLES3/gl3.h"
       - "/usr/local/bin/GLES3/gl3.h"
       - "/usr/sbin/GLES3/gl3.h"
@@ -3685,6 +3838,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3763,6 +3917,7 @@ events:
     names:
       - "GL/xmesa.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3820,6 +3975,7 @@ events:
       - "/usr/openwin/share/include/"
       - "/opt/graphics/OpenGL/include/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/GL/xmesa.h"
       - "/usr/local/sbin/GL/xmesa.h"
       - "/usr/local/bin/GL/xmesa.h"
       - "/usr/sbin/GL/xmesa.h"
@@ -3879,6 +4035,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3957,6 +4114,7 @@ events:
     names:
       - "GL/glu.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4011,6 +4169,7 @@ events:
       - "/opt/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/GL/glu.h"
       - "/usr/local/sbin/GL/glu.h"
       - "/usr/local/bin/GL/glu.h"
       - "/usr/sbin/GL/glu.h"
@@ -4067,6 +4226,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4145,6 +4305,7 @@ events:
     names:
       - "OpenGL"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4199,6 +4360,7 @@ events:
       - "/opt/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4240,6 +4402,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libOpenGL.so"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4318,6 +4481,8 @@ events:
     names:
       - "GLX"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/libglvnd/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/libglvnd/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/libglvnd/"
@@ -4425,6 +4590,8 @@ events:
       - "/usr/lib/X11/libglvnd/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/libglvnd/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/libglvnd/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/libglvnd/"
@@ -4505,6 +4672,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libGLX.so"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4583,6 +4751,8 @@ events:
     names:
       - "EGL"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/libglvnd/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/libglvnd/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/libglvnd/"
@@ -4690,6 +4860,8 @@ events:
       - "/usr/lib/X11/libglvnd/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/libglvnd/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/libglvnd/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/libglvnd/"
@@ -4770,6 +4942,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libEGL.so"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4848,6 +5021,7 @@ events:
     names:
       - "GLESv2"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4902,6 +5076,7 @@ events:
       - "/opt/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4943,6 +5118,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5022,6 +5198,7 @@ events:
       - "GLESv3"
       - "GLESv2"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5076,6 +5253,7 @@ events:
       - "/opt/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5129,6 +5307,7 @@ events:
       - "/opt/lib/"
       - "/opt/"
       - "/usr/lib/X11/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5170,6 +5349,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5249,6 +5429,7 @@ events:
       - "GLU"
       - "MesaGLU"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5306,6 +5487,7 @@ events:
       - "/usr/openwin/lib/"
       - "/usr/shlib/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5362,6 +5544,7 @@ events:
       - "/opt/graphics/OpenGL/lib/"
       - "/usr/openwin/lib/"
       - "/usr/shlib/"
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5421,6 +5604,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5497,6 +5681,7 @@ events:
     names:
       - "vulkan/vulkan.h"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5551,6 +5736,7 @@ events:
       - "/opt/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/vulkan/vulkan.h"
       - "/usr/local/sbin/vulkan/vulkan.h"
       - "/usr/local/bin/vulkan/vulkan.h"
       - "/usr/sbin/vulkan/vulkan.h"
@@ -5593,6 +5779,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5669,6 +5856,7 @@ events:
     names:
       - "vulkan"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5723,6 +5911,7 @@ events:
       - "/opt/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5764,6 +5953,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libvulkan.so"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5840,6 +6030,7 @@ events:
     names:
       - "glslc"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5893,6 +6084,7 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/glslc"
       - "/usr/local/sbin/glslc"
       - "/usr/local/bin/glslc"
       - "/usr/sbin/glslc"
@@ -5948,6 +6140,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6022,6 +6215,7 @@ events:
     names:
       - "glslangValidator"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6075,6 +6269,7 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/glslangValidator"
       - "/usr/local/sbin/glslangValidator"
       - "/usr/local/bin/glslangValidator"
       - "/usr/sbin/glslangValidator"
@@ -6130,6 +6325,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6268,6 +6464,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/tmp/lingmo-debs/.shim/Qt6DBusToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/qt6dbustools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/Qt6DBusTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/qt6dbustools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/Qt6DBusTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/qt6dbustools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/Qt6DBusTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/qt6dbustools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/usr/local/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -6337,6 +6565,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6501,6 +6730,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6660,6 +6890,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6811,6 +7042,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6940,6 +7172,38 @@ events:
         reason: "no_exist"
       -
         path: "/home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -8476,6 +8740,7 @@ events:
       version: "6.11.2"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8549,6 +8814,7 @@ events:
     names:
       - "msgmerge"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8602,12 +8868,14 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/msgmerge"
       - "/usr/local/sbin/msgmerge"
       - "/usr/local/bin/msgmerge"
       - "/usr/sbin/msgmerge"
     found: "/usr/bin/msgmerge"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8677,6 +8945,7 @@ events:
     names:
       - "msgfmt"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8730,12 +8999,14 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/msgfmt"
       - "/usr/local/sbin/msgfmt"
       - "/usr/local/bin/msgfmt"
       - "/usr/sbin/msgfmt"
     found: "/usr/bin/msgfmt"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8806,6 +9077,7 @@ events:
       - "python2"
       - "python"
     candidate_directories:
+      - "/tmp/lingmo-debs/.shim/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8859,12 +9131,14 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
+      - "/tmp/lingmo-debs/.shim/python3"
       - "/usr/local/sbin/python3"
       - "/usr/local/bin/python3"
       - "/usr/sbin/python3"
     found: "/usr/bin/python3"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8987,6 +9261,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/tmp/lingmo-debs/.shim/KF6I18nConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/kf6i18n-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/KF6I18n.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/kf6i18n.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/KF6I18n.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/kf6i18n.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/KF6I18n.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/kf6i18n.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/usr/local/KF6I18nConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -9056,6 +9362,7 @@ events:
       version: "6.30.0"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9179,6 +9486,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "/tmp/lingmo-debs/.shim/QApt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/qapt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/QApt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/x86_64-linux-gnu/cps/qapt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/QApt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/lib/cps/qapt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/QApt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/tmp/lingmo-debs/.shim/share/cps/qapt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "/usr/local/QApt6Config.cmake"
         mode: "config"
         reason: "no_exist"
@@ -9216,6 +9555,7 @@ events:
       version: "6.0.0"
     search_context:
       ENV{PATH}:
+        - "/tmp/lingmo-debs/.shim"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
