@@ -15,7 +15,7 @@ LingmoUI.Window {
 
     background.color: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(46 / 255, 46 / 255, 46 / 255, 1.0)
                                             : Qt.rgba(240 / 255, 238 / 255, 241 / 255, 1.0)
-    background.opacity: 0.95
+    background.opacity: rootWindow.compositing ? 0.95 : 1.0
 
     MenuBar {
         id: menuBar

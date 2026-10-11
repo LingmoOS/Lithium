@@ -78,7 +78,7 @@ Item {
         opacity: 0.3
 
 //        color: LingmoUI.LingmoTheme.darkMode ? "#4D4D4D" : "#FFFFFF"
-//        opacity: LingmoUI.LingmoTheme.darkMode ? 0.5
+//        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.7 : 1.0
 
 //        Behavior on color {
 //            ColorAnimation {
@@ -88,6 +88,11 @@ Item {
 //        }
     }
 
+    // LingmoUI 3 has no WindowHelper; only .compositing was used
+    QtObject {
+        id: windowHelper
+        property bool compositing: true
+    }
 
     LingmoUI.PopupTips {
         id: popupTips

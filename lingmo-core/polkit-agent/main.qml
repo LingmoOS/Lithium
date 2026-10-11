@@ -43,10 +43,14 @@ Item {
         target: null
         acceptedDevices: PointerDevice.GenericPointer
         grabPermissions: TapHandler.CanTakeOverFromAnything
-        // Qt Quick windows can move themselves (was LingmoUI 1.0's windowHelper)
-        onActiveChanged: if (active) { rootWindow.startSystemMove() }
+        onActiveChanged: if (active) { windowHelper.startSystemMove(rootWindow) }
     }
 
+    // LingmoUI 3 has no WindowHelper; only .compositing was used
+    QtObject {
+        id: windowHelper
+        property bool compositing: true
+    }
 
     LingmoUI.LingmoShadow {
         radius: _background.radius

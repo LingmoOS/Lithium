@@ -63,6 +63,11 @@ Item {
         id: screen
     }
 
+    // LingmoUI 3 has no WindowHelper; only .compositing was used
+    QtObject {
+        id: windowHelper
+        property bool compositing: true
+    }
 
     LingmoUI.LingmoShadow {
         radius: _background.radius

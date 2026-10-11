@@ -15,7 +15,7 @@ LingmoUI.Window {
     flags: Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint
 
     background.color: LingmoUI.LingmoTheme.secondBackgroundColor
-    background.opacity: 0.5
+    background.opacity: control.compositing ? 0.5 : 1.0
     contentTopMargin: 0
 
     onWidthChanged: control.reset()

@@ -12,7 +12,7 @@ Item {
 
     property bool isHorizontal: Settings.direction === DockSettings.Bottom
     property real windowRadius: isHorizontal ? root.height * 0.3 : root.width * 0.3
-    property bool compositing: true
+    property bool compositing: windowHelper.compositing
 
     onCompositingChanged: {
         mainWindow.updateSize()
@@ -27,15 +27,17 @@ Item {
     Rectangle {
         id: _background
 
-        property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(255, 255, 255, 0.15)
+        property var borderColor: root.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                           : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
+                                                                                                                           : Qt.rgba(0, 0, 0, 0.15)
 
         anchors.fill: parent
-        radius: true && Settings.style === 0 ? windowRadius : 0
+        radius: root.compositing && Settings.style === 0 ? windowRadius : 0
         // color: LingmoUI.LingmoTheme.darkMode ? "#333333" : "#F2F2F2"
         // opacity: LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.4
-        opacity: LingmoUI.LingmoTheme.darkMode ? 0.5
+        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.4 : 1
         color: LingmoUI.LingmoTheme.darkMode ? "#666666" : "#E6E6E6"
-        // opacity: LingmoUI.LingmoTheme.darkMode ? 0.5
+        // opacity: root.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.5 : 0.9
         // opacity: 0.8
         border.width: 1 / LingmoUI.LingmoUnits.devicePixelRatio
         border.pixelAligned: LingmoUI.LingmoUnits.devicePixelRatio > 1 ? false : true
@@ -49,6 +51,11 @@ Item {
         }
     }
 
+    // LingmoUI 3 has no WindowHelper; only .compositing was used
+    QtObject {
+        id: windowHelper
+        property bool compositing: true
+    }
 
     LingmoUI.LingmoShadow {
         radius: _background.radius

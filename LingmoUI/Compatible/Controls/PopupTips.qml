@@ -32,11 +32,18 @@ Window {
     property alias backgroundOpacity: _background.opacity
     property alias backgroundColor: _background.color
     property alias blurEnabled: windowBlur.enabled
-    property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(255, 255, 255, 0.1)
+    property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+                                                                                                                  : Qt.rgba(0, 0, 0, 0.05)
     flags: Qt.WindowStaysOnTopHint | Qt.WindowDoesNotAcceptFocus | Qt.ToolTip
     width: label.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 1.5
     height: label.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 1.5
 
+    // LingmoUI 3 has no WindowHelper; only .compositing was used
+    QtObject {
+        id: windowHelper
+        property bool compositing: true
+    }
 
     LingmoUI.LingmoShadow {
         radius: _background.radius
@@ -54,7 +61,7 @@ Window {
         id: _background
         anchors.fill: parent
         color: LingmoUI.LingmoTheme.secondBackgroundColor
-        radius: LingmoUI.LingmoTheme.mediumRadius
+        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.mediumRadius : 0
         border.color: control.borderColor
         border.width: 1 / Screen.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true

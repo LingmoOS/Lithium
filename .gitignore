@@ -10,3 +10,7 @@ debian/files
 debian/*/*/
 */debian/*/
 **/debian/*/
+*/obj-*_linux-gnu/
+*/debian/files
+*/debian/*.substvars
+*/debian/debhelper-build-stamp

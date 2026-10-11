@@ -42,12 +42,12 @@
 <context>
     <name>NotificationWindow</name>
     <message>
-        <location filename="../qml/NotificationWindow.qml" line="106"/>
+        <location filename="../qml/NotificationWindow.qml" line="102"/>
         <source>Notification Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/NotificationWindow.qml" line="155"/>
+        <location filename="../qml/NotificationWindow.qml" line="151"/>
         <source>No notifications</source>
         <translation type="unfinished"></translation>
     </message>

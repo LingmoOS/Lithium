@@ -22,8 +22,8 @@ LingmoUI.Window {
     GlobalSettings { id: settings }
 
     background.color: LingmoUI.LingmoTheme.darkMode ? settings.darkbackgroundColor : settings.lightbackgroundColor
-    background.opacity: settings.opacity
-//    background.opacity: 0.95
+    background.opacity: root.compositing ? settings.opacity : 1
+//    background.opacity: rootWindow.compositing ? 0.95 : 1.0
     header.height: 40
 
     property int currentIndex: -1

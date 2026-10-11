@@ -31,14 +31,21 @@ LingmoUI.MenuPopupWindow {
         id: _background
         anchors.fill: parent
         color: LingmoUI.LingmoTheme.secondBackgroundColor
-        radius: LingmoUI.LingmoTheme.hugeRadius
-        opacity: 0.6
+        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.hugeRadius : 0
+        opacity: windowHelper.compositing ? 0.6 : 1
         border.color: _background.borderColor
         border.width: 1 / LingmoUI.LingmoUnits.devicePixelRatio
         border.pixelAligned: LingmoUI.LingmoUnits.devicePixelRatio > 1 ? false : true
 
-        property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(255, 255, 255, 0.1)
+        property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                      : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+                                                                                                                      : Qt.rgba(0, 0, 0, 0.05)
 
+        // LingmoUI 3 has no WindowHelper; only .compositing was used
+        QtObject {
+            id: windowHelper
+            property bool compositing: true
+        }
 
         LingmoUI.LingmoShadow {
             radius: _background.radius
