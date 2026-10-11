@@ -54,4 +54,4 @@ cp -f "$LOCAL_LIST" "$ARCHIVES/lingmo-local.list.binary"
 
 echo "== 4/4 构建 ISO (distribution: $LINGMO_DIST)"
 cd "$ROOT/iso_builder" || exit 1
-bash build.sh
+bash build.sh "$@"

@@ -14,3 +14,11 @@ debian/*/*/
 */debian/files
 */debian/*.substvars
 */debian/debhelper-build-stamp
+iso_builder/cache/
+iso_builder/.build/
+iso_builder/binary/
+iso_builder/binary.modified_timestamps
+iso_builder/chroot
+iso_builder/chroot.files
+iso_builder/config/
+iso_builder/*.iso
