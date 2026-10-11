@@ -1,0 +1,20 @@
+# Packages built from this tree (ci/build-debs.sh) - the Lingmo 1.0
+# metapackages that used to pull them in no longer exist.
+libqapt6
+lingmo-calculator
+lingmo-core
+lingmo-cursor-themes
+lingmo-daemon
+lingmo-dock
+lingmo-filemanager
+lingmo-grub-config
+lingmo-kwin-plugins
+lingmo-launcher
+lingmo-qt-plugins
+lingmo-sddm-theme
+lingmo-settings
+lingmo-statusbar
+lingmo-systemicons
+lingmo-terminal
+lingmo-texteditor
+lingmo-wallpapers

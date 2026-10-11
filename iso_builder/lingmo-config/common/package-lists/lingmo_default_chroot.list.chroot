@@ -28,7 +28,7 @@ linux-image-amd64
 live-boot
 live-config
 lingmo-grub-config
-lingmo-installer-config
+# removed: no longer produced by this tree (Lingmo 1.0 metapackage): lingmo-installer-config
 
 # Filesystem tools
 dosfstools
