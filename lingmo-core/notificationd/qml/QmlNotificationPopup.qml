@@ -21,7 +21,7 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
-import QtGraphicalEffects 1.0
+import LingmoUI.GraphicalEffects
 import LingmoUI.Compatible 3.0 as LingmoUI
 import Lingmo.Notification 1.0
 
