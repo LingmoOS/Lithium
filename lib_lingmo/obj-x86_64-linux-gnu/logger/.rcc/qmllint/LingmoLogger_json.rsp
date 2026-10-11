@@ -1,0 +1,13 @@
+--bare
+-I
+/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/temp
+-I
+/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/temp/Lingmo/Logger
+-I
+/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger
+-I
+/usr/lib/x86_64-linux-gnu/qt6/qml
+--resource
+/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/.qt/rcc/qmake_Lingmo_Logger.qrc
+--json
+/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/LingmoLogger_qmllint.json

@@ -1,0 +1,37 @@
+{
+    "classes": [
+        {
+            "className": "FunctorDestination",
+            "lineNumber": 40,
+            "object": true,
+            "qualifiedClassName": "QsLogging::FunctorDestination",
+            "signals": [
+                {
+                    "access": "protected",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QsLogging::LogMessage"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 55,
+                    "name": "logMessageReady",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "Destination"
+                }
+            ]
+        }
+    ],
+    "inputFile": "QsLogDestFunctor.h",
+    "outputRevision": 69
+}

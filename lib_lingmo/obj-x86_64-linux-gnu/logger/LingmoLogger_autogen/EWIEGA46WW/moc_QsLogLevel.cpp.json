@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "LogLevel"
+                }
+            ],
+            "className": "LogLevel",
+            "lineNumber": 48,
+            "namespace": true,
+            "qualifiedClassName": "QsLogging::LogLevel"
+        }
+    ],
+    "inputFile": "QsLogLevel.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,290 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    },
+                    {
+                        "name": "QML.Element",
+                        "value": "Logger"
+                    }
+                ],
+                "className": "Logger",
+                "lineNumber": 47,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newLevel",
+                                "type": "Level"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 94,
+                        "name": "setLoggingLevel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "isConst": true,
+                        "lineNumber": 97,
+                        "name": "loggingLevel",
+                        "returnType": "Level"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 118,
+                        "name": "log_trace",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 119,
+                        "name": "log_debug",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 120,
+                        "name": "log_info",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 121,
+                        "name": "log_warn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 122,
+                        "name": "log_error",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 123,
+                        "name": "log_fatal",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sLogPath",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "enableLogRotation",
+                                "type": "int"
+                            },
+                            {
+                                "name": "sizeInBytesToRotateAfter",
+                                "type": "int"
+                            },
+                            {
+                                "name": "oldLogsToKeep",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 126,
+                        "name": "registerFileDestination",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sLogPath",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "enableLogRotation",
+                                "type": "int"
+                            },
+                            {
+                                "name": "sizeInBytesToRotateAfter",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 9,
+                        "isCloned": true,
+                        "lineNumber": 126,
+                        "name": "registerFileDestination",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sLogPath",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "enableLogRotation",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 10,
+                        "isCloned": true,
+                        "lineNumber": 126,
+                        "name": "registerFileDestination",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sLogPath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 11,
+                        "isCloned": true,
+                        "lineNumber": 126,
+                        "name": "registerFileDestination",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "lineNumber": 128,
+                        "name": "registerDebugDestination",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "QsLogging::Logger",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "QsLog.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "FunctorDestination",
+                "lineNumber": 40,
+                "object": true,
+                "qualifiedClassName": "QsLogging::FunctorDestination",
+                "signals": [
+                    {
+                        "access": "protected",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QsLogging::LogMessage"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 55,
+                        "name": "logMessageReady",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Destination"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "QsLogDestFunctor.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "LogLevel"
+                    }
+                ],
+                "className": "LogLevel",
+                "lineNumber": 48,
+                "namespace": true,
+                "qualifiedClassName": "QsLogging::LogLevel"
+            }
+        ],
+        "inputFile": "QsLogLevel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Lingmo_LoggerPlugin",
+                "lineNumber": 11,
+                "object": true,
+                "qualifiedClassName": "Lingmo_LoggerPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQmlEngineExtensionPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "LingmoLogger_Lingmo_LoggerPlugin.cpp",
+        "outputRevision": 69
+    }
+]

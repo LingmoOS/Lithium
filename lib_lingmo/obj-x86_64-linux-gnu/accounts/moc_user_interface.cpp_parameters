@@ -1,0 +1,5 @@
+-I/home/lingmo/Lithium/lib_lingmo/accounts
+-I/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/accounts
+-o
+/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/accounts/moc_user_interface.cpp
+/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/accounts/user_interface.h

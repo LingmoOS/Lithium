@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/accounts/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/mpris/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/networkmanagement/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/screen/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/system/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/cmake_install.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,345 @@
+{
+	"BUILD_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/lingmoaudio_qmlplugins_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lingmo/Lithium/lib_lingmo/audio",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/lingmo/Lithium/lib_lingmo/audio/CMakeLists.txt",
+		"/home/lingmo/Lithium/lib_lingmo/audio/config.h.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/cmake/FindCanberra.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-4.3/Modules/FeatureSummary.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/cmake/FindCanberraPulse.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/cmake/FindCanberra.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-4.3/Modules/FeatureSummary.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageMessage.cmake",
+		"/home/lingmo/Lithium/lib_lingmo/cmake/FindSoundThemeFreedesktop.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-4.3/Modules/FindPackageMessage.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/lingmo/Lithium/lib_lingmo",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/lingmoaudio_qmlplugins_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "lingmoaudio_qmlplugins_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/canberracontext.h",
+			"MU",
+			"EWIEGA46WW/moc_canberracontext.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/card.h",
+			"MU",
+			"EWIEGA46WW/moc_card.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/client.h",
+			"MU",
+			"EWIEGA46WW/moc_client.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/context.h",
+			"MU",
+			"EWIEGA46WW/moc_context.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/debug.h",
+			"MU",
+			"EWIEGA46WW/moc_debug.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/device.h",
+			"MU",
+			"EWIEGA46WW/moc_device.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/maps.h",
+			"MU",
+			"EWIEGA46WW/moc_maps.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/model/sortfiltermodel.h",
+			"MU",
+			"NLOY5YBGEN/moc_sortfiltermodel.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/module.h",
+			"MU",
+			"EWIEGA46WW/moc_module.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/modulemanager.h",
+			"MU",
+			"EWIEGA46WW/moc_modulemanager.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/operation.h",
+			"MU",
+			"EWIEGA46WW/moc_operation.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/port.h",
+			"MU",
+			"EWIEGA46WW/moc_port.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/profile.h",
+			"MU",
+			"EWIEGA46WW/moc_profile.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/pulseaudio.h",
+			"MU",
+			"EWIEGA46WW/moc_pulseaudio.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/pulseobject.h",
+			"MU",
+			"EWIEGA46WW/moc_pulseobject.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/qml/listitemmenu.h",
+			"MU",
+			"CCBC4FUR7J/moc_listitemmenu.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/qml/plugin.h",
+			"MU",
+			"CCBC4FUR7J/moc_plugin.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/qml/volumefeedback.h",
+			"MU",
+			"CCBC4FUR7J/moc_volumefeedback.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/server.h",
+			"MU",
+			"EWIEGA46WW/moc_server.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/sink.h",
+			"MU",
+			"EWIEGA46WW/moc_sink.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/sinkinput.h",
+			"MU",
+			"EWIEGA46WW/moc_sinkinput.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/source.h",
+			"MU",
+			"EWIEGA46WW/moc_source.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/sourceoutput.h",
+			"MU",
+			"EWIEGA46WW/moc_sourceoutput.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/speakertest.h",
+			"MU",
+			"EWIEGA46WW/moc_speakertest.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/stream.h",
+			"MU",
+			"EWIEGA46WW/moc_stream.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/streamrestore.h",
+			"MU",
+			"EWIEGA46WW/moc_streamrestore.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/volumemonitor.h",
+			"MU",
+			"EWIEGA46WW/moc_volumemonitor.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/volumeobject.h",
+			"MU",
+			"EWIEGA46WW/moc_volumeobject.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/lingmoaudio_qmlplugins_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/lingmoaudio_qmlplugins_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB",
+		"TRANSLATION_DOMAIN=\"lingmo_pulseaudio\"",
+		"lingmoaudio_qmlplugins_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio",
+		"/home/lingmo/Lithium/lib_lingmo/audio",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration",
+		"/usr/include/x86_64-linux-gnu/qt6/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt6/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt6/QtDBus",
+		"/usr/include/x86_64-linux-gnu/qt6/QtQuick",
+		"/usr/include/x86_64-linux-gnu/qt6/QtOpenGL",
+		"/usr/include/glib-2.0",
+		"/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+		"/usr/include/sysprof-6",
+		"/usr/include",
+		"/usr/include/c++/16",
+		"/usr/include/x86_64-linux-gnu/c++/16",
+		"/usr/include/c++/16/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/16/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/x86_64-linux-gnu-g++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/lingmoaudio_qmlplugins_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/CMakeFiles/lingmoaudio_qmlplugins_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/audio/CMakeFiles/lingmoaudio_qmlplugins_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/canberracontext.cpp",
+			"MU",
+			null
+		],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/card.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/client.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/context.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/debug.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/device.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/maps.cpp", "MU", null ],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/model/sortfiltermodel.cpp",
+			"MU",
+			null
+		],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/module.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/modulemanager.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/operation.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/port.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/profile.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/pulseaudio.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/pulseobject.cpp", "MU", null ],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/qml/listitemmenu.cpp",
+			"MU",
+			null
+		],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/qml/plugin.cpp", "MU", null ],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/audio/qml/volumefeedback.cpp",
+			"MU",
+			null
+		],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/server.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/sink.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/sinkinput.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/source.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/sourceoutput.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/speakertest.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/stream.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/streamrestore.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/volumemonitor.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/lib_lingmo/audio/volumeobject.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,154 @@
+{
+	"BUILD_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/QsLogUnitTest_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lingmo/Lithium/lib_lingmo/logger/unittest",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/lingmo/Lithium/lib_lingmo/logger/unittest/CMakeLists.txt",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargetsPrecheck.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestTargets-none.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/QtTestProperties.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/lingmo/Lithium/lib_lingmo",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/QsLogUnitTest_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QsLogUnitTest_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/lingmo/Lithium/lib_lingmo/logger/unittest/QtTestUtil/QtTestUtil.h",
+			"MU",
+			"CDYNYNMSQ6/moc_QtTestUtil.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/logger/unittest/QtTestUtil/TestRegistration.h",
+			"MU",
+			"CDYNYNMSQ6/moc_TestRegistration.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/logger/unittest/QtTestUtil/TestRegistry.h",
+			"MU",
+			"CDYNYNMSQ6/moc_TestRegistry.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/logger/unittest/TestLog.h",
+			"MU",
+			"EWIEGA46WW/moc_TestLog.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/QsLogUnitTest_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/QsLogUnitTest_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QSLOG_IS_SHARED_LIBRARY",
+		"QSLOG_IS_SHARED_LIBRARY_IMPORT",
+		"QS_LOG_LINE_NUMBERS",
+		"QS_LOG_SEPARATE_THREAD",
+		"QT_CORE_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB",
+		"QT_TESTCASE_BUILDDIR=\"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest\"",
+		"QT_TESTCASE_SOURCEDIR=\"/home/lingmo/Lithium/lib_lingmo/logger/unittest\"",
+		"QT_TESTLIB_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest",
+		"/home/lingmo/Lithium/lib_lingmo/logger/unittest",
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger",
+		"/home/lingmo/Lithium/lib_lingmo/logger",
+		"/usr/include/x86_64-linux-gnu/qt6/QtTest",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration",
+		"/usr/include/x86_64-linux-gnu/qt6/QtNetwork",
+		"/usr/include/c++/16",
+		"/usr/include/x86_64-linux-gnu/c++/16",
+		"/usr/include/c++/16/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/16/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/x86_64-linux-gnu-g++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/QsLogUnitTest_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/CMakeFiles/QsLogUnitTest_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/unittest/CMakeFiles/QsLogUnitTest_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lingmo/Lithium/lib_lingmo/logger/unittest/QtTestUtil/SimpleChecker.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/logger/unittest/QtTestUtil/TestRegistry.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/logger/unittest/TestLog.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

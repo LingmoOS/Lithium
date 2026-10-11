@@ -8,7 +8,7 @@ set -o pipefail # Bashism
 source ../tools/build_version.sh
 
 # Lingmo's default values
-LINGMO_DIST="trixie"
+LINGMO_DIST="${LINGMO_DIST:-forky}"
 LINGMO_VERSION=""
 LINGMO_VARIANT="default"
 IMAGE_TYPE="live"

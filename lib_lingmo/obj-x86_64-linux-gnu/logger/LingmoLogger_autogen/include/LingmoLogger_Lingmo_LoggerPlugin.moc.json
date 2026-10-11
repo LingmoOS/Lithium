@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "Lingmo_LoggerPlugin",
+            "lineNumber": 11,
+            "object": true,
+            "qualifiedClassName": "Lingmo_LoggerPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQmlEngineExtensionPlugin"
+                }
+            ]
+        }
+    ],
+    "inputFile": "LingmoLogger_Lingmo_LoggerPlugin.cpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,249 @@
+{
+	"BUILD_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/lingmobluez_qmlplugins_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lingmo/Lithium/lib_lingmo/bluez",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/lingmo/Lithium/lib_lingmo/bluez/CMakeLists.txt",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF6BluezQt/KF6BluezQtConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF6BluezQt/KF6BluezQtConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreTargetsPrecheck.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"/usr/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBusTools/Qt6DBusToolsTargetsPrecheck.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusTargetsPrecheck.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusMacros.cmake",
+		"/usr/share/cmake-4.3/Modules/MacroAddFileDependencies.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt6DBus/Qt6DBusVersionlessAliasTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF6BluezQt/KF6BluezQtTargets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/KF6BluezQt/KF6BluezQtTargets-none.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/lingmo/Lithium/lib_lingmo",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/lingmobluez_qmlplugins_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "lingmobluez_qmlplugins_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/applet/bluetoothagent.h",
+			"MU",
+			"L7F4KWRS6Y/moc_bluetoothagent.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/applet/bluetoothmanager.h",
+			"MU",
+			"L7F4KWRS6Y/moc_bluetoothmanager.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/applet/devicesproxymodel.h",
+			"MU",
+			"L7F4KWRS6Y/moc_devicesproxymodel.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/bluezqtextensionplugin.h",
+			"MU",
+			"EWIEGA46WW/moc_bluezqtextensionplugin.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativeadapter.h",
+			"MU",
+			"EWIEGA46WW/moc_declarativeadapter.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativedevice.h",
+			"MU",
+			"EWIEGA46WW/moc_declarativedevice.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativedevicesmodel.h",
+			"MU",
+			"EWIEGA46WW/moc_declarativedevicesmodel.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativeinput.h",
+			"MU",
+			"EWIEGA46WW/moc_declarativeinput.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativemanager.h",
+			"MU",
+			"EWIEGA46WW/moc_declarativemanager.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativemediaplayer.h",
+			"MU",
+			"EWIEGA46WW/moc_declarativemediaplayer.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/lingmobluez_qmlplugins_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/lingmobluez_qmlplugins_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB",
+		"lingmobluez_qmlplugins_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez",
+		"/home/lingmo/Lithium/lib_lingmo/bluez",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration",
+		"/usr/include/x86_64-linux-gnu/qt6/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt6/QtDBus",
+		"/usr/include/KF6/BluezQt",
+		"/usr/include/c++/16",
+		"/usr/include/x86_64-linux-gnu/c++/16",
+		"/usr/include/c++/16/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/16/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/x86_64-linux-gnu-g++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/lingmobluez_qmlplugins_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/CMakeFiles/lingmobluez_qmlplugins_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/bluez/CMakeFiles/lingmobluez_qmlplugins_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/applet/bluetoothagent.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/applet/bluetoothmanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/applet/devicesproxymodel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/bluezqtextensionplugin.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativeadapter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativedevice.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativedevicesmodel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativeinput.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativemanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/lib_lingmo/bluez/declarativemediaplayer.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

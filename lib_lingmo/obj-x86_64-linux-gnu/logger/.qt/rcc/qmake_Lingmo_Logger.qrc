@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/lingmo/logger/Lingmo/Logger">
+    <file alias="qmldir">/home/lingmo/Lithium/lib_lingmo/obj-x86_64-linux-gnu/logger/temp/Lingmo/Logger/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/lingmoui/kit/compatible_module/LingmoUI/CompatibleModule">/home/lingmo/Lithium/LingmoUI/obj-x86_64-linux-gnu/temp/LingmoUI/CompatibleModule</file>
+
+  </qresource>
+</RCC>
