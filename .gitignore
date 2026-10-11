@@ -1,0 +1,5 @@
+*.deb
+*.buildinfo
+*.changes
+iso_builder/images/
+iso_builder/build.log

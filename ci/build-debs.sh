@@ -25,7 +25,10 @@ for component in "${COMPONENTS[@]}"; do
     [ -d "$ROOT/$component/debian" ] || continue
     echo "== $component"
     if ( cd "$ROOT/$component" && dpkg-buildpackage -b -uc -us -d -j"$JOBS" > "/tmp/deb-$component.log" 2>&1 ); then
-        echo "   OK"
+        # dpkg-buildpackage leaves the .deb next to the source directory
+        find "$ROOT" -maxdepth 1 -name "${component}_*.deb" -exec mv -f {} "$OUT/" \; 2>/dev/null
+        find "$ROOT" -maxdepth 1 -name "lib${component}*.deb" -exec mv -f {} "$OUT/" \; 2>/dev/null
+        echo "   OK -> $(ls "$OUT" | grep -ci '\.deb$') deb 累计"
     else
         echo "   FAIL (see /tmp/deb-$component.log)"
         tail -5 "/tmp/deb-$component.log" | sed 's/^/     /'
