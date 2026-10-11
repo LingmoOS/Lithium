@@ -1,0 +1,12 @@
+#!/bin/sh
+# memtest86+ 8.x ships /boot/mt86+x64 and /boot/mt86+ia32; live-build still
+# copies /boot/memtest86+.bin when --memtest memtest86+ is used, so provide
+# the expected name instead of dropping the memory test from the menu.
+set -e
+if [ ! -e /boot/memtest86+.bin ]; then
+    if [ -e /boot/mt86+x64 ]; then
+        ln -sf mt86+x64 /boot/memtest86+.bin
+    elif [ -e /boot/mt86+ia32 ]; then
+        ln -sf mt86+ia32 /boot/memtest86+.bin
+    fi
+fi
