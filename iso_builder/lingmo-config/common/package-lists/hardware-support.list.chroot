@@ -6,8 +6,8 @@
 firmware-linux-nonfree
 firmware-linux
 #if ARCHITECTURES i386 amd64
-firmware-b43legacy-installer
-firmware-b43-installer
+# removed: downloads firmware at install time, fails in the chroot: firmware-b43legacy-installer
+# removed: downloads firmware at install time, fails in the chroot: firmware-b43-installer
 #endif
 
 ##
