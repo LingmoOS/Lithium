@@ -3,12 +3,11 @@ import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 2.0 as PlasmaComponents
-import org.kde.kquickcontrolsaddons 2.0
-import org.kde.kwin 2.0 as KWin
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.components as PlasmaComponents
+import org.kde.kwin as KWin
 
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 
 // https://techbase.kde.org/Development/Tutorials/KWin/WindowSwitcher
 
@@ -184,7 +183,7 @@ KWin.Switcher {
                         anchors.fill: parent
                         anchors.margins: 16
 
-                        QIconItem {
+                        QPlasmaComponents.IconItem {
                             id: iconItem
                             // source: model.icon
                             icon: model.icon

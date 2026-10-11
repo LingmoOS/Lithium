@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "LingmoOS Team"
+            }
+        ],
+        "Category": "Window Switching",
+        "Description": "Lingmo thumbnail window switcher",
+        "EnabledByDefault": false,
+        "Id": "ling_thumbnail",
+        "License": "GPLv3",
+        "Name": "Lingmo Thumbnails",
+        "ServiceTypes": [
+            "KWin/Switcher"
+        ],
+        "Version": "0.2"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "KPackageStructure": "KWin/Switcher"
+}
