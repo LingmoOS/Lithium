@@ -45,7 +45,6 @@
 // Qt
 #include <QEvent>
 #include <QKeyEvent>
-#include <QByteRef>
 
 // KDE
 //#include <kdebug.h>
@@ -419,7 +418,7 @@ void Vt102Emulation::processWindowAttributeChange()
   QString newValue;
   newValue.reserve(tokenBufferPos-i-2);
   for (int j = 0; j < tokenBufferPos-i-2; j++)
-    newValue[j] = tokenBuffer[i+1+j];
+    newValue.append(QChar(tokenBuffer[i+1+j]));
 
   _pendingTitleUpdates[attributeToChange] = newValue;
   _titleUpdateTimer->start(20);
@@ -964,8 +963,8 @@ void Vt102Emulation::sendMouseEvent( int cb, int cx, int cy , int eventType )
             // coordinate+32, no matter what the locale is. We could easily
             // convert manually, but QString can also do it for us.
             QChar coords[2];
-            coords[0] = cx + 0x20;
-            coords[1] = cy + 0x20;
+            coords[0] = QChar(static_cast<char16_t>(cx + 0x20));
+            coords[1] = QChar(static_cast<char16_t>(cy + 0x20));
             QString coordsStr = QString(coords, 2);
             QByteArray utf8 = coordsStr.toUtf8();
             snprintf(command, sizeof(command), "\033[M%c%s", cb + 0x20, utf8.constData());

@@ -44,6 +44,7 @@ KPtyProcess::KPtyProcess(QObject *parent) :
 
     d->pty = new KPtyDevice(this);
     d->pty->open();
+    setChildProcessModifier([this]() { setupChildProcessModifier(); });
     connect(this, SIGNAL(stateChanged(QProcess::ProcessState)),
             SLOT(_k_onStateChanged(QProcess::ProcessState)));
 }
@@ -55,6 +56,7 @@ KPtyProcess::KPtyProcess(int ptyMasterFd, QObject *parent) :
 
     d->pty = new KPtyDevice(this);
     d->pty->open(ptyMasterFd);
+    setChildProcessModifier([this]() { setupChildProcessModifier(); });
     connect(this, SIGNAL(stateChanged(QProcess::ProcessState)),
             SLOT(_k_onStateChanged(QProcess::ProcessState)));
 }
@@ -119,7 +121,7 @@ KPtyDevice *KPtyProcess::pty() const
     return d->pty;
 }
 
-void KPtyProcess::setupChildProcess()
+void KPtyProcess::setupChildProcessModifier()
 {
     Q_D(KPtyProcess);
 
@@ -138,7 +140,6 @@ void KPtyProcess::setupChildProcess()
     if (d->ptyChannels & StderrChannel)
         dup2(d->pty->slaveFd(), 2);
 
-    KProcess::setupChildProcess();
 }
 
 //#include "kptyprocess.moc"

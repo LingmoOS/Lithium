@@ -23,6 +23,8 @@
 #include <QTranslator>
 #include <QWidget>
 #include "Emulation.h"
+#include <QTextCodec>
+#include <QAction>
 #include "Filter.h"
 
 class QVBoxLayout;

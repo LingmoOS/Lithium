@@ -21,6 +21,7 @@
 #include <QRegExp>
 #include <QDebug>
 
+#include <QWidget>
 #include "SearchBar.h"
 
 SearchBar::SearchBar(QWidget *parent) : QWidget(parent)

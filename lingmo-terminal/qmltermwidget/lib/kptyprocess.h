@@ -142,9 +142,10 @@ public:
 
 protected:
     /**
-     * @reimp
+     * Child-side setup (Qt6 runs it through QProcess::setChildProcessModifier()
+     * because QProcess::setupChildProcessModifier() is private now).
      */
-    virtual void setupChildProcess();
+    virtual void setupChildProcessModifier();
 
 private:
     Q_PRIVATE_SLOT(d_func(), void _k_onStateChanged(QProcess::ProcessState))

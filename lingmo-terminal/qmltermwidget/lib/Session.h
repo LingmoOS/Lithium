@@ -30,6 +30,7 @@
 
 #include "Emulation.h"
 #include "History.h"
+#include <QTextCodec>
 #include "ProcessInfo.h"
 
 class KProcess;

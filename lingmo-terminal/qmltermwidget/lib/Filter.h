@@ -26,6 +26,7 @@
 #include <QObject>
 #include <QStringList>
 #include <QHash>
+#include <QWidget>
 #include <QRegExp>
 
 // Local

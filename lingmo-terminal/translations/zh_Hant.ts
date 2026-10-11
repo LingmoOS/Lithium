@@ -141,7 +141,7 @@
 <context>
     <name>Konsole::Vt102Emulation</name>
     <message>
-        <location filename="../qmltermwidget/lib/Vt102Emulation.cpp" line="1257"/>
+        <location filename="../qmltermwidget/lib/Vt102Emulation.cpp" line="1256"/>
         <source>No keyboard translator available.  The information needed to convert key presses into characters to send to the terminal is missing.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -149,33 +149,33 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../qmltermwidget/lib/ColorScheme.cpp" line="278"/>
-        <location filename="../qmltermwidget/lib/ColorScheme.cpp" line="293"/>
+        <location filename="../qmltermwidget/lib/ColorScheme.cpp" line="281"/>
+        <location filename="../qmltermwidget/lib/ColorScheme.cpp" line="296"/>
         <source>Un-named Color Scheme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/ColorScheme.cpp" line="464"/>
+        <location filename="../qmltermwidget/lib/ColorScheme.cpp" line="467"/>
         <source>Accessible Color Scheme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/Filter.cpp" line="544"/>
+        <location filename="../qmltermwidget/lib/Filter.cpp" line="546"/>
         <source>Open Link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/Filter.cpp" line="545"/>
+        <location filename="../qmltermwidget/lib/Filter.cpp" line="547"/>
         <source>Copy Link Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/Filter.cpp" line="549"/>
+        <location filename="../qmltermwidget/lib/Filter.cpp" line="551"/>
         <source>Send Email To...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/Filter.cpp" line="550"/>
+        <location filename="../qmltermwidget/lib/Filter.cpp" line="552"/>
         <source>Copy Email Address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -183,12 +183,12 @@
 <context>
     <name>QTermWidget</name>
     <message>
-        <location filename="../qmltermwidget/lib/qtermwidget.cpp" line="465"/>
+        <location filename="../qmltermwidget/lib/qtermwidget.cpp" line="469"/>
         <source>Color Scheme Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/qtermwidget.cpp" line="466"/>
+        <location filename="../qmltermwidget/lib/qtermwidget.cpp" line="470"/>
         <source>Cannot load color scheme: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -226,17 +226,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/SearchBar.cpp" line="40"/>
+        <location filename="../qmltermwidget/lib/SearchBar.cpp" line="41"/>
         <source>Match case</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/SearchBar.cpp" line="46"/>
+        <location filename="../qmltermwidget/lib/SearchBar.cpp" line="47"/>
         <source>Regular expression</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qmltermwidget/lib/SearchBar.cpp" line="50"/>
+        <location filename="../qmltermwidget/lib/SearchBar.cpp" line="51"/>
         <source>Highlight all matches</source>
         <translation type="unfinished"></translation>
     </message>

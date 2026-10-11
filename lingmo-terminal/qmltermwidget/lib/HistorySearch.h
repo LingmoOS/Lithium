@@ -27,6 +27,7 @@
 #include <ScreenWindow.h>
 
 #include "Emulation.h"
+#include <QRegExp>
 #include "TerminalCharacterDecoder.h"
 
 using namespace Konsole;

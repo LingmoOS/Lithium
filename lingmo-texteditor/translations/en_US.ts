@@ -2,44 +2,74 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN">
 <context>
-    <name>main</name>
+    <name>DocumentHandler</name>
     <message>
-        <location filename="../qml/main.qml" line="20"/>
-        <source>Lingmo OS Text Editor</source>
-        <translation>Lingmo OS Text Editor</translation>
+        <location filename="../src/documenthandler.cpp" line="115"/>
+        <source>File changed externally</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="30"/>
-        <source>%1 doesn't exists</source>
-        <translation>%1 doesn't exists</translation>
+        <location filename="../src/documenthandler.cpp" line="115"/>
+        <source>You can reload the file or save your changes now</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="134"/>
-        <source>Characters %1</source>
-        <translation>Characters %1</translation>
+        <location filename="../src/documenthandler.cpp" line="126"/>
+        <source>Reload</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="147"/>
-        <source>Untitled</source>
-        <translation>Untitled</translation>
+        <location filename="../src/documenthandler.cpp" line="126"/>
+        <source>Auto Reload</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="153"/>
-        <source>Open...</source>
-        <translation>Open...</translation>
+        <location filename="../src/documenthandler.cpp" line="126"/>
+        <location filename="../src/documenthandler.cpp" line="134"/>
+        <source>Ignore</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="155"/>
-        <source>All files (*)</source>
-        <translation>All files (*)</translation>
+        <location filename="../src/documenthandler.cpp" line="132"/>
+        <source>File can not be saved</source>
+        <translation type="unfinished"></translation>
     </message>
-    </context>
-    <context>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="140"/>
+        <source>Your file was removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="140"/>
+        <source>This file does not longer exists in your local storage, however you can save it again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="146"/>
+        <source>Save</source>
+        <translation type="unfinished">Save</translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="744"/>
+        <source>Cannot save: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="745"/>
+        <source>Cannot save file </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ExitPromptDialog</name>
     <message>
-        <location filename="../qml/ExitPromptDialog.qml" line="40"/>
         <source>Document unsaved, are you sure you want to close it?</source>
-        <translation>Document unsaved, are you sure you want to close it?</translation>
+        <translation type="vanished">Document unsaved, are you sure you want to close it?</translation>
+    </message>
+    <message>
+        <location filename="../qml/ExitPromptDialog.qml" line="40"/>
+        <source>The document has not been saved. Are you sure you want to close it?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/ExitPromptDialog.qml" line="47"/>
@@ -48,24 +78,32 @@
     </message>
     <message>
         <location filename="../qml/ExitPromptDialog.qml" line="53"/>
-        <source>OK</source>
-        <translation>OK</translation>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
     </message>
-    </context>
-    <context>
+    <message>
+        <source>OK</source>
+        <translation type="vanished">OK</translation>
+    </message>
+</context>
+<context>
     <name>FileSelectDialog</name>
     <message>
-        <location filename="../qml/FileSelectDialog.qml" line="68"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation type="vanished">OK</translation>
+    </message>
+    <message>
+        <location filename="../qml/FileSelectDialog.qml" line="68"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/FileSelectDialog.qml" line="80"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
-    </context>
-    <context>
+</context>
+<context>
     <name>TextEditor</name>
     <message>
         <location filename="../qml/TextEditor.qml" line="45"/>
@@ -94,6 +132,7 @@
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="76"/>
+        <location filename="../qml/TextEditor.qml" line="349"/>
         <source>Save as...</source>
         <translation>Save as...</translation>
     </message>
@@ -158,12 +197,40 @@
         <translation>A text editor specifically designed for Lingmo OS.</translation>
     </message>
     <message>
-        <location filename="../qml/TextEditor.qml" line="349"/>
-        <source>Save as...</source>
-        <translation>Save as...</translation>
+        <location filename="../qml/TextEditor.qml" line="351"/>
+        <source>All files (*)</source>
+        <translation>All files (*)</translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../qml/main.qml" line="20"/>
+        <source>Lingmo OS Text Editor</source>
+        <translation>Lingmo OS Text Editor</translation>
     </message>
     <message>
-        <location filename="../qml/TextEditor.qml" line="351"/>
+        <location filename="../qml/main.qml" line="30"/>
+        <source>%1 doesn&apos;t exists</source>
+        <translation>%1 doesn&apos;t exists</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="134"/>
+        <source>Characters %1</source>
+        <translation>Characters %1</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="147"/>
+        <source>Untitled</source>
+        <translation>Untitled</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="153"/>
+        <source>Open...</source>
+        <translation>Open...</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="155"/>
         <source>All files (*)</source>
         <translation>All files (*)</translation>
     </message>

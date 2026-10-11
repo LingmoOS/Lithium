@@ -22,6 +22,8 @@
 #include <QRegExp>
 
 #include "ui_SearchBar.h"
+#include <QWidget>
+#include <QAction>
 #include "HistorySearch.h"
 
 class SearchBar : public QWidget {

@@ -4,7 +4,7 @@ set(COMMON "${CMAKE_HOME_DIRECTORY}/src/common")
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${COMMON} ${LAUNCHER})
 
 set(QT Widgets Quick QuickControls2)
-find_package(Qt5 REQUIRED ${QT})
+find_package(Qt6 REQUIRED ${QT})
 
 # Hide all symbols except the ones explicitly exported in the code (like main())
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden")
@@ -22,14 +22,15 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 set(SRC lingmo-appmotor.cpp)
 
 # Set libraries to be linked.
-link_libraries("-L../launcherlib -lapplauncherd" ${LIBDL})
+link_libraries(${LIBDL})
 
 # Set executable
 add_executable(lingmo-appmotor ${SRC} ${MOC_SRC})
 
 target_link_libraries(lingmo-appmotor
-    Qt5::Widgets
-    Qt5::Quick
+    Qt6::Widgets
+    Qt6::Quick
+    applauncherd
 )
 
 # Add install rule

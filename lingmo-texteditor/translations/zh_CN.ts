@@ -2,39 +2,65 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN">
 <context>
-    <name>main</name>
+    <name>DocumentHandler</name>
     <message>
-        <location filename="../qml/main.qml" line="20"/>
-        <source>Lingmo OS Text Editor</source>
-        <translation>Lingmo OS文本编辑器</translation>
+        <location filename="../src/documenthandler.cpp" line="115"/>
+        <source>File changed externally</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="30"/>
-        <source>%1 doesn't exists</source>
-        <translation>%1 不存在</translation>
+        <location filename="../src/documenthandler.cpp" line="115"/>
+        <source>You can reload the file or save your changes now</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="134"/>
-        <source>Characters %1</source>
-        <translation>字符 %1</translation>
+        <location filename="../src/documenthandler.cpp" line="126"/>
+        <source>Reload</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="147"/>
-        <source>Untitled</source>
-        <translation>无标题</translation>
+        <location filename="../src/documenthandler.cpp" line="126"/>
+        <source>Auto Reload</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="153"/>
-        <source>Open...</source>
-        <translation>打开...</translation>
+        <location filename="../src/documenthandler.cpp" line="126"/>
+        <location filename="../src/documenthandler.cpp" line="134"/>
+        <source>Ignore</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="155"/>
-        <source>All files (*)</source>
-        <translation>全部类型 (*)</translation>
+        <location filename="../src/documenthandler.cpp" line="132"/>
+        <source>File can not be saved</source>
+        <translation type="unfinished"></translation>
     </message>
-    </context>
-    <context>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="140"/>
+        <source>Your file was removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="140"/>
+        <source>This file does not longer exists in your local storage, however you can save it again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="146"/>
+        <source>Save</source>
+        <translation type="unfinished">保存</translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="744"/>
+        <source>Cannot save: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/documenthandler.cpp" line="745"/>
+        <source>Cannot save file </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ExitPromptDialog</name>
     <message>
         <location filename="../qml/ExitPromptDialog.qml" line="40"/>
@@ -48,24 +74,32 @@
     </message>
     <message>
         <location filename="../qml/ExitPromptDialog.qml" line="53"/>
-        <source>OK</source>
-        <translation>确定</translation>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
     </message>
-    </context>
-    <context>
+    <message>
+        <source>OK</source>
+        <translation type="vanished">确定</translation>
+    </message>
+</context>
+<context>
     <name>FileSelectDialog</name>
     <message>
-        <location filename="../qml/FileSelectDialog.qml" line="68"/>
         <source>OK</source>
-        <translation>确定</translation>
+        <translation type="vanished">确定</translation>
+    </message>
+    <message>
+        <location filename="../qml/FileSelectDialog.qml" line="68"/>
+        <source>Yes</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/FileSelectDialog.qml" line="80"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
-    </context>
-    <context>
+</context>
+<context>
     <name>TextEditor</name>
     <message>
         <location filename="../qml/TextEditor.qml" line="45"/>
@@ -94,6 +128,7 @@
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="76"/>
+        <location filename="../qml/TextEditor.qml" line="349"/>
         <source>Save as...</source>
         <translation>另存为...</translation>
     </message>
@@ -158,14 +193,42 @@
         <translation>专门为 Lingmo OS 设计的文本编辑器</translation>
     </message>
     <message>
-        <location filename="../qml/TextEditor.qml" line="349"/>
-        <source>Save as...</source>
-        <translation>另存为...</translation>
-    </message>
-    <message>
         <location filename="../qml/TextEditor.qml" line="351"/>
         <source>All files (*)</source>
         <translation>所有类型 (*)</translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../qml/main.qml" line="20"/>
+        <source>Lingmo OS Text Editor</source>
+        <translation>Lingmo OS文本编辑器</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="30"/>
+        <source>%1 doesn&apos;t exists</source>
+        <translation>%1 不存在</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="134"/>
+        <source>Characters %1</source>
+        <translation>字符 %1</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="147"/>
+        <source>Untitled</source>
+        <translation>无标题</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="153"/>
+        <source>Open...</source>
+        <translation>打开...</translation>
+    </message>
+    <message>
+        <location filename="../qml/main.qml" line="155"/>
+        <source>All files (*)</source>
+        <translation>全部类型 (*)</translation>
     </message>
 </context>
 </TS>

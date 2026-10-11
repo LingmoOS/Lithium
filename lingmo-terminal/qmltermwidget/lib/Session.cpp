@@ -30,10 +30,10 @@
 
 // Qt
 #include <QApplication>
-#include <QByteRef>
 #include <QDir>
 #include <QFile>
 #include <QRegExp>
+#include <QRegularExpression>
 #include <QStringList>
 #include <QFile>
 #include <QtDebug>
@@ -45,6 +45,7 @@
 #include "Vt102Emulation.h"
 
 // QMLTermWidget
+#include <QTextCodec>
 #include <QQuickWindow>
 
 using namespace Konsole;
@@ -403,7 +404,7 @@ void Session::setUserTitle( int what, const QString & caption )
 
     if (what == 31) {
         QString cwd=caption;
-        cwd=cwd.replace( QRegExp(QLatin1String("^~")), QDir::homePath() );
+        cwd = cwd.replace(QRegularExpression(QLatin1String("^~")), QDir::homePath());
         emit openUrlRequest(cwd);
     }
 
@@ -474,7 +475,7 @@ void Session::activityStateSet(int state)
 {
     if (state==NOTIFYBELL) {
         QString s;
-        s.sprintf("Bell in session '%s'",_nameTitle.toUtf8().data());
+        s = QString::asprintf("Bell in session '%s'",_nameTitle.toUtf8().data());
 
         emit bellRequest( s );
     } else if (state==NOTIFYACTIVITY) {
@@ -619,16 +620,16 @@ void Session::done(int exitStatus)
     if (!_wantedClose || exitStatus != 0) {
 
         if (_shellProcess->exitStatus() == QProcess::NormalExit) {
-            message.sprintf("Session '%s' exited with status %d.",
+            message = QString::asprintf("Session '%s' exited with status %d.",
                           _nameTitle.toUtf8().data(), exitStatus);
         } else {
-            message.sprintf("Session '%s' crashed.",
+            message = QString::asprintf("Session '%s' crashed.",
                           _nameTitle.toUtf8().data());
         }
     }
 
     if ( !_wantedClose && _shellProcess->exitStatus() != QProcess::NormalExit ) {
-        message.sprintf("Session '%s' exited unexpectedly.",
+        message = QString::asprintf("Session '%s' exited unexpectedly.",
                         _nameTitle.toUtf8().data());
     }
 

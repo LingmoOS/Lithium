@@ -21,8 +21,8 @@
 #define APPMANAGER_H
 
 #include <QObject>
-#include <QApt/Backend>
-#include <QApt/Transaction>
+#include <QApt6/Backend>
+#include <QApt6/Transaction>
 
 class AppManager : public QObject
 {

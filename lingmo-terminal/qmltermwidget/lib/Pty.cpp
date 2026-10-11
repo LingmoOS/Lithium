@@ -317,9 +317,9 @@ int Pty::foregroundProcessGroup() const
     return 0;
 }
 
-void Pty::setupChildProcess()
+void Pty::setupChildProcessModifier()
 {
-    KPtyProcess::setupChildProcess();
+    KPtyProcess::setupChildProcessModifier();
 
     // reset all signal handlers
     // this ensures that terminal applications respond to

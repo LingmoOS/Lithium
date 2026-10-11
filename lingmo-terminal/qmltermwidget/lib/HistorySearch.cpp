@@ -22,7 +22,27 @@
 
 #include "TerminalCharacterDecoder.h"
 #include "Emulation.h"
+#include <QRegExp>
+#include <QRegularExpression>
 #include "HistorySearch.h"
+
+// Qt5Compat still provides QRegExp, but QString's QRegExp overloads are gone in
+// Qt6. Convert where a QRegularExpression is required.
+static QRegularExpression toRegularExpression(const QRegExp &regExp)
+{
+    QRegularExpression::PatternOptions options = QRegularExpression::NoPatternOption;
+    if (regExp.caseSensitivity() == Qt::CaseInsensitive)
+        options |= QRegularExpression::CaseInsensitiveOption;
+
+    switch (regExp.patternSyntax()) {
+    case QRegExp::Wildcard:
+        return QRegularExpression(QRegularExpression::wildcardToRegularExpression(regExp.pattern()), options);
+    case QRegExp::FixedString:
+        return QRegularExpression(QRegularExpression::escape(regExp.pattern()), options);
+    default:
+        return QRegularExpression(regExp.pattern(), options);
+    }
+}
 
 HistorySearch::HistorySearch(EmulationPtr emulation, QRegExp regExp,
         bool forwards, int startColumn, int startLine,
@@ -102,24 +122,36 @@ bool HistorySearch::search(int startColumn, int startLine, int endColumn, int en
             endPosition = string.size();
         }
 
-        // So now we can log for m_regExp in the string between startColumn and endPosition
-        int matchStart;
+        // So now we can look for m_regExp in the string between startColumn and endPosition.
+        // Qt6 dropped QString's QRegExp overloads, so search with QRegularExpression
+        // and keep the match to get its length (QRegExp::matchedLength() no longer
+        // describes the search we performed).
+        const QRegularExpression regExp(toRegularExpression(m_regExp));
+        QRegularExpressionMatch match;
         if (m_forwards)
         {
-            matchStart = string.indexOf(m_regExp, startColumn);
-            if (matchStart >= endPosition)
-                matchStart = -1;
+            match = regExp.match(string, startColumn);
+            if (!match.hasMatch() || match.capturedStart() >= endPosition)
+                match = QRegularExpressionMatch();
         }
         else
         {
-            matchStart = string.lastIndexOf(m_regExp, endPosition - 1);
-            if (matchStart < startColumn)
-                matchStart = -1;
+            int from = 0;
+            QRegularExpressionMatch candidate;
+            while ((candidate = regExp.match(string, from)).hasMatch() &&
+                   candidate.capturedStart() <= endPosition - 1)
+            {
+                match = candidate;
+                from = candidate.capturedEnd();
+            }
+            if (match.hasMatch() && match.capturedStart() < startColumn)
+                match = QRegularExpressionMatch();
         }
 
-        if (matchStart > -1)
+        if (match.hasMatch())
         {
-            int matchEnd = matchStart + m_regExp.matchedLength() - 1;
+            int matchStart = match.capturedStart();
+            int matchEnd = match.capturedEnd() - 1;
             qDebug() << "Found in string from" << matchStart << "to" << matchEnd;
 
             // Translate startPos and endPos to startColum, startLine, endColumn and endLine in history.

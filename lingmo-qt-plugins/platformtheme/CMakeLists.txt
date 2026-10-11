@@ -13,7 +13,7 @@ find_package(Qt5X11Extras REQUIRED)
 find_package(Qt5Gui CONFIG REQUIRED Private)
 find_package(Qt5XdgIconLoader REQUIRED)
 find_package(dbusmenu-qt5 REQUIRED)
-find_package(KF5WindowSystem REQUIRED)
+find_package(KF6WindowSystem REQUIRED)
 
 # dependencies for QPA plugin
 find_package(Qt5ThemeSupport REQUIRED)
@@ -42,9 +42,9 @@ set (SRCS
     statusnotifier/statusnotifieritem.cpp
 )
 
-qt5_add_dbus_interface(SRCS org.kde.StatusNotifierWatcher.xml statusnotifierwatcher_interface)
+qt6_add_dbus_interface(SRCS org.kde.StatusNotifierWatcher.xml statusnotifierwatcher_interface)
 
-qt5_add_dbus_adaptor(SRCS
+qt6_add_dbus_adaptor(SRCS
     statusnotifier/org.kde.StatusNotifierItem.xml
     statusnotifier/statusnotifieritem.h
     StatusNotifierItem
@@ -59,17 +59,17 @@ target_compile_definitions(lingmoplatformtheme
 )
 
 target_link_libraries(lingmoplatformtheme PRIVATE
-    Qt5::GuiPrivate
-    Qt5::X11Extras
-    Qt5::Widgets
-    Qt5::QuickControls2
-    Qt5::Core
-    Qt5::DBus
+    Qt6::GuiPrivate
+    Qt6::X11Extras
+    Qt6::Widgets
+    Qt6::QuickControls2
+    Qt6::Core
+    Qt6::DBus
     dbusmenu-qt5
 
     Qt5XdgIconLoader
 
-    KF5::WindowSystem
+    KF6::WindowSystem
     ${XCB_LIBRARIES}
     ${QT5PLATFORMSUPPORT_LIBS}
 )

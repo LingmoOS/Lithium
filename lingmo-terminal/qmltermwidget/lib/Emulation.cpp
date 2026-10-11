@@ -46,6 +46,7 @@
 #include "KeyboardTranslator.h"
 #include "Screen.h"
 #include "TerminalCharacterDecoder.h"
+#include <QTextCodec>
 #include "ScreenWindow.h"
 
 using namespace Konsole;

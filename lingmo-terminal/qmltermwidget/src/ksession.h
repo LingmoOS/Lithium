@@ -26,6 +26,7 @@
 #include <QObject>
 
 // Konsole
+#include <QTextCodec>
 #include "Session.h"
 //#include "TerminalDisplay.h"
 

@@ -42,6 +42,8 @@
 
 // Konsole
 #include "TerminalCharacterDecoder.h"
+#include <QRegExp>
+#include <QWidget>
 #include "konsole_wcwidth.h"
 
 using namespace Konsole;

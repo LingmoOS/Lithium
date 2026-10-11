@@ -10,7 +10,7 @@
 #include <QQmlFileSelector>
 #include <QQuickTextDocument>
 #include <QTextCharFormat>
-#include <QTextCodec>
+#include <QStringConverter>
 #include <QTextDocument>
 #include <QTextDocumentWriter>
 #include <QUrl>
@@ -103,8 +103,10 @@ void FileLoader::loadFile(const QUrl &url)
 
     if (file.open(QFile::ReadOnly)) {
         const auto array = file.readAll();
-        QTextCodec *codec = QTextDocumentWriter(url.toLocalFile()).codec();
-        emit this->fileReady(codec->toUnicode(array), url);
+        // Qt6: QTextDocumentWriter::codec()/QTextCodec are gone; decode UTF-8
+        // (QStringDecoder also strips a byte-order mark).
+        QStringDecoder decoder(QStringConverter::Utf8);
+        emit this->fileReady(decoder(array), url);
     }
 }
 
@@ -772,7 +774,7 @@ const QStringList DocumentHandler::getLanguageNameList()
         m_repository = new KSyntaxHighlighting::Repository();
 
     const auto definitions = DocumentHandler::m_repository->definitions();
-    return std::accumulate(definitions.constBegin(), definitions.constEnd(), QStringList(), [](QStringList &languages, const auto &definition) -> QStringList {
+    return std::accumulate(definitions.constBegin(), definitions.constEnd(), QStringList(), [](QStringList languages, const auto &definition) -> QStringList {
         languages.append(definition.name());
         return languages;
     });
@@ -784,7 +786,7 @@ const QStringList DocumentHandler::getThemes()
         DocumentHandler::m_repository = new KSyntaxHighlighting::Repository();
 
     const auto themes = DocumentHandler::m_repository->themes();
-    return std::accumulate(themes.constBegin(), themes.constEnd(), QStringList(), [](QStringList &res, const KSyntaxHighlighting::Theme &theme) -> QStringList {
+    return std::accumulate(themes.constBegin(), themes.constEnd(), QStringList(), [](QStringList res, const KSyntaxHighlighting::Theme &theme) -> QStringList {
         res << theme.name();
         return res;
     });

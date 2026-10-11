@@ -32,6 +32,7 @@
 
 // Konsole
 #include "HistorySearch.h"
+#include <QRegExp>
 #include "KeyboardTranslator.h"
 
 static const QString Service = "com.lingmo.Settings";
@@ -107,8 +108,8 @@ Session* KSession::createSession(QString name)
 
     // cool-old-term: There is another check in the code. Not sure if useful.
 
-    QString envshell = getenv("SHELL");
-    QString shellProg = envshell != NULL ? envshell : "/bin/bash";
+    const QString envshell = qEnvironmentVariable("SHELL");
+    const QString shellProg = envshell.isEmpty() ? QStringLiteral("/bin/bash") : envshell;
     session->setProgram(shellProg);
 
     setenv("TERM", "xterm-256color", 1);

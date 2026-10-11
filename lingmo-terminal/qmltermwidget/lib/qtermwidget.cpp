@@ -31,6 +31,10 @@
 #include "KeyboardTranslator.h"
 #include "ColorScheme.h"
 #include "SearchBar.h"
+#include <QRegExp>
+#include <QTextCodec>
+#include <QWidget>
+#include <QAction>
 #include "qtermwidget.h"
 
 

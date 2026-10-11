@@ -51,6 +51,7 @@
 #ifndef DOCUMENTHANDLER_H
 #define DOCUMENTHANDLER_H
 
+#include <QQuickTextDocument>
 #include <QAbstractListModel>
 #include <QDebug>
 #include <QFont>
@@ -147,7 +148,7 @@ public:
      */
     QStringList actionLabels() const
     {
-        return std::accumulate(this->m_actions.constBegin(), this->m_actions.constEnd(), QStringList(), [](QStringList &labels, const AlertAction &action) -> QStringList {
+        return std::accumulate(this->m_actions.constBegin(), this->m_actions.constEnd(), QStringList(), [](QStringList labels, const AlertAction &action) -> QStringList {
             labels << action.label;
             return labels;
         });
