@@ -133,6 +133,49 @@ rm -fv config/archives/lingmo-proposed-updates.list.*
 cp -rT lingmo-config/common config
 [ ! -d lingmo-config/variant-$variant ] || cp -rTL lingmo-config/variant-$variant config
 
+# The GRUB template names the kernel explicitly, but the image ships the
+# distribution kernel, so its entries pointed at files that do not exist
+# (vmlinuz-6.12.12-amd64 vs the installed 7.2.9+deb14-amd64) and UEFI boots
+# failed. Substitute the version the archive actually provides.
+grub_kernel_version() {
+    apt-cache show linux-image-amd64 2>/dev/null \
+        | sed -n 's/^Depends: *linux-image-\([^ ,(]*\).*/\1/p' | head -1
+}
+
+kver="$(grub_kernel_version)"
+if [ -n "$kver" ]; then
+    echo "Using kernel version: $kver"
+    for f in config/bootloaders/grub-pc/grub.cfg config/bootloaders/grub-pc/loopback.cfg; do
+        [ -f "$f" ] || continue
+        sed -i -E -e "s|vmlinuz-[0-9][^ /]*|vmlinuz-$kver|g" \
+                  -e "s|initrd\.img-[0-9][^ /]*|initrd.img-$kver|g" "$f"
+    done
+else
+    echo "WARNING: could not determine the kernel version, GRUB entries may be wrong" >&2
+fi
+[ ! -d lingmo-config/variant-$variant ] || cp -rTL lingmo-config/variant-$variant config
+
+# The GRUB template names the kernel explicitly, but the image ships the
+# distribution kernel, so its entries pointed at files that do not exist
+# (vmlinuz-6.12.12-amd64 vs the installed 7.2.9+deb14-amd64) and UEFI boots
+# failed. Substitute the version the archive actually provides.
+grub_kernel_version() {
+    apt-cache show linux-image-amd64 2>/dev/null \
+        | sed -n 's/^Depends: *linux-image-\([^ ,(]*\).*/\1/p' | head -1
+}
+
+kver="$(grub_kernel_version)"
+if [ -n "$kver" ]; then
+    echo "Using kernel version: $kver"
+    for f in config/bootloaders/grub-pc/grub.cfg config/bootloaders/grub-pc/loopback.cfg; do
+        [ -f "$f" ] || continue
+        sed -i -E -e "s|vmlinuz-[0-9][^ /]*|vmlinuz-$kver|g" \
+                  -e "s|initrd\.img-[0-9][^ /]*|initrd.img-$kver|g" "$f"
+    done
+else
+    echo "WARNING: could not determine the kernel version, GRUB entries may be wrong" >&2
+fi
+
 if [ -n "$enable_pu" ]; then
 	echo "Actually no proposed-updates in Debian, the enable_pu has no effects"
 	# mkdir -p config/archives
