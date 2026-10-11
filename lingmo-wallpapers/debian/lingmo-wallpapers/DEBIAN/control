@@ -1,9 +1,0 @@
-Package: lingmo-wallpapers
-Version: 3.0.2+lingmo5u1
-Architecture: amd64
-Maintainer: Lingmo OS Team <lingmo@lingmo.org>
-Installed-Size: 20698
-Section: devel
-Priority: optional
-Homepage: https://lingmo.org
-Description: Lingmo OS Default Wallpapers

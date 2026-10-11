@@ -43,7 +43,7 @@ Item {
         target: null
         acceptedDevices: PointerDevice.GenericPointer
         grabPermissions: TapHandler.CanTakeOverFromAnything
-        onActiveChanged: if (active) { windowHelper.startSystemMove(rootWindow) }
+        onActiveChanged: if (active) { rootWindow.startSystemMove()   // Qt Quick Window, was LingmoUI 1.0's windowHelper }
     }
 
 

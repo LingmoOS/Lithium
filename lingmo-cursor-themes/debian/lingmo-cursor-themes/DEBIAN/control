@@ -1,9 +1,0 @@
-Package: lingmo-cursor-themes
-Version: 2.0.1
-Architecture: amd64
-Maintainer: Reion Wong <reion@lingmoos.com>
-Installed-Size: 83445
-Section: kde
-Priority: optional
-Homepage: https://lingmo.org
-Description: LingmoOS Cursor Theme

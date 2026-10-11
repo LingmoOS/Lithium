@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/style/QtQuick/Controls/LingmoStyle">/home/lingmo/Lithium/LingmoUI/obj-x86_64-linux-gnu/temp/QtQuick/Controls/LingmoStyle</file>
-
-  </qresource>
-</RCC>
