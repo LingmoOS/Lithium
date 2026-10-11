@@ -1,0 +1,7 @@
+module Lingmo.Logger
+linktarget LingmoLogger
+optional plugin LingmoLogger
+classname Lingmo_LoggerPlugin
+typeinfo plugins.qmltypes
+prefer :/lingmo/logger/Lingmo/Logger/
+

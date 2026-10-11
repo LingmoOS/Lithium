@@ -1,0 +1,10 @@
+Package: lingmo-launcher
+Version: 2.1.0
+Architecture: amd64
+Maintainer: LingmoOS <lingmo@lingmo.org>
+Installed-Size: 295
+Depends: qml6-module-qtquick-controls, qml6-module-qtquick, qml6-module-qtquick-layouts, liblingmo, qml6-module-qtquick-window, qml6-module-qtquick-shapes, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11)
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Launcher

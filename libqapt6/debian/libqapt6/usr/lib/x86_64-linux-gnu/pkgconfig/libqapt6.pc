@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include/libqapt6
+
+Name: libqapt6
+Description: Qt wrapper around libapt-pkg
+Version: 6.0.0
+Libs: -L${libdir} -lQApt6
+Cflags: -I${includedir}

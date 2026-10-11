@@ -46,13 +46,8 @@ Item {
         onActiveChanged: if (active) { windowHelper.startSystemMove(rootWindow) }
     }
 
-    LingmoUI.WindowHelper {
-        id: windowHelper
-    }
 
-    LingmoUI.WindowShadow {
-        view: rootWindow
-        geometry: Qt.rect(root.x, root.y, root.width, root.height)
+    LingmoUI.LingmoShadow {
         radius: _background.radius
     }
 

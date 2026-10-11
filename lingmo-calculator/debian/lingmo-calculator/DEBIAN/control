@@ -1,0 +1,10 @@
+Package: lingmo-calculator
+Version: 0.6.4
+Architecture: amd64
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Installed-Size: 339
+Depends: qml6-module-qtquick-controls, qml6-module-qtquick, qml6-module-qtquick-layouts, qml6-module-qt-labs-platform, qml6-module-qt-labs-settings, qml6-module-qtqml, qml6-module-qtquick-window, qml6-module-qtquick-shapes, qml6-module-qtquick-dialogs, lingmoui3, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libstdc++6 (>= 13.1)
+Section: devel
+Priority: optional
+Homepage: https://github.com/LingmoOS/lingmo-calculator
+Description: LingmoOS Calculator

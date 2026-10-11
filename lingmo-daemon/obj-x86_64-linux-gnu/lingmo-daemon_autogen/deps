@@ -8,6 +8,8 @@ lingmo-daemon_autogen/timestamp: \
 	/home/lingmo/Lithium/lingmo-daemon/src/appmanager.cpp \
 	/home/lingmo/Lithium/lingmo-daemon/src/appmanager.h \
 	/home/lingmo/Lithium/lingmo-daemon/src/main.cpp \
+	/usr/include/QApt6/Backend \
+	/usr/include/QApt6/Transaction \
 	/usr/include/alloca.h \
 	/usr/include/apt-pkg/cacheiterators.h \
 	/usr/include/apt-pkg/macros.h \
@@ -228,6 +230,12 @@ lingmo-daemon_autogen/timestamp: \
 	/usr/include/linux/types.h \
 	/usr/include/locale.h \
 	/usr/include/pthread.h \
+	/usr/include/qapt6/backend.h \
+	/usr/include/qapt6/dependencyinfo.h \
+	/usr/include/qapt6/downloadprogress.h \
+	/usr/include/qapt6/globals.h \
+	/usr/include/qapt6/package.h \
+	/usr/include/qapt6/transaction.h \
 	/usr/include/sched.h \
 	/usr/include/stdc-predef.h \
 	/usr/include/stdint.h \
@@ -614,14 +622,6 @@ lingmo-daemon_autogen/timestamp: \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	/usr/local/include/QApt6/Backend \
-	/usr/local/include/QApt6/Transaction \
-	/usr/local/include/qapt6/backend.h \
-	/usr/local/include/qapt6/dependencyinfo.h \
-	/usr/local/include/qapt6/downloadprogress.h \
-	/usr/local/include/qapt6/globals.h \
-	/usr/local/include/qapt6/package.h \
-	/usr/local/include/qapt6/transaction.h \
 	/usr/local/lib/cmake/QApt6/QApt6Config.cmake \
 	/usr/local/lib/cmake/QApt6/QApt6ConfigVersion.cmake \
 	/usr/local/lib/cmake/QApt6/QAptTargets-release.cmake \

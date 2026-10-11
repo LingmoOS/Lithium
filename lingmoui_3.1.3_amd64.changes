@@ -20,14 +20,14 @@ Changes:
    * build: Add apt-mark hold for base-files and update CMake include path by @elysia-best in #55
    * build(thirdparty): fix deprecated api in QHotkey by @elysia-best in #57
 Checksums-Sha1:
- a6a450aeb86921821a2840708fcd8f8e06434c01 27550576 lingmoui3-dbgsym_3.1.3_amd64.deb
- 2698061e723472bfb125eef5f5f4b8550f10e6f8 2576820 lingmoui3_3.1.3_amd64.deb
- 2d3eb9bfb560efc49c515d8e36fa04cb9a2c26f8 15575 lingmoui_3.1.3_amd64.buildinfo
+ 691be511fde82678c66f10a4a938db8cebb1b72d 26926740 lingmoui3-dbgsym_3.1.3_amd64.deb
+ d8b5fcf5c77e079b76a0fe86119d76232db746d5 2512508 lingmoui3_3.1.3_amd64.deb
+ c2387a1b4e139887c55c31d6d9fbeb3990a878f1 15575 lingmoui_3.1.3_amd64.buildinfo
 Checksums-Sha256:
- 7856172d8ba1514b15d8be3262326148ffbe6a3353e52995d40f59bab976ef50 27550576 lingmoui3-dbgsym_3.1.3_amd64.deb
- f5ff16a2fae3341e5654d7bfdefe6fa8724d2b38749f44b8c68175e1708fb34c 2576820 lingmoui3_3.1.3_amd64.deb
- dfac2671aa58c1903b8b7ba5859989402d7ba224353fc763f2d5f4feef7c2ad7 15575 lingmoui_3.1.3_amd64.buildinfo
+ 715df466f07da1402317185693584fdcece328dd2dd192f057b2954891000fab 26926740 lingmoui3-dbgsym_3.1.3_amd64.deb
+ 81de3302c336ea60f1da1b8c4d2f1103d0f9b24e6de76b6d7a5158a928e00919 2512508 lingmoui3_3.1.3_amd64.deb
+ 0bcef7274ee065b8f7654d76ec4428e3b605e9096156252fa7cd221d0d99ecd7 15575 lingmoui_3.1.3_amd64.buildinfo
 Files:
- 6122efcf4d3baabd8bc2b141cfd2a7e6 27550576 debug optional lingmoui3-dbgsym_3.1.3_amd64.deb
- f970b7f4bd2b73bc6efd6929059b00be 2576820 devel optional lingmoui3_3.1.3_amd64.deb
- 013be4744e275bdf810ae6d48459124f 15575 devel optional lingmoui_3.1.3_amd64.buildinfo
+ 967068e77591e9e1dcb78f74b20f2484 26926740 debug optional lingmoui3-dbgsym_3.1.3_amd64.deb
+ 93c52f0b6ed6a2261a3edf409062869a 2512508 devel optional lingmoui3_3.1.3_amd64.deb
+ f71090520ad03510e6844fdcea9ae032 15575 devel optional lingmoui_3.1.3_amd64.buildinfo

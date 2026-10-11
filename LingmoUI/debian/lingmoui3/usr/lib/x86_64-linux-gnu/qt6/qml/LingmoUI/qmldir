@@ -1,0 +1,58 @@
+module LingmoUI
+linktarget LingmoUI3
+optional plugin LingmoUI3
+classname LingmoUIPlugin
+typeinfo plugins.qmltypes
+prefer :/lingmoui/kit/LingmoUI/
+LingmoAcrylic 3.0 Controls/LingmoAcrylic.qml
+LingmoAppBar 3.0 Controls/LingmoAppBar.qml
+LingmoBadge 3.0 Controls/LingmoBadge.qml
+LingmoButton 3.0 Controls/LingmoButton.qml
+LingmoCheckBox 3.0 Controls/LingmoCheckBox.qml
+LingmoClip 3.0 Controls/LingmoClip.qml
+LingmoControl 3.0 Controls/LingmoControl.qml
+LingmoControlBackground 3.0 Controls/LingmoControlBackground.qml
+LingmoCustomDialog 3.0 Controls/LingmoCustomDialog.qml
+LingmoDelayButton 3.0 Controls/LingmoDelayButton.qml
+LingmoDivider 3.0 Controls/LingmoDivider.qml
+LingmoDropDownBox 3.0 Controls/LingmoDropDownBox.qml
+LingmoFilledButton 3.0 Controls/LingmoFilledButton.qml
+LingmoFilledIconButton 3.0 Controls/LingmoFilledIconButton.qml
+LingmoFocusRectangle 3.0 Controls/LingmoFocusRectangle.qml
+LingmoFrame 3.0 Controls/LingmoFrame.qml
+LingmoHotkeyPicker 3.0 Controls/LingmoHotkeyPicker.qml
+LingmoIcon 3.0 Controls/LingmoIcon.qml
+LingmoIconButton 3.0 Controls/LingmoIconButton.qml
+LingmoImageButton 3.0 Controls/LingmoImageButton.qml
+LingmoInfoBar 3.0 Controls/LingmoInfoBar.qml
+LingmoLoader 3.0 Controls/LingmoLoader.qml
+LingmoLoadingButton 3.0 Controls/LingmoLoadingButton.qml
+LingmoMenu 3.0 Controls/LingmoMenu.qml
+LingmoMenuItem 3.0 Controls/LingmoMenuItem.qml
+LingmoNavigationView 3.0 Controls/LingmoNavigationView.qml
+LingmoObject 3.0 Controls/LingmoObject.qml
+LingmoPage 3.0 Controls/LingmoPage.qml
+LingmoPanelItem 3.0 Controls/LingmoPanelItem.qml
+LingmoPanelItemEmpty 3.0 Controls/LingmoPanelItemEmpty.qml
+LingmoPanelItemExpander 3.0 Controls/LingmoPanelItemExpander.qml
+LingmoPanelItemHeader 3.0 Controls/LingmoPanelItemHeader.qml
+LingmoPanelItemSeparator 3.0 Controls/LingmoPanelItemSeparator.qml
+LingmoPopup 3.0 Controls/LingmoPopup.qml
+LingmoProgressButton 3.0 Controls/LingmoProgressButton.qml
+LingmoProgressRing 3.0 Controls/LingmoProgressRing.qml
+singleton LingmoRouter 3.0 Controls/LingmoRouter.qml
+LingmoScrollBar 3.0 Controls/LingmoScrollBar.qml
+LingmoScrollablePage 3.0 Controls/LingmoScrollablePage.qml
+LingmoShadow 3.0 Controls/LingmoShadow.qml
+LingmoSlider 3.0 Controls/LingmoSlider.qml
+LingmoTabView 3.0 Controls/LingmoTabView.qml
+LingmoText 3.0 Controls/LingmoText.qml
+LingmoTextBox 3.0 Controls/LingmoTextBox.qml
+LingmoTextBoxBackground 3.0 Controls/LingmoTextBoxBackground.qml
+LingmoTextBoxMenu 3.0 Controls/LingmoTextBoxMenu.qml
+LingmoTextButton 3.0 Controls/LingmoTextButton.qml
+LingmoTooltip 3.0 Controls/LingmoTooltip.qml
+singleton LingmoUnits 3.0 Controls/LingmoUnits.qml
+LingmoWindow 3.0 Controls/LingmoWindow.qml
+depends QtQuick
+

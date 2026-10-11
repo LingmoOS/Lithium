@@ -41,33 +41,30 @@ ControlCenterDialog {
 
     property point position: Qt.point(0, 0)
     property var margin: 4 * Screen.devicePixelRatio
-    property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
+    property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3), 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
                                                                                                                   : Qt.rgba(0, 0, 0, 0.15)
 
     Accounts.UserAccount {
         id: currentUser
     }
 
-    LingmoUI.WindowBlur {
-        view: control
-        geometry: Qt.rect(control.x, control.y, control.width, control.height)
-        windowRadius: _background.radius
-        enabled: true
+    LingmoUI.LingmoAcrylic {
+        target: control
+        targetRect: Qt.rect(control.x, control.y, control.width, control.height)
+        cornerRadius: _background.radius
+        visible: true
     }
 
-    LingmoUI.WindowShadow {
-        view: control
-        geometry: Qt.rect(control.x, control.y, control.width, control.height)
+    LingmoUI.LingmoShadow {
         radius: _background.radius
     }
 
     Rectangle {
         id: _background
         anchors.fill: parent
-        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.bigRadius * 1.5 : 0
+        radius: LingmoUI.LingmoTheme.bigRadius * 1.5
         color: LingmoUI.LingmoTheme.darkMode ? "#4D4D4D" : "#FFFFFF"
-        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.7 : 1.0
+        opacity: LingmoUI.LingmoTheme.darkMode ? 0.5
         antialiasing: true
         border.width: 1 / Screen.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true

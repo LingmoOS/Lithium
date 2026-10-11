@@ -28,13 +28,13 @@ LingmoUI.Window {
     property string link: "https://lingmo.org"
     property var contentHeight: _mainLayout.implicitHeight + control.header.height * 2
 
-    background.opacity: control.compositing ? 0.6 : 1.0
+    background.opacity: 0.6
 
-    LingmoUI.WindowBlur {
-        view: control
-        geometry: Qt.rect(control.x, control.y, control.width, control.height)
-        windowRadius: control.windowRadius
-        enabled: control.compositing
+    LingmoUI.LingmoAcrylic {
+        target: control
+        targetRect: Qt.rect(control.x, control.y, control.width, control.height)
+        cornerRadius: control.windowRadius
+        visible: true
     }
 
     DragHandler {

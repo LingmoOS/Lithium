@@ -78,7 +78,7 @@ Item {
         opacity: 0.3
 
 //        color: LingmoUI.LingmoTheme.darkMode ? "#4D4D4D" : "#FFFFFF"
-//        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.7 : 1.0
+//        opacity: LingmoUI.LingmoTheme.darkMode ? 0.5
 
 //        Behavior on color {
 //            ColorAnimation {
@@ -88,9 +88,6 @@ Item {
 //        }
     }
 
-    LingmoUI.WindowHelper {
-        id: windowHelper
-    }
 
     LingmoUI.PopupTips {
         id: popupTips

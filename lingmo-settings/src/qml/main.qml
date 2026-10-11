@@ -46,11 +46,11 @@ LingmoUI.Window {
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
 
-    LingmoUI.WindowBlur {
-        view: rootWindow
-        geometry: Qt.rect(rootWindow.x, rootWindow.y, rootWindow.width, rootWindow.height)
-        windowRadius: rootWindow.windowRadius
-        enabled: true
+    LingmoUI.LingmoAcrylic {
+        target: rootWindow
+        targetRect: Qt.rect(rootWindow.x, rootWindow.y, rootWindow.width, rootWindow.height)
+        cornerRadius: rootWindow.windowRadius
+        visible: true
     }
 
     RowLayout {

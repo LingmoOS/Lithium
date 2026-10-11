@@ -15,7 +15,7 @@ LingmoUI.Window {
     flags: Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint
 
     background.color: LingmoUI.LingmoTheme.secondBackgroundColor
-    background.opacity: control.compositing ? 0.5 : 1.0
+    background.opacity: 0.5
     contentTopMargin: 0
 
     onWidthChanged: control.reset()
@@ -41,11 +41,11 @@ LingmoUI.Window {
         }
     }
 
-    LingmoUI.WindowBlur {
-        view: control
-        geometry: Qt.rect(control.x, control.y, control.width, control.height)
-        windowRadius: control.background.radius
-        enabled: true
+    LingmoUI.LingmoAcrylic {
+        target: control
+        targetRect: Qt.rect(control.x, control.y, control.width, control.height)
+        cornerRadius: control.background.radius
+        visible: true
     }
 
     Item {

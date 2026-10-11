@@ -15,7 +15,7 @@ LingmoUI.Window {
 
     background.color: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(46 / 255, 46 / 255, 46 / 255, 1.0)
                                             : Qt.rgba(240 / 255, 238 / 255, 241 / 255, 1.0)
-    background.opacity: rootWindow.compositing ? 0.95 : 1.0
+    background.opacity: 0.95
 
     MenuBar {
         id: menuBar
@@ -38,11 +38,11 @@ LingmoUI.Window {
         iconSource: "image://icontheme/lingmo-calculator"
     }
 
-    LingmoUI.WindowBlur {
-        view: rootWindow
-        geometry: Qt.rect(rootWindow.x, rootWindow.y, rootWindow.width, rootWindow.height)
-        windowRadius: rootWindow.background.radius
-        enabled: true
+    LingmoUI.LingmoAcrylic {
+        target: rootWindow
+        targetRect: Qt.rect(rootWindow.x, rootWindow.y, rootWindow.width, rootWindow.height)
+        cornerRadius: rootWindow.background.radius
+        visible: true
     }
 
     CalcEngine {

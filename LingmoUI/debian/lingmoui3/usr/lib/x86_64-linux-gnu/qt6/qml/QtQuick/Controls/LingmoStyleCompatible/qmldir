@@ -1,0 +1,36 @@
+module QtQuick.Controls.LingmoStyleCompatible
+linktarget LingmoStyleCompatible
+optional plugin LingmoStyleCompatible
+classname QtQuick_Controls_LingmoStyleCompatiblePlugin
+typeinfo plugins.qmltypes
+prefer :/style/QtQuick/Controls/LingmoStyleCompatible/
+ApplicationWindow 3.0 ApplicationWindow.qml
+BorderButton 3.0 BorderButton.qml
+Button 3.0 Button.qml
+CheckBox 3.0 CheckBox.qml
+CheckIndicator 3.0 CheckIndicator.qml
+ComboBox 3.0 ComboBox.qml
+Control 3.0 Control.qml
+Dialog 3.0 Dialog.qml
+DialogButtonBox 3.0 DialogButtonBox.qml
+Frame 3.0 Frame.qml
+Label 3.0 Label.qml
+Menu 3.0 Menu.qml
+MenuItem 3.0 MenuItem.qml
+MenuSeparator 3.0 MenuSeparator.qml
+Page 3.0 Page.qml
+ProgressBar 3.0 ProgressBar.qml
+RadioButton 3.0 RadioButton.qml
+RadioDelegate 3.0 RadioDelegate.qml
+RadioIndicator 3.0 RadioIndicator.qml
+ScrollBar 3.0 ScrollBar.qml
+Slider 3.0 Slider.qml
+StackView 3.0 StackView.qml
+Switch 3.0 Switch.qml
+SwitchIndicator 3.0 SwitchIndicator.qml
+TabBar 3.0 TabBar.qml
+TabButton 3.0 TabButton.qml
+TextArea 3.0 TextArea.qml
+TextField 3.0 TextField.qml
+ToolTip 3.0 ToolTip.qml
+

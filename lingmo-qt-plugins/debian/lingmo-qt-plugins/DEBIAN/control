@@ -1,0 +1,9 @@
+Package: lingmo-qt-plugins
+Version: 3.0.0~rc6
+Architecture: amd64
+Maintainer: LingmoOS <support@lingmo.org>
+Installed-Size: 8
+Section: devel
+Priority: optional
+Homepage: https://lingmo.org
+Description: LingmoOS Qt Plugins

@@ -1,5 +1,7 @@
 /home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/lingmo-daemon_autogen/UVLADIE3JM/moc_appmanager.cpp: /home/lingmo/Lithium/lingmo-daemon/src/appmanager.h \
   /home/lingmo/Lithium/lingmo-daemon/obj-x86_64-linux-gnu/lingmo-daemon_autogen/moc_predefs.h \
+  /usr/include/QApt6/Backend \
+  /usr/include/QApt6/Transaction \
   /usr/include/alloca.h \
   /usr/include/apt-pkg/cacheiterators.h \
   /usr/include/apt-pkg/macros.h \
@@ -220,6 +222,12 @@
   /usr/include/linux/types.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qapt6/backend.h \
+  /usr/include/qapt6/dependencyinfo.h \
+  /usr/include/qapt6/downloadprogress.h \
+  /usr/include/qapt6/globals.h \
+  /usr/include/qapt6/package.h \
+  /usr/include/qapt6/transaction.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -462,12 +470,4 @@
   /usr/lib/linux/uapi/x86/asm/errno.h \
   /usr/lib/linux/uapi/x86/asm/posix_types.h \
   /usr/lib/linux/uapi/x86/asm/posix_types_64.h \
-  /usr/lib/linux/uapi/x86/asm/types.h \
-  /usr/local/include/QApt6/Backend \
-  /usr/local/include/QApt6/Transaction \
-  /usr/local/include/qapt6/backend.h \
-  /usr/local/include/qapt6/dependencyinfo.h \
-  /usr/local/include/qapt6/downloadprogress.h \
-  /usr/local/include/qapt6/globals.h \
-  /usr/local/include/qapt6/package.h \
-  /usr/local/include/qapt6/transaction.h
+  /usr/lib/linux/uapi/x86/asm/types.h

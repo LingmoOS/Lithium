@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.38), libgcc-s1 (>= 3.0), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.11.2), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 13.1)
+misc:Depends=
+misc:Pre-Depends=

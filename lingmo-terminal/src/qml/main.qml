@@ -22,8 +22,8 @@ LingmoUI.Window {
     GlobalSettings { id: settings }
 
     background.color: LingmoUI.LingmoTheme.darkMode ? settings.darkbackgroundColor : settings.lightbackgroundColor
-    background.opacity: root.compositing ? settings.opacity : 1
-//    background.opacity: rootWindow.compositing ? 0.95 : 1.0
+    background.opacity: settings.opacity
+//    background.opacity: 0.95
     header.height: 40
 
     property int currentIndex: -1
@@ -69,11 +69,11 @@ LingmoUI.Window {
         id: settingsDialog
     }
 
-    LingmoUI.WindowBlur {
-        view: root
-        geometry: Qt.rect(root.x, root.y, root.width, root.height)
-        windowRadius: root.background.radius
-        enabled: settings.blur
+    LingmoUI.LingmoAcrylic {
+        target: root
+        targetRect: Qt.rect(root.x, root.y, root.width, root.height)
+        cornerRadius: root.background.radius
+        visible: settings.blur
     }
 
     onClosing: {

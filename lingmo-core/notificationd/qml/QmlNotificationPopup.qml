@@ -36,16 +36,15 @@ NotificationPopup {
 
     property int defaultTimeout: 7000
 
-    LingmoUI.WindowShadow {
-        view: control
+    LingmoUI.LingmoShadow {
         radius: _background.radius
     }
 
-    LingmoUI.WindowBlur {
-        view: control
-        geometry: Qt.rect(control.x, control.y, control.width, control.height)
-        windowRadius: _background.radius
-        enabled: true
+    LingmoUI.LingmoAcrylic {
+        target: control
+        targetRect: Qt.rect(control.x, control.y, control.width, control.height)
+        cornerRadius: _background.radius
+        visible: true
     }
 
     Rectangle {

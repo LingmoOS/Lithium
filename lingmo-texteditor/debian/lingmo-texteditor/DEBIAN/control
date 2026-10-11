@@ -1,0 +1,10 @@
+Package: lingmo-texteditor
+Version: 2.0.1+lingmo5u1
+Architecture: amd64
+Maintainer: LingmoOS Packaging Team <lingmo@lingmo.org>
+Installed-Size: 194
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6syntaxhighlighting6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.7.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14)
+Section: devel
+Priority: optional
+Homepage: https://github.com/LingmoOS/lingmo-texteditor
+Description: LingmoOS Texteditor

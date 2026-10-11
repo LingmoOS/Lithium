@@ -32,36 +32,30 @@ Window {
     property alias backgroundOpacity: _background.opacity
     property alias backgroundColor: _background.color
     property alias blurEnabled: windowBlur.enabled
-    property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+    property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3), 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
                                                                                                                   : Qt.rgba(0, 0, 0, 0.05)
     flags: Qt.WindowStaysOnTopHint | Qt.WindowDoesNotAcceptFocus | Qt.ToolTip
     width: label.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 1.5
     height: label.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 1.5
 
-    LingmoUI.WindowHelper {
-        id: windowHelper
-    }
 
-    LingmoUI.WindowShadow {
-        view: control
-        geometry: Qt.rect(control.x, control.y, control.width, control.height)
+    LingmoUI.LingmoShadow {
         radius: _background.radius
     }
 
-    LingmoUI.WindowBlur {
+    LingmoUI.LingmoAcrylic {
         id: windowBlur
-        view: control
-        enabled: true
-        windowRadius: _background.radius
-        geometry: Qt.rect(_background.x, _background.y, _background.width, _background.height)
+        target: control
+        visible: true
+        cornerRadius: _background.radius
+        targetRect: Qt.rect(_background.x, _background.y, _background.width, _background.height)
     }
 
     Rectangle {
         id: _background
         anchors.fill: parent
         color: LingmoUI.LingmoTheme.secondBackgroundColor
-        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.mediumRadius : 0
+        radius: LingmoUI.LingmoTheme.mediumRadius
         border.color: control.borderColor
         border.width: 1 / Screen.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true

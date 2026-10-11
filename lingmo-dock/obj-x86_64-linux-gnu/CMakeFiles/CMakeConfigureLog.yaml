@@ -2102,8 +2102,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -2113,14 +2113,14 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e626/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3e626.dir/build.make CMakeFiles/cmTC_3e626.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV'
-        Building C object CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o
-        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8089/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d8089.dir/build.make CMakeFiles/cmTC_d8089.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r'
+        Building C object CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o
+        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -2130,8 +2130,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.0 (Debian 16.2.0-3) 
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3e626.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/16/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3e626.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/ccEnaDuM.s
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8089.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/16/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d8089.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/ccSGy0Qk.s
         GNU C23 (Debian 16.2.0-3) version 16.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.28-GMP
         
@@ -2148,14 +2148,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: f2ff766bb5121e8f62a8cb14ebfcc492
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3e626.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o /tmp/ccEnaDuM.s
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8089.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o /tmp/ccSGy0Qk.s
         GNU assembler version 2.47 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.47
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_3e626
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e626.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d8089
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8089.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper
@@ -2168,15 +2168,15 @@ events:
         gcc version 16.2.0 (Debian 16.2.0-3) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_3e626' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3e626.'
-         /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLQEF1a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3e626 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_d8089' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8089.'
+         /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbxvlFq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d8089 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
         collect2 version 16.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLQEF1a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3e626 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbxvlFq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d8089 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Debian) 2.47
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_3e626' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3e626.'
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro -v -Wl,-v CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o -o cmTC_3e626
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV'
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_d8089' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8089.'
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro -v -Wl,-v CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o -o cmTC_d8089
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r'
         
       exitCode: 0
   -
@@ -2211,14 +2211,14 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV']
+        ignore line: [Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e626/fast]
-        ignore line: [gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV']
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_3e626.dir/build.make CMakeFiles/cmTC_3e626.dir/build]
-        ignore line: [gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QfyGsV']
-        ignore line: [Building C object CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/x86_64-linux-gnu-gcc   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8089/fast]
+        ignore line: [gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d8089.dir/build.make CMakeFiles/cmTC_d8089.dir/build]
+        ignore line: [gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-SFzy2r']
+        ignore line: [Building C object CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/x86_64-linux-gnu-gcc   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2228,8 +2228,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.0 (Debian 16.2.0-3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3e626.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3e626.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/ccEnaDuM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8089.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d8089.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/ccSGy0Qk.s]
         ignore line: [GNU C23 (Debian 16.2.0-3) version 16.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -2246,14 +2246,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f2ff766bb5121e8f62a8cb14ebfcc492]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3e626.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o /tmp/ccEnaDuM.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8089.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o /tmp/ccSGy0Qk.s]
         ignore line: [GNU assembler version 2.47 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.47]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_3e626]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e626.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d8089]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8089.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper]
@@ -2266,13 +2266,13 @@ events:
         ignore line: [gcc version 16.2.0 (Debian 16.2.0-3) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_3e626' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3e626.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLQEF1a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3e626 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_d8089' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8089.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbxvlFq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d8089 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccLQEF1a.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccbxvlFq.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -2289,7 +2289,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_3e626] ==> ignore
+          arg [cmTC_d8089] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o]
@@ -2305,7 +2305,7 @@ events:
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-zrelro] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
           arg [-latomic_asneeded] ==> lib [atomic_asneeded]
@@ -2315,7 +2315,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 16.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLQEF1a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3e626 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_3e626.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbxvlFq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d8089 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_d8089.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2355,8 +2355,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2367,14 +2367,14 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09338/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_09338.dir/build.make CMakeFiles/cmTC_09338.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w'
-        Building CXX object CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ec2e/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7ec2e.dir/build.make CMakeFiles/cmTC_7ec2e.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT'
+        Building CXX object CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -2384,8 +2384,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.0 (Debian 16.2.0-3) 
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09338.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_09338.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/cc2xnJqA.s
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ec2e.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7ec2e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/cc9mZYPb.s
         GNU C++20 (Debian 16.2.0-3) version 16.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.28-GMP
         
@@ -2406,14 +2406,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 6d9c773dc78814fe154a3a23a87e6498
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09338.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2xnJqA.s
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ec2e.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9mZYPb.s
         GNU assembler version 2.47 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.47
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_09338
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09338.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_7ec2e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ec2e.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper
@@ -2426,15 +2426,15 @@ events:
         gcc version 16.2.0 (Debian 16.2.0-3) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_09338' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_09338.'
-         /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbV6uoZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_09338 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_7ec2e' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ec2e.'
+         /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc73FpKt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7ec2e /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
         collect2 version 16.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbV6uoZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_09338 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc73FpKt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7ec2e /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Debian) 2.47
-        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_09338' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_09338.'
-        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro -v -Wl,-v CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_09338
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w'
+        COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_7ec2e' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ec2e.'
+        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro -v -Wl,-v CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7ec2e
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT'
         
       exitCode: 0
   -
@@ -2475,14 +2475,14 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w']
+        ignore line: [Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09338/fast]
-        ignore line: [gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w']
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_09338.dir/build.make CMakeFiles/cmTC_09338.dir/build]
-        ignore line: [gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bhmn5w']
-        ignore line: [Building CXX object CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ec2e/fast]
+        ignore line: [gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_7ec2e.dir/build.make CMakeFiles/cmTC_7ec2e.dir/build]
+        ignore line: [gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-mlXHwT']
+        ignore line: [Building CXX object CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/x86_64-linux-gnu-g++   -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2    -v -o CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2492,8 +2492,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.0 (Debian 16.2.0-3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09338.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_09338.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/cc2xnJqA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ec2e.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7ec2e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -O2 -Wformat=1 -Wdate-time -version -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -fcf-protection=full -fasynchronous-unwind-tables -o /tmp/cc9mZYPb.s]
         ignore line: [GNU C++20 (Debian 16.2.0-3) version 16.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -2514,14 +2514,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 6d9c773dc78814fe154a3a23a87e6498]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09338.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2xnJqA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ec2e.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9mZYPb.s]
         ignore line: [GNU assembler version 2.47 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.47]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_09338]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09338.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_7ec2e]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ec2e.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/x86_64-linux-gnu-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper]
@@ -2534,13 +2534,13 @@ events:
         ignore line: [gcc version 16.2.0 (Debian 16.2.0-3) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/16/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/16/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_09338' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_09338.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbV6uoZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_09338 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=.' '-fstack-protector-strong' '-fstack-clash-protection' '-Wformat=1' '-fcf-protection=full' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-v' '-o' 'cmTC_7ec2e' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7ec2e.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/16/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc73FpKt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7ec2e /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccbV6uoZ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc73FpKt.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -2557,7 +2557,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_09338] ==> ignore
+          arg [cmTC_7ec2e] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o]
@@ -2573,7 +2573,7 @@ events:
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-zrelro] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -2585,7 +2585,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 16.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbV6uoZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_09338 /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_09338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc73FpKt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7ec2e /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/16/../../.. -L/lib -L/usr/lib -z relro -v CMakeFiles/cmTC_7ec2e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/16/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2632,8 +2632,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -2644,19 +2644,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bfce5/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_bfce5.dir/build.make CMakeFiles/cmTC_bfce5.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy'
-        Building C object CMakeFiles/cmTC_bfce5.dir/src.c.o
-        /usr/bin/x86_64-linux-gnu-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -o CMakeFiles/cmTC_bfce5.dir/src.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy/src.c
-        Linking C executable cmTC_bfce5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfce5.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_bfce5.dir/src.c.o -o cmTC_bfce5
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cKB7qy'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_17318/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_17318.dir/build.make CMakeFiles/cmTC_17318.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ'
+        Building C object CMakeFiles/cmTC_17318.dir/src.c.o
+        /usr/bin/x86_64-linux-gnu-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -o CMakeFiles/cmTC_17318.dir/src.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ/src.c
+        Linking C executable cmTC_17318
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17318.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_17318.dir/src.c.o -o cmTC_17318
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-s241LJ'
         
       exitCode: 0
   -
@@ -3277,8 +3277,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3289,19 +3289,19 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2957b/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2957b.dir/build.make CMakeFiles/cmTC_2957b.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in'
-        Building CXX object CMakeFiles/cmTC_2957b.dir/src.cxx.o
-        /usr/bin/x86_64-linux-gnu-g++ -DHAVE_STDATOMIC  -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -std=gnu++20 -o CMakeFiles/cmTC_2957b.dir/src.cxx.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in/src.cxx
-        Linking CXX executable cmTC_2957b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2957b.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_2957b.dir/src.cxx.o -o cmTC_2957b
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-cdJ5in'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15e52/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15e52.dir/build.make CMakeFiles/cmTC_15e52.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1'
+        Building CXX object CMakeFiles/cmTC_15e52.dir/src.cxx.o
+        /usr/bin/x86_64-linux-gnu-g++ -DHAVE_STDATOMIC  -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -std=gnu++20 -o CMakeFiles/cmTC_15e52.dir/src.cxx.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1/src.cxx
+        Linking CXX executable cmTC_15e52
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e52.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-g++ -g -O2 -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2  -Wl,-z,relro  CMakeFiles/cmTC_15e52.dir/src.cxx.o -o cmTC_15e52
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-Ez6Hf1'
         
       exitCode: 0
   -
@@ -39927,8 +39927,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -39939,19 +39939,19 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5385b/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5385b.dir/build.make CMakeFiles/cmTC_5385b.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT'
-        Building C object CMakeFiles/cmTC_5385b.dir/CheckFunctionExists.c.o
-        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_5385b.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT/CheckFunctionExists.c
-        Linking C executable cmTC_5385b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5385b.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-z,relro  CMakeFiles/cmTC_5385b.dir/CheckFunctionExists.c.o -o cmTC_5385b  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-8322bT'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15852/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15852.dir/build.make CMakeFiles/cmTC_15852.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6'
+        Building C object CMakeFiles/cmTC_15852.dir/CheckFunctionExists.c.o
+        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_15852.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6/CheckFunctionExists.c
+        Linking C executable cmTC_15852
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15852.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-z,relro  CMakeFiles/cmTC_15852.dir/CheckFunctionExists.c.o -o cmTC_15852  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-0fTQJ6'
         
       exitCode: 0
   -
@@ -39966,8 +39966,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -39978,19 +39978,19 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35f9c/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_35f9c.dir/build.make CMakeFiles/cmTC_35f9c.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq'
-        Building C object CMakeFiles/cmTC_35f9c.dir/CheckFunctionExists.c.o
-        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_35f9c.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq/CheckFunctionExists.c
-        Linking C executable cmTC_35f9c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35f9c.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-z,relro  CMakeFiles/cmTC_35f9c.dir/CheckFunctionExists.c.o -o cmTC_35f9c
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-27GSsq'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_91c32/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_91c32.dir/build.make CMakeFiles/cmTC_91c32.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz'
+        Building C object CMakeFiles/cmTC_91c32.dir/CheckFunctionExists.c.o
+        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_91c32.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz/CheckFunctionExists.c
+        Linking C executable cmTC_91c32
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c32.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-z,relro  CMakeFiles/cmTC_91c32.dir/CheckFunctionExists.c.o -o cmTC_91c32
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-jlhgMz'
         
       exitCode: 0
   -
@@ -40005,8 +40005,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -40017,19 +40017,19 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c983a/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c983a.dir/build.make CMakeFiles/cmTC_c983a.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX'
-        Building C object CMakeFiles/cmTC_c983a.dir/CheckFunctionExists.c.o
-        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_c983a.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX/CheckFunctionExists.c
-        Linking C executable cmTC_c983a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c983a.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=connect -Wl,-z,relro  CMakeFiles/cmTC_c983a.dir/CheckFunctionExists.c.o -o cmTC_c983a
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-butrFX'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d16b8/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d16b8.dir/build.make CMakeFiles/cmTC_d16b8.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV'
+        Building C object CMakeFiles/cmTC_d16b8.dir/CheckFunctionExists.c.o
+        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_d16b8.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV/CheckFunctionExists.c
+        Linking C executable cmTC_d16b8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d16b8.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=connect -Wl,-z,relro  CMakeFiles/cmTC_d16b8.dir/CheckFunctionExists.c.o -o cmTC_d16b8
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-4H1LXV'
         
       exitCode: 0
   -
@@ -40044,8 +40044,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -40056,19 +40056,19 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e4d8/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3e4d8.dir/build.make CMakeFiles/cmTC_3e4d8.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM'
-        Building C object CMakeFiles/cmTC_3e4d8.dir/CheckFunctionExists.c.o
-        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_3e4d8.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM/CheckFunctionExists.c
-        Linking C executable cmTC_3e4d8
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e4d8.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=remove -Wl,-z,relro  CMakeFiles/cmTC_3e4d8.dir/CheckFunctionExists.c.o -o cmTC_3e4d8
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-fBSSGM'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_49d9a/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_49d9a.dir/build.make CMakeFiles/cmTC_49d9a.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB'
+        Building C object CMakeFiles/cmTC_49d9a.dir/CheckFunctionExists.c.o
+        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_49d9a.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB/CheckFunctionExists.c
+        Linking C executable cmTC_49d9a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d9a.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=remove -Wl,-z,relro  CMakeFiles/cmTC_49d9a.dir/CheckFunctionExists.c.o -o cmTC_49d9a
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-OJgekB'
         
       exitCode: 0
   -
@@ -40083,8 +40083,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -40095,19 +40095,19 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_762d1/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_762d1.dir/build.make CMakeFiles/cmTC_762d1.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5'
-        Building C object CMakeFiles/cmTC_762d1.dir/CheckFunctionExists.c.o
-        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_762d1.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5/CheckFunctionExists.c
-        Linking C executable cmTC_762d1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_762d1.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=shmat -Wl,-z,relro  CMakeFiles/cmTC_762d1.dir/CheckFunctionExists.c.o -o cmTC_762d1
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-CLLtT5'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d46ca/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d46ca.dir/build.make CMakeFiles/cmTC_d46ca.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS'
+        Building C object CMakeFiles/cmTC_d46ca.dir/CheckFunctionExists.c.o
+        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_d46ca.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS/CheckFunctionExists.c
+        Linking C executable cmTC_d46ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d46ca.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=shmat -Wl,-z,relro  CMakeFiles/cmTC_d46ca.dir/CheckFunctionExists.c.o -o cmTC_d46ca
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-QtFSgS'
         
       exitCode: 0
   -
@@ -40122,8 +40122,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7"
-      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7"
+      source: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2"
+      binary: "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2"
@@ -40134,19 +40134,19 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7'
+        Change Dir: '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cc39d/fast
-        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_cc39d.dir/build.make CMakeFiles/cmTC_cc39d.dir/build
-        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7'
-        Building C object CMakeFiles/cmTC_cc39d.dir/CheckFunctionExists.c.o
-        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_cc39d.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7/CheckFunctionExists.c
-        Linking C executable cmTC_cc39d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc39d.dir/link.txt --verbose=1
-        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-z,relro  CMakeFiles/cmTC_cc39d.dir/CheckFunctionExists.c.o -o cmTC_cc39d  -lICE
-        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7'
-        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-bTAka7'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1cf78/fast
+        gmake[2]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1cf78.dir/build.make CMakeFiles/cmTC_1cf78.dir/build
+        gmake[3]: Entering directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2'
+        Building C object CMakeFiles/cmTC_1cf78.dir/CheckFunctionExists.c.o
+        /usr/bin/x86_64-linux-gnu-gcc   -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_1cf78.dir/CheckFunctionExists.c.o -c /home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2/CheckFunctionExists.c
+        Linking C executable cmTC_1cf78
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cf78.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-gcc -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/home/lingmo/Lithium/lingmo-dock=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -Wdate-time -D_FORTIFY_SOURCE=2 -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-z,relro  CMakeFiles/cmTC_1cf78.dir/CheckFunctionExists.c.o -o cmTC_1cf78  -lICE
+        gmake[3]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2'
+        gmake[2]: Leaving directory '/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/CMakeScratch/TryCompile-GSsNJ2'
         
       exitCode: 0
   -

@@ -63,23 +63,19 @@ Item {
         id: screen
     }
 
-    LingmoUI.WindowHelper {
-        id: windowHelper
-    }
 
-    LingmoUI.WindowShadow {
-        view: NotificationDialog
+    LingmoUI.LingmoShadow {
         radius: _background.radius
     }
 
-    LingmoUI.WindowBlur {
-        view: NotificationDialog
-        geometry: Qt.rect(NotificationDialog.x,
+    LingmoUI.LingmoAcrylic {
+        target: NotificationDialog
+        targetRect: Qt.rect(NotificationDialog.x,
                           NotificationDialog.y,
                           NotificationDialog.width,
                           NotificationDialog.height)
-        windowRadius: _background.radius
-        enabled: true
+        cornerRadius: _background.radius
+        visible: true
     }
 
     NumberAnimation {

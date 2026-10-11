@@ -1,0 +1,60 @@
+module QtQuick.Controls.LingmoStyle
+linktarget LingmoStyle
+optional plugin LingmoStyle
+classname QtQuick_Controls_LingmoStylePlugin
+typeinfo plugins.qmltypes
+prefer :/style/QtQuick/Controls/LingmoStyle/
+BusyIndicator 3.0 BusyIndicator.qml
+Button 3.0 Button.qml
+CheckBox 3.0 CheckBox.qml
+CheckDelegate 3.0 CheckDelegate.qml
+ComboBox 3.0 ComboBox.qml
+DelayButton 3.0 DelayButton.qml
+Dial 3.0 Dial.qml
+Dialog 3.0 Dialog.qml
+DialogButtonBox 3.0 DialogButtonBox.qml
+Drawer 3.0 Drawer.qml
+Frame 3.0 Frame.qml
+GroupBox 3.0 GroupBox.qml
+HorizontalHeaderView 3.0 HorizontalHeaderView.qml
+ItemDelegate 3.0 ItemDelegate.qml
+Label 3.0 Label.qml
+Menu 3.0 Menu.qml
+MenuBar 3.0 MenuBar.qml
+MenuBarItem 3.0 MenuBarItem.qml
+MenuItem 3.0 MenuItem.qml
+MenuSeparator 3.0 MenuSeparator.qml
+Page 3.0 Page.qml
+PageIndicator 3.0 PageIndicator.qml
+Pane 3.0 Pane.qml
+Popup 3.0 Popup.qml
+ProgressBar 3.0 ProgressBar.qml
+RadioButton 3.0 RadioButton.qml
+RadioDelegate 3.0 RadioDelegate.qml
+RangeSlider 3.0 RangeSlider.qml
+RoundButton 3.0 RoundButton.qml
+ScrollBar 3.0 ScrollBar.qml
+ScrollIndicator 3.0 ScrollIndicator.qml
+ScrollView 3.0 ScrollView.qml
+SelectionRectangle 3.0 SelectionRectangle.qml
+Slider 3.0 Slider.qml
+SpinBox 3.0 SpinBox.qml
+SplitView 3.0 SplitView.qml
+StackView 3.0 StackView.qml
+SwipeDelegate 3.0 SwipeDelegate.qml
+Switch 3.0 Switch.qml
+SwitchDelegate 3.0 SwitchDelegate.qml
+TabBar 3.0 TabBar.qml
+TabButton 3.0 TabButton.qml
+TextArea 3.0 TextArea.qml
+TextField 3.0 TextField.qml
+ToolBar 3.0 ToolBar.qml
+ToolButton 3.0 ToolButton.qml
+ToolSeparator 3.0 ToolSeparator.qml
+ToolTip 3.0 ToolTip.qml
+Tumbler 3.0 Tumbler.qml
+VerticalHeaderView 3.0 VerticalHeaderView.qml
+CheckIndicator 3.0 impl/CheckIndicator.qml
+RadioIndicator 3.0 impl/RadioIndicator.qml
+SwitchIndicator 3.0 impl/SwitchIndicator.qml
+

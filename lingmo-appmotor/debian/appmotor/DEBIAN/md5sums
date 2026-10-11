@@ -1,0 +1,16 @@
+a7b4ea9e35c5f0b6dddb0553aa057295  usr/bin/lingmo-appmotor
+aafd80f70cb5fd037c253d7351547842  usr/bin/lingmo-invoker
+de83066557f75fbde3b02deb54a94038  usr/bin/lingmo-single-instance
+e6564e552be8bb96d9561683124d2a6e  usr/include/applauncherd/appdata.h
+145d778b8119b9a28305f6ca4eb7d054  usr/include/applauncherd/booster.h
+0248547e27b5dd9aef3046fcf6a6da3a  usr/include/applauncherd/connection.h
+cfbc6c392c3174876675f0e8023dd59e  usr/include/applauncherd/daemon.h
+0af23ce784b8e8d64f7d7018b552fca7  usr/include/applauncherd/launcherlib.h
+d03a9e551bb2de1cc0d541202d05a89e  usr/include/applauncherd/logger.h
+4a8370ace4991609ccefade6f21a56bd  usr/include/applauncherd/protocol.h
+5336621a6957cceb5516b600eeba0356  usr/include/applauncherd/singleinstance.h
+31c62ad78a79672b736eebf9b7bc05e7  usr/include/applauncherd/socketmanager.h
+3275eba7f2d2266a09f20c7e16a5ed3a  usr/lib/systemd/user/lingmo-appmotor.service
+82077679b74cf6964fcf2ecd518b0f5e  usr/lib/x86_64-linux-gnu/libapplauncherd.so.SOVERSION
+efeb53c77e180133b504735f3cc9c181  usr/share/doc/appmotor/changelog.gz
+c971d419a18b59b55570e74b057100e4  usr/share/doc/appmotor/copyright

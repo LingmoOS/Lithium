@@ -41,7 +41,7 @@ QtQuick.Window {
     property Item headerItem
 
     // Window helper
-    property alias compositing: windowHelper.compositing
+    property alias compositing: true
     property int contentTopMargin: _header.height
     property int windowRadius: compositing ? LingmoUI.LingmoTheme.windowRadius : 0
     property alias helper: windowHelper
@@ -64,15 +64,10 @@ QtQuick.Window {
         }
     }
 
-    LingmoUI.WindowHelper {
-        id: windowHelper
-    }
 
     // Window shadows
-    LingmoUI.WindowShadow {
-        view: control
+    LingmoUI.LingmoShadow {
         radius: _background.radius
-        strength: control.active ? 1.5 : 0.9
     }
 
     // Left bottom edge
@@ -214,7 +209,7 @@ QtQuick.Window {
         id: _background
         anchors.fill: parent
         anchors.margins: 0
-        radius: !isMaximized && !isFullScreen && windowHelper.compositing ? control.windowRadius : 0
+        radius: !isMaximized && !isFullScreen && control.windowRadius
         color: LingmoUI.LingmoTheme.backgroundColor
 
         antialiasing: true
