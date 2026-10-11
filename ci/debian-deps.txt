@@ -1,0 +1,34 @@
+# Build dependencies for the Qt6/KF6 (Plasma 6) tree on Debian testing.
+# Used by .github/workflows/qt6-build.yml and ci/build-all.sh.
+build-essential cmake ninja-build pkg-config git gettext ca-certificates
+extra-cmake-modules clazy
+qt6-base-dev qt6-base-private-dev qt6-declarative-dev qt6-declarative-private-dev
+qt6-declarative-dev-tools qt6-tools-dev qt6-tools-dev-tools qt6-l10n-tools
+qt6-svg-dev qt6-wayland-dev qt6-wayland-private-dev qt6-shadertools-dev
+qt6-5compat-dev qt6-sensors-dev
+libkf6windowsystem-dev libkf6config-dev libkf6configwidgets-dev libkf6coreaddons-dev
+libkf6dbusaddons-dev libkf6i18n-dev libkf6guiaddons-dev libkf6iconthemes-dev
+libkf6widgetsaddons-dev libkf6xmlgui-dev libkf6service-dev libkf6solid-dev
+libkf6kio-dev libkf6jobwidgets-dev libkf6notifications-dev libkf6package-dev
+libkf6newstuff-dev libkf6archive-dev libkf6completion-dev libkf6bookmarks-dev
+libkf6crash-dev libkf6auth-dev libkf6codecs-dev libkf6itemviews-dev
+libkf6textwidgets-dev libkf6colorscheme-dev libkf6globalaccel-dev
+libkf6statusnotifieritem-dev libkf6networkmanagerqt-dev libkf6modemmanagerqt-dev
+libkf6syntaxhighlighting-dev libkf6screen-dev libkf6idletime-dev libkf6bluezqt-dev
+libkf6kcmutils-dev
+liblayershellqtinterface-dev kwayland-dev libkdecorations3-dev kwin-dev
+libx11-dev libx11-xcb-dev libsm-dev libxtst-dev libxi-dev libxfixes-dev libxrender-dev
+libxrandr-dev libxcursor-dev libxdamage-dev libxcomposite-dev libxext-dev libxss-dev
+libxinerama-dev libxcb1-dev libxcb-util-dev libxcb-cursor-dev libxcb-dpms0-dev
+libxcb-dri2-0-dev libxcb-glx0-dev libxcb-present-dev libxcb-record0-dev
+libxcb-xinput-dev libxcb-xtest0-dev libxcb-xvmc0-dev libxcb-xv0-dev libxcb-res0-dev
+libxcb-randr0-dev libxcb-shape0-dev libxcb-xfixes0-dev libxcb-icccm4-dev
+libxcb-keysyms1-dev libxcb-image0-dev libxcb-render-util0-dev libxcb-sync-dev
+libxkbcommon-dev libxkbcommon-x11-dev libwayland-dev wayland-protocols
+libpulse-dev libcanberra-dev libcap-dev libcrypt-dev libapt-pkg-dev libxapian-dev
+libpolkit-agent-1-dev libpolkit-qt6-1-dev libpipewire-0.3-dev
+xserver-xorg-dev xserver-xorg-input-libinput-dev xserver-xorg-input-synaptics-dev
+qml6-module-qtquick qml6-module-qtquick-controls qml6-module-qtquick-layouts
+qml6-module-qtquick-window qml6-module-qtquick-templates qml6-module-qtquick-dialogs
+qml6-module-qtqml-workerscript qml6-module-qt5compat-graphicaleffects
+qml6-module-qt-labs-platform

@@ -1,0 +1,24 @@
+name: Qt6 build
+
+on:
+  push:
+    branches: [ main, qt6-wayland ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: debian:testing
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install build dependencies
+        run: |
+          apt-get update
+          grep -v '^#' ci/debian-deps.txt | xargs apt-get install -y --no-install-recommends
+          apt-get install -y qml6-module-qtquick qml6-module-qtquick-controls
+
+      - name: Build every component
+        run: ci/build-all.sh
