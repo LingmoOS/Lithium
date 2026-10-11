@@ -10,6 +10,8 @@
 // #include <NETWM>
 
 // XCB & X11
+#include <KWindowSystem>
+
 #include <X11/Xlib.h>
 #include <X11/keysym.h>
 #include <xcb/xcb_keysyms.h>
@@ -29,6 +31,11 @@ Hotkeys::~Hotkeys()
 
 bool Hotkeys::nativeEventFilter(const QByteArray &eventType, void *message, qintptr *result)
 {
+    // X11 only: a Wayland session delivers no xcb events, shortcuts come
+    // from KGlobalAccel through QHotkey instead.
+    if (!KWindowSystem::isPlatformX11())
+        return false;
+
     Q_UNUSED(result);
 
     if (eventType != "xcb_generic_event_t") {
