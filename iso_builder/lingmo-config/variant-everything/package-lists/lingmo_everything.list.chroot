@@ -1,8 +1,8 @@
 # Various applications
-system-core
+# removed: not available in the target distribution: system-core
 
 # App Store
-packagekit-tools 
+# removed: not available in the target distribution: packagekit-tools
 plasma-discover
 qml-module-org-kde-purpose
 

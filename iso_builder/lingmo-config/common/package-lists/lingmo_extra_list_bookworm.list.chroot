@@ -19,7 +19,7 @@ fonts-urw-base35
 
 git
 
-kactivities-bin
+# removed: not available in the target distribution: kactivities-bin
 kactivitymanagerd
 
 kdegraphics-thumbnailers
@@ -44,9 +44,9 @@ ppp
 netpbm
 
 packagekit
-packagekit-tools
+# removed: not available in the target distribution: packagekit-tools
 
-qt5dxcb-plugin
+# removed: not available in the target distribution: qt5dxcb-plugin
 
 samba-libs
 
@@ -78,7 +78,7 @@ kio
 kwin-common
 libkf5config-bin
 libkf5globalaccel-bin
-libkf5plasma5
+# removed: not available in the target distribution: libkf5plasma5
 libkf5service-bin
 milou
 qdbus-qt5

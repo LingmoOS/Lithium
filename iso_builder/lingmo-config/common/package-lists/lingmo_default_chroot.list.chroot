@@ -9,7 +9,7 @@ pciutils
 usbutils
 eject
 tasksel
-system-core
+# removed: not available in the target distribution: system-core
 
 #if ARCHITECTURES i386
 grub-pc
@@ -38,7 +38,7 @@ exfatprogs
 exfat-fuse
 xfsprogs
 btrfs-progs
-reiserfsprogs
+# removed: not available in the target distribution: reiserfsprogs
 f2fs-tools
 jfsutils
 xfsprogs

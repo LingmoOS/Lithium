@@ -11,7 +11,7 @@
 base-files
 
 ## linux-core
-system-core
+# removed: not available in the target distribution: system-core
 ftp
 openssh-client
 openssh-server
@@ -44,7 +44,7 @@ kdenlive
 
 # Graphical desktops
 # removed: no longer produced by this tree (Lingmo 1.0 metapackage): lingmo-workspace
-system-core
+# removed: not available in the target distribution: system-core
 # removed: no longer produced by this tree (Lingmo 1.0 metapackage): lingmo-plymouth
 # removed: no longer produced by this tree (Lingmo 1.0 metapackage): lingmo-oobe
 # removed: no longer produced by this tree (Lingmo 1.0 metapackage): liblingmo-filemanager
