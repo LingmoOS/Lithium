@@ -15,6 +15,10 @@ find_package(Qt6 CONFIG REQUIRED Widgets DBus Gui GuiPrivate Concurrent Linguist
 find_package(KF6WindowSystem REQUIRED)
 find_package(LingmoUI3 3.0 REQUIRED)
 
+# Wayland task list (KWin's plasma-window-management). Optional: without it
+# the dock falls back to the X11 backend only.
+find_package(KWayland QUIET)
+
 set(SRCS
     src/applicationitem.h
     src/applicationmodel.cpp
@@ -28,6 +32,8 @@ set(SRCS
     src/trashmanager.cpp
     src/utils.cpp
     src/xwindowinterface.cpp
+    src/windowinterface.cpp
+    src/waylandwindowinterface.cpp
     src/activity.cpp
 
     src/fakewindow.cpp
@@ -54,6 +60,14 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
         KF6::WindowSystem
         LingmoUI3
 )
+
+if (KWayland_FOUND)
+    message(STATUS "KWayland found: Wayland task list enabled")
+    target_compile_definitions(${PROJECT_NAME} PRIVATE HAVE_KWAYLAND)
+    target_link_libraries(${PROJECT_NAME} PRIVATE Plasma::KWaylandClient)
+else()
+    message(STATUS "KWayland not found: dock runs with the X11 window backend only")
+endif()
 
 file(GLOB TS_FILES translations/*.ts)
 foreach(filepath ${TS_FILES})

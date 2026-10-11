@@ -23,7 +23,7 @@
 #include <QAbstractListModel>
 #include "applicationitem.h"
 #include "systemappmonitor.h"
-#include "xwindowinterface.h"
+#include "windowinterface.h"
 
 class ApplicationModel : public QAbstractListModel
 {
@@ -89,7 +89,7 @@ private:
     void onActiveChanged(quint64 wid);
 
 private:
-    XWindowInterface *m_iface;
+    WindowInterface *m_iface;
     SystemAppMonitor *m_sysAppMonitor;
     QList<ApplicationItem *> m_appItems;
 };
