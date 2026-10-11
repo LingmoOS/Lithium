@@ -45,13 +45,15 @@ for component in "${COMPONENTS[@]}"; do
     [ -d "$ROOT/$component/debian" ] || continue
     printf '== %s\n' "$component"
     if ( cd "$ROOT/$component" && dpkg-buildpackage -b -uc -us -d -j"$JOBS" -- --without=shlibdeps > "/tmp/deb-$component.log" 2>&1 ); then
-        # dpkg-buildpackage leaves the packages next to the source directory
+        # dpkg-buildpackage leaves the packages next to the source directory;
+        # their names come from debian/control and need not match the
+        # directory (LingmoUI -> lingmoui3, lib_lingmo -> liblingmo), so take
+        # every .deb that appeared in the repository root.
         moved=0
-        for deb in "$ROOT"/${component}_*.deb "$ROOT"/lib${component}_*.deb "$ROOT"/lingmo*-*_*.deb; do
+        for deb in "$ROOT"/*.deb; do
             [ -f "$deb" ] || continue
             mv -f "$deb" "$OUT/" 2>/dev/null && moved=$((moved+1))
         done
-        # install the runtime packages so dependents resolve our libraries
         for deb in "$OUT"/${component}_*.deb "$OUT"/lib${component}_*.deb; do
             [ -f "$deb" ] || continue
             case "$deb" in *-dbgsym_*) continue ;; esac

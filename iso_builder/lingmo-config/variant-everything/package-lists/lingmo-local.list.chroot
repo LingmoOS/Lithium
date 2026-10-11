@@ -1,5 +1,5 @@
-# Packages built from this tree (ci/build-debs.sh) - the Lingmo 1.0
-# metapackages that used to pull them in no longer exist.
+appmotor
+liblingmo
 libqapt6
 lingmo-calculator
 lingmo-core
@@ -17,4 +17,7 @@ lingmo-statusbar
 lingmo-systemicons
 lingmo-terminal
 lingmo-texteditor
+lingmoui3
 lingmo-wallpapers
+# metapackages that used to pull them in no longer exist.
+# Packages built from this tree (ci/build-debs.sh) - the Lingmo 1.0
