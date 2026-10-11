@@ -6,7 +6,7 @@ import LingmoUI.CompatibleModule 3.0 as LingmoUI
 T.TabBar {
     id: control
 
-    implicitWidth: Math.max(background.implicitWidth, contentItem.implicitWidth + LingmoUI.Units.smallSpacing)
+    implicitWidth: Math.max(background.implicitWidth, contentItem.implicitWidth + LingmoUI.LingmoUnits.smallSpacing)
     implicitHeight: contentItem.implicitHeight
 
     spacing: 0
@@ -37,11 +37,11 @@ T.TabBar {
                     fill: parent
                     margins: 2
                 }
-                color: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.secondBackgroundColor, 2)
-                                             : LingmoUI.Theme.secondBackgroundColor
-                radius: LingmoUI.Theme.smallRadius
+                color: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.secondBackgroundColor, 2)
+                                             : LingmoUI.LingmoTheme.secondBackgroundColor
+                radius: LingmoUI.LingmoTheme.smallRadius
 
-                layer.enabled: LingmoUI.Theme.darkMode
+                layer.enabled: LingmoUI.LingmoTheme.darkMode
                 layer.effect: DropShadow {
                     transparentBorder: true
                     radius: 2
@@ -55,7 +55,7 @@ T.TabBar {
     }
 
     background: Rectangle {
-        color: LingmoUI.Theme.alternateBackgroundColor
-        radius: LingmoUI.Theme.smallRadius + 2
+        color: LingmoUI.LingmoTheme.alternateBackgroundColor
+        radius: LingmoUI.LingmoTheme.smallRadius + 2
     }
 }

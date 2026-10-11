@@ -2,7 +2,7 @@ import QtQuick 2.4
 import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import LingmoUI.GraphicalEffects
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 
 Item {
     implicitWidth: 150
@@ -15,8 +15,8 @@ Item {
 
     Rectangle {
         anchors.fill: parent
-        color: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.5)
-                                     : Qt.darker(LingmoUI.Theme.backgroundColor, 1.05)
+        color: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.5)
+                                     : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.05)
         opacity: control.compositing ? 0.7 : 1.0
 
         Behavior on color {
@@ -57,11 +57,11 @@ Item {
 
         Label {
             text: control.title
-            color: control.active ? LingmoUI.Theme.textColor : LingmoUI.Theme.disabledTextColor
+            color: control.active ? LingmoUI.LingmoTheme.textColor : LingmoUI.LingmoTheme.disabledTextColor
             Layout.preferredHeight: control.header.height
-            leftPadding: LingmoUI.Units.largeSpacing + LingmoUI.Units.smallSpacing
-            rightPadding: LingmoUI.Units.largeSpacing + LingmoUI.Units.smallSpacing
-            topPadding: LingmoUI.Units.smallSpacing
+            leftPadding: LingmoUI.LingmoUnits.largeSpacing + LingmoUI.LingmoUnits.smallSpacing
+            rightPadding: LingmoUI.LingmoUnits.largeSpacing + LingmoUI.LingmoUnits.smallSpacing
+            topPadding: LingmoUI.LingmoUnits.smallSpacing
             bottomPadding: 0
             font.pointSize: 13
         }
@@ -73,11 +73,11 @@ Item {
             clip: true
             model: listModel
 
-            spacing: LingmoUI.Units.smallSpacing
-            leftMargin: LingmoUI.Units.largeSpacing
-            rightMargin: LingmoUI.Units.largeSpacing
-            topMargin: LingmoUI.Units.largeSpacing
-            bottomMargin: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.smallSpacing
+            leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            rightMargin: LingmoUI.LingmoUnits.largeSpacing
+            topMargin: LingmoUI.LingmoUnits.largeSpacing
+            bottomMargin: LingmoUI.LingmoUnits.largeSpacing
 
             ScrollBar.vertical: ScrollBar {}
 
@@ -85,10 +85,10 @@ Item {
             highlightMoveDuration: 0
             highlightResizeDuration : 0
             highlight: Rectangle {
-                radius: LingmoUI.Theme.mediumRadius
-                color: Qt.rgba(LingmoUI.Theme.textColor.r,
-                               LingmoUI.Theme.textColor.g,
-                               LingmoUI.Theme.textColor.b, 0.05)
+                radius: LingmoUI.LingmoTheme.mediumRadius
+                color: Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                               LingmoUI.LingmoTheme.textColor.g,
+                               LingmoUI.LingmoTheme.textColor.b, 0.05)
                 smooth: true
             }
 
@@ -114,13 +114,13 @@ Item {
                         onClicked: listView.currentIndex = index
                     }
 
-                    radius: LingmoUI.Theme.mediumRadius
-                    color: mouseArea.pressed ? Qt.rgba(LingmoUI.Theme.textColor.r,
-                                                       LingmoUI.Theme.textColor.g,
-                                                       LingmoUI.Theme.textColor.b, LingmoUI.Theme.darkMode ? 0.05 : 0.1) :
-                           mouseArea.containsMouse || isCurrent ? Qt.rgba(LingmoUI.Theme.textColor.r,
-                                                                          LingmoUI.Theme.textColor.g,
-                                                                          LingmoUI.Theme.textColor.b, LingmoUI.Theme.darkMode ? 0.1 : 0.05) :
+                    radius: LingmoUI.LingmoTheme.mediumRadius
+                    color: mouseArea.pressed ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                                                       LingmoUI.LingmoTheme.textColor.g,
+                                                       LingmoUI.LingmoTheme.textColor.b, LingmoUI.LingmoTheme.darkMode ? 0.05 : 0.1) :
+                           mouseArea.containsMouse || isCurrent ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                                                                          LingmoUI.LingmoTheme.textColor.g,
+                                                                          LingmoUI.LingmoTheme.textColor.b, LingmoUI.LingmoTheme.darkMode ? 0.1 : 0.05) :
                                                                   "transparent"
 
                     smooth: true
@@ -128,8 +128,8 @@ Item {
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.smallSpacing
-                    spacing: LingmoUI.Units.smallSpacing
+                    anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+                    spacing: LingmoUI.LingmoUnits.smallSpacing
 
                     Rectangle {
                         id: iconRect
@@ -137,7 +137,7 @@ Item {
                         height: 26
                         Layout.alignment: Qt.AlignVCenter
                         radius: width /2
-                        color: LingmoUI.Theme.highlightColor
+                        color: LingmoUI.LingmoTheme.highlightColor
 
 
                         Image {
@@ -156,7 +156,7 @@ Item {
                     Label {
                         id: itemTitle
                         text: model.title
-                        color: LingmoUI.Theme.darkMode ? LingmoUI.Theme.textColor : "#363636"
+                        color: LingmoUI.LingmoTheme.darkMode ? LingmoUI.LingmoTheme.textColor : "#363636"
                         font.pointSize: 8
                     }
 

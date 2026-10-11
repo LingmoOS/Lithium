@@ -47,7 +47,7 @@ ItemPage {
             RoundedItem {
                 GridLayout {
                     columns: 2
-                    rowSpacing: LingmoUI.Units.largeSpacing * 2
+                    rowSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Label {
                         text: qsTr("Enable")
@@ -150,7 +150,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
         }
     }

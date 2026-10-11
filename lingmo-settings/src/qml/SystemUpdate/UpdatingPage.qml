@@ -37,7 +37,7 @@ Item {
         }
 
         Item {
-            height: LingmoUI.Units.smallSpacing
+            height: LingmoUI.LingmoUnits.smallSpacing
         }
 
         Label {
@@ -58,16 +58,16 @@ Item {
                 background: Item {
                     Rectangle {
                         anchors.fill: parent
-                        anchors.margins: LingmoUI.Units.largeSpacing
-                        radius: LingmoUI.Theme.smallRadius
-                        color: LingmoUI.Theme.secondBackgroundColor
+                        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+                        radius: LingmoUI.LingmoTheme.smallRadius
+                        color: LingmoUI.LingmoTheme.secondBackgroundColor
                     }
                 }
 
-                leftPadding: LingmoUI.Units.largeSpacing * 2
-                rightPadding: LingmoUI.Units.largeSpacing * 2
-                topPadding: LingmoUI.Units.largeSpacing * 2
-                bottomPadding: LingmoUI.Units.largeSpacing * 2
+                leftPadding: LingmoUI.LingmoUnits.largeSpacing * 2
+                rightPadding: LingmoUI.LingmoUnits.largeSpacing * 2
+                topPadding: LingmoUI.LingmoUnits.largeSpacing * 2
+                bottomPadding: LingmoUI.LingmoUnits.largeSpacing * 2
 
                 // Auto scroll to bottom.
                 onTextChanged: {

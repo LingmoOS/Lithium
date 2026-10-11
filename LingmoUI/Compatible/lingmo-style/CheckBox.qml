@@ -34,7 +34,7 @@ T.CheckBox {
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
     padding: 1
-    spacing: LingmoUI.Units.smallSpacing
+    spacing: LingmoUI.LingmoUnits.smallSpacing
 
     hoverEnabled: true
 
@@ -43,13 +43,13 @@ T.CheckBox {
     }
 
 //    indicator: Item {
-//        width: LingmoUI.Units.iconSizes.smallMedium + LingmoUI.Units.smallSpacing
-//        height: LingmoUI.Units.iconSizes.smallMedium + LingmoUI.Units.smallSpacing
+//        width: LingmoUI.LingmoUnits.iconSizes.smallMedium + LingmoUI.LingmoUnits.smallSpacing
+//        height: LingmoUI.LingmoUnits.iconSizes.smallMedium + LingmoUI.LingmoUnits.smallSpacing
 
 //        CheckIndicator {
 //            anchors.centerIn: parent
-//            width: LingmoUI.Units.iconSizes.smallMedium
-//            height: LingmoUI.Units.iconSizes.smallMedium
+//            width: LingmoUI.LingmoUnits.iconSizes.smallMedium
+//            height: LingmoUI.LingmoUnits.iconSizes.smallMedium
 //            control: controlRoot
 //        }
 //    }
@@ -64,6 +64,6 @@ T.CheckBox {
         visible: controlRoot.text
         horizontalAlignment: Text.AlignLeft
         verticalAlignment: Text.AlignVCenter
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
     }
 }

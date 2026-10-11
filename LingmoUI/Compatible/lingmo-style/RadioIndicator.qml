@@ -25,16 +25,16 @@ import QtQuick.Controls 2.2
 import LingmoUI.CompatibleModule 3.0 as LingmoUI
 
 Rectangle {
-    implicitWidth: LingmoUI.Units.iconSizes.small
-    implicitHeight: LingmoUI.Units.iconSizes.small
+    implicitWidth: LingmoUI.LingmoUnits.iconSizes.small
+    implicitHeight: LingmoUI.LingmoUnits.iconSizes.small
 
     property Item control
 
     radius: width / 2
-    color: control.LingmoUI.Theme.backgroundColor
+    color: control.LingmoUI.LingmoTheme.backgroundColor
     border.color: control.down
-        ? control.checked ? "transparent" : control.LingmoUI.Theme.highlightColor
-        : control.checked ? control.LingmoUI.Theme.highlightColor : control.LingmoUI.Theme.disabledTextColor
+        ? control.checked ? "transparent" : control.LingmoUI.LingmoTheme.highlightColor
+        : control.checked ? control.LingmoUI.LingmoTheme.highlightColor : control.LingmoUI.LingmoTheme.disabledTextColor
 
     border.width: 1
 
@@ -43,7 +43,7 @@ Rectangle {
         radius: parent.radius
         scale: control.checked ? 1.0 : 0.0
 
-        color: control.LingmoUI.Theme.highlightColor
+        color: control.LingmoUI.LingmoTheme.highlightColor
 
         Behavior on scale {
             NumberAnimation {

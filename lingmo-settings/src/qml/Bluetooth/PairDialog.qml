@@ -13,8 +13,8 @@ LingmoUI.Window {
     width: contentWidth
     height: contentHeight
 
-    property int contentWidth: mainLayout.implicitWidth + LingmoUI.Units.largeSpacing * 2 + control.header.height
-    property int contentHeight: mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 2 + control.header.height
+    property int contentWidth: mainLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 2 + control.header.height
+    property int contentHeight: mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2 + control.header.height
 
     minimumWidth: contentWidth
     minimumHeight: contentHeight
@@ -28,11 +28,11 @@ LingmoUI.Window {
 
     property var pin: ""
 
-    background.color: LingmoUI.Theme.secondBackgroundColor
+    background.color: LingmoUI.LingmoTheme.secondBackgroundColor
     headerItem: Item {
         Label {
             anchors.fill: parent
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
             text: control.title
         }
     }
@@ -47,7 +47,7 @@ LingmoUI.Window {
     ColumnLayout {
         id: mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
 
         Label {
             text: qsTr("Bluetooth Pairing Request")
@@ -60,11 +60,11 @@ LingmoUI.Window {
             font.pointSize: 16
 
             Layout.alignment: Qt.AlignHCenter
-            Layout.bottomMargin: LingmoUI.Units.largeSpacing
+            Layout.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

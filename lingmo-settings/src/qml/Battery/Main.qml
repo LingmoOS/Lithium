@@ -61,7 +61,7 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             // Battery Info
             BatteryItem {
@@ -72,7 +72,7 @@ ItemPage {
 
                 ColumnLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: batteryBackground.radius + LingmoUI.Units.smallSpacing
+                    anchors.leftMargin: batteryBackground.radius + LingmoUI.LingmoUnits.smallSpacing
 
                     Item {
                         Layout.fillHeight: true
@@ -123,7 +123,7 @@ ItemPage {
 
                 Label {
                     text: qsTr("History")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 HistoryGraph {
@@ -172,23 +172,23 @@ ItemPage {
 
                 Label {
                     text: qsTr("Health")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 RowLayout {
-                    Layout.topMargin: LingmoUI.Units.largeSpacing
-                    spacing: LingmoUI.Units.largeSpacing * 4
+                    Layout.topMargin: LingmoUI.LingmoUnits.largeSpacing
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 4
 
                     // Poor
                     Item {
-                        height: _poorLabel.implicitHeight + 4 + LingmoUI.Units.smallSpacing
-                        width: _poorLabel.implicitWidth + LingmoUI.Units.largeSpacing
+                        height: _poorLabel.implicitHeight + 4 + LingmoUI.LingmoUnits.smallSpacing
+                        width: _poorLabel.implicitWidth + LingmoUI.LingmoUnits.largeSpacing
 
                         Rectangle {
                             id: _poorRect
                             anchors.fill: parent
                             color: "#FF8738"
-                            radius: LingmoUI.Theme.mediumRadius
+                            radius: LingmoUI.LingmoTheme.mediumRadius
                             opacity: 0.1
                             visible: battery.capacity >= 0 && battery.capacity <= 79
                         }
@@ -206,14 +206,14 @@ ItemPage {
                     }
 
                     Item {
-                        height: _normalLabel.implicitHeight + 4 + LingmoUI.Units.smallSpacing
-                        width: _normalLabel.implicitWidth + LingmoUI.Units.largeSpacing
+                        height: _normalLabel.implicitHeight + 4 + LingmoUI.LingmoUnits.smallSpacing
+                        width: _normalLabel.implicitWidth + LingmoUI.LingmoUnits.largeSpacing
 
                         Rectangle {
                             id: _normalRect
                             anchors.fill: parent
                             color: "#3385FF"
-                            radius: LingmoUI.Theme.mediumRadius
+                            radius: LingmoUI.LingmoTheme.mediumRadius
                             opacity: 0.1
                             visible: battery.capacity >= 80 && battery.capacity <= 89
                         }
@@ -231,14 +231,14 @@ ItemPage {
                     }
 
                     Item {
-                        height: _excellentLabel.implicitHeight + 4 + LingmoUI.Units.smallSpacing
-                        width: _excellentLabel.implicitWidth + LingmoUI.Units.largeSpacing
+                        height: _excellentLabel.implicitHeight + 4 + LingmoUI.LingmoUnits.smallSpacing
+                        width: _excellentLabel.implicitWidth + LingmoUI.LingmoUnits.largeSpacing
 
                         Rectangle {
                             id: _excellentRect
                             anchors.fill: parent
                             color: "#00CD23"
-                            radius: LingmoUI.Theme.mediumRadius
+                            radius: LingmoUI.LingmoTheme.mediumRadius
                             opacity: 0.1
                             visible: battery.capacity >= 90 && battery.capacity <= 100
                         }
@@ -286,7 +286,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
         }
     }

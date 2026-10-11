@@ -35,8 +35,8 @@ T.Menu
                              contentHeight + topPadding + bottomPadding)
 
     margins: 0
-    verticalPadding: LingmoUI.Units.smallSpacing
-    spacing: LingmoUI.Units.smallSpacing
+    verticalPadding: LingmoUI.LingmoUnits.smallSpacing
+    spacing: LingmoUI.LingmoUnits.smallSpacing
     transformOrigin: !cascade ? Item.Top : (mirrored ? Item.TopRight : Item.TopLeft)
 
     delegate: LingmoUIMenuItem { }
@@ -91,7 +91,7 @@ T.Menu
     }
 
     background: LingmoUI.RoundedRect {
-        radius: LingmoUI.Theme.hugeRadius
+        radius: LingmoUI.LingmoTheme.hugeRadius
         opacity: 1
 
         layer.enabled: true
@@ -106,9 +106,9 @@ T.Menu
     }
 
     T.Overlay.modal: Rectangle  {
-        color: Qt.rgba(control.LingmoUI.Theme.backgroundColor.r,
-                       control.LingmoUI.Theme.backgroundColor.g,
-                       control.LingmoUI.Theme.backgroundColor.b, 0.4)
+        color: Qt.rgba(control.LingmoUI.LingmoTheme.backgroundColor.r,
+                       control.LingmoUI.LingmoTheme.backgroundColor.g,
+                       control.LingmoUI.LingmoTheme.backgroundColor.b, 0.4)
         Behavior on opacity {
             NumberAnimation {
                 duration: 150
@@ -118,9 +118,9 @@ T.Menu
     }
 
     T.Overlay.modeless: Rectangle {
-        color: Qt.rgba(control.LingmoUI.Theme.backgroundColor.r,
-                       control.LingmoUI.Theme.backgroundColor.g,
-                       control.LingmoUI.Theme.backgroundColor.b, 0.4)
+        color: Qt.rgba(control.LingmoUI.LingmoTheme.backgroundColor.r,
+                       control.LingmoUI.LingmoTheme.backgroundColor.g,
+                       control.LingmoUI.LingmoTheme.backgroundColor.b, 0.4)
         Behavior on opacity {
             NumberAnimation {
                 duration: 150

@@ -15,15 +15,15 @@ Item {
     property alias font: _label.font
     property string text: ""
 
-    property var contentWidth: _contentLayout.implicitWidth + LingmoUI.Units.largeSpacing * 2
+    property var contentWidth: _contentLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 2
 
-    property var backgroundColor: LingmoUI.Theme.secondBackgroundColor
-    property var hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.secondBackgroundColor, 1.3)
-                                                     : Qt.darker(LingmoUI.Theme.secondBackgroundColor, 1.05)
-    property var pressedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.secondBackgroundColor, 1.1)
-                                                     : Qt.darker(LingmoUI.Theme.secondBackgroundColor, 1.1)
+    property var backgroundColor: LingmoUI.LingmoTheme.secondBackgroundColor
+    property var hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.secondBackgroundColor, 1.3)
+                                                     : Qt.darker(LingmoUI.LingmoTheme.secondBackgroundColor, 1.05)
+    property var pressedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.secondBackgroundColor, 1.1)
+                                                     : Qt.darker(LingmoUI.LingmoTheme.secondBackgroundColor, 1.1)
 
-    property var highlightColor: LingmoUI.Theme.highlightColor
+    property var highlightColor: LingmoUI.LingmoTheme.highlightColor
     property var highlightHoveredColor: Qt.lighter(control.highlightColor, 1.1)
     property var highlightPressedColor: Qt.darker(control.highlightColor, 1.1)
 
@@ -42,21 +42,21 @@ Item {
     Rectangle {
         id: hoveredRect
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.smallSpacing / 2
-        anchors.rightMargin: LingmoUI.Units.smallSpacing / 2
-        anchors.topMargin: LingmoUI.Units.smallSpacing / 2
+        anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing / 2
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing / 2
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing / 2
         color: control.hovered ? control.pressed ? pressedColor
                                                  : hoveredColor : backgroundColor
         opacity: 0.5
         border.width: 0
-        radius: LingmoUI.Theme.smallRadius
+        radius: LingmoUI.LingmoTheme.smallRadius
     }
 
     Rectangle {
         id: checkedRect
-        anchors.leftMargin: LingmoUI.Units.smallSpacing / 2
-        anchors.rightMargin: LingmoUI.Units.smallSpacing / 2
-        anchors.topMargin: LingmoUI.Units.smallSpacing / 2
+        anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing / 2
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing / 2
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing / 2
         anchors.fill: parent
 
         color: control.hovered ? control.pressed ? highlightPressedColor
@@ -65,15 +65,15 @@ Item {
         opacity: _mouseArea.pressed ? 0.9 : 1
         border.width: 0
         visible: checked
-        radius: LingmoUI.Theme.smallRadius
+        radius: LingmoUI.LingmoTheme.smallRadius
     }
 
     RowLayout {
         id: _contentLayout
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.smallSpacing
-        anchors.rightMargin: LingmoUI.Units.smallSpacing
-        anchors.topMargin: LingmoUI.Units.smallSpacing / 2
+        anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing / 2
         spacing: 0
 
         Label {
@@ -85,8 +85,8 @@ Item {
             Layout.fillHeight: true
             horizontalAlignment: Qt.AlignHCenter
             verticalAlignment: Qt.AlignVCenter
-            color: control.checked ? LingmoUI.Theme.highlightedTextColor
-                                   : LingmoUI.Theme.textColor
+            color: control.checked ? LingmoUI.LingmoTheme.highlightedTextColor
+                                   : LingmoUI.LingmoTheme.textColor
             elide: Text.ElideMiddle
             wrapMode: Text.NoWrap
         }
@@ -97,7 +97,7 @@ Item {
             Layout.preferredHeight: 24
             Layout.preferredWidth: 24
             size: 24
-            source: !enabled ? "" : "qrc:/images/" + (LingmoUI.Theme.darkMode || control.checked ? "dark/" : "light/") + "close.svg"
+            source: !enabled ? "" : "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode || control.checked ? "dark/" : "light/") + "close.svg"
             onClicked: control.closeClicked()
         }
     }

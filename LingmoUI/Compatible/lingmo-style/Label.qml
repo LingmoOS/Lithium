@@ -12,19 +12,19 @@ T.Label {
     // Text.NativeRendering is broken on non integer pixel ratios
     // renderType: Window.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
 
-    renderType: LingmoUI.Theme.renderType
+    renderType: LingmoUI.LingmoTheme.renderType
 
-    font.capitalization: LingmoUI.Theme.defaultFont.capitalization
-    font.family: LingmoUI.Theme.fontFamily
-    font.italic: LingmoUI.Theme.defaultFont.italic
-    font.letterSpacing: LingmoUI.Theme.defaultFont.letterSpacing
-    font.pointSize: LingmoUI.Theme.fontSize
-    font.strikeout: LingmoUI.Theme.defaultFont.strikeout
-    font.underline: LingmoUI.Theme.defaultFont.underline
-    font.weight: LingmoUI.Theme.defaultFont.weight
-    font.wordSpacing: LingmoUI.Theme.defaultFont.wordSpacing
-    color: LingmoUI.Theme.textColor
-    linkColor: LingmoUI.Theme.linkColor
+    font.capitalization: LingmoUI.LingmoTheme.defaultFont.capitalization
+    font.family: LingmoUI.LingmoTheme.fontFamily
+    font.italic: LingmoUI.LingmoTheme.defaultFont.italic
+    font.letterSpacing: LingmoUI.LingmoTheme.defaultFont.letterSpacing
+    font.pointSize: LingmoUI.LingmoTheme.fontSize
+    font.strikeout: LingmoUI.LingmoTheme.defaultFont.strikeout
+    font.underline: LingmoUI.LingmoTheme.defaultFont.underline
+    font.weight: LingmoUI.LingmoTheme.defaultFont.weight
+    font.wordSpacing: LingmoUI.LingmoTheme.defaultFont.wordSpacing
+    color: LingmoUI.LingmoTheme.textColor
+    linkColor: LingmoUI.LingmoTheme.linkColor
 
     opacity: enabled ? 1 : 0.6
 

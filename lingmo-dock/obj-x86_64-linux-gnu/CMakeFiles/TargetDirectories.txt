@@ -1,0 +1,11 @@
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/KWayland_QCH.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/lingmo-dock.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/translations.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/edit_cache.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/list_install_components.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/install.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/install/local.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/install/strip.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/lingmo-dock_autogen_timestamp_deps.dir
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/lingmo-dock_autogen.dir

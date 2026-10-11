@@ -1,0 +1,5 @@
+-I/home/lingmo/Lithium/lingmo-dock
+-I/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu
+-o
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/moc_dockadaptor.cpp
+/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/dockadaptor.h

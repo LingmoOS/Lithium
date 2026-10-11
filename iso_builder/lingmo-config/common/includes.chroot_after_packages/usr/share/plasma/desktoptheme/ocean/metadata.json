@@ -6,16 +6,14 @@
                 "Name": "Lingmo OS Team"
             }
         ],
-        "Category": "ocean theme for Lingmo OS",
+        "Category": "",
         "Description": "ocean theme for Lingmo OS",
-        "Description[zh_CN]": "Lingmo OS 亮色主题",
-        "EnabledByDefault": true,
+        "EnabledByDefault": false,
         "Id": "ocean",
         "License": "GPL-3.0",
         "Name": "ocean",
-        "Name[zh_CN]": "ocean",
-        "Version": "3.0.0",
-        "Website": "https://github.com/LingmoOS"
+        "Version": "1.0",
+        "Website": "https://lingmo.org"
     },
-    "X-Plasma-API": "5.0"
+    "X-Plasma-API": "6.0"
 }

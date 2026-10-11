@@ -21,7 +21,7 @@ import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
 import LingmoUI.GraphicalEffects
-import LingmoUI 1.0 as CuteUI
+import LingmoUI as CuteUI
 import Lingmo.Mpris 1.0
 
 Item {

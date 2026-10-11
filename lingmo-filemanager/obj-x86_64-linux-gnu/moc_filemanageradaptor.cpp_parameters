@@ -1,0 +1,5 @@
+-I/home/lingmo/Lithium/lingmo-filemanager
+-I/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu
+-o
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/moc_filemanageradaptor.cpp
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/filemanageradaptor.h

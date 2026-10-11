@@ -19,17 +19,17 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.smallSpacing
+            spacing: LingmoUI.LingmoUnits.smallSpacing
 
             Label {
                 text: qsTr("Default application")
-                leftPadding: LingmoUI.Units.largeSpacing
+                leftPadding: LingmoUI.LingmoUnits.largeSpacing
             }
 
             RoundedItem {
                 GridLayout {
                     columns: 2
-                    columnSpacing: LingmoUI.Units.largeSpacing * 2
+                    columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Label {
                         text: qsTr("Web browser")

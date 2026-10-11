@@ -34,13 +34,13 @@ Item {
     Rectangle {
         id: _background
         anchors.fill: parent
-        color: LingmoUI.Theme.secondBackgroundColor
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
         radius: NotificationDialog.width * 0.05
         opacity: 0.7
 
-        border.width: 1 / LingmoUI.Units.devicePixelRatio
+        border.width: 1 / LingmoUI.LingmoUnits.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true
-        border.color: LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+        border.color: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
                                             : Qt.rgba(0, 0, 0, 0.05)
     }
 
@@ -54,9 +54,9 @@ Item {
 
     onScreenRectChanged: {
         NotificationDialog.width = 350
-        NotificationDialog.height = screenRect.height - LingmoUI.Units.smallSpacing * 3
-        NotificationDialog.x = screenRect.x + screenRect.width - NotificationDialog.width - LingmoUI.Units.smallSpacing * 1.5
-        NotificationDialog.y = screenRect.y + LingmoUI.Units.smallSpacing * 1.5
+        NotificationDialog.height = screenRect.height - LingmoUI.LingmoUnits.smallSpacing * 3
+        NotificationDialog.x = screenRect.x + screenRect.width - NotificationDialog.width - LingmoUI.LingmoUnits.smallSpacing * 1.5
+        NotificationDialog.y = screenRect.y + LingmoUI.LingmoUnits.smallSpacing * 1.5
     }
 
     ScreenHelper {
@@ -94,20 +94,20 @@ Item {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.topMargin: LingmoUI.Units.largeSpacing
-        anchors.bottomMargin: LingmoUI.Units.largeSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         RowLayout {
-            Layout.leftMargin: LingmoUI.Units.largeSpacing
-            Layout.rightMargin: LingmoUI.Units.largeSpacing
+            Layout.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            Layout.rightMargin: LingmoUI.LingmoUnits.largeSpacing
 
             Label {
                 text: qsTr("Notification Center")
                 Layout.fillWidth: true
                 elide: Text.ElideRight
-                leftPadding: LingmoUI.Units.smallSpacing
-                color: LingmoUI.Theme.textColor
+                leftPadding: LingmoUI.LingmoUnits.smallSpacing
+                color: LingmoUI.LingmoTheme.textColor
                 font.pointSize: 15
 
                 MouseArea {
@@ -127,7 +127,7 @@ Item {
                 visible: _view.count > 0
                 Layout.preferredHeight: 30
                 Layout.preferredWidth: 30
-                source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/clear.svg"
+                source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/clear.svg"
                                               : "qrc:/images/light/clear.svg"
                 onLeftButtonClicked: historyModel.clearAll()
             }
@@ -141,19 +141,19 @@ Item {
                 id: _view
                 anchors.fill: parent
                 model: historyModel
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
                 highlightFollowsCurrentItem: true
                 clip: true
 
-                leftMargin: LingmoUI.Units.largeSpacing
-                rightMargin: LingmoUI.Units.largeSpacing
+                leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                rightMargin: LingmoUI.LingmoUnits.largeSpacing
 
                 ScrollBar.vertical: ScrollBar {}
 
                 Label {
                     anchors.centerIn: parent
                     text: qsTr("No notifications")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                     font.pointSize: 15
                     visible: _view.count === 0
                 }
@@ -168,10 +168,10 @@ Item {
 
                     Rectangle {
                         anchors.fill: parent
-                        color: LingmoUI.Theme.darkMode ? "white"
+                        color: LingmoUI.LingmoTheme.darkMode ? "white"
                                                      : "black"
-                        radius: LingmoUI.Theme.bigRadius
-                        opacity: LingmoUI.Theme.darkMode ? 0.1
+                        radius: LingmoUI.LingmoTheme.bigRadius
+                        opacity: LingmoUI.LingmoTheme.darkMode ? 0.1
                                                        : 0.03
                     }
 
@@ -184,10 +184,10 @@ Item {
 
                     RowLayout {
                         anchors.fill: parent
-                        anchors.margins: LingmoUI.Units.largeSpacing
-                        anchors.leftMargin: LingmoUI.Units.smallSpacing * 1.5
-                        anchors.rightMargin: LingmoUI.Units.smallSpacing * 1.5
-                        spacing: LingmoUI.Units.smallSpacing
+                        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+                        anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+                        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+                        spacing: LingmoUI.LingmoUnits.smallSpacing
 
                         Image {
                             id: _icon
@@ -226,7 +226,7 @@ Item {
                                 visible: text
                                 elide: Text.ElideRight
                                 Layout.fillWidth: true
-                                rightPadding: LingmoUI.Units.smallSpacing
+                                rightPadding: LingmoUI.LingmoUnits.smallSpacing
                             }
 
                             RowLayout {
@@ -234,7 +234,7 @@ Item {
                                     id: bodyLabel
                                     text: model.body
                                     visible: text
-                                    rightPadding: LingmoUI.Units.smallSpacing
+                                    rightPadding: LingmoUI.LingmoUnits.smallSpacing
                                     maximumLineCount: 2
                                     elide: Text.ElideRight
                                     wrapMode: Text.Wrap
@@ -245,7 +245,7 @@ Item {
 
                                 Label {
                                     text: model.created
-                                    rightPadding: LingmoUI.Units.smallSpacing
+                                    rightPadding: LingmoUI.LingmoUnits.smallSpacing
                                     Layout.alignment: Qt.AlignRight
                                 }
                             }
@@ -259,20 +259,20 @@ Item {
                     Image {
                         anchors.top: parent.top
                         anchors.right: parent.right
-                        anchors.topMargin: LingmoUI.Units.smallSpacing / 2
-                        anchors.rightMargin: LingmoUI.Units.smallSpacing / 2
+                        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing / 2
+                        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing / 2
                         width: 24
                         height: 24
-                        source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/close.svg"
+                        source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/close.svg"
                         sourceSize: Qt.size(width, height)
                         visible: _itemMouseArea.containsMouse
                         z: 9999
 
                         Rectangle {
-                            property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 2)
-                                                                               : Qt.darker(LingmoUI.Theme.backgroundColor, 1.2)
-                            property color pressedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.5)
-                                                                               : Qt.darker(LingmoUI.Theme.backgroundColor, 1.3)
+                            property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 2)
+                                                                               : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.2)
+                            property color pressedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.5)
+                                                                               : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.3)
 
                             z: -1
                             anchors.fill: parent

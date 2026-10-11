@@ -51,7 +51,7 @@ Item {
                 anchors.fill: parent
                 source: parent
                 color: "#000000"
-                opacity: LingmoUI.Theme.darkMode && settings.dimsWallpaper ? 0.4 : 0.0
+                opacity: LingmoUI.LingmoTheme.darkMode && settings.dimsWallpaper ? 0.4 : 0.0
 
                 Behavior on opacity {
                     NumberAnimation {

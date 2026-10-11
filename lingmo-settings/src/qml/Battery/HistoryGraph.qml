@@ -74,10 +74,10 @@ Canvas {
             height - yPadding - scaledY);
     }
 
-    property bool darkMode: LingmoUI.Theme.darkMode
-    property color textColor: LingmoUI.Theme.textColor
-    property color bgColor: LingmoUI.Theme.secondBackgroundColor
-    property color highlightColor: LingmoUI.Theme.highlightColor
+    property bool darkMode: LingmoUI.LingmoTheme.darkMode
+    property color textColor: LingmoUI.LingmoTheme.textColor
+    property color bgColor: LingmoUI.LingmoTheme.secondBackgroundColor
+    property color highlightColor: LingmoUI.LingmoTheme.highlightColor
 
     onDarkModeChanged: {
         canvas.requestPaint()
@@ -166,7 +166,7 @@ Canvas {
         // Draw the X value texts
         c.textAlign = "center"
         c.lineWidth = 1
-        c.strokeStyle = LingmoUI.Theme.darkMode ? 'rgba(0, 0, 0, 0.35)' : 'rgba(0, 0, 0, 0.15)'
+        c.strokeStyle = LingmoUI.LingmoTheme.darkMode ? 'rgba(0, 0, 0, 0.35)' : 'rgba(0, 0, 0, 0.15)'
 
         var xDivisions = xDuration / xDivisionWidth * 1000
         var xGridDistance = plotWidth / xDivisions

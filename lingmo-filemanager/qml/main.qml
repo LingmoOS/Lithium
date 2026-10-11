@@ -35,7 +35,7 @@ LingmoUI.Window {
     title: qsTr("File Manager")
 
     background.opacity: 1
-    header.height: 36 + LingmoUI.Units.largeSpacing
+    header.height: 36 + LingmoUI.LingmoUnits.largeSpacing
 
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
@@ -57,17 +57,17 @@ LingmoUI.Window {
     headerItem: Item {
         RowLayout {
             anchors.fill: parent
-            anchors.leftMargin: LingmoUI.Units.smallSpacing * 1.5
-            anchors.rightMargin: LingmoUI.Units.smallSpacing * 1.5
-            anchors.topMargin: LingmoUI.Units.smallSpacing * 1.5
-            anchors.bottomMargin: LingmoUI.Units.smallSpacing * 1.5
+            anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+            anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+            anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+            anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
-            spacing: LingmoUI.Units.smallSpacing
+            spacing: LingmoUI.LingmoUnits.smallSpacing
 
             IconButton {
                 Layout.fillHeight: true
                 implicitWidth: height
-                source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/go-previous.svg"
+                source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/go-previous.svg"
                                               : "qrc:/images/light/go-previous.svg"
                 onClicked: _folderPage.goBack()
             }
@@ -75,7 +75,7 @@ LingmoUI.Window {
             IconButton {
                 Layout.fillHeight: true
                 implicitWidth: height
-                source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/go-next.svg"
+                source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/go-next.svg"
                                               : "qrc:/images/light/go-next.svg"
                 onClicked: _folderPage.goForward()
             }
@@ -92,8 +92,8 @@ LingmoUI.Window {
                 Layout.fillHeight: true
                 implicitWidth: height
 
-                property var gridSource: LingmoUI.Theme.darkMode ? "qrc:/images/dark/grid.svg" : "qrc:/images/light/grid.svg"
-                property var listSource: LingmoUI.Theme.darkMode ? "qrc:/images/dark/list.svg" : "qrc:/images/light/list.svg"
+                property var gridSource: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/grid.svg" : "qrc:/images/light/grid.svg"
+                property var listSource: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/list.svg" : "qrc:/images/light/list.svg"
 
                 source: settings.viewMethod === 0 ? listSource : gridSource
 
@@ -111,7 +111,7 @@ LingmoUI.Window {
         SideBar {
             id: _sideBar
             Layout.fillHeight: true
-            width: 180 + LingmoUI.Units.largeSpacing
+            width: 180 + LingmoUI.LingmoUnits.largeSpacing
             onClicked: _folderPage.openUrl(path)
             onOpenInNewWindow: _folderPage.model.openInNewWindow(path)
         }

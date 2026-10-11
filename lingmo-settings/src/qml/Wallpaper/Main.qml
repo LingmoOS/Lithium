@@ -24,7 +24,7 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             FileDialog {
                 id: fileDialog
@@ -46,11 +46,11 @@ ItemPage {
 
             RoundedItem {
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing * 2
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Label {
                         text: qsTr("Background type")
-                        leftPadding: LingmoUI.Units.smallSpacing
+                        leftPadding: LingmoUI.LingmoUnits.smallSpacing
                     }
 
                     TabBar {
@@ -84,7 +84,7 @@ ItemPage {
                     property int rowCount: _view.width / itemWidth
 
                     Layout.fillWidth: true
-                    implicitHeight: Math.ceil(_view.count / rowCount) * cellHeight + LingmoUI.Units.largeSpacing
+                    implicitHeight: Math.ceil(_view.count / rowCount) * cellHeight + LingmoUI.LingmoUnits.largeSpacing
 
                     visible: background.backgroundType === 0
 
@@ -118,9 +118,9 @@ ItemPage {
                         // Preload background
                         Rectangle {
                             anchors.fill: parent
-                            anchors.margins: LingmoUI.Units.largeSpacing
-                            radius: LingmoUI.Theme.bigRadius + LingmoUI.Units.smallSpacing / 2
-                            color: LingmoUI.Theme.backgroundColor
+                            anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+                            radius: LingmoUI.LingmoTheme.bigRadius + LingmoUI.LingmoUnits.smallSpacing / 2
+                            color: LingmoUI.LingmoTheme.backgroundColor
                             visible: _image.status !== Image.Ready
                         }
 
@@ -130,24 +130,24 @@ ItemPage {
                             width: 32
                             height: width
                             sourceSize: Qt.size(width, height)
-                            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/picture.svg"
+                            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/picture.svg"
                                                           : "qrc:/images/light/picture.svg"
                             visible: _image.status !== Image.Ready
                         }
 
                         Rectangle {
                             anchors.fill: parent
-                            anchors.margins: LingmoUI.Units.smallSpacing
+                            anchors.margins: LingmoUI.LingmoUnits.smallSpacing
                             color: "transparent"
-                            radius: LingmoUI.Theme.bigRadius + LingmoUI.Units.smallSpacing / 2
+                            radius: LingmoUI.LingmoTheme.bigRadius + LingmoUI.LingmoUnits.smallSpacing / 2
 
-                            border.color: LingmoUI.Theme.highlightColor
+                            border.color: LingmoUI.LingmoTheme.highlightColor
                             border.width: _image.status == Image.Ready & isSelected ? 3 : 0
 
                             Image {
                                 id: _image
                                 anchors.fill: parent
-                                anchors.margins: LingmoUI.Units.smallSpacing
+                                anchors.margins: LingmoUI.LingmoUnits.smallSpacing
                                 source: "file://" + modelData
                                 sourceSize: Qt.size(width, height)
                                 fillMode: Image.PreserveAspectCrop
@@ -172,7 +172,7 @@ ItemPage {
 
                                         Rectangle {
                                             anchors.fill: parent
-                                            radius: LingmoUI.Theme.bigRadius
+                                            radius: LingmoUI.LingmoTheme.bigRadius
                                         }
                                     }
                                 }
@@ -213,7 +213,7 @@ ItemPage {
 
                 Item {
                     visible: background.backgroundType === 1
-                    height: LingmoUI.Units.smallSpacing
+                    height: LingmoUI.LingmoUnits.smallSpacing
                 }
 
                 Loader {
@@ -225,7 +225,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
         }
     }
@@ -239,7 +239,7 @@ ItemPage {
 
             property int rowCount: _colorView.width / cellWidth
 
-            implicitHeight: Math.ceil(_colorView.count / _colorView.rowCount) * cellHeight + LingmoUI.Units.largeSpacing
+            implicitHeight: Math.ceil(_colorView.count / _colorView.rowCount) * cellHeight + LingmoUI.LingmoUnits.largeSpacing
 
             cellWidth: 50
             cellHeight: 50
@@ -268,7 +268,7 @@ ItemPage {
                 property bool checked: Qt.colorEqual(background.backgroundColor, bgColor)
                 property color currentColor: bgColor
 
-                width: _colorView.itemSize + LingmoUI.Units.largeSpacing
+                width: _colorView.itemSize + LingmoUI.LingmoUnits.largeSpacing
                 height: width
                 color: "transparent"
                 radius: width / 2
@@ -307,7 +307,7 @@ ItemPage {
 
             property int rowCount: _customView.width / cellWidth
 
-            implicitHeight: Math.ceil(_customView.count / _customView.rowCount) * cellHeight + LingmoUI.Units.largeSpacing
+            implicitHeight: Math.ceil(_customView.count / _customView.rowCount) * cellHeight + LingmoUI.LingmoUnits.largeSpacing
 
             cellWidth: 50
             cellHeight: 50
@@ -316,7 +316,7 @@ ItemPage {
             model: ListModel {}
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
 
             StandardButton {
@@ -327,7 +327,7 @@ ItemPage {
                 }
             }
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
         }      
     }

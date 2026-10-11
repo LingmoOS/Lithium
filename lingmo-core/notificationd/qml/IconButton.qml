@@ -55,9 +55,9 @@ Item {
         color: {
             if (mouseArea.containsMouse) {
                 if (mouseArea.containsPress)
-                    return (LingmoUI.Theme.darkMode) ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(0, 0, 0, 0.2)
+                    return (LingmoUI.LingmoTheme.darkMode) ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(0, 0, 0, 0.2)
                 else
-                    return (LingmoUI.Theme.darkMode) ? Qt.rgba(255, 255, 255, 0.2) : Qt.rgba(0, 0, 0, 0.1)
+                    return (LingmoUI.LingmoTheme.darkMode) ? Qt.rgba(255, 255, 255, 0.2) : Qt.rgba(0, 0, 0, 0.1)
             }
 
             return "transparent"

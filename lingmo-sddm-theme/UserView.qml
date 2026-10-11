@@ -31,14 +31,14 @@ ListView {
     id: control
 
     clip: true
-    height: 80 + LingmoUI.Units.largeSpacing * 2
+    height: 80 + LingmoUI.LingmoUnits.largeSpacing * 2
     orientation: ListView.Horizontal
     highlightRangeMode: ListView.StrictlyEnforceRange
 
     preferredHighlightBegin: width / 2 - userItemSize / 2
     preferredHighlightEnd: preferredHighlightBegin
 
-    spacing: LingmoUI.Units.largeSpacing * 2
+    spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
     property int userItemSize: 60
 
@@ -61,7 +61,7 @@ ListView {
 
         ColumnLayout {
             anchors.fill: parent
-            spacing: LingmoUI.Units.smallSpacing * 1.5
+            spacing: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
             Image {
                 id: userIcon

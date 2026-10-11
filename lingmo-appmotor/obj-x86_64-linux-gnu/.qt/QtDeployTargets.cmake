@@ -1,0 +1,8 @@
+set(__QT_DEPLOY_TARGET_lingmo-invoker_FILE /home/lingmo/Lithium/lingmo-appmotor/obj-x86_64-linux-gnu/src/invoker/lingmo-invoker)
+set(__QT_DEPLOY_TARGET_lingmo-invoker_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_applauncherd_FILE /home/lingmo/Lithium/lingmo-appmotor/obj-x86_64-linux-gnu/src/launcherlib/libapplauncherd.so.SOVERSION)
+set(__QT_DEPLOY_TARGET_applauncherd_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_lingmo-single-instance_FILE /home/lingmo/Lithium/lingmo-appmotor/obj-x86_64-linux-gnu/src/single-instance/lingmo-single-instance)
+set(__QT_DEPLOY_TARGET_lingmo-single-instance_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_lingmo-appmotor_FILE /home/lingmo/Lithium/lingmo-appmotor/obj-x86_64-linux-gnu/src/lingmo-appmotor/lingmo-appmotor)
+set(__QT_DEPLOY_TARGET_lingmo-appmotor_TYPE EXECUTABLE)

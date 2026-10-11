@@ -16,7 +16,7 @@ T.Frame {
 
     background: Rectangle {
         color: "transparent"
-        property color borderColor: LingmoUI.Theme.textColor
+        property color borderColor: LingmoUI.LingmoTheme.textColor
         border.color: Qt.rgba(borderColor.r, borderColor.g, borderColor.b, 0.3)
     }
 }

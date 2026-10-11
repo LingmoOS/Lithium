@@ -2,25 +2,25 @@ import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 ItemPage {
     headerTitle: qsTr("Custom")
     ScrollView {
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.bottomMargin: LingmoUI.Units.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
         RoundedItem {
             Label {
                 text: qsTr("Terminal")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
             }
             GridLayout{
                 columns: 2
-                columnSpacing: LingmoUI.Units.smallSpacing
-                rowSpacing: LingmoUI.Units.smallSpacing
+                columnSpacing: LingmoUI.LingmoUnits.smallSpacing
+                rowSpacing: LingmoUI.LingmoUnits.smallSpacing
                 Label {
                     text: qsTr("Word Characters")
                 }
@@ -38,10 +38,10 @@ ItemPage {
         RoundedItem {
             Label {
                 text: qsTr("Search Engines")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
             }
             ColumnLayout{
-                spacing: LingmoUI.Units.smallSpacing
+                spacing: LingmoUI.LingmoUnits.smallSpacing
                 Repeater {
                     model: settings.searchUrl
                     delegate: RowLayout{
@@ -66,7 +66,7 @@ ItemPage {
                             flat: true
                             width: height
                             implicitWidth: height
-                            icon.source: LingmoUI.Theme.darkMode ? "qrc:/images/light/close.svg" : "qrc:/images/dark/close.svg"
+                            icon.source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/light/close.svg" : "qrc:/images/dark/close.svg"
                             onClicked: {
                                 var mbm = settings.searchUrl;
                                 mbm.splice(index, 1)
@@ -96,7 +96,7 @@ ItemPage {
                         flat: true
                         width: height
                         implicitWidth: height
-                        icon.source: LingmoUI.Theme.darkMode ? "qrc:/images/light/add.svg" : "qrc:/images/dark/add.svg"
+                        icon.source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/light/add.svg" : "qrc:/images/dark/add.svg"
                         onClicked: {
                             var mbm = settings.searchUrl;
                             mbm.push([_urlname.text,_url.text])

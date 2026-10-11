@@ -1,0 +1,4 @@
+/usr/bin/lingmo-texteditor
+/usr/share/lingmo-texteditor/translations/en_US.qm
+/usr/share/lingmo-texteditor/translations/zh_CN.qm
+/usr/share/applications/lingmo-texteditor.desktop

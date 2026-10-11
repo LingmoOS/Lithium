@@ -6,13 +6,13 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 
 LingmoUI.Window {
     id: control
 
-    property var contentWidth: _mainLayout.implicitWidth + LingmoUI.Units.largeSpacing * 2
-    property var contentHeight: _mainLayout.implicitHeight + header.height + LingmoUI.Units.largeSpacing * 2
+    property var contentWidth: _mainLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 2
+    property var contentHeight: _mainLayout.implicitHeight + header.height + LingmoUI.LingmoUnits.largeSpacing * 2
     property var fileUrl: ""
     property var displayText: ""
 
@@ -28,25 +28,25 @@ LingmoUI.Window {
     maximumHeight: contentHeight
     minimizeButtonVisible: false
 
-    background.color: LingmoUI.Theme.secondBackgroundColor
+    background.color: LingmoUI.LingmoTheme.secondBackgroundColor
 
     signal okBtnClicked
 
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        spacing: LingmoUI.Units.smallSpacing
-        anchors.margins: LingmoUI.Units.smallSpacing
+        spacing: LingmoUI.LingmoUnits.smallSpacing
+        anchors.margins: LingmoUI.LingmoUnits.smallSpacing
 
         Label {
             text: displayText
         }
         ColumnLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             TextInput{
                 id:textInput
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
                 width: parent.width
                 activeFocusOnPress: true
                 autoScroll: true
@@ -62,7 +62,7 @@ LingmoUI.Window {
             }
 
             RowLayout {
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Button {
                     text: qsTr("Yes")

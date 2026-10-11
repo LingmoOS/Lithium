@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/lingmo-dock_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lingmo/Lithium/lingmo-dock",
+	"CMAKE_SOURCE_DIR" : "/home/lingmo/Lithium/lingmo-dock",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/lingmo-dock_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/lingmo/Lithium/lingmo-dock/images/rocket.svg",
+		"/home/lingmo/Lithium/lingmo-dock/images/launcher.svg",
+		"/home/lingmo/Lithium/lingmo-dock/images/rocket.png",
+		"/home/lingmo/Lithium/lingmo-dock/images/launchpad.svg",
+		"/home/lingmo/Lithium/lingmo-dock/qml/AppItem.qml",
+		"/home/lingmo/Lithium/lingmo-dock/qml/DockItem.qml",
+		"/home/lingmo/Lithium/lingmo-dock/qml/main.qml"
+	],
+	"LOCK_FILE" : "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/lingmo-dock_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/lingmo/Lithium/lingmo-dock/obj-x86_64-linux-gnu/CMakeFiles/lingmo-dock_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/lingmo/Lithium/lingmo-dock/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

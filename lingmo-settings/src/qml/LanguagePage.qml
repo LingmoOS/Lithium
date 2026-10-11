@@ -17,7 +17,7 @@ ItemPage {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.topMargin: LingmoUI.Units.smallSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
 
         ListView {
             id: listView
@@ -32,24 +32,24 @@ ItemPage {
             model: language.languages
             clip: true
 
-            topMargin: LingmoUI.Units.largeSpacing
-            leftMargin: LingmoUI.Units.largeSpacing * 2
-            rightMargin: LingmoUI.Units.largeSpacing * 2
-            bottomMargin: LingmoUI.Units.largeSpacing
-            spacing: LingmoUI.Units.largeSpacing
+            topMargin: LingmoUI.LingmoUnits.largeSpacing
+            leftMargin: LingmoUI.LingmoUnits.largeSpacing * 2
+            rightMargin: LingmoUI.LingmoUnits.largeSpacing * 2
+            bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             currentIndex: language.currentLanguage
 
             ScrollBar.vertical: ScrollBar {
-                bottomPadding: LingmoUI.Theme.smallRadius
+                bottomPadding: LingmoUI.LingmoTheme.smallRadius
             }
 
             highlightFollowsCurrentItem: true
             highlightMoveDuration: 0
             highlightResizeDuration : 0
             highlight: Rectangle {
-                color: LingmoUI.Theme.highlightColor
-                radius: LingmoUI.Theme.smallRadius
+                color: LingmoUI.LingmoTheme.highlightColor
+                radius: LingmoUI.LingmoTheme.smallRadius
             }
 
             delegate: MouseArea {
@@ -67,18 +67,18 @@ ItemPage {
 
                 Rectangle {
                     anchors.fill: parent
-                    color: isSelected ? "transparent" : item.containsMouse ? LingmoUI.Theme.disabledTextColor : "transparent"
+                    color: isSelected ? "transparent" : item.containsMouse ? LingmoUI.LingmoTheme.disabledTextColor : "transparent"
                     opacity: isSelected ? 1 : 0.1
-                    radius: LingmoUI.Theme.smallRadius
+                    radius: LingmoUI.LingmoTheme.smallRadius
                 }
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.smallSpacing
-                    anchors.rightMargin: LingmoUI.Units.largeSpacing
+                    anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+                    anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
 
                     Label {
-                        color: isSelected ? LingmoUI.Theme.highlightedTextColor : LingmoUI.Theme.textColor
+                        color: isSelected ? LingmoUI.LingmoTheme.highlightedTextColor : LingmoUI.LingmoTheme.textColor
                         text: modelData
                         Layout.alignment: Qt.AlignVCenter
                     }

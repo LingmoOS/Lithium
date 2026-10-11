@@ -141,7 +141,7 @@ ApplicationWindow {
 
             ColumnLayout {
                 anchors.fill: parent
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Item {
                     Layout.fillHeight: true

@@ -35,7 +35,7 @@ Image {
     ColorOverlay {
         anchors.fill: control
         source: control
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
         opacity: 1
         visible: true
     }

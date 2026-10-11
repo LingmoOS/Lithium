@@ -13,12 +13,12 @@ T.RadioDelegate {
                                       indicator ? indicator.implicitHeight : 0) + topPadding + bottomPadding)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    topPadding: control.LingmoUI.Units.smallSpacing
-    bottomPadding: control.LingmoUI.Units.smallSpacing
-    leftPadding: control.LingmoUI.Units.smallSpacing
-    rightPadding: control.LingmoUI.Units.smallSpacing
+    topPadding: control.LingmoUI.LingmoUnits.smallSpacing
+    bottomPadding: control.LingmoUI.LingmoUnits.smallSpacing
+    leftPadding: control.LingmoUI.LingmoUnits.smallSpacing
+    rightPadding: control.LingmoUI.LingmoUnits.smallSpacing
 
-    spacing: control.LingmoUI.Units.smallSpacing
+    spacing: control.LingmoUI.LingmoUnits.smallSpacing
 
     opacity: control.enabled ? 1.0 : 0.5
 
@@ -28,7 +28,7 @@ T.RadioDelegate {
 
         text: control.text
         font: control.font
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
 
         elide: Text.ElideRight
         visible: control.text

@@ -3,3 +3,8 @@
 *.changes
 iso_builder/images/
 iso_builder/build.log
+*/debian/.debhelper/
+debian/.debhelper/
+debian/*.substvars
+debian/files
+debian/*/*/

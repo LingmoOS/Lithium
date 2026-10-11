@@ -45,10 +45,10 @@ Rectangle {
     implicitWidth: 18
     implicitHeight: 18
 
-    color: !control.enabled ? control.LingmoUI.Theme.secondBackgroundColor
-                            : checked ? LingmoUI.Theme.highlightColor : control.LingmoUI.Theme.secondBackgroundColor
-    border.color: !control.enabled ? control.LingmoUI.Theme.disabledTextColor
-        : checked ? control.LingmoUI.Theme.highlightColor: control.LingmoUI.Theme.textColor
+    color: !control.enabled ? control.LingmoUI.LingmoTheme.secondBackgroundColor
+                            : checked ? LingmoUI.LingmoTheme.highlightColor : control.LingmoUI.LingmoTheme.secondBackgroundColor
+    border.color: !control.enabled ? control.LingmoUI.LingmoTheme.disabledTextColor
+        : checked ? control.LingmoUI.LingmoTheme.highlightColor: control.LingmoUI.LingmoTheme.textColor
     border.width: 1
     radius: control.autoExclusive ? Math.min(height, width) : 4
 

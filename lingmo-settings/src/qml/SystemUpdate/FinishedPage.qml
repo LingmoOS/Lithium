@@ -31,7 +31,7 @@ Item {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
         
         /**
         * This function sets the source of the image to the appropriate icon based on the success of the update.
@@ -48,14 +48,14 @@ Item {
 
         Label {
             visible: success
-            topPadding: LingmoUI.Units.largeSpacing
+            topPadding: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("The update is complete and we recommend that you restart your computer.")
             Layout.alignment: Qt.AlignHCenter
         }
 
         Label {
             visible: !success
-            topPadding: LingmoUI.Units.largeSpacing
+            topPadding: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("Update failed")
             Layout.alignment: Qt.AlignHCenter
         }
@@ -65,7 +65,7 @@ Item {
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Exit")

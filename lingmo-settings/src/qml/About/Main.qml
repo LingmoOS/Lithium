@@ -44,7 +44,7 @@ ItemPage {
                     }
                     width: 250
                     sourceSize: Qt.size(width, height)
-                    source: LingmoUI.Theme.darkMode ? "qrc:/images/logo-2.svg" : "qrc:/images/logo-2.svg"
+                    source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/logo-2.svg" : "qrc:/images/logo-2.svg"
                 }
 
                 Rectangle {
@@ -55,8 +55,8 @@ ItemPage {
                     }
                     height: sysinf.height/1.2
                     width: 2
-                    color: LingmoUI.Theme.disabledTextColor
-                    opacity: LingmoUI.Theme.darkMode ? 0.5 : 0.5
+                    color: LingmoUI.LingmoTheme.disabledTextColor
+                    opacity: LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.5
                 }
 
                 Rectangle {
@@ -71,10 +71,10 @@ ItemPage {
                     // height: logo.width/2
                     width: logo.width/1.2
                     height: logo.width/2
-                    color: LingmoUI.Theme.backgroundColor
+                    color: LingmoUI.LingmoTheme.backgroundColor
                     border.width: 5
-                    border.color: LingmoUI.Theme.textColor
-                    radius: LingmoUI.Theme.bigRadius
+                    border.color: LingmoUI.LingmoTheme.textColor
+                    radius: LingmoUI.LingmoTheme.bigRadius
 
                     Image {
                         id: _image
@@ -84,7 +84,7 @@ ItemPage {
                             verticalCenter: parent.verticalCenter
                             horizontalCenter: parent.horizontalCenter
                         }
-                        // source: LingmoUI.Theme.darkMode ? "qrc:/images/MundoDark.jpeg" : "qrc:/images/MundoLight.jpeg"
+                        // source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/MundoDark.jpeg" : "qrc:/images/MundoLight.jpeg"
                         source: "file://" + wallpaper.path
                         sourceSize: Qt.size(width, height)
                         fillMode: Image.PreserveAspectCrop
@@ -108,7 +108,7 @@ ItemPage {
                                 height: _image.height
                                 Rectangle {
                                     anchors.fill: parent
-                                    radius: LingmoUI.Theme.bigRadius
+                                    radius: LingmoUI.LingmoTheme.bigRadius
                                 }
                             }
                         }
@@ -160,7 +160,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
 
             RoundedItem {
@@ -170,7 +170,7 @@ ItemPage {
                     id: recup
                     anchors.fill: parent
                     color: "transparent"
-                    radius: LingmoUI.Theme.smallRadius
+                    radius: LingmoUI.LingmoTheme.smallRadius
                 }
 
                 Grid {
@@ -240,7 +240,7 @@ ItemPage {
                     id: recdown
                     anchors.fill: parent
                     color: "transparent"
-                    radius: LingmoUI.Theme.smallRadius
+                    radius: LingmoUI.LingmoTheme.smallRadius
                 }
 
                 Grid {
@@ -294,7 +294,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
 
             RoundedItem {
@@ -309,8 +309,8 @@ ItemPage {
 
                     RowLayout {
                         anchors.fill: parent
-                        anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                        anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
+                        anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                        anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                         Label {
                             text: qsTr("System Update")
@@ -350,7 +350,7 @@ ItemPage {
             // }
 
             // Item {
-            //     height: LingmoUI.Units.smallSpacing
+            //     height: LingmoUI.LingmoUnits.smallSpacing
             // }
 
             // RoundedItem {
@@ -397,7 +397,7 @@ ItemPage {
             // }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
         }
     }

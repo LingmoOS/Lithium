@@ -32,8 +32,8 @@ LingmoUI.Window {
     minimizeButtonVisible: false
     visible: true
 
-    property int contentWidth: 300 + LingmoUI.Units.largeSpacing * 2
-    property int contentHeight: _mainLayout.implicitHeight + control.header.height + LingmoUI.Units.largeSpacing
+    property int contentWidth: 300 + LingmoUI.LingmoUnits.largeSpacing * 2
+    property int contentHeight: _mainLayout.implicitHeight + control.header.height + LingmoUI.LingmoUnits.largeSpacing
 
     width: contentWidth
     height: contentHeight
@@ -46,7 +46,7 @@ LingmoUI.Window {
     maximumWidth: contentWidth
     maximumHeight: contentHeight
 
-    headerBackground.color: LingmoUI.Theme.secondBackgroundColor
+    headerBackground.color: LingmoUI.LingmoTheme.secondBackgroundColor
 
     DragHandler {
         target: null
@@ -61,17 +61,17 @@ LingmoUI.Window {
 
     Rectangle {
         anchors.fill: parent
-        color: LingmoUI.Theme.secondBackgroundColor
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
     }
 
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
         anchors.topMargin: 0
-        anchors.leftMargin: LingmoUI.Units.largeSpacing
-        anchors.rightMargin: LingmoUI.Units.largeSpacing
-        anchors.bottomMargin: LingmoUI.Units.largeSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Label {
             text: qsTr("Do you want to permanently delete all files from the Trash?")
@@ -80,7 +80,7 @@ LingmoUI.Window {
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

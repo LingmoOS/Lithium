@@ -30,7 +30,7 @@ Item {
             }
 
             delegate: Item {
-                height: label.implicitHeight + LingmoUI.Units.largeSpacing * 2
+                height: label.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
                 width: parent ? parent.width : undefined
 
                 Label {
@@ -39,10 +39,10 @@ Item {
                     horizontalAlignment: Qt.AlignRight
                     text: historyModel.count > 0 ? historyModel.get(index).text : ""
                     elide: Text.ElideMiddle
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
 
-                    leftPadding: LingmoUI.Units.largeSpacing
-                    rightPadding: LingmoUI.Units.largeSpacing
+                    leftPadding: LingmoUI.LingmoUnits.largeSpacing
+                    rightPadding: LingmoUI.LingmoUnits.largeSpacing
 
                     MouseArea {
                         hoverEnabled: true
@@ -68,8 +68,8 @@ Item {
                 color: "transparent"
             }
 
-            leftPadding: LingmoUI.Units.largeSpacing
-            rightPadding: LingmoUI.Units.largeSpacing
+            leftPadding: LingmoUI.LingmoUnits.largeSpacing
+            rightPadding: LingmoUI.LingmoUnits.largeSpacing
         }
     }
 

@@ -1,0 +1,5 @@
+-I/home/lingmo/Lithium/lingmo-statusbar
+-I/home/lingmo/Lithium/lingmo-statusbar/obj-x86_64-linux-gnu
+-o
+/home/lingmo/Lithium/lingmo-statusbar/obj-x86_64-linux-gnu/moc_statusbaradaptor.cpp
+/home/lingmo/Lithium/lingmo-statusbar/obj-x86_64-linux-gnu/statusbaradaptor.h

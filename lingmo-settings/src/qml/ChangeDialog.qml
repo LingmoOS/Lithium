@@ -88,10 +88,10 @@ LingmoUI.Window {
             Layout.alignment: Qt.AlignHCenter
             width: 207
             height: 125
-            color: LingmoUI.Theme.backgroundColor
+            color: LingmoUI.LingmoTheme.backgroundColor
             border.width: 5
-            border.color: LingmoUI.Theme.textColor
-            radius: LingmoUI.Theme.bigRadius
+            border.color: LingmoUI.LingmoTheme.textColor
+            radius: LingmoUI.LingmoTheme.bigRadius
 
             Image {
                 id: _image
@@ -101,7 +101,7 @@ LingmoUI.Window {
                     verticalCenter: deviceItem.verticalCenter
                     horizontalCenter: deviceItem.horizontalCenter
                 }
-                // source: LingmoUI.Theme.darkMode ? "qrc:/images/MundoDark.jpeg" : "qrc:/images/MundoLight.jpeg"
+                // source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/MundoDark.jpeg" : "qrc:/images/MundoLight.jpeg"
                 source: "file://" + wallpaper.path
                 sourceSize: Qt.size(width, height)
                 fillMode: Image.PreserveAspectCrop
@@ -125,7 +125,7 @@ LingmoUI.Window {
                         height: _image.height
                         Rectangle {
                             anchors.fill: parent
-                            radius: LingmoUI.Theme.bigRadius
+                            radius: LingmoUI.LingmoTheme.bigRadius
                         }
                     }
                 }
@@ -148,12 +148,12 @@ LingmoUI.Window {
             Layout.alignment: Qt.AlignHCenter
             Layout.topMargin: 5
             text: about.hostName
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
             font.pointSize: 9
         }
 
         Item {
-            height: LingmoUI.Units.largeSpacing
+            height: LingmoUI.LingmoUnits.largeSpacing
         }
 
         Text {
@@ -161,7 +161,7 @@ LingmoUI.Window {
             Layout.alignment: Qt.AlignHCenter
             Layout.topMargin: 15
             text: qsTr("Enter your new device name")
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
             font.pointSize: 10
         }
 
@@ -208,7 +208,7 @@ LingmoUI.Window {
         // Label {
         //     text: "<a href=\"%1\">%1</a>".arg(control.link)
         //     Layout.alignment: Qt.AlignHCenter
-        //     linkColor: LingmoUI.Theme.highlightColor
+        //     linkColor: LingmoUI.LingmoTheme.highlightColor
 
         //     MouseArea {
         //         anchors.fill: parent

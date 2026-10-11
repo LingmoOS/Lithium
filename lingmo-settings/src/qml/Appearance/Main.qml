@@ -53,30 +53,30 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            // anchors.bottomMargin: LingmoUI.Units.largeSpacing
-            spacing: LingmoUI.Units.largeSpacing * 2
+            // anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
                 Label {
                     text: qsTr("Theme")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 // Light Mode and Dark Mode
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing * 2
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     IconCheckBox {
                         source: "qrc:/images/light_mode.svg"
                         text: qsTr("Light")
-                        checked: !LingmoUI.Theme.darkMode
+                        checked: !LingmoUI.LingmoTheme.darkMode
                         onClicked: appearance.switchDarkMode(false)
                     }
 
                     IconCheckBox {
                         source: "qrc:/images/dark_mode.svg"
                         text: qsTr("Dark")
-                        checked: LingmoUI.Theme.darkMode
+                        checked: LingmoUI.LingmoTheme.darkMode
                         onClicked: appearance.switchDarkMode(true)
                     }
                 }
@@ -84,12 +84,12 @@ ItemPage {
                 HorizontalDivider {}
 
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing
+                    spacing: LingmoUI.LingmoUnits.largeSpacing
 
                     Label {
                         id: dimsTipsLabel
                         text: qsTr("Dim the wallpaper in dark theme")
-                        bottomPadding: LingmoUI.Units.smallSpacing
+                        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
                         Layout.alignment: Qt.AlignVCenter | Qt.AlignLeft
                     }
 
@@ -128,7 +128,7 @@ ItemPage {
 
             RoundedItem {
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing * 2
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Label {
                         text: qsTr("Minimize animation")
@@ -153,7 +153,7 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Accent color")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 GridView {
@@ -165,22 +165,22 @@ ItemPage {
                     interactive: false
                     model: ListModel {}
 
-                    property var itemSize: 30 + LingmoUI.Units.largeSpacing * 2
+                    property var itemSize: 30 + LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Component.onCompleted: {
-                        model.append({"accentColor": String(LingmoUI.Theme.blueColor)})
-                        model.append({"accentColor": String(LingmoUI.Theme.redColor)})
-                        model.append({"accentColor": String(LingmoUI.Theme.greenColor)})
-                        model.append({"accentColor": String(LingmoUI.Theme.purpleColor)})
-                        model.append({"accentColor": String(LingmoUI.Theme.pinkColor)})
-                        model.append({"accentColor": String(LingmoUI.Theme.orangeColor)})
-                        model.append({"accentColor": String(LingmoUI.Theme.greyColor)})
+                        model.append({"accentColor": String(LingmoUI.LingmoTheme.blueColor)})
+                        model.append({"accentColor": String(LingmoUI.LingmoTheme.redColor)})
+                        model.append({"accentColor": String(LingmoUI.LingmoTheme.greenColor)})
+                        model.append({"accentColor": String(LingmoUI.LingmoTheme.purpleColor)})
+                        model.append({"accentColor": String(LingmoUI.LingmoTheme.pinkColor)})
+                        model.append({"accentColor": String(LingmoUI.LingmoTheme.orangeColor)})
+                        model.append({"accentColor": String(LingmoUI.LingmoTheme.greyColor)})
                     }
 
                     delegate: Item {
                         id: _accentColorItem
 
-                        property bool checked: Qt.colorEqual(LingmoUI.Theme.highlightColor, accentColor)
+                        property bool checked: Qt.colorEqual(LingmoUI.LingmoTheme.highlightColor, accentColor)
                         property color currentColor: accentColor
 
                         width: GridView.view.itemSize
@@ -195,7 +195,7 @@ ItemPage {
 
                         Rectangle {
                             anchors.fill: parent
-                            anchors.margins: LingmoUI.Units.smallSpacing
+                            anchors.margins: LingmoUI.LingmoUnits.smallSpacing
                             color: "transparent"
                             radius: width / 2
 
@@ -209,7 +209,7 @@ ItemPage {
 
                             Rectangle {
                                 anchors.fill: parent
-                                anchors.margins: LingmoUI.Units.smallSpacing
+                                anchors.margins: LingmoUI.LingmoUnits.smallSpacing
                                 color: currentColor
                                 radius: width / 2
 
@@ -229,18 +229,18 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Fonts")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
                 GridLayout {
                     rows: 3
                     columns: 2
 
-                    columnSpacing: LingmoUI.Units.largeSpacing * 1.5
-                    rowSpacing: LingmoUI.Units.largeSpacing * 1.5
+                    columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    rowSpacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("General Font")
-                        bottomPadding: LingmoUI.Units.smallSpacing
+                        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
                     }
 
                     ComboBox {
@@ -250,14 +250,14 @@ ItemPage {
                         Layout.fillWidth: true
                         topInset: 0
                         bottomInset: 0
-                        leftPadding: LingmoUI.Units.largeSpacing
-                        rightPadding: LingmoUI.Units.largeSpacing
+                        leftPadding: LingmoUI.LingmoUnits.largeSpacing
+                        rightPadding: LingmoUI.LingmoUnits.largeSpacing
                         onActivated: appearance.setGenericFontFamily(currentText)
                     }
 
                     Label {
                         text: qsTr("Fixed Font")
-                        bottomPadding: LingmoUI.Units.smallSpacing
+                        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
                     }
 
                     ComboBox {
@@ -267,14 +267,14 @@ ItemPage {
                         Layout.fillWidth: true
                         topInset: 0
                         bottomInset: 0
-                        leftPadding: LingmoUI.Units.largeSpacing
-                        rightPadding: LingmoUI.Units.largeSpacing
+                        leftPadding: LingmoUI.LingmoUnits.largeSpacing
+                        rightPadding: LingmoUI.LingmoUnits.largeSpacing
                         onActivated: appearance.setFixedFontFamily(currentText)
                     }
 
                     Label {
                         text: qsTr("Font Size")
-                        bottomPadding: LingmoUI.Units.smallSpacing
+                        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
                     }
 
                     TabBar {
@@ -335,7 +335,7 @@ ItemPage {
 
                     Label {
                         text: qsTr("Hinting")
-                        bottomPadding: LingmoUI.Units.smallSpacing
+                        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
                     }
 
                     ComboBox {
@@ -348,7 +348,7 @@ ItemPage {
 
                     Label {
                         text: qsTr("Anti-Aliasing")
-                        bottomPadding: LingmoUI.Units.smallSpacing
+                        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
                     }
 
                     Switch {
@@ -363,18 +363,18 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Desktop Settings")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
                 GridLayout {
                     rows: 3
                     columns: 2
 
-                    columnSpacing: LingmoUI.Units.largeSpacing * 1.5
-                    rowSpacing: LingmoUI.Units.largeSpacing * 1.5
+                    columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    rowSpacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("Desktop Icons Size")
-                        bottomPadding: LingmoUI.Units.smallSpacing
+                        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
                     }
 
                     TabBar {

@@ -16,6 +16,5 @@
         ],
         "Version": "0.2"
     },
-    "X-Plasma-API": "declarativeappletscript",
-    "KPackageStructure": "KWin/Switcher"
+    "KPackageStructure": "KWin/WindowSwitcher"
 }

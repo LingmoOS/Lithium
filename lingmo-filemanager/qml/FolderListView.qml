@@ -47,7 +47,7 @@ ListView {
     property Item editor: null
     property int anchorIndex: 0
 
-    property var itemHeight: LingmoUI.Units.fontMetrics.height * 2 + LingmoUI.Units.smallSpacing
+    property var itemHeight: LingmoUI.LingmoUnits.fontMetrics.height * 2 + LingmoUI.LingmoUnits.smallSpacing
 
     property variant cachedRectangleSelection: null
 
@@ -450,10 +450,10 @@ ListView {
             background: Item {
                 Rectangle {
                     anchors.fill: parent
-                    anchors.topMargin: LingmoUI.Units.smallSpacing
-                    anchors.bottomMargin: LingmoUI.Units.smallSpacing
-                    radius: LingmoUI.Theme.smallRadius
-                    color: LingmoUI.Theme.backgroundColor
+                    anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+                    anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+                    radius: LingmoUI.LingmoTheme.smallRadius
+                    color: LingmoUI.LingmoTheme.backgroundColor
                 }
             }
 
@@ -463,7 +463,7 @@ ListView {
                 if (targetItem != null) {
                     var pos = control.mapFromItem(targetItem, targetItem.labelArea.x, targetItem.labelArea.y)
                     width = targetItem.labelArea.width
-                    height = LingmoUI.Units.fontMetrics.height + LingmoUI.Units.largeSpacing * 2
+                    height = LingmoUI.LingmoUnits.fontMetrics.height + LingmoUI.LingmoUnits.largeSpacing * 2
                     x = control.mapFromItem(targetItem.labelArea, 0, 0).x
                     y = pos.y + (targetItem.height - height) / 2
                     text = targetItem.labelArea.text

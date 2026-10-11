@@ -39,7 +39,7 @@ LingmoUI.Window {
 
     property alias stackView: _stackView
 
-    background.opacity: LingmoUI.Theme.darkMode ? 0.7 : 0.5
+    background.opacity: LingmoUI.LingmoTheme.darkMode ? 0.7 : 0.5
     header.height: 40
     contentTopMargin: 0
 

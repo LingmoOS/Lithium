@@ -5,7 +5,7 @@ import LingmoUI.CompatibleModule 3.0 as LingmoUI
 
 Item {
     id: control
-    height: LingmoUI.Units.largeSpacing * 2
+    height: LingmoUI.LingmoUnits.largeSpacing * 2
 
     Layout.fillWidth: true
 
@@ -13,7 +13,7 @@ Item {
         anchors.centerIn: parent
         height: 1
         width: control.width
-        color: LingmoUI.Theme.disabledTextColor
-        opacity: LingmoUI.Theme.darkMode ? 0.3 : 0.1
+        color: LingmoUI.LingmoTheme.disabledTextColor
+        opacity: LingmoUI.LingmoTheme.darkMode ? 0.3 : 0.1
     }
 }

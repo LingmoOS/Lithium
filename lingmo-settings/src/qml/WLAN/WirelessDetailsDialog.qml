@@ -33,7 +33,7 @@ Dialog {
 
     x: (parent.width - width) / 2
     y: (parent.height - height) / 2
-    height: detailsLayout.childrenRect.height + footerLayout.childrenRect.height + LingmoUI.Units.largeSpacing * 1.5
+    height: detailsLayout.childrenRect.height + footerLayout.childrenRect.height + LingmoUI.LingmoUnits.largeSpacing * 1.5
     modal: true
 
     signal forgetBtnClicked()
@@ -53,20 +53,20 @@ Dialog {
 
     ColumnLayout {
         id: detailsLayout
-        spacing: LingmoUI.Units.largeSpacing * 1.5
+        spacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
         GridLayout {
             id: gridLayout
             columns: 2
-            columnSpacing: LingmoUI.Units.largeSpacing
-            rowSpacing: LingmoUI.Units.smallSpacing
+            columnSpacing: LingmoUI.LingmoUnits.largeSpacing
+            rowSpacing: LingmoUI.LingmoUnits.smallSpacing
 
             Label {
                 id: autoJoinLabel
                 text: qsTr("Auto-Join")
                 visible: false
                 Layout.alignment: Qt.AlignRight
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
             }
 
             Switch {
@@ -80,7 +80,7 @@ Dialog {
 
             Label {
                 text: qsTr("Security")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 Layout.alignment: Qt.AlignRight
             }
 
@@ -92,7 +92,7 @@ Dialog {
 
             Label {
                 text: qsTr("Signal")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 Layout.alignment: Qt.AlignRight
             }
 
@@ -104,7 +104,7 @@ Dialog {
 
             Label {
                 text: qsTr("IPv4 Address")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 Layout.alignment: Qt.AlignRight
             }
 
@@ -118,7 +118,7 @@ Dialog {
             Label {
                 font.bold: true
                 text: qsTr("IPv6 Address")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 Layout.alignment: Qt.AlignRight
             }
 
@@ -132,7 +132,7 @@ Dialog {
             Label {
                 font.bold: true
                 text: qsTr("MAC Address")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 Layout.alignment: Qt.AlignRight
             }
 
@@ -146,7 +146,7 @@ Dialog {
             Label {
                 font.bold: true
                 text: qsTr("Gateway")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 Layout.alignment: Qt.AlignRight
             }
 
@@ -159,7 +159,7 @@ Dialog {
             Label {
                 font.bold: true
                 text: qsTr("DNS")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 Layout.alignment: Qt.AlignRight
             }
 
@@ -172,7 +172,7 @@ Dialog {
 
         RowLayout {
             id: footerLayout
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Close")

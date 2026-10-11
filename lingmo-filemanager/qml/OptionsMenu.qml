@@ -32,8 +32,8 @@ LingmoUI.DesktopMenu {
             id: _gridIcon
             anchors.verticalCenter: parent.verticalCenter
             anchors.left: parent.left
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/grid.svg" : "qrc:/images/light/grid.svg"
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/grid.svg" : "qrc:/images/light/grid.svg"
             sourceSize: Qt.size(width, height)
             width: 22
             height: width
@@ -43,16 +43,16 @@ LingmoUI.DesktopMenu {
         Text {
             anchors.left: _gridIcon.right
             anchors.verticalCenter: parent.verticalCenter
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("Icons")
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         Image {
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
             sourceSize: Qt.size(width, height)
             width: 22
             height: width
@@ -70,8 +70,8 @@ LingmoUI.DesktopMenu {
             id: _listIcon
             anchors.verticalCenter: parent.verticalCenter
             anchors.left: parent.left
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/list.svg" : "qrc:/images/light/list.svg"
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/list.svg" : "qrc:/images/light/list.svg"
             sourceSize: Qt.size(width, height)
             width: 22
             height: width
@@ -81,16 +81,16 @@ LingmoUI.DesktopMenu {
         Text {
             anchors.left: _listIcon.right
             anchors.verticalCenter: parent.verticalCenter
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("List")
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         Image {
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
             sourceSize: Qt.size(width, height)
             width: 22
             height: width
@@ -112,8 +112,8 @@ LingmoUI.DesktopMenu {
 //            id: orderByNameIcon
 //            anchors.verticalCenter: parent.verticalCenter
 //            anchors.left: parent.left
-//            anchors.leftMargin: LingmoUI.Units.largeSpacing
-//            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/order_by_name.svg" : "qrc:/images/light/order_by_name.svg"
+//            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+//            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/order_by_name.svg" : "qrc:/images/light/order_by_name.svg"
 //            sourceSize: Qt.size(width, height)
 //            width: 22
 //            height: width
@@ -123,16 +123,16 @@ LingmoUI.DesktopMenu {
         Text {
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("Name")
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         Image {
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
             sourceSize: Qt.size(width, height)
             height: width
             width: 22
@@ -150,8 +150,8 @@ LingmoUI.DesktopMenu {
 //            id: orderByDateIcon
 //            anchors.verticalCenter: parent.verticalCenter
 //            anchors.left: parent.left
-//            anchors.leftMargin: LingmoUI.Units.largeSpacing
-//            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/date.svg" : "qrc:/images/light/date.svg"
+//            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+//            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/date.svg" : "qrc:/images/light/date.svg"
 //            sourceSize: Qt.size(width, height)
 //            width: 22
 //            height: width
@@ -161,16 +161,16 @@ LingmoUI.DesktopMenu {
         Text {
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("Date")
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         Image {
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
             sourceSize: Qt.size(width, height)
             width: 22
             height: width
@@ -185,16 +185,16 @@ LingmoUI.DesktopMenu {
         Text {
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("Type")
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         Image {
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
             sourceSize: Qt.size(width, height)
             width: 22
             height: width
@@ -212,8 +212,8 @@ LingmoUI.DesktopMenu {
 //            id: orderBySizeIcon
 //            anchors.verticalCenter: parent.verticalCenter
 //            anchors.left: parent.left
-//            anchors.leftMargin: LingmoUI.Units.largeSpacing
-//            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/size.svg" : "qrc:/images/light/size.svg"
+//            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+//            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/size.svg" : "qrc:/images/light/size.svg"
 //            sourceSize: Qt.size(width, height)
 //            width: 22
 //            height: width
@@ -223,16 +223,16 @@ LingmoUI.DesktopMenu {
         Text {
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
-            anchors.leftMargin: LingmoUI.Units.largeSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
             text: qsTr("Size")
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         Image {
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/checked.svg" : "qrc:/images/light/checked.svg"
             sourceSize: Qt.size(width, height)
             width: 22
             height: width

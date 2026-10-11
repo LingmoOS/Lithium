@@ -20,7 +20,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 import Lingmo.Settings 1.0
 
 Item {
@@ -39,7 +39,7 @@ Item {
 
     ColumnLayout {
         anchors.fill: parent
-        spacing: LingmoUI.Units.largeSpacing * 2
+        spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
         Item {
             Layout.fillHeight: true
@@ -70,7 +70,7 @@ Item {
         Label {
             text: updator.checkProgress + "%"
             Layout.alignment: Qt.AlignHCenter
-            color: LingmoUI.Theme.disabledTextColor
+            color: LingmoUI.LingmoTheme.disabledTextColor
             visible: !control.error
         }
 
@@ -87,7 +87,7 @@ Item {
         Label {
             text: qsTr("Check for update failure")
             Layout.alignment: Qt.AlignHCenter
-            color: LingmoUI.Theme.disabledTextColor
+            color: LingmoUI.LingmoTheme.disabledTextColor
             visible: control.error
         }
 
@@ -107,18 +107,18 @@ Item {
                 background: Item {
                     Rectangle {
                         anchors.fill: parent
-                        anchors.margins: LingmoUI.Units.smallSpacing
-                        anchors.leftMargin: LingmoUI.Units.largeSpacing
-                        anchors.rightMargin: LingmoUI.Units.largeSpacing
-                        radius: LingmoUI.Theme.smallRadius
-                        color: LingmoUI.Theme.secondBackgroundColor
+                        anchors.margins: LingmoUI.LingmoUnits.smallSpacing
+                        anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                        anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                        radius: LingmoUI.LingmoTheme.smallRadius
+                        color: LingmoUI.LingmoTheme.secondBackgroundColor
                     }
                 }
 
-                leftPadding: LingmoUI.Units.largeSpacing * 2
-                rightPadding: LingmoUI.Units.largeSpacing * 2
-                topPadding: LingmoUI.Units.largeSpacing * 2
-                bottomPadding: LingmoUI.Units.largeSpacing * 2
+                leftPadding: LingmoUI.LingmoUnits.largeSpacing * 2
+                rightPadding: LingmoUI.LingmoUnits.largeSpacing * 2
+                topPadding: LingmoUI.LingmoUnits.largeSpacing * 2
+                bottomPadding: LingmoUI.LingmoUnits.largeSpacing * 2
 
                 // Auto scroll to bottom.
                 onTextChanged: {

@@ -44,7 +44,7 @@ ItemPage {
             RoundedItem {
                 GridLayout {
                     columns: 2
-                    columnSpacing: LingmoUI.Units.largeSpacing * 2
+                    columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Label {
                         text: qsTr("Web Browser")

@@ -28,12 +28,12 @@ Item {
 
     property string url: main.url
 
-    width: 400 + LingmoUI.Units.largeSpacing * 2
-    height: _mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 2
+    width: 400 + LingmoUI.LingmoUnits.largeSpacing * 2
+    height: _mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
 
     Rectangle {
         anchors.fill: parent
-        color: LingmoUI.Theme.secondBackgroundColor
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
     }
 
     Component.onCompleted: {
@@ -71,8 +71,8 @@ Item {
             clip: true
             ScrollBar.vertical: ScrollBar {}
 
-            leftMargin: LingmoUI.Units.smallSpacing
-            rightMargin: LingmoUI.Units.smallSpacing
+            leftMargin: LingmoUI.LingmoUnits.smallSpacing
+            rightMargin: LingmoUI.LingmoUnits.smallSpacing
 
             cellHeight: {
                 var extraHeight = calcExtraSpacing(80, listView.Layout.preferredHeight - topMargin - bottomMargin)
@@ -115,20 +115,20 @@ Item {
 
                 Rectangle {
                     anchors.fill: parent
-                    anchors.margins: LingmoUI.Units.smallSpacing
-                    radius: LingmoUI.Theme.mediumRadius
-                    color: isSelected ? LingmoUI.Theme.highlightColor
-                                      : mouseArea.containsMouse ? Qt.rgba(LingmoUI.Theme.textColor.r,
-                                                                          LingmoUI.Theme.textColor.g,
-                                                                          LingmoUI.Theme.textColor.b,
+                    anchors.margins: LingmoUI.LingmoUnits.smallSpacing
+                    radius: LingmoUI.LingmoTheme.mediumRadius
+                    color: isSelected ? LingmoUI.LingmoTheme.highlightColor
+                                      : mouseArea.containsMouse ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                                                                          LingmoUI.LingmoTheme.textColor.g,
+                                                                          LingmoUI.LingmoTheme.textColor.b,
                                                                           0.1) : "transparent"
                     smooth: true
                 }
 
                 ColumnLayout {
                     anchors.fill: parent
-                    anchors.margins: LingmoUI.Units.smallSpacing
-                    spacing: LingmoUI.Units.smallSpacing
+                    anchors.margins: LingmoUI.LingmoUnits.smallSpacing
+                    spacing: LingmoUI.LingmoUnits.smallSpacing
 
                     LingmoUI.IconItem {
                         id: icon
@@ -144,7 +144,7 @@ Item {
                         elide: Text.ElideMiddle
                         Layout.alignment: Qt.AlignHCenter
                         horizontalAlignment: Qt.AlignHCenter
-                        color: isSelected ? LingmoUI.Theme.highlightedTextColor : LingmoUI.Theme.textColor
+                        color: isSelected ? LingmoUI.LingmoTheme.highlightedTextColor : LingmoUI.LingmoTheme.textColor
                     }
                 }
             }
@@ -157,15 +157,15 @@ Item {
             enabled: listView.count >= 1
             padding: 0
 
-            Layout.leftMargin: LingmoUI.Units.largeSpacing
-            Layout.bottomMargin: LingmoUI.Units.largeSpacing
+            Layout.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            Layout.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
-            Layout.leftMargin: LingmoUI.Units.largeSpacing
-            Layout.rightMargin: LingmoUI.Units.largeSpacing
-            Layout.bottomMargin: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
+            Layout.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            Layout.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+            Layout.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

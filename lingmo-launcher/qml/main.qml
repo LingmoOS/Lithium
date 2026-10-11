@@ -51,8 +51,8 @@ Item {
         property var desktopPath: ""
         property var appName: ""
 
-        width: _uninstallDialogLayout.implicitWidth + LingmoUI.Units.largeSpacing * 2
-        height: _uninstallDialogLayout.implicitHeight + LingmoUI.Units.largeSpacing * 2
+        width: _uninstallDialogLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 2
+        height: _uninstallDialogLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
 
         modal: true
 
@@ -62,8 +62,8 @@ Item {
         ColumnLayout {
             id: _uninstallDialogLayout
             anchors.centerIn: parent
-            anchors.margins: LingmoUI.Units.largeSpacing
-            spacing: LingmoUI.Units.largeSpacing * 1.5
+            anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
             Label {
                 text: qsTr("Are you sure you want to uninstall %1 ?").arg(_uninstallDialog.appName)
@@ -71,7 +71,7 @@ Item {
             }
 
             RowLayout {
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Button {
                     text: qsTr("Cancel")
@@ -221,7 +221,7 @@ Item {
         Item {
             id: searchItem
             Layout.fillWidth: true
-            height: fontMetrics.height + LingmoUI.Units.largeSpacing
+            height: fontMetrics.height + LingmoUI.LingmoUnits.largeSpacing
 
             TextMetrics {
                 id: fontMetrics
@@ -234,8 +234,8 @@ Item {
                 width: searchItem.width * 0.2
                 height: parent.height
 
-                leftPadding: textField.activeFocus ? _placeImage.width + LingmoUI.Units.largeSpacing : LingmoUI.Units.largeSpacing
-                rightPadding: LingmoUI.Units.largeSpacing
+                leftPadding: textField.activeFocus ? _placeImage.width + LingmoUI.LingmoUnits.largeSpacing : LingmoUI.LingmoUnits.largeSpacing
+                rightPadding: LingmoUI.LingmoUnits.largeSpacing
 
                 selectByMouse: true
 
@@ -249,7 +249,7 @@ Item {
                     height: textField.height
                     width: _placeHolderLayout.implicitWidth
                     opacity: 0.6
-                    x: textField.activeFocus ? LingmoUI.Units.smallSpacing : (textField.width - placeHolderItem.width) / 2
+                    x: textField.activeFocus ? LingmoUI.LingmoUnits.smallSpacing : (textField.width - placeHolderItem.width) / 2
                     y: 0
 
                     Behavior on x {
@@ -264,7 +264,7 @@ Item {
 
                         Image {
                             id: _placeImage
-                            height: placeHolderItem.height - LingmoUI.Units.largeSpacing
+                            height: placeHolderItem.height - LingmoUI.LingmoUnits.largeSpacing
                             width: height
                             sourceSize: Qt.size(width, height)
                             source: "qrc:/images/system-search-symbolic.svg"
@@ -362,7 +362,7 @@ Item {
             currentIndex: appView.currentIndex
             onCurrentIndexChanged: appView.currentIndex = currentIndex
             interactive: true
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
             Layout.alignment: Qt.AlignHCenter
             visible: appView.count > 1
 

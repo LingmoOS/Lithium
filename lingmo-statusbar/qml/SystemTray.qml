@@ -13,12 +13,12 @@ ListView {
     layoutDirection: Qt.RightToLeft
     interactive: false
     clip: true
-    spacing: LingmoUI.Units.smallSpacing / 2
+    spacing: LingmoUI.LingmoUnits.smallSpacing / 2
 
-    property real itemWidth: rootItem.iconSize + LingmoUI.Units.largeSpacing
+    property real itemWidth: rootItem.iconSize + LingmoUI.LingmoUnits.largeSpacing
 
     Layout.fillHeight: true
-    Layout.preferredWidth: (itemWidth + (count - 1) * LingmoUI.Units.smallSpacing) * count
+    Layout.preferredWidth: (itemWidth + (count - 1) * LingmoUI.LingmoUnits.smallSpacing) * count
 
     model: SystemTrayModel {
         id: trayModel

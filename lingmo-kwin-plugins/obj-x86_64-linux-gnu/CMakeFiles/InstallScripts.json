@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lingmo/Lithium/lingmo-kwin-plugins/obj-x86_64-linux-gnu/cmake_install.cmake",
+		"/home/lingmo/Lithium/lingmo-kwin-plugins/obj-x86_64-linux-gnu/plugins/cmake_install.cmake",
+		"/home/lingmo/Lithium/lingmo-kwin-plugins/obj-x86_64-linux-gnu/plugins/decoration/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

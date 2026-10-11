@@ -105,7 +105,7 @@ Item {
         QQC2.Label {
             id: dateLabel
             anchors.top: timeLabel.bottom
-            anchors.topMargin: LingmoUI.Units.largeSpacing
+            anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
             anchors.horizontalCenter: parent.horizontalCenter
             font.pointSize: 19
             color: "white"
@@ -147,23 +147,23 @@ Item {
     Item {
         id: _mainItem
         anchors.centerIn: parent
-        width: 260 + LingmoUI.Units.largeSpacing * 3
-        height: _mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 4
+        width: 260 + LingmoUI.LingmoUnits.largeSpacing * 3
+        height: _mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 4
 
         Layout.alignment: Qt.AlignHCenter
 
         Rectangle {
             anchors.fill: parent
-            radius: LingmoUI.Theme.bigRadius + 2
-            color: LingmoUI.Theme.darkMode ? "#424242" : "white"
+            radius: LingmoUI.LingmoTheme.bigRadius + 2
+            color: LingmoUI.LingmoTheme.darkMode ? "#424242" : "white"
             opacity: 0.5
         }
 
         ColumnLayout {
             id: _mainLayout
             anchors.fill: parent
-            anchors.margins: LingmoUI.Units.largeSpacing * 1.5
-            spacing: LingmoUI.Units.smallSpacing * 1.5
+            anchors.margins: LingmoUI.LingmoUnits.largeSpacing * 1.5
+            spacing: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
             UserView {
                 id: _userView
@@ -182,8 +182,8 @@ Item {
                 echoMode: TextInput.Password
 
                 background: Rectangle {
-                    color: LingmoUI.Theme.darkMode ? "#B6B6B6" : "white"
-                    radius: LingmoUI.Theme.bigRadius
+                    color: LingmoUI.LingmoTheme.darkMode ? "#B6B6B6" : "white"
+                    radius: LingmoUI.LingmoTheme.bigRadius
                     opacity: 0.5
                 }
 
@@ -211,9 +211,9 @@ Item {
                 }
 
                 background: Rectangle {
-                    color: LingmoUI.Theme.darkMode ? "#B6B6B6" : "white"
+                    color: LingmoUI.LingmoTheme.darkMode ? "#B6B6B6" : "white"
                     opacity: unlockBtn.pressed ? 0.3 : unlockBtn.hovered ? 0.4 : 0.5
-                    radius: LingmoUI.Theme.bigRadius
+                    radius: LingmoUI.LingmoTheme.bigRadius
                 }
             }
         }
@@ -222,10 +222,10 @@ Item {
     Item {
         anchors.left: parent.left
         anchors.bottom: parent.bottom
-        anchors.leftMargin: LingmoUI.Units.largeSpacing
-        anchors.bottomMargin: LingmoUI.Units.largeSpacing
+        anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
 
-        width: sessionMenu.implicitWidth + LingmoUI.Units.largeSpacing
+        width: sessionMenu.implicitWidth + LingmoUI.LingmoUnits.largeSpacing
         height: sessionMenu.implicitHeight
 
         SessionMenu {
@@ -240,15 +240,15 @@ Item {
     Item {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
-        anchors.rightMargin: LingmoUI.Units.largeSpacing
-        anchors.bottomMargin: LingmoUI.Units.smallSpacing * 1.5
+        anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
         width: 50
-        height: 40 + LingmoUI.Units.largeSpacing
+        height: 40 + LingmoUI.LingmoUnits.largeSpacing
 
         LingmoIconButton {
             width: 50
-            height: 40 + LingmoUI.Units.largeSpacing
+            height: 40 + LingmoUI.LingmoUnits.largeSpacing
             anchors.fill: parent
             iconSource: LingmoIcons.PowerButton
             iconSize: 30
@@ -260,14 +260,14 @@ Item {
         // LingmoUI.RoundImageButton {
         //     anchors.fill: parent
         //     width: 50
-        //     height: 50 + LingmoUI.Units.largeSpacing
+        //     height: 50 + LingmoUI.LingmoUnits.largeSpacing
 
         //     size: 50
         //     source: "./system-shutdown-symbolic.svg"
-        //     iconMargins: LingmoUI.Units.largeSpacing
+        //     iconMargins: LingmoUI.LingmoUnits.largeSpacing
 
         //     // anchors.top: message.bottom
-        //     // anchors.topMargin: LingmoUI.Units.largeSpacing
+        //     // anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
         //     // anchors.horizontalCenter: parent.horizontalCenter
         //     onClicked: actionMenu.popup()
         // }
@@ -299,7 +299,7 @@ Item {
     QQC2.Label {
         id: message
         anchors.top: _mainItem.bottom
-        anchors.topMargin: LingmoUI.Units.largeSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
         anchors.horizontalCenter: parent.horizontalCenter
         font.bold: true
         text: root.notificationMessage

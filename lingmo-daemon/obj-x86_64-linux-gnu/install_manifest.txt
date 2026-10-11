@@ -1,0 +1,4 @@
+/usr/bin/lingmo-daemon
+/etc/dbus-1/system.d/com.lingmo.Daemon.conf
+/usr/share/dbus-1/system-services/com.lingmo.Daemon.service
+/usr/bin/lingmo-permission-surveillance

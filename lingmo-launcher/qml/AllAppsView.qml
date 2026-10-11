@@ -32,7 +32,7 @@ ListView {
     property var sourceModel: launcherModel
     property var modelCount: sourceModel.count
 
-    property int iconSize: root.iconSize + LingmoUI.Units.largeSpacing * 2
+    property int iconSize: root.iconSize + LingmoUI.LingmoUnits.largeSpacing * 2
     property int cellWidth: iconSize + calcExtraSpacing(iconSize, control.width)
     property int cellHeight: iconSize + calcExtraSpacing(iconSize, control.height)
 

@@ -1,0 +1,222 @@
+{
+	"BUILD_DIR" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/QApt6_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lingmo/Lithium/libqapt6/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/lingmo/Lithium/libqapt6/src/CMakeLists.txt",
+		"/home/lingmo/Lithium/libqapt6/src/dbusinterfaces_p.h.cmake",
+		"/usr/share/ECM/modules/ECMQmLoader.cpp.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/lingmo/Lithium/libqapt6",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/QApt6_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QApt6_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/lingmo/Lithium/libqapt6/src/backend.h",
+			"MU",
+			"EWIEGA46WW/moc_backend.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/cache.h",
+			"MU",
+			"EWIEGA46WW/moc_cache.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/changelog.h",
+			"MU",
+			"EWIEGA46WW/moc_changelog.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/config.h",
+			"MU",
+			"EWIEGA46WW/moc_config.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/debfile.h",
+			"MU",
+			"EWIEGA46WW/moc_debfile.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/dependencyinfo.h",
+			"MU",
+			"EWIEGA46WW/moc_dependencyinfo.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/downloadprogress.h",
+			"MU",
+			"EWIEGA46WW/moc_downloadprogress.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/history.h",
+			"MU",
+			"EWIEGA46WW/moc_history.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/markingerrorinfo.h",
+			"MU",
+			"EWIEGA46WW/moc_markingerrorinfo.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/package.h",
+			"MU",
+			"EWIEGA46WW/moc_package.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/sourceentry.h",
+			"MU",
+			"EWIEGA46WW/moc_sourceentry.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/sourceslist.h",
+			"MU",
+			"EWIEGA46WW/moc_sourceslist.cpp",
+			null
+		],
+		[
+			"/home/lingmo/Lithium/libqapt6/src/transaction.h",
+			"MU",
+			"EWIEGA46WW/moc_transaction.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/QApt6_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/QApt6_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CMAKE_PROJECT_VERSION=\"6.0.0\"",
+		"QAPT_WORKER_RDN_VERSIONED_STRING=\"org.kubuntu.qaptworker6\"",
+		"QAPT_WORKER_VERSION_STRING=\"6\"",
+		"QApt6_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/lingmo/Lithium/libqapt6",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu",
+		"/usr/include/polkit-qt6-1",
+		"/home/lingmo/Lithium/libqapt6",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu",
+		"/home/lingmo/Lithium/libqapt6/src",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src",
+		"/usr/include/x86_64-linux-gnu/qt6/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt6",
+		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt6/QtGui",
+		"/usr/include/KF6/KI18n",
+		"/usr/include/x86_64-linux-gnu/qt6/QtDBus",
+		"/usr/include",
+		"/usr/include/c++/16",
+		"/usr/include/x86_64-linux-gnu/c++/16",
+		"/usr/include/c++/16/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/16/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/x86_64-linux-gnu-g++",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"/usr/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/QApt6_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/moc_transactioninterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/moc_workerinterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/transactioninterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/transactioninterface_p.h",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/workerinterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/workerinterface_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/CMakeFiles/QApt6_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/CMakeFiles/QApt6_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/ECMQmLoader-libqapt.cpp",
+			"MU",
+			null
+		],
+		[ "/home/lingmo/Lithium/libqapt6/src/backend.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/cache.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/changelog.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/config.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/debfile.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/dependencyinfo.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/downloadprogress.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/history.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/markingerrorinfo.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/package.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/sourceentry.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/sourceslist.cpp", "MU", null ],
+		[ "/home/lingmo/Lithium/libqapt6/src/transaction.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/moc_transactioninterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/moc_workerinterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/transactioninterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/transactioninterface_p.h",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/workerinterface_p.cpp",
+		"/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/workerinterface_p.h"
+	],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

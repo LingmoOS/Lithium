@@ -1,0 +1,12 @@
+/usr/share/sddm/themes/lingmo/Main.qml
+/usr/share/sddm/themes/lingmo/SessionMenu.qml
+/usr/share/sddm/themes/lingmo/UserView.qml
+/usr/share/sddm/themes/lingmo/LingmoUIMenu.qml
+/usr/share/sddm/themes/lingmo/LingmoUIMenuItem.qml
+/usr/share/sddm/themes/lingmo/system-shutdown-symbolic.svg
+/usr/share/sddm/themes/lingmo/faces/.face.icon
+/usr/share/sddm/themes/lingmo/theme.conf
+/usr/share/sddm/themes/lingmo/screenshot.png
+/usr/share/sddm/themes/lingmo/metadata.desktop
+/etc/sddm.conf.d/hidpi.conf
+/etc/sddm.conf.d/sddm_lingmo.conf

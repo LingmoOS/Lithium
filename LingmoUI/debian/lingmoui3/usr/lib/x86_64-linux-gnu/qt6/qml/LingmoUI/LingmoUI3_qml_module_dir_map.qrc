@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/lingmoui/kit/LingmoUI">/home/lingmo/Lithium/LingmoUI/obj-x86_64-linux-gnu/temp/LingmoUI</file>
-
-  </qresource>
-</RCC>

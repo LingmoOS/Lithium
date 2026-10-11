@@ -77,8 +77,8 @@ Item {
         anchors.fill: parent
         opacity: 0.3
 
-//        color: LingmoUI.Theme.darkMode ? "#4D4D4D" : "#FFFFFF"
-//        opacity: windowHelper.compositing ? LingmoUI.Theme.darkMode ? 0.5 : 0.7 : 1.0
+//        color: LingmoUI.LingmoTheme.darkMode ? "#4D4D4D" : "#FFFFFF"
+//        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.7 : 1.0
 
 //        Behavior on color {
 //            ColorAnimation {
@@ -108,9 +108,9 @@ Item {
     // Main layout
     RowLayout {
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.smallSpacing
-        anchors.rightMargin: LingmoUI.Units.smallSpacing
-        spacing: LingmoUI.Units.smallSpacing / 2
+        anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+        spacing: LingmoUI.LingmoUnits.smallSpacing / 2
 
         // App name
         StandardItem {
@@ -118,7 +118,7 @@ Item {
             animationEnabled: true
             Layout.fillHeight: true
             Layout.preferredWidth: Math.min(rootItem.width / 3,
-                                            acticityLayout.implicitWidth + LingmoUI.Units.largeSpacing)
+                                            acticityLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing)
             onClicked: {
                 if (mouse.button === Qt.RightButton)
                     acticityMenu.open()
@@ -127,9 +127,9 @@ Item {
             RowLayout {
                 id: acticityLayout
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.smallSpacing
-                anchors.rightMargin: LingmoUI.Units.smallSpacing
-                spacing: LingmoUI.Units.smallSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+                spacing: LingmoUI.LingmoUnits.smallSpacing
 
                 Image {
                     id: acticityIcon
@@ -166,7 +166,7 @@ Item {
                 id: appMenuView
                 anchors.fill: parent
                 orientation: Qt.Horizontal
-                spacing: LingmoUI.Units.smallSpacing
+                spacing: LingmoUI.LingmoUnits.smallSpacing
                 visible: appMenuModel.visible
                 interactive: false
                 clip: true
@@ -181,7 +181,7 @@ Item {
 
                 delegate: StandardItem {
                     id: _menuItem
-                    width: _actionText.width + LingmoUI.Units.largeSpacing
+                    width: _actionText.width + LingmoUI.LingmoUnits.largeSpacing
                     height: ListView.view.height
                     checked: appMenuApplet.currentIndex === index
 
@@ -255,7 +255,7 @@ Item {
             visible: lyricsHelper.lyricsVisible
             animationEnabled: true
             Layout.fillHeight: true
-            Layout.preferredWidth: _lyricsLayout.implicitWidth + LingmoUI.Units.smallSpacing
+            Layout.preferredWidth: _lyricsLayout.implicitWidth + LingmoUI.LingmoUnits.smallSpacing
 
             RowLayout {
                 id: _lyricsLayout
@@ -282,7 +282,7 @@ Item {
             popupText: permissionSurveillance.cameraUser + " " + qsTr("is using the camera")
             animationEnabled: true
             Layout.fillHeight: true
-            Layout.preferredWidth: shutdownIcon.implicitWidth + LingmoUI.Units.smallSpacing + 4
+            Layout.preferredWidth: shutdownIcon.implicitWidth + LingmoUI.LingmoUnits.smallSpacing + 4
             Image {
                 id: permissionSurveillanceIcon
                 anchors.centerIn: parent
@@ -302,7 +302,7 @@ Item {
             checked: controlCenter.item.visible
             animationEnabled: true
             Layout.fillHeight: true
-            Layout.preferredWidth: _controlerLayout.implicitWidth + LingmoUI.Units.largeSpacing
+            Layout.preferredWidth: _controlerLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing
 
             onClicked: {
                 toggleDialog()
@@ -322,10 +322,10 @@ Item {
             RowLayout {
                 id: _controlerLayout
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.smallSpacing
-                anchors.rightMargin: LingmoUI.Units.smallSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
 
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Image {
                     id: volumeIcon
@@ -386,7 +386,7 @@ Item {
 
             animationEnabled: true
             Layout.fillHeight: true
-            Layout.preferredWidth: shutdownIcon.implicitWidth + LingmoUI.Units.smallSpacing
+            Layout.preferredWidth: shutdownIcon.implicitWidth + LingmoUI.LingmoUnits.smallSpacing
             checked: shutdownDialog.item.visible
 
             onClicked: {
@@ -414,7 +414,7 @@ Item {
 
             animationEnabled: true
             Layout.fillHeight: true
-            Layout.preferredWidth: _dateTimeLayout.implicitWidth + LingmoUI.Units.smallSpacing
+            Layout.preferredWidth: _dateTimeLayout.implicitWidth + LingmoUI.LingmoUnits.smallSpacing
 
             onClicked: {
                 process.startDetached("lingmo-notificationd", ["-s"])

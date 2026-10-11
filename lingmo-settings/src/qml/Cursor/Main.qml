@@ -32,13 +32,13 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
                 GridLayout {
                     columns: 2
-                    columnSpacing: LingmoUI.Units.largeSpacing * 1.5
-                    rowSpacing: LingmoUI.Units.largeSpacing * 2
+                    columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    rowSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Label {
                         text: qsTr("Left hand")
@@ -91,7 +91,7 @@ ItemPage {
                 HorizontalDivider {}
 
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing * 2
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     Label {
                         text: qsTr("Pointer speed")
@@ -100,7 +100,7 @@ ItemPage {
                     Slider {
                         id: accelerationSlider
                         Layout.fillWidth: true
-                        rightPadding: LingmoUI.Units.largeSpacing
+                        rightPadding: LingmoUI.LingmoUnits.largeSpacing
                         from: 1
                         to: 11
                         stepSize: 1
@@ -121,14 +121,14 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Theme")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                     visible: _view.count > 0
                 }
 
                 GridView {
                     id: _view
                     Layout.fillWidth: true
-                    implicitHeight: Math.ceil(_view.count / rowCount) * cellHeight + LingmoUI.Units.largeSpacing
+                    implicitHeight: Math.ceil(_view.count / rowCount) * cellHeight + LingmoUI.LingmoUnits.largeSpacing
                     model: cursorModel
                     interactive: false
                     visible: _view.count > 0
@@ -173,7 +173,7 @@ ItemPage {
                         MouseArea {
                             id: _mouseArea
                             anchors.fill: parent
-                            anchors.margins: LingmoUI.Units.smallSpacing * 1.5
+                            anchors.margins: LingmoUI.LingmoUnits.smallSpacing * 1.5
                             onClicked: {
                                 _view.currentIndex = index
                                 cursorModel.currentTheme = model.id
@@ -183,25 +183,25 @@ ItemPage {
 
                         Rectangle {
                             anchors.fill: parent
-                            anchors.margins: LingmoUI.Units.smallSpacing * 1.5
-                            color: LingmoUI.Theme.darkMode ? "#3C3C3C" : "#FAFAFA"
-                            radius: LingmoUI.Theme.mediumRadius
+                            anchors.margins: LingmoUI.LingmoUnits.smallSpacing * 1.5
+                            color: LingmoUI.LingmoTheme.darkMode ? "#3C3C3C" : "#FAFAFA"
+                            radius: LingmoUI.LingmoTheme.mediumRadius
                             z: -1
 
                             border.width: isCurrent ? 3 : 0
-                            border.color: LingmoUI.Theme.highlightColor
+                            border.color: LingmoUI.LingmoTheme.highlightColor
                         }
 
                         ColumnLayout {
                             anchors.fill: parent
-                            anchors.margins: LingmoUI.Units.smallSpacing * 1.5
+                            anchors.margins: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
                             Item {
                                 Layout.fillHeight: true
                             }
 
                             Item {
-                                height: LingmoUI.Units.largeSpacing
+                                height: LingmoUI.LingmoUnits.largeSpacing
                             }
 
                             LingmoUI.IconItem {
@@ -219,7 +219,7 @@ ItemPage {
                             Label {
                                 text: model.name
                                 Layout.alignment: Qt.AlignHCenter | Qt.AlignBottom
-                                bottomPadding: LingmoUI.Units.largeSpacing
+                                bottomPadding: LingmoUI.LingmoUnits.largeSpacing
                             }
 
                             Item {
@@ -231,7 +231,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
         }
     }

@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+82d4645893b489c8031e4cd58e849a8b CMakeFiles/lingmo-daemon_autogen
+388a12cd3c7891873d1ef1a448e38e88 appmanageradaptor.cpp
+634fb860a3995d53b1db7190c4d0d851 lingmo-daemon_autogen/timestamp
+52dd53689ad7c826ea35499cae0f3b4f moc_appmanageradaptor.cpp

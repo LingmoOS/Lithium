@@ -27,9 +27,9 @@ Flickable {
     flickableDirection: Flickable.VerticalFlick
     clip: true
 
-    topMargin: LingmoUI.Units.largeSpacing
-    leftMargin: LingmoUI.Units.largeSpacing * 2
-    rightMargin: LingmoUI.Units.largeSpacing * 2
+    topMargin: LingmoUI.LingmoUnits.largeSpacing
+    leftMargin: LingmoUI.LingmoUnits.largeSpacing * 2
+    rightMargin: LingmoUI.LingmoUnits.largeSpacing * 2
 
     contentWidth: width - (leftMargin + rightMargin)
 
@@ -39,6 +39,6 @@ Flickable {
     }
 
     ScrollBar.vertical: ScrollBar {
-        bottomPadding: LingmoUI.Theme.smallRadius
+        bottomPadding: LingmoUI.LingmoTheme.smallRadius
     }
 }

@@ -58,8 +58,8 @@ ItemPage {
         ColumnLayout {
             id: mainLayout
             anchors.fill: parent
-            anchors.bottomMargin: LingmoUI.Units.largeSpacing
-            spacing: LingmoUI.Units.largeSpacing * 2
+            anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             // Hotspot
             RoundedItem {
@@ -69,7 +69,7 @@ ItemPage {
                 RowLayout {
                     Label {
                         text: qsTr("Hotspot")
-                        color: LingmoUI.Theme.disabledTextColor
+                        color: LingmoUI.LingmoTheme.disabledTextColor
                     }
 
                     Item {
@@ -92,13 +92,13 @@ ItemPage {
                 }
 
                 Item {
-                    height: LingmoUI.Units.largeSpacing
+                    height: LingmoUI.LingmoUnits.largeSpacing
                 }
 
                 GridLayout {
                     columns: 2
-                    columnSpacing: LingmoUI.Units.largeSpacing * 2
-                    rowSpacing: LingmoUI.Units.largeSpacing
+                    columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
+                    rowSpacing: LingmoUI.LingmoUnits.largeSpacing
 
                     Label {
                         text: qsTr("SSID")
@@ -124,7 +124,7 @@ ItemPage {
                 }
 
                 Item {
-                    height: LingmoUI.Units.largeSpacing
+                    height: LingmoUI.LingmoUnits.largeSpacing
                 }
 
                 Button {
@@ -143,7 +143,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
         }
     }

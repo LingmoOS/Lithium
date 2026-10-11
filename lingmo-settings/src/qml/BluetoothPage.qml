@@ -39,7 +39,7 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            anchors.bottomMargin: LingmoUI.Units.largeSpacing
+            anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
 
             Switch {
                 id: bluetoothSwitch

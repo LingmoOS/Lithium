@@ -43,7 +43,7 @@ QtQuick.Window {
     // Window helper
     property alias compositing: windowHelper.compositing
     property int contentTopMargin: _header.height
-    property int windowRadius: compositing ? LingmoUI.Theme.windowRadius : 0
+    property int windowRadius: compositing ? LingmoUI.LingmoTheme.windowRadius : 0
     property alias helper: windowHelper
 
     // Other
@@ -215,7 +215,7 @@ QtQuick.Window {
         anchors.fill: parent
         anchors.margins: 0
         radius: !isMaximized && !isFullScreen && windowHelper.compositing ? control.windowRadius : 0
-        color: LingmoUI.Theme.backgroundColor
+        color: LingmoUI.LingmoTheme.backgroundColor
 
         antialiasing: true
 
@@ -231,8 +231,8 @@ QtQuick.Window {
     Rectangle {
         anchors.fill: parent
 
-        property var borderColor: compositing ? LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                      : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
+        property var borderColor: compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                      : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
                                                                                                                       : Qt.rgba(0, 0, 0, 0.15)
         color: "transparent"
         radius: control.windowRadius
@@ -291,13 +291,13 @@ QtQuick.Window {
                 }
 
                 RowLayout {
-                    spacing: LingmoUI.Units.smallSpacing
+                    spacing: LingmoUI.LingmoUnits.smallSpacing
                     Layout.alignment: Qt.AlignTop
 
                     // Window buttons
                     RoundImageButton {
                         size: _header.buttonSize
-                        source: "qrc:/lingmoui/kit/compatible_module/LingmoUI/CompatibleModule/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + "minimize.svg"
+                        source: "qrc:/lingmoui/kit/compatible_module/LingmoUI/CompatibleModule/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + "minimize.svg"
                         onClicked: windowHelper.minimizeWindow(control)
                         visible: control.minimizeButtonVisible
                         Layout.alignment: Qt.AlignTop
@@ -310,7 +310,7 @@ QtQuick.Window {
                     RoundImageButton {
                         size: _header.buttonSize
                         source: "qrc:/lingmoui/kit/compatible_module/LingmoUI/CompatibleModule/images/" +
-                            (LingmoUI.Theme.darkMode ? "dark/" : "light/") +
+                            (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") +
                             (control.visibility === Window.Maximized ? "restore.svg" : "maximize.svg")
                         onClicked: control.toggleMaximized()
                         visible: !control.isFullScreen &&  control.minimumWidth !== control.maximumWidth && control.maximumHeight !== control.minimumHeight
@@ -323,7 +323,7 @@ QtQuick.Window {
 
                     RoundImageButton {
                         size: _header.buttonSize
-                        source: "qrc:/lingmoui/kit/compatible_module/LingmoUI/CompatibleModule/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + "close.svg"
+                        source: "qrc:/lingmoui/kit/compatible_module/LingmoUI/CompatibleModule/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + "close.svg"
                         onClicked: control.close()
                         // visible: !control.isFullScreen
                         Layout.alignment: Qt.AlignTop

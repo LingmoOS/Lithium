@@ -58,7 +58,7 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
                 Layout.fillWidth: true
@@ -66,16 +66,16 @@ ItemPage {
 
                 Label {
                     text: qsTr("Brightness")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                     visible: brightness.enabled
                 }
 
                 Item {
-                    height: LingmoUI.Units.smallSpacing / 2
+                    height: LingmoUI.LingmoUnits.smallSpacing / 2
                 }
 
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing
+                    spacing: LingmoUI.LingmoUnits.largeSpacing
 
                     Image {
                         width: 16
@@ -83,7 +83,7 @@ ItemPage {
                         sourceSize.width: width
                         sourceSize.height: height
                         Layout.alignment: Qt.AlignVCenter
-                        source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/display-brightness-low-symbolic.svg"
+                        source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/display-brightness-low-symbolic.svg"
                     }
 
                     Slider {
@@ -109,12 +109,12 @@ ItemPage {
                         sourceSize.width: width
                         sourceSize.height: height
                         Layout.alignment: Qt.AlignVCenter
-                        source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/display-brightness-symbolic.svg"
+                        source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/display-brightness-symbolic.svg"
                     }
                 }
 
                 Item {
-                    height: LingmoUI.Units.smallSpacing / 2
+                    height: LingmoUI.LingmoUnits.smallSpacing / 2
                 }
             }
 
@@ -123,7 +123,7 @@ ItemPage {
 
                 Label {
                     text: qsTr("Screen")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                     visible: _screenView.count > 0
                 }
 
@@ -135,7 +135,7 @@ ItemPage {
                     interactive: false
                     clip: true
 
-                    Layout.preferredHeight: currentItem ? currentItem.layout.implicitHeight + LingmoUI.Units.largeSpacing : 0
+                    Layout.preferredHeight: currentItem ? currentItem.layout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing : 0
 
                     Behavior on Layout.preferredHeight {
                         NumberAnimation {
@@ -158,8 +158,8 @@ ItemPage {
 
                             GridLayout {
                                 columns: 2
-                                columnSpacing: LingmoUI.Units.largeSpacing * 1.5
-                                rowSpacing: LingmoUI.Units.largeSpacing * 1.5
+                                columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                                rowSpacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                                 Label {
                                     text: qsTr("Screen Name")
@@ -168,7 +168,7 @@ ItemPage {
 
                                 Label {
                                     text: element.display
-                                    color: LingmoUI.Theme.disabledTextColor
+                                    color: LingmoUI.LingmoTheme.disabledTextColor
                                     visible: _screenView.count > 1
                                 }
 
@@ -179,8 +179,8 @@ ItemPage {
                                 ComboBox {
                                     Layout.fillWidth: true
                                     model: element.resolutions
-                                    leftPadding: LingmoUI.Units.largeSpacing
-                                    rightPadding: LingmoUI.Units.largeSpacing
+                                    leftPadding: LingmoUI.LingmoUnits.largeSpacing
+                                    rightPadding: LingmoUI.LingmoUnits.largeSpacing
                                     topInset: 0
                                     bottomInset: 0
                                     currentIndex: element.resolutionIndex !== undefined ?
@@ -199,8 +199,8 @@ ItemPage {
                                     id: refreshRate
                                     Layout.fillWidth: true
                                     model: element.refreshRates
-                                    leftPadding: LingmoUI.Units.largeSpacing
-                                    rightPadding: LingmoUI.Units.largeSpacing
+                                    leftPadding: LingmoUI.LingmoUnits.largeSpacing
+                                    rightPadding: LingmoUI.LingmoUnits.largeSpacing
                                     topInset: 0
                                     bottomInset: 0
                                     currentIndex: element.refreshRateIndex ?
@@ -289,7 +289,7 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Scale")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 TabBar {

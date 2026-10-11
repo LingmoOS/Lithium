@@ -1,7 +1,12 @@
+[Desktop Entry]
 [ContrastEffect]
 enabled=false
-contrast=0.75
-saturation=10
-
+contrast=0.3
+intensity=1.9
+saturation=1.9
 [AdaptiveTransparency]
+enabled = true
+[Settings]
+FallbackTheme=oxygen
+[BlurBehindEffect]
 enabled=true

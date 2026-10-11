@@ -8,9 +8,9 @@ Item {
 
     property Item control
     property alias handle: handle
-    property color bgColor : control.checked ? LingmoUI.Theme.highlightColor : Qt.rgba(LingmoUI.Theme.textColor.r, 
-                                                                                     LingmoUI.Theme.textColor.g,
-                                                                                     LingmoUI.Theme.textColor.b, 0.2)
+    property color bgColor : control.checked ? LingmoUI.LingmoTheme.highlightColor : Qt.rgba(LingmoUI.LingmoTheme.textColor.r, 
+                                                                                     LingmoUI.LingmoTheme.textColor.g,
+                                                                                     LingmoUI.LingmoTheme.textColor.b, 0.2)
     Rectangle {
         width: parent.width
         height: 20

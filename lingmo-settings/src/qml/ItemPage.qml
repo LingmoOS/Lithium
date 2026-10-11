@@ -18,13 +18,13 @@ Page {
 
         Label {
             anchors.left: parent.left
-            leftPadding: LingmoUI.Units.largeSpacing * 3
-            rightPadding: Qt.application.layoutDirection === Qt.RightToLeft ? LingmoUI.Units.largeSpacing * 3 : 0
-            topPadding: LingmoUI.Units.largeSpacing
+            leftPadding: LingmoUI.LingmoUnits.largeSpacing * 3
+            rightPadding: Qt.application.layoutDirection === Qt.RightToLeft ? LingmoUI.LingmoUnits.largeSpacing * 3 : 0
+            topPadding: LingmoUI.LingmoUnits.largeSpacing
             bottomPadding: 0
             font.pointSize: 12
             text: page.headerTitle
-            color: rootWindow.active ? LingmoUI.Theme.textColor : LingmoUI.Theme.disabledTextColor
+            color: rootWindow.active ? LingmoUI.LingmoTheme.textColor : LingmoUI.LingmoTheme.disabledTextColor
         }
     }
 }

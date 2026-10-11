@@ -31,13 +31,13 @@ T.ProgressBar {
     from: 0
     to: 100
 
-    // property color flatHoveredColor: Qt.lighter(LingmoUI.Theme.highlightColor, 1.1)
-    // property color flatPressedColor: Qt.darker(LingmoUI.Theme.highlightColor, 1.1)
+    // property color flatHoveredColor: Qt.lighter(LingmoUI.LingmoTheme.highlightColor, 1.1)
+    // property color flatPressedColor: Qt.darker(LingmoUI.LingmoTheme.highlightColor, 1.1)
 
     background: Rectangle {   
         implicitWidth: _progressBar.width
         implicitHeight: _progressBar.height
-        radius: LingmoUI.Theme.hugeRadius
+        radius: LingmoUI.LingmoTheme.hugeRadius
         color: rootWindow.background.color
     }
 
@@ -46,11 +46,11 @@ T.ProgressBar {
             id: _flatBackground
             width: _progressBar.visualPosition * _progressBar.width
             height: _progressBar.height
-            radius: LingmoUI.Theme.hugeRadius
+            radius: LingmoUI.LingmoTheme.hugeRadius
 
-            color: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-                            LingmoUI.Theme.highlightColor.g,
-                            LingmoUI.Theme.highlightColor.b, 0.1)
+            color: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+                            LingmoUI.LingmoTheme.highlightColor.g,
+                            LingmoUI.LingmoTheme.highlightColor.b, 0.1)
             gradient: Gradient {
                 orientation: Gradient.Vertical
                 GradientStop { position: 0.0; color: Qt.rgba(_flatBackground.color.r,

@@ -58,11 +58,11 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
                 id: mainItem
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 RadioButton {
                     id: noProxyRadioButton
@@ -103,7 +103,7 @@ ItemPage {
 
                 RowLayout {
                     id: autoScriptProxyLayout
-                    spacing: LingmoUI.Units.largeSpacing
+                    spacing: LingmoUI.LingmoUnits.largeSpacing
                     visible: autoScriptProxyRadioButton.checked
 
                     TextField {
@@ -128,8 +128,8 @@ ItemPage {
                 GridLayout {
                     visible: manualProxyRadioButton.checked
                     columns: 4
-                    columnSpacing: LingmoUI.Units.largeSpacing
-                    rowSpacing: LingmoUI.Units.largeSpacing
+                    columnSpacing: LingmoUI.LingmoUnits.largeSpacing
+                    rowSpacing: LingmoUI.LingmoUnits.largeSpacing
 
                     Label {
                         text: qsTr("HTTP Proxy")
@@ -283,7 +283,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
         }
     }

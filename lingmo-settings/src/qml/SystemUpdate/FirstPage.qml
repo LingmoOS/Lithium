@@ -20,19 +20,19 @@ Item {
         target: updator
     }
 
-    // property color flatHoveredColor: Qt.lighter(LingmoUI.Theme.highlightColor, 1.1)
-    // property color flatPressedColor: Qt.darker(LingmoUI.Theme.highlightColor, 1.1)
+    // property color flatHoveredColor: Qt.lighter(LingmoUI.LingmoTheme.highlightColor, 1.1)
+    // property color flatPressedColor: Qt.darker(LingmoUI.LingmoTheme.highlightColor, 1.1)
 
     ColumnLayout {
         anchors.fill: parent
-        spacing: LingmoUI.Units.largeSpacing * 2
+        spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
         Image {
             // visible: _updateInfo.count !== 0
             Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
             width: 200
             sourceSize: Qt.size(width, height)
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/logo.png" : "qrc:/images/logo.png"
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/logo.png" : "qrc:/images/logo.png"
         }
 
         Layout.fillWidth: true
@@ -44,17 +44,17 @@ Item {
 
             Rectangle {
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.largeSpacing
-                anchors.rightMargin: LingmoUI.Units.largeSpacing
-                color: LingmoUI.Theme.secondBackgroundColor
-                radius: LingmoUI.Theme.mediumRadius
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                color: LingmoUI.LingmoTheme.secondBackgroundColor
+                radius: LingmoUI.LingmoTheme.mediumRadius
             }
 
             RowLayout {
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-                spacing: LingmoUI.Units.smallSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                spacing: LingmoUI.LingmoUnits.smallSpacing
 
                 Item {
                     Layout.fillWidth: true
@@ -89,7 +89,7 @@ Item {
                         Label {
                             visible: !control.check
                             text: qsTr("Current Version: %1").arg(updator.version)
-                            color: LingmoUI.Theme.disabledTextColor
+                            color: LingmoUI.LingmoTheme.disabledTextColor
                         }
 
                         Item {
@@ -140,7 +140,7 @@ Item {
                     //     anchors.leftMargin: 10
                     //     anchors.verticalCenter: parent.verticalCenter;
                     //     text: "Checking... " + updator.checkProgress + "%"
-                    //     color: LingmoUI.Theme.highlightedTextColor
+                    //     color: LingmoUI.LingmoTheme.highlightedTextColor
                     //     font: control.font
                     // }
 
@@ -157,18 +157,18 @@ Item {
             Rectangle {
                 visible: _listView.count !== 0
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.largeSpacing
-                anchors.rightMargin: LingmoUI.Units.largeSpacing
-                color: LingmoUI.Theme.secondBackgroundColor
-                radius: LingmoUI.Theme.mediumRadius
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                color: LingmoUI.LingmoTheme.secondBackgroundColor
+                radius: LingmoUI.LingmoTheme.mediumRadius
             }
 
             RowLayout {
                 
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-                spacing: LingmoUI.Units.smallSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                spacing: LingmoUI.LingmoUnits.smallSpacing
 
                 Image {
                     visible: _listView.count !== 0
@@ -202,7 +202,7 @@ Item {
                         Label {
                             visible: !control.check
                             text: qsTr("Current Version: %1").arg(updator.version)
-                            color: LingmoUI.Theme.disabledTextColor
+                            color: LingmoUI.LingmoTheme.disabledTextColor
                         }
 
                         Item {
@@ -230,7 +230,7 @@ Item {
             // }
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
 
             Rectangle {
@@ -238,19 +238,19 @@ Item {
                 // anchors.fill: parent
                 // anchors.top: parent.top
                 // anchors.topMargin: 100
-                anchors.leftMargin: LingmoUI.Units.largeSpacing
-                anchors.rightMargin: LingmoUI.Units.largeSpacing
-                color: LingmoUI.Theme.secondBackgroundColor
-                radius: LingmoUI.Theme.mediumRadius
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                color: LingmoUI.LingmoTheme.secondBackgroundColor
+                radius: LingmoUI.LingmoTheme.mediumRadius
             }
 
             RowLayout {
                 anchors.fill: parent
                 anchors.top: parent.top
                 anchors.topMargin: 100
-                anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-                spacing: LingmoUI.Units.smallSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                spacing: LingmoUI.LingmoUnits.smallSpacing
                 Item {
                     visible: _listView.count !== 0
                     Layout.fillWidth: true
@@ -274,7 +274,7 @@ Item {
             model: upgradeableModel
 
             visible: _listView.count !== 0
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
             clip: true
 
             ScrollBar.vertical: ScrollBar {}
@@ -288,17 +288,17 @@ Item {
 
                 Rectangle {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.largeSpacing
-                    anchors.rightMargin: LingmoUI.Units.largeSpacing
-                    color: LingmoUI.Theme.secondBackgroundColor
-                    radius: LingmoUI.Theme.mediumRadius
+                    anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                    anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                    color: LingmoUI.LingmoTheme.secondBackgroundColor
+                    radius: LingmoUI.LingmoTheme.mediumRadius
                 }
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                    anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-                    spacing: LingmoUI.Units.smallSpacing
+                    anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    spacing: LingmoUI.LingmoUnits.smallSpacing
 
                     Image {
                         height: 32
@@ -333,7 +333,7 @@ Item {
 
                             Label {
                                 text: model.version
-                                color: LingmoUI.Theme.disabledTextColor
+                                color: LingmoUI.LingmoTheme.disabledTextColor
                                 font.pointSize: 9
                             }
 
@@ -346,7 +346,7 @@ Item {
                     // Size
                     Label {
                         text: model.installedSize
-                        color: LingmoUI.Theme.disabledTextColor
+                        color: LingmoUI.LingmoTheme.disabledTextColor
                         font.pointSize: 10
                     }
                 }              
@@ -355,16 +355,16 @@ Item {
             Rectangle {
                 id: _logView
                 anchors.fill: parent
-                anchors.topMargin: LingmoUI.Units.largeSpacing * 5
-                anchors.leftMargin: LingmoUI.Units.largeSpacing
-                anchors.rightMargin: LingmoUI.Units.largeSpacing
-                anchors.bottomMargin: LingmoUI.Units.largeSpacing
-                radius: LingmoUI.Theme.mediumRadius
-                color: LingmoUI.Theme.secondBackgroundColor
+                anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing * 5
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+                radius: LingmoUI.LingmoTheme.mediumRadius
+                color: LingmoUI.LingmoTheme.secondBackgroundColor
 
                 ColumnLayout {
                     anchors.fill: parent
-                    spacing: LingmoUI.Units.smallSpacing
+                    spacing: LingmoUI.LingmoUnits.smallSpacing
 
                     Item {
                         Layout.fillHeight: true
@@ -380,7 +380,7 @@ Item {
                             id: textArea
                             text: updator.updateInfo
                             textFormat: TextArea.RichText
-                            color: LingmoUI.Theme.disabledTextColor
+                            color: LingmoUI.LingmoTheme.disabledTextColor
                             readOnly: true // 设置为只读模式，因为是用于显示日志
                             wrapMode: Text.WordWrap // 确保文本可以换行
                         }
@@ -413,7 +413,7 @@ Item {
         }
 
         Item {
-            height: LingmoUI.Units.smallSpacing
+            height: LingmoUI.LingmoUnits.smallSpacing
             visible: _listView.visible
         }
 

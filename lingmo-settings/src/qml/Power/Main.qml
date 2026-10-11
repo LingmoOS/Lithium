@@ -64,16 +64,16 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             RoundedItem {
                 Label {
                     text: qsTr("Mode")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing * 2
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     IconCheckBox {
                         source: "qrc:/images/powersave.svg"
@@ -98,21 +98,21 @@ ItemPage {
             }
 
             Label {
-                color: LingmoUI.Theme.disabledTextColor
-                leftPadding: LingmoUI.Units.largeSpacing * 2
-                rightPadding: LingmoUI.Units.largeSpacing
+                color: LingmoUI.LingmoTheme.disabledTextColor
+                leftPadding: LingmoUI.LingmoUnits.largeSpacing * 2
+                rightPadding: LingmoUI.LingmoUnits.largeSpacing
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: qsTr("Performance mode: CPU and GPU frequencies will be increased, while power consumption and heat generation will be increased.")
             }
 
             RoundedItem {
-                Layout.topMargin: LingmoUI.Units.largeSpacing
+                Layout.topMargin: LingmoUI.LingmoUnits.largeSpacing
 
                 GridLayout {
                     columns: 2
-                    rowSpacing: LingmoUI.Units.largeSpacing * 2
-                    Layout.bottomMargin: LingmoUI.Units.largeSpacing
+                    rowSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
+                    Layout.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
 
                     Label {
                         text: qsTr("Turn off screen")
@@ -186,7 +186,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing * 2
+                height: LingmoUI.LingmoUnits.largeSpacing * 2
             }
         }
     }

@@ -46,7 +46,7 @@ lingmo-settings (2.1.5-rc1) main; urgency=high
   [Lingmo OS Team]
   * update Change Device name Page
 
- -- Lingmo OS Team <team@lingmo.org>  Tue, 46 Jul 2024 22:06:00 +0800
+ -- Lingmo OS Team <team@lingmo.org>  Tue, 16 Jul 2024 22:06:00 +0800
  
 lingmo-settings (2.1.5) main; urgency=high
 

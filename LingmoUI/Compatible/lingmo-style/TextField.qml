@@ -31,22 +31,22 @@ T.TextField {
 
     implicitWidth: Math.max(200,
                             placeholderText ? placeholder.implicitWidth + leftPadding + rightPadding : 0)
-                            || contentWidth + leftPadding + rightPadding + LingmoUI.Units.extendBorderWidth
+                            || contentWidth + leftPadding + rightPadding + LingmoUI.LingmoUnits.extendBorderWidth
     implicitHeight: Math.max(contentHeight + topPadding + bottomPadding,
                              background ? background.implicitHeight : 0,
-                             placeholder.implicitHeight + topPadding + bottomPadding + LingmoUI.Units.extendBorderWidth)
+                             placeholder.implicitHeight + topPadding + bottomPadding + LingmoUI.LingmoUnits.extendBorderWidth)
 
     // padding: 6
-    leftPadding: LingmoUI.Units.smallSpacing + LingmoUI.Units.extendBorderWidth
-    rightPadding: LingmoUI.Units.smallSpacing + LingmoUI.Units.extendBorderWidth
+    leftPadding: LingmoUI.LingmoUnits.smallSpacing + LingmoUI.LingmoUnits.extendBorderWidth
+    rightPadding: LingmoUI.LingmoUnits.smallSpacing + LingmoUI.LingmoUnits.extendBorderWidth
 
     //Text.NativeRendering is broken on non integer pixel ratios
     // renderType: Window.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
-    renderType: LingmoUI.Theme.renderType
+    renderType: LingmoUI.LingmoTheme.renderType
 
-    color: control.enabled ? LingmoUI.Theme.textColor : LingmoUI.Theme.disabledTextColor
-    selectionColor: LingmoUI.Theme.highlightColor
-    selectedTextColor: LingmoUI.Theme.highlightedTextColor
+    color: control.enabled ? LingmoUI.LingmoTheme.textColor : LingmoUI.LingmoTheme.disabledTextColor
+    selectionColor: LingmoUI.LingmoTheme.highlightColor
+    selectedTextColor: LingmoUI.LingmoTheme.highlightedTextColor
     selectByMouse: true
 
     horizontalAlignment: Text.AlignLeft
@@ -65,7 +65,7 @@ T.TextField {
 
         text: control.placeholderText
         font: control.font
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
         opacity: 0.4
         horizontalAlignment: Text.AlignLeft
         verticalAlignment: control.verticalAlignment
@@ -75,24 +75,24 @@ T.TextField {
 	}
 
     background: Rectangle {
-        implicitWidth: (LingmoUI.Units.iconSizes.medium * 3) + LingmoUI.Units.smallSpacing + LingmoUI.Units.extendBorderWidth
-        implicitHeight: LingmoUI.Units.iconSizes.medium + LingmoUI.Units.smallSpacing + LingmoUI.Units.extendBorderWidth
-        // color: control.activeFocus ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.4) : LingmoUI.Theme.backgroundColor
-        color: LingmoUI.Theme.alternateBackgroundColor
-        radius: LingmoUI.Theme.smallRadius
+        implicitWidth: (LingmoUI.LingmoUnits.iconSizes.medium * 3) + LingmoUI.LingmoUnits.smallSpacing + LingmoUI.LingmoUnits.extendBorderWidth
+        implicitHeight: LingmoUI.LingmoUnits.iconSizes.medium + LingmoUI.LingmoUnits.smallSpacing + LingmoUI.LingmoUnits.extendBorderWidth
+        // color: control.activeFocus ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.4) : LingmoUI.LingmoTheme.backgroundColor
+        color: LingmoUI.LingmoTheme.alternateBackgroundColor
+        radius: LingmoUI.LingmoTheme.smallRadius
 
         border.width: 1
-        border.color: control.activeFocus ? LingmoUI.Theme.highlightColor : LingmoUI.Theme.alternateBackgroundColor
+        border.color: control.activeFocus ? LingmoUI.LingmoTheme.highlightColor : LingmoUI.LingmoTheme.alternateBackgroundColor
 
         // Rectangle {
         //     id: _border
         //     anchors.fill: parent
         //     color: "transparent"
-        //     border.color: control.activeFocus ? Qt.rgba(LingmoUI.Theme.highlightColor.r,
-        //                                                 LingmoUI.Theme.highlightColor.g,
-        //                                                 LingmoUI.Theme.highlightColor.b, 0.2) : "transparent"
-        //     border.width: LingmoUI.Units.extendBorderWidth
-        //     radius: LingmoUI.Theme.smallRadius + LingmoUI.Units.extendBorderWidth
+        //     border.color: control.activeFocus ? Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+        //                                                 LingmoUI.LingmoTheme.highlightColor.g,
+        //                                                 LingmoUI.LingmoTheme.highlightColor.b, 0.2) : "transparent"
+        //     border.width: LingmoUI.LingmoUnits.extendBorderWidth
+        //     radius: LingmoUI.LingmoTheme.smallRadius + LingmoUI.LingmoUnits.extendBorderWidth
 
         //     Behavior on border.color {
         //         ColorAnimation {
@@ -103,10 +103,10 @@ T.TextField {
 
         // Rectangle {
         //     anchors.fill: parent
-        //     anchors.margins: LingmoUI.Units.extendBorderWidth
-        //     radius: LingmoUI.Theme.smallRadius
-        //     color: LingmoUI.Theme.backgroundColor
-        //     border.color: control.activeFocus ? LingmoUI.Theme.highlightColor : Qt.tint(LingmoUI.Theme.textColor, Qt.rgba(LingmoUI.Theme.backgroundColor.r, LingmoUI.Theme.backgroundColor.g, LingmoUI.Theme.backgroundColor.b, 0.7))
+        //     anchors.margins: LingmoUI.LingmoUnits.extendBorderWidth
+        //     radius: LingmoUI.LingmoTheme.smallRadius
+        //     color: LingmoUI.LingmoTheme.backgroundColor
+        //     border.color: control.activeFocus ? LingmoUI.LingmoTheme.highlightColor : Qt.tint(LingmoUI.LingmoTheme.textColor, Qt.rgba(LingmoUI.LingmoTheme.backgroundColor.r, LingmoUI.LingmoTheme.backgroundColor.g, LingmoUI.LingmoTheme.backgroundColor.b, 0.7))
         //     border.width: 1
         // }
     }

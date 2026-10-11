@@ -24,12 +24,12 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
                 Label {
                     text: qsTr("Appearance enhancement")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                     visible: _view.count > 0
                 }
 
@@ -85,7 +85,7 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Barrier free function")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                     visible: _view.count > 0
                 }
 
@@ -123,7 +123,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
         }
     }

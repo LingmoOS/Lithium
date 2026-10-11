@@ -2,7 +2,7 @@ import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 
 LingmoUI.Window {
     id: control
@@ -16,7 +16,7 @@ LingmoUI.Window {
     flags: Qt.WindowStaysOnTopHint | Qt.Dialog | Qt.FramelessWindowHint
     modality: Qt.WindowModal
     contentTopMargin: 0
-    background.color: LingmoUI.Theme.backgroundColor
+    background.color: LingmoUI.LingmoTheme.backgroundColor
 
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true

@@ -20,8 +20,8 @@ Item {
     height: 0
     visible: false
 
-    property int popupEdgeDistance: LingmoUI.Units.largeSpacing
-    property int popupSpacing: LingmoUI.Units.largeSpacing
+    property int popupEdgeDistance: LingmoUI.LingmoUnits.largeSpacing
+    property int popupSpacing: LingmoUI.LingmoUnits.largeSpacing
     readonly property real popupMaximumScreenFill: 0.4
 
     readonly property rect screenRect: {

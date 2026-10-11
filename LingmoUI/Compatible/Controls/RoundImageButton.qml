@@ -32,10 +32,10 @@ Item {
 
     property alias background: _background
     property color backgroundColor: "transparent"
-    property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 2)
-                                                       : Qt.darker(LingmoUI.Theme.backgroundColor, 1.1)
-    property color pressedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.5)
-                                                       : Qt.darker(LingmoUI.Theme.backgroundColor, 1.2)
+    property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 2)
+                                                       : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.1)
+    property color pressedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.5)
+                                                       : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.2)
     property alias source: _image.source
     property alias image: _image
     signal clicked()

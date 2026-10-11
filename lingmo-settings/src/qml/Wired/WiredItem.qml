@@ -32,10 +32,10 @@ Item {
 
     Rectangle {
         anchors.fill: parent
-        radius: LingmoUI.Theme.smallRadius
-        color: mouseArea.containsMouse ? Qt.rgba(LingmoUI.Theme.textColor.r,
-                                                 LingmoUI.Theme.textColor.g,
-                                                 LingmoUI.Theme.textColor.b,
+        radius: LingmoUI.LingmoTheme.smallRadius
+        color: mouseArea.containsMouse ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                                                 LingmoUI.LingmoTheme.textColor.g,
+                                                 LingmoUI.LingmoTheme.textColor.b,
                                                  0.1) : "transparent"
 
         Behavior on color {
@@ -61,14 +61,14 @@ Item {
 
     RowLayout {
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.smallSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.smallSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Image {
             width: 22
             height: width
             sourceSize: Qt.size(width, height)
-            source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + "network-wired.svg"
+            source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + "network-wired.svg"
         }
 
         Label {
@@ -87,7 +87,7 @@ Item {
             ColorOverlay {
                 anchors.fill: parent
                 source: parent
-                color: LingmoUI.Theme.highlightColor
+                color: LingmoUI.LingmoTheme.highlightColor
                 opacity: 1
                 visible: true
             }

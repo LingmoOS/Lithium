@@ -6,49 +6,49 @@ import QtQuick.Controls.impl 2.12
 
 T.Button {
     id: control
-    implicitWidth: Math.max(background.implicitWidth, contentItem.implicitWidth + LingmoUI.Units.largeSpacing)
+    implicitWidth: Math.max(background.implicitWidth, contentItem.implicitWidth + LingmoUI.LingmoUnits.largeSpacing)
     implicitHeight: background.implicitHeight
     hoverEnabled: true
 
-    icon.width: LingmoUI.Units.iconSizes.small
-    icon.height: LingmoUI.Units.iconSizes.small
+    icon.width: LingmoUI.LingmoUnits.iconSizes.small
+    icon.height: LingmoUI.LingmoUnits.iconSizes.small
 
-    icon.color: control.enabled ? (control.highlighted ? control.LingmoUI.Theme.highlightColor : control.LingmoUI.Theme.textColor) : control.LingmoUI.Theme.disabledTextColor
-    spacing: LingmoUI.Units.smallSpacing
+    icon.color: control.enabled ? (control.highlighted ? control.LingmoUI.LingmoTheme.highlightColor : control.LingmoUI.LingmoTheme.textColor) : control.LingmoUI.LingmoTheme.disabledTextColor
+    spacing: LingmoUI.LingmoUnits.smallSpacing
 
-    // property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.alternateBackgroundColor, 1.2)
-    //                                                    : Qt.darker(LingmoUI.Theme.alternateBackgroundColor, 1.1)
+    // property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.alternateBackgroundColor, 1.2)
+    //                                                    : Qt.darker(LingmoUI.LingmoTheme.alternateBackgroundColor, 1.1)
 
-    // property color pressedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.alternateBackgroundColor, 1.1)
-    //                                                    : Qt.darker(LingmoUI.Theme.alternateBackgroundColor, 1.2)
+    // property color pressedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.alternateBackgroundColor, 1.1)
+    //                                                    : Qt.darker(LingmoUI.LingmoTheme.alternateBackgroundColor, 1.2)
 
-    property color hoveredColor: Qt.tint(LingmoUI.Theme.textColor, Qt.rgba(LingmoUI.Theme.backgroundColor.r,
-                                                                       LingmoUI.Theme.backgroundColor.g,
-                                                                       LingmoUI.Theme.backgroundColor.b, 0.9))
-    property color pressedColor: Qt.tint(LingmoUI.Theme.textColor, Qt.rgba(LingmoUI.Theme.backgroundColor.r,
-                                                                       LingmoUI.Theme.backgroundColor.g,
-                                                                       LingmoUI.Theme.backgroundColor.b, 0.8))
+    property color hoveredColor: Qt.tint(LingmoUI.LingmoTheme.textColor, Qt.rgba(LingmoUI.LingmoTheme.backgroundColor.r,
+                                                                       LingmoUI.LingmoTheme.backgroundColor.g,
+                                                                       LingmoUI.LingmoTheme.backgroundColor.b, 0.9))
+    property color pressedColor: Qt.tint(LingmoUI.LingmoTheme.textColor, Qt.rgba(LingmoUI.LingmoTheme.backgroundColor.r,
+                                                                       LingmoUI.LingmoTheme.backgroundColor.g,
+                                                                       LingmoUI.LingmoTheme.backgroundColor.b, 0.8))
 
 
-    // property color borderColor: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-    //                                     LingmoUI.Theme.highlightColor.g,
-    //                                     LingmoUI.Theme.highlightColor.b, 0.5)
+    // property color borderColor: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+    //                                     LingmoUI.LingmoTheme.highlightColor.g,
+    //                                     LingmoUI.LingmoTheme.highlightColor.b, 0.5)
 
-    // property color flatHoveredColor: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-    //                                          LingmoUI.Theme.highlightColor.g,
-    //                                          LingmoUI.Theme.highlightColor.b, 0.2)
-    // property color flatPressedColor: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-    //                                          LingmoUI.Theme.highlightColor.g,
-    //                                          LingmoUI.Theme.highlightColor.b, 0.25)
+    // property color flatHoveredColor: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+    //                                          LingmoUI.LingmoTheme.highlightColor.g,
+    //                                          LingmoUI.LingmoTheme.highlightColor.b, 0.2)
+    // property color flatPressedColor: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+    //                                          LingmoUI.LingmoTheme.highlightColor.g,
+    //                                          LingmoUI.LingmoTheme.highlightColor.b, 0.25)
 
-    property color flatHoveredColor: Qt.lighter(LingmoUI.Theme.highlightColor, 1.1)
-    property color flatPressedColor: Qt.darker(LingmoUI.Theme.highlightColor, 1.1)
+    property color flatHoveredColor: Qt.lighter(LingmoUI.LingmoTheme.highlightColor, 1.1)
+    property color flatPressedColor: Qt.darker(LingmoUI.LingmoTheme.highlightColor, 1.1)
 
     contentItem: IconLabel {
         text: control.text
         font: control.font
         icon: control.icon
-        color: !control.enabled ? control.LingmoUI.Theme.disabledTextColor : control.flat ? LingmoUI.Theme.highlightedTextColor : LingmoUI.Theme.textColor
+        color: !control.enabled ? control.LingmoUI.LingmoTheme.disabledTextColor : control.flat ? LingmoUI.LingmoTheme.highlightedTextColor : LingmoUI.LingmoTheme.textColor
         spacing: control.spacing
         mirrored: control.mirrored
         display: control.display
@@ -56,22 +56,22 @@ T.Button {
     }
 
     background: Item {
-        implicitWidth: (LingmoUI.Units.iconSizes.medium * 3) + LingmoUI.Units.largeSpacing
-        implicitHeight: LingmoUI.Units.iconSizes.medium + LingmoUI.Units.smallSpacing
+        implicitWidth: (LingmoUI.LingmoUnits.iconSizes.medium * 3) + LingmoUI.LingmoUnits.largeSpacing
+        implicitHeight: LingmoUI.LingmoUnits.iconSizes.medium + LingmoUI.LingmoUnits.smallSpacing
 
         Rectangle {
             id: _flatBackground
             anchors.fill: parent
-            radius: LingmoUI.Theme.mediumRadius
+            radius: LingmoUI.LingmoTheme.mediumRadius
             border.width: 1
-            border.color: control.enabled ? control.activeFocus ? LingmoUI.Theme.highlightColor : "transparent"
+            border.color: control.enabled ? control.activeFocus ? LingmoUI.LingmoTheme.highlightColor : "transparent"
                                           : "transparent"
             visible: control.flat
 
 
             color: {
                 if (!control.enabled)
-                    return LingmoUI.Theme.alternateBackgroundColor
+                    return LingmoUI.LingmoTheme.alternateBackgroundColor
 
                 if (control.pressed)
                     return control.flatPressedColor
@@ -79,9 +79,9 @@ T.Button {
                 if (control.hovered)
                     return control.flatHoveredColor
 
-                return Qt.rgba(LingmoUI.Theme.highlightColor.r,
-                               LingmoUI.Theme.highlightColor.g,
-                               LingmoUI.Theme.highlightColor.b, 0.1)
+                return Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+                               LingmoUI.LingmoTheme.highlightColor.g,
+                               LingmoUI.LingmoTheme.highlightColor.b, 0.1)
             }
 
             gradient: Gradient {
@@ -105,15 +105,15 @@ T.Button {
         Rectangle {
             id: _background
             anchors.fill: parent
-            radius: LingmoUI.Theme.hugeRadius
+            radius: LingmoUI.LingmoTheme.hugeRadius
             border.width: 1
             visible: !control.flat
-            border.color: control.enabled ? control.activeFocus ? LingmoUI.Theme.highlightColor : "transparent"
+            border.color: control.enabled ? control.activeFocus ? LingmoUI.LingmoTheme.highlightColor : "transparent"
                                           : "transparent"
 
             color: {
                 if (!control.enabled)
-                    return LingmoUI.Theme.alternateBackgroundColor
+                    return LingmoUI.LingmoTheme.alternateBackgroundColor
 
                 if (control.pressed)
                     return control.pressedColor
@@ -121,7 +121,7 @@ T.Button {
                 if (control.hovered)
                     return control.hoveredColor
 
-                return LingmoUI.Theme.alternateBackgroundColor
+                return LingmoUI.LingmoTheme.alternateBackgroundColor
             }
         }
     }

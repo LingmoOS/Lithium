@@ -29,8 +29,8 @@ Window {
     flags: Qt.Dialog
     visible: true
 
-    width: 400 + LingmoUI.Units.largeSpacing * 2
-    height: _mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 2
+    width: 400 + LingmoUI.LingmoUnits.largeSpacing * 2
+    height: _mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
 
     minimumWidth: width
     minimumHeight: height
@@ -39,14 +39,14 @@ Window {
 
     Rectangle {
         anchors.fill: parent
-        color: LingmoUI.Theme.secondBackgroundColor
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
     }
 
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         LingmoUI.ActionTextField {
             id: _textField
@@ -75,7 +75,7 @@ Window {
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

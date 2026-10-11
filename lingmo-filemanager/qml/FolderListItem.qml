@@ -41,10 +41,10 @@ Item {
     property bool selected: model.selected
     property bool blank: model.blank
 
-    property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 2.3)
-                                                       : Qt.darker(LingmoUI.Theme.backgroundColor, 1.05)
-    property color selectedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.2)
-                                                        : Qt.darker(LingmoUI.Theme.backgroundColor, 1.15)
+    property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 2.3)
+                                                       : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.05)
+    property color selectedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.2)
+                                                        : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.15)
 //    onSelectedChanged: {
 //        if (selected && !blank) {
 //            _listItem.grabToImage(function(result) {
@@ -59,8 +59,8 @@ Item {
     Rectangle {
         id: _background
         anchors.fill: parent
-        radius: LingmoUI.Theme.smallRadius
-        color: selected ? LingmoUI.Theme.highlightColor : hovered ? hoveredColor : "transparent"
+        radius: LingmoUI.LingmoTheme.smallRadius
+        color: selected ? LingmoUI.LingmoTheme.highlightColor : hovered ? hoveredColor : "transparent"
         visible: selected || hovered
         opacity: selected ? 0.1 : 2
     }
@@ -68,9 +68,9 @@ Item {
     RowLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.smallSpacing
-        anchors.rightMargin: LingmoUI.Units.smallSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Item {
             id: iconItem
@@ -136,7 +136,7 @@ Item {
                 id: _label
                 text: model.fileName
                 Layout.fillWidth: true
-                color: selected ? LingmoUI.Theme.highlightColor : LingmoUI.Theme.textColor
+                color: selected ? LingmoUI.LingmoTheme.highlightColor : LingmoUI.LingmoTheme.textColor
                 textFormat: Text.PlainText
                 elide: Qt.ElideMiddle
                 opacity: model.isHidden ? 0.8 : 1.0
@@ -145,7 +145,7 @@ Item {
             Label {
                 id: _label2
                 text: model.fileSize
-                color: selected ? LingmoUI.Theme.highlightColor : LingmoUI.Theme.disabledTextColor
+                color: selected ? LingmoUI.LingmoTheme.highlightColor : LingmoUI.LingmoTheme.disabledTextColor
                 textFormat: Text.PlainText
                 Layout.fillWidth: true
                 opacity: model.isHidden ? 0.8 : 1.0
@@ -155,7 +155,7 @@ Item {
         Label {
             text: model.modified
             textFormat: Text.PlainText
-            color: selected ? LingmoUI.Theme.highlightColor : LingmoUI.Theme.disabledTextColor
+            color: selected ? LingmoUI.LingmoTheme.highlightColor : LingmoUI.LingmoTheme.disabledTextColor
             opacity: model.isHidden ? 0.8 : 1.0
         }
     }

@@ -26,8 +26,8 @@ import LingmoUI.CompatibleModule 3.0 as LingmoUI
 Item {
     id: control
 
-    property int widthValue: _mainLayout.implicitWidth + LingmoUI.Units.largeSpacing * 3
-    property int heightValue: _mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 3
+    property int widthValue: _mainLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 3
+    property int heightValue: _mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 3
 
     width: widthValue
     height: heightValue
@@ -41,7 +41,7 @@ Item {
 
     Rectangle {
         anchors.fill: parent
-        color: LingmoUI.Theme.secondBackgroundColor
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
     }
 
     onVisibleChanged: {
@@ -62,14 +62,14 @@ Item {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-        anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-        anchors.topMargin: LingmoUI.Units.smallSpacing
-        anchors.bottomMargin: LingmoUI.Units.largeSpacing * 1.5
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+        anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             LingmoUI.IconItem {
                 width: 64
@@ -89,8 +89,8 @@ Item {
 
         GridLayout {
             columns: 2
-            columnSpacing: LingmoUI.Units.largeSpacing
-            rowSpacing: LingmoUI.Units.largeSpacing
+            columnSpacing: LingmoUI.LingmoUnits.largeSpacing
+            rowSpacing: LingmoUI.LingmoUnits.largeSpacing
             Layout.alignment: Qt.AlignTop
 
             onHeightChanged: updateWindowSize()
@@ -99,7 +99,7 @@ Item {
             Label {
                 text: qsTr("Type:")
                 Layout.alignment: Qt.AlignRight
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 visible: mimeType.visible
             }
 
@@ -112,7 +112,7 @@ Item {
             Label {
                 text: qsTr("Location:")
                 Layout.alignment: Qt.AlignRight
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
             }
 
             Label {
@@ -123,7 +123,7 @@ Item {
             Label {
                 text: qsTr("Size:")
                 Layout.alignment: Qt.AlignRight
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
             }
 
             Label {
@@ -134,7 +134,7 @@ Item {
             Label {
                 text: qsTr("Created:")
                 Layout.alignment: Qt.AlignRight
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 visible: creationTime.visible
             }
 
@@ -147,7 +147,7 @@ Item {
             Label {
                 text: qsTr("Modified:")
                 Layout.alignment: Qt.AlignRight
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 visible: modifiedTime.visible
             }
 
@@ -160,7 +160,7 @@ Item {
             Label {
                 text: qsTr("Accessed:")
                 Layout.alignment: Qt.AlignRight
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 visible: accessTime.visible
             }
 
@@ -172,12 +172,12 @@ Item {
         }
 
         Item {
-            height: LingmoUI.Units.smallSpacing
+            height: LingmoUI.LingmoUnits.smallSpacing
         }
 
         RowLayout {
             Layout.alignment: Qt.AlignRight
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

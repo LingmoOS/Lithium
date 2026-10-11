@@ -32,8 +32,8 @@ import LingmoUI.CompatibleModule 3.0 as LingmoUI
 ControlCenterDialog {
     id: control
 
-    width: _mainLayout.implicitWidth + LingmoUI.Units.largeSpacing * 3
-    height: _mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 3
+    width: _mainLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 3
+    height: _mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 3
 
     onWidthChanged: adjustCorrectLocation()
     onHeightChanged: adjustCorrectLocation()
@@ -41,8 +41,8 @@ ControlCenterDialog {
 
     property point position: Qt.point(0, 0)
     property var margin: 4 * Screen.devicePixelRatio
-    property var borderColor: windowHelper.compositing ? LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
+    property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
                                                                                                                   : Qt.rgba(0, 0, 0, 0.15)
 
     Accounts.UserAccount {
@@ -65,9 +65,9 @@ ControlCenterDialog {
     Rectangle {
         id: _background
         anchors.fill: parent
-        radius: windowHelper.compositing ? LingmoUI.Theme.bigRadius * 1.5 : 0
-        color: LingmoUI.Theme.darkMode ? "#4D4D4D" : "#FFFFFF"
-        opacity: windowHelper.compositing ? LingmoUI.Theme.darkMode ? 0.5 : 0.7 : 1.0
+        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.bigRadius * 1.5 : 0
+        color: LingmoUI.LingmoTheme.darkMode ? "#4D4D4D" : "#FFFFFF"
+        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.7 : 1.0
         antialiasing: true
         border.width: 1 / Screen.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true
@@ -84,11 +84,11 @@ ControlCenterDialog {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing * 1.5
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing * 1.5
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         RowLayout {
-            spacing: LingmoUI.Units.smallSpacing * 1.5
+            spacing: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
             Image {
                 id: userIcon
@@ -126,14 +126,14 @@ ControlCenterDialog {
         }
 
         GridLayout {
-            rowSpacing: LingmoUI.Units.largeSpacing
-            columnSpacing: LingmoUI.Units.largeSpacing
+            rowSpacing: LingmoUI.LingmoUnits.largeSpacing
+            columnSpacing: LingmoUI.LingmoUnits.largeSpacing
             columns: 3
 
             StandardCard {
                 Layout.preferredWidth: 96
                 Layout.preferredHeight: 96
-                icon: LingmoUI.Theme.darkMode ? "qrc:/images/dark/system-shutdown.svg"
+                icon: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/system-shutdown.svg"
                                             : "qrc:/images/light/system-shutdown.svg"
                 visible: true
                 checked: false
@@ -148,7 +148,7 @@ ControlCenterDialog {
             StandardCard {
                 Layout.preferredWidth: 96
                 Layout.preferredHeight: 96
-                icon: LingmoUI.Theme.darkMode ? "qrc:/images/dark/system-reboot.svg"
+                icon: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/system-reboot.svg"
                                             : "qrc:/images/light/system-reboot.svg"
                 visible: true
                 checked: false
@@ -163,7 +163,7 @@ ControlCenterDialog {
             StandardCard {
                 Layout.preferredWidth: 96
                 Layout.preferredHeight: 96
-                icon: LingmoUI.Theme.darkMode ? "qrc:/images/dark/system-log-out.svg"
+                icon: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/system-log-out.svg"
                                             : "qrc:/images/light/system-log-out.svg"
                 visible: true
                 checked: false
@@ -178,7 +178,7 @@ ControlCenterDialog {
             StandardCard {
                 Layout.preferredWidth: 96
                 Layout.preferredHeight: 96
-                icon: LingmoUI.Theme.darkMode ? "qrc:/images/dark/system-lock-screen.svg"
+                icon: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/system-lock-screen.svg"
                                             : "qrc:/images/light/system-lock-screen.svg"
                 visible: true
                 checked: false
@@ -193,7 +193,7 @@ ControlCenterDialog {
             StandardCard {
                 Layout.preferredWidth: 96
                 Layout.preferredHeight: 96
-                icon: LingmoUI.Theme.darkMode ? "qrc:/images/dark/system-suspend.svg"
+                icon: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/system-suspend.svg"
                                             : "qrc:/images/light/system-suspend.svg"
                 visible: true
                 checked: false

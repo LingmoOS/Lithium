@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/home/lingmo/Lithium/lingmo-texteditor/obj-x86_64-linux-gnu/lingmo-texteditor_autogen",
+	"CMAKE_BINARY_DIR" : "/home/lingmo/Lithium/lingmo-texteditor/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/lingmo/Lithium/lingmo-texteditor/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/lingmo/Lithium/lingmo-texteditor",
+	"CMAKE_SOURCE_DIR" : "/home/lingmo/Lithium/lingmo-texteditor",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/lingmo/Lithium/lingmo-texteditor/obj-x86_64-linux-gnu/lingmo-texteditor_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/lingmo/Lithium/lingmo-texteditor/images/light/close.svg",
+		"/home/lingmo/Lithium/lingmo-texteditor/images/light/add.svg",
+		"/home/lingmo/Lithium/lingmo-texteditor/images/dark/close.svg",
+		"/home/lingmo/Lithium/lingmo-texteditor/images/dark/add.svg",
+		"/home/lingmo/Lithium/lingmo-texteditor/qml/TextEditor.qml",
+		"/home/lingmo/Lithium/lingmo-texteditor/qml/FileSelectDialog.qml",
+		"/home/lingmo/Lithium/lingmo-texteditor/qml/main.qml",
+		"/home/lingmo/Lithium/lingmo-texteditor/qml/ExitPromptDialog.qml"
+	],
+	"LOCK_FILE" : "/home/lingmo/Lithium/lingmo-texteditor/obj-x86_64-linux-gnu/CMakeFiles/lingmo-texteditor_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/lingmo/Lithium/lingmo-texteditor/obj-x86_64-linux-gnu/CMakeFiles/lingmo-texteditor_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/lingmo/Lithium/lingmo-texteditor/qml.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

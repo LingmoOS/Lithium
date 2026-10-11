@@ -30,7 +30,7 @@ T.ToolTip {
     id: controlRoot
 
     x: parent ? (parent.width - implicitWidth) / 2 : 0
-    y: -implicitHeight - LingmoUI.Units.smallSpacing * 1.5
+    y: -implicitHeight - LingmoUI.LingmoUnits.smallSpacing * 1.5
 
     implicitWidth: contentItem.implicitWidth + leftPadding + rightPadding
     implicitHeight: contentItem.implicitHeight + topPadding + bottomPadding
@@ -43,13 +43,13 @@ T.ToolTip {
     contentItem: Controls.Label {
         text: controlRoot.text
         font: controlRoot.font
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
     }
 
     background: Rectangle {
         opacity: 0.95
-        color: LingmoUI.Theme.secondBackgroundColor
-        radius: LingmoUI.Theme.smallRadius
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
+        radius: LingmoUI.LingmoTheme.smallRadius
 
         layer.enabled: true
         layer.effect: DropShadow {

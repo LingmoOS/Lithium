@@ -39,18 +39,18 @@ LingmoUI.Window {
     maximumWidth: contentWidth
     maximumHeight: contentHeight
 
-    property var contentWidth: _mainLayout.implicitWidth + LingmoUI.Units.largeSpacing * 2
-    property var contentHeight: _mainLayout.implicitHeight + control.header.height + LingmoUI.Units.largeSpacing * 2
+    property var contentWidth: _mainLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 2
+    property var contentHeight: _mainLayout.implicitHeight + control.header.height + LingmoUI.LingmoUnits.largeSpacing * 2
 
-    background.color: LingmoUI.Theme.secondBackgroundColor
+    background.color: LingmoUI.LingmoTheme.secondBackgroundColor
 
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.largeSpacing
-        anchors.rightMargin: LingmoUI.Units.largeSpacing
-        anchors.bottomMargin: LingmoUI.Units.smallSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Label {
             text: qsTr("Do you want to delete it permanently?")
@@ -59,7 +59,7 @@ LingmoUI.Window {
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

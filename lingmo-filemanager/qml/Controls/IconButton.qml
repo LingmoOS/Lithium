@@ -26,19 +26,19 @@ Item {
     height: 24
 
     property alias source: _image.source
-    property color backgroundColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.secondBackgroundColor, 1.3)
-                                                          : LingmoUI.Theme.secondBackgroundColor
-    property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.secondBackgroundColor, 1.7)
-                                                   : Qt.darker(LingmoUI.Theme.secondBackgroundColor, 1.2)
-    property color pressedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.secondBackgroundColor, 1.4)
-                                                     : Qt.darker(LingmoUI.Theme.secondBackgroundColor, 1.3)
+    property color backgroundColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.secondBackgroundColor, 1.3)
+                                                          : LingmoUI.LingmoTheme.secondBackgroundColor
+    property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.secondBackgroundColor, 1.7)
+                                                   : Qt.darker(LingmoUI.LingmoTheme.secondBackgroundColor, 1.2)
+    property color pressedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.secondBackgroundColor, 1.4)
+                                                     : Qt.darker(LingmoUI.LingmoTheme.secondBackgroundColor, 1.3)
 
     signal clicked()
 
     Rectangle {
         id: _background
         anchors.fill: parent
-        radius: LingmoUI.Theme.smallRadius
+        radius: LingmoUI.LingmoTheme.smallRadius
         color: _mouseArea.pressed ? pressedColor : _mouseArea.containsMouse ? control.hoveredColor : control.backgroundColor
     }
 

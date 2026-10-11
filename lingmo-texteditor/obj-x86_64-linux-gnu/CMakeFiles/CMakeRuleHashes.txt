@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+245d5f956579d2e0f2f0962a47b913f3 .lupdate/translations/en_US.ts.stamp
+bf3ad911b2811b0d8b39d409c9098214 .lupdate/translations/zh_CN.ts.stamp
+ba52edf85cf567a37dad7bb6531667a2 CMakeFiles/lingmo-texteditor_autogen
+ba52edf85cf567a37dad7bb6531667a2 CMakeFiles/translations
+e93c5e1aed571bc416494d7495778d73 en_US.qm
+1019200859522a5e82e5995d8f6dcb7f lingmo-texteditor_autogen/EWIEGA46WW/qrc_qml.cpp
+7afff18d02a2040271b0882cc52b41cf lingmo-texteditor_autogen/timestamp
+ef1a343d7e682a3cfd77d58c0a909380 zh_CN.qm

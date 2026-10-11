@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/qaptworker6.dir/link.d"
+  "CMakeFiles/qaptworker6_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/qaptworker6_autogen.dir/ParseCache.txt"
+  "qaptworker6_autogen"
+  "CMakeFiles/qaptworker6.dir/aptlock.cpp.o"
+  "CMakeFiles/qaptworker6.dir/aptlock.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/aptworker.cpp.o"
+  "CMakeFiles/qaptworker6.dir/aptworker.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/main.cpp.o"
+  "CMakeFiles/qaptworker6.dir/main.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/qaptworker6_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/qaptworker6.dir/qaptworker6_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/transaction.cpp.o"
+  "CMakeFiles/qaptworker6.dir/transaction.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/transactionadaptor.cpp.o"
+  "CMakeFiles/qaptworker6.dir/transactionadaptor.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/transactionqueue.cpp.o"
+  "CMakeFiles/qaptworker6.dir/transactionqueue.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/workeracquire.cpp.o"
+  "CMakeFiles/qaptworker6.dir/workeracquire.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/workeradaptor.cpp.o"
+  "CMakeFiles/qaptworker6.dir/workeradaptor.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/workerdaemon.cpp.o"
+  "CMakeFiles/qaptworker6.dir/workerdaemon.cpp.o.d"
+  "CMakeFiles/qaptworker6.dir/workerinstallprogress.cpp.o"
+  "CMakeFiles/qaptworker6.dir/workerinstallprogress.cpp.o.d"
+  "moc_transactionadaptor.cpp"
+  "moc_workeradaptor.cpp"
+  "qaptworker6"
+  "qaptworker6.pdb"
+  "qaptworker6_autogen/mocs_compilation.cpp"
+  "qaptworker6_autogen/timestamp"
+  "transactionadaptor.cpp"
+  "transactionadaptor.h"
+  "workeradaptor.cpp"
+  "workeradaptor.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/qaptworker6.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -32,12 +32,12 @@ Window {
     property alias backgroundOpacity: _background.opacity
     property alias backgroundColor: _background.color
     property alias blurEnabled: windowBlur.enabled
-    property var borderColor: windowHelper.compositing ? LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+    property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
                                                                                                                   : Qt.rgba(0, 0, 0, 0.05)
     flags: Qt.WindowStaysOnTopHint | Qt.WindowDoesNotAcceptFocus | Qt.ToolTip
-    width: label.implicitWidth + LingmoUI.Units.largeSpacing * 1.5
-    height: label.implicitHeight + LingmoUI.Units.largeSpacing * 1.5
+    width: label.implicitWidth + LingmoUI.LingmoUnits.largeSpacing * 1.5
+    height: label.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 1.5
 
     LingmoUI.WindowHelper {
         id: windowHelper
@@ -60,8 +60,8 @@ Window {
     Rectangle {
         id: _background
         anchors.fill: parent
-        color: LingmoUI.Theme.secondBackgroundColor
-        radius: windowHelper.compositing ? LingmoUI.Theme.mediumRadius : 0
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
+        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.mediumRadius : 0
         border.color: control.borderColor
         border.width: 1 / Screen.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true
@@ -78,7 +78,7 @@ Window {
         id: label
         anchors.centerIn: parent
         text: control.popupText
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
     }
 
     onPositionChanged: adjustCorrectLocation()
@@ -89,11 +89,11 @@ Window {
 
         // left
         if (posX <= Screen.virtualX)
-            posX = Screen.virtualX + LingmoUI.Units.smallSpacing
+            posX = Screen.virtualX + LingmoUI.LingmoUnits.smallSpacing
 
         // top
         if (posY <= Screen.virtualY)
-            posY = Screen.virtualY + LingmoUI.Units.smallSpacing
+            posY = Screen.virtualY + LingmoUI.LingmoUnits.smallSpacing
 
         // right
         if (posX + control.width > Screen.virtualX + Screen.width)

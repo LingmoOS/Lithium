@@ -53,7 +53,7 @@ T.Slider {
             width: control.horizontal ? parent.width : sliderTrackHeight
             height: !control.horizontal ? parent.height : sliderTrackHeight
             radius: !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
-            color: LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.5) : Qt.rgba(0, 0, 0, 0.1)
+            color: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.5) : Qt.rgba(0, 0, 0, 0.1)
         }
 
         Rectangle {
@@ -62,7 +62,7 @@ T.Slider {
             width: control.horizontal ? control.position * parent.width : sliderTrackHeight
             height: !control.horizontal ? control.position * parent.height : sliderTrackHeight
             radius: !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
-            color: control.LingmoUI.Theme.highlightColor
+            color: control.LingmoUI.LingmoTheme.highlightColor
         }
     }
 }

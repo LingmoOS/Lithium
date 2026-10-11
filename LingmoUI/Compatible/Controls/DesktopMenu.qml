@@ -30,15 +30,15 @@ LingmoUI.MenuPopupWindow {
     Rectangle {
         id: _background
         anchors.fill: parent
-        color: LingmoUI.Theme.secondBackgroundColor
-        radius: windowHelper.compositing ? LingmoUI.Theme.hugeRadius : 0
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
+        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.hugeRadius : 0
         opacity: windowHelper.compositing ? 0.6 : 1
         border.color: _background.borderColor
-        border.width: 1 / LingmoUI.Units.devicePixelRatio
-        border.pixelAligned: LingmoUI.Units.devicePixelRatio > 1 ? false : true
+        border.width: 1 / LingmoUI.LingmoUnits.devicePixelRatio
+        border.pixelAligned: LingmoUI.LingmoUnits.devicePixelRatio > 1 ? false : true
 
-        property var borderColor: windowHelper.compositing ? LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                      : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+        property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                      : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
                                                                                                                       : Qt.rgba(0, 0, 0, 0.05)
 
         LingmoUI.WindowHelper {

@@ -26,21 +26,21 @@ TextField {
 
     property list<QtObject> rightActions
 
-    rightPadding: LingmoUI.Units.smallSpacing + rightActionsRow.width
+    rightPadding: LingmoUI.LingmoUnits.smallSpacing + rightActionsRow.width
 
     Row {
         id: rightActionsRow
-        padding: LingmoUI.Units.smallSpacing
+        padding: LingmoUI.LingmoUnits.smallSpacing
         layoutDirection: Qt.RightToLeft
         anchors.right: parent.right
-        anchors.rightMargin: LingmoUI.Units.smallSpacing
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
         anchors.verticalCenter: parent.verticalCenter
-        height: control.implicitHeight - 2 * LingmoUI.Units.smallSpacing
+        height: control.implicitHeight - 2 * LingmoUI.LingmoUnits.smallSpacing
         Repeater {
             model: control.rightActions
             Icon {
-                implicitWidth: LingmoUI.Units.iconSizes.small
-                implicitHeight: LingmoUI.Units.iconSizes.small
+                implicitWidth: LingmoUI.LingmoUnits.iconSizes.small
+                implicitHeight: LingmoUI.LingmoUnits.iconSizes.small
 
                 anchors.verticalCenter: parent.verticalCenter
 

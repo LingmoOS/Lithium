@@ -33,7 +33,7 @@ ControlCenterDialog {
     id: control
 
     width: 450
-    height: _mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 2
+    height: _mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
 
     property var margin: 4 * Screen.devicePixelRatio
     property point position: Qt.point(0, 0)
@@ -42,8 +42,8 @@ ControlCenterDialog {
     property bool bluetoothDisConnected: Bluez.Manager.bluetoothBlocked
     property var defaultSinkValue: defaultSink ? defaultSink.volume / PulseAudio.NormalVolume * 100.0 : -1
 
-    property var borderColor: windowHelper.compositing ? LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
+    property var borderColor: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                  : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
                                                                                                                   : Qt.rgba(0, 0, 0, 0.15)
 
     property var volumeIconName: {
@@ -135,9 +135,9 @@ ControlCenterDialog {
     Rectangle {
         id: _background
         anchors.fill: parent
-        radius: windowHelper.compositing ? LingmoUI.Theme.bigRadius * 1.5 : 0
-        color: LingmoUI.Theme.darkMode ? "#4D4D4D" : "#F0F0F0"
-        opacity: windowHelper.compositing ? LingmoUI.Theme.darkMode ? 0.6 : 0.8 : 1.0
+        radius: windowHelper.compositing ? LingmoUI.LingmoTheme.bigRadius * 1.5 : 0
+        color: LingmoUI.LingmoTheme.darkMode ? "#4D4D4D" : "#F0F0F0"
+        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.6 : 0.8 : 1.0
         antialiasing: true
         border.width: 1 / Screen.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true
@@ -154,8 +154,8 @@ ControlCenterDialog {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Item {
             id: topItem
@@ -165,11 +165,11 @@ ControlCenterDialog {
             RowLayout {
                 id: topItemLayout
                 anchors.fill: parent
-                anchors.rightMargin: LingmoUI.Units.largeSpacing
-                spacing: LingmoUI.Units.largeSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Label {
-                    leftPadding: LingmoUI.Units.largeSpacing
+                    leftPadding: LingmoUI.LingmoUnits.largeSpacing
                     text: qsTr("Control Center")
                     font.bold: true
                     font.pointSize: 14
@@ -181,7 +181,7 @@ ControlCenterDialog {
                     implicitWidth: topItem.height
                     implicitHeight: topItem.height
                     Layout.alignment: Qt.AlignTop
-                    source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + "settings.svg"
+                    source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + "settings.svg"
                     onLeftButtonClicked: {
                         control.visible = false
                         process.startDetached("lingmo-settings")
@@ -193,7 +193,7 @@ ControlCenterDialog {
 //                    implicitWidth: topItem.height
 //                    implicitHeight: topItem.height
 //                    Layout.alignment: Qt.AlignTop
-//                    source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + "system-shutdown-symbolic.svg"
+//                    source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + "system-shutdown-symbolic.svg"
 //                    onLeftButtonClicked: {
 //                        control.visible = false
 //                        process.startDetached("lingmo-shutdown")
@@ -212,8 +212,8 @@ ControlCenterDialog {
             Rectangle {
                 anchors.fill: parent
                 color: "white"
-                radius: LingmoUI.Theme.bigRadius
-                opacity: LingmoUI.Theme.darkMode ? 0.2 : 0.7
+                radius: LingmoUI.LingmoTheme.bigRadius
+                opacity: LingmoUI.LingmoTheme.darkMode ? 0.2 : 0.7
             }
 
             GridLayout {
@@ -237,7 +237,7 @@ ControlCenterDialog {
                     id: wirelessItem
                     Layout.fillHeight: true
                     Layout.preferredWidth: cardItems.cellWidth
-                    icon: LingmoUI.Theme.darkMode || checked ? "qrc:/images/dark/network-wireless-connected-100.svg"
+                    icon: LingmoUI.LingmoTheme.darkMode || checked ? "qrc:/images/dark/network-wireless-connected-100.svg"
                                                            : "qrc:/images/light/network-wireless-connected-100.svg"
                     visible: enabledConnections.wirelessHwEnabled
                     checked: enabledConnections.wirelessEnabled
@@ -253,7 +253,7 @@ ControlCenterDialog {
                     id: bluetoothItem
                     Layout.fillHeight: true
                     Layout.preferredWidth: cardItems.cellWidth
-                    icon: LingmoUI.Theme.darkMode || checked ? "qrc:/images/dark/bluetooth-symbolic.svg"
+                    icon: LingmoUI.LingmoTheme.darkMode || checked ? "qrc:/images/dark/bluetooth-symbolic.svg"
                                                            : "qrc:/images/light/bluetooth-symbolic.svg"
                     checked: !control.bluetoothDisConnected
                     label: qsTr("Bluetooth")
@@ -269,17 +269,17 @@ ControlCenterDialog {
                     id: darkModeItem
                     Layout.fillHeight: true
                     Layout.preferredWidth: cardItems.cellWidth
-                    icon: LingmoUI.Theme.darkMode || checked ? "qrc:/images/dark/dark-mode.svg"
+                    icon: LingmoUI.LingmoTheme.darkMode || checked ? "qrc:/images/dark/dark-mode.svg"
                                                            : "qrc:/images/light/dark-mode.svg"
-                    checked: LingmoUI.Theme.darkMode
+                    checked: LingmoUI.LingmoTheme.darkMode
                     label: qsTr("Dark Mode")
-                    onClicked: appearance.switchDarkMode(!LingmoUI.Theme.darkMode)
+                    onClicked: appearance.switchDarkMode(!LingmoUI.LingmoTheme.darkMode)
                 }
 
                 CardItem {
                     Layout.fillHeight: true
                     Layout.preferredWidth: cardItems.cellWidth
-                    icon: LingmoUI.Theme.darkMode || checked ? "qrc:/images/dark/do-not-disturb.svg"
+                    icon: LingmoUI.LingmoTheme.darkMode || checked ? "qrc:/images/dark/do-not-disturb.svg"
                                                            : "qrc:/images/light/do-not-disturb.svg"
                     checked: notifications.doNotDisturb
                     label: qsTr("Do Not Disturb")
@@ -289,7 +289,7 @@ ControlCenterDialog {
                 CardItem {
                     Layout.fillHeight: true
                     Layout.preferredWidth: cardItems.cellWidth
-                    icon: LingmoUI.Theme.darkMode || checked ? "qrc:/images/dark/screenshot.svg"
+                    icon: LingmoUI.LingmoTheme.darkMode || checked ? "qrc:/images/dark/screenshot.svg"
                                                            : "qrc:/images/light/screenshot.svg"
                     checked: false
                     label: qsTr("Screenshot")
@@ -316,23 +316,23 @@ ControlCenterDialog {
                 id: brightnessItemBg
                 anchors.fill: parent
                 color: "white"
-                radius: LingmoUI.Theme.bigRadius
-                opacity: LingmoUI.Theme.darkMode ? 0.2 : 0.7
+                radius: LingmoUI.LingmoTheme.bigRadius
+                opacity: LingmoUI.LingmoTheme.darkMode ? 0.2 : 0.7
             }
 
             RowLayout {
                 anchors.fill: brightnessItemBg
-                anchors.leftMargin: LingmoUI.Units.largeSpacing
-                anchors.rightMargin: LingmoUI.Units.largeSpacing
-                anchors.topMargin: LingmoUI.Units.smallSpacing
-                anchors.bottomMargin: LingmoUI.Units.smallSpacing
-                spacing: LingmoUI.Units.largeSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+                anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Image {
                     height: 16
                     width: height
                     sourceSize: Qt.size(width, height)
-                    source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/brightness.svg"
+                    source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/brightness.svg"
                     smooth: false
                     antialiasing: true
                 }
@@ -357,7 +357,7 @@ ControlCenterDialog {
 
 //                Label {
 //                    text: brightnessSlider.value + "%"
-//                    color: LingmoUI.Theme.disabledTextColor
+//                    color: LingmoUI.LingmoTheme.disabledTextColor
 //                    Layout.preferredWidth: _fontMetrics.advanceWidth("100%")
 //                }
             }
@@ -373,23 +373,23 @@ ControlCenterDialog {
                 id: volumeItemBg
                 anchors.fill: parent
                 color: "white"
-                radius: LingmoUI.Theme.bigRadius
-                opacity: LingmoUI.Theme.darkMode ? 0.2 : 0.7
+                radius: LingmoUI.LingmoTheme.bigRadius
+                opacity: LingmoUI.LingmoTheme.darkMode ? 0.2 : 0.7
             }
 
             RowLayout {
                 anchors.fill: volumeItemBg
-                anchors.leftMargin: LingmoUI.Units.largeSpacing
-                anchors.rightMargin: LingmoUI.Units.largeSpacing
-                anchors.topMargin: LingmoUI.Units.smallSpacing
-                anchors.bottomMargin: LingmoUI.Units.smallSpacing
-                spacing: LingmoUI.Units.largeSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+                anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Image {
                     height: 16
                     width: height
                     sourceSize: Qt.size(width, height)
-                    source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/" + control.volumeIconName + ".svg"
+                    source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/" + control.volumeIconName + ".svg"
                     smooth: false
                     antialiasing: true
                 }
@@ -419,7 +419,7 @@ ControlCenterDialog {
 //                Label {
 //                    text: parseInt(volumeSlider.value / PulseAudio.NormalVolume * 100.0) + "%"
 //                    Layout.preferredWidth: _fontMetrics.advanceWidth("100%")
-//                    color: LingmoUI.Theme.disabledTextColor
+//                    color: LingmoUI.LingmoTheme.disabledTextColor
 //                }
             }
         }
@@ -429,14 +429,14 @@ ControlCenterDialog {
         }
 
         RowLayout {
-            Layout.leftMargin: LingmoUI.Units.smallSpacing
-            Layout.rightMargin: LingmoUI.Units.smallSpacing
+            Layout.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+            Layout.rightMargin: LingmoUI.LingmoUnits.smallSpacing
             spacing: 0
 
             Label {
                 id: timeLabel
-                leftPadding: LingmoUI.Units.smallSpacing / 2
-                color: LingmoUI.Theme.textColor
+                leftPadding: LingmoUI.LingmoUnits.smallSpacing / 2
+                color: LingmoUI.LingmoTheme.textColor
 
                 Timer {
                     interval: 1000
@@ -454,8 +454,8 @@ ControlCenterDialog {
             }
 
             StandardItem {
-                width: batteryLayout.implicitWidth + LingmoUI.Units.largeSpacing
-                height: batteryLayout.implicitHeight + LingmoUI.Units.largeSpacing
+                width: batteryLayout.implicitWidth + LingmoUI.LingmoUnits.largeSpacing
+                height: batteryLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing
 
                 onClicked: {
                     control.visible = false
@@ -473,7 +473,7 @@ ControlCenterDialog {
                         width: 22
                         height: 16
                         sourceSize: Qt.size(width, height)
-                        source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + battery.iconSource
+                        source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + battery.iconSource
                         asynchronous: true
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
                         antialiasing: true
@@ -482,8 +482,8 @@ ControlCenterDialog {
 
                     Label {
                         text: battery.chargePercent + "%"
-                        color: LingmoUI.Theme.textColor
-                        rightPadding: LingmoUI.Units.smallSpacing / 2
+                        color: LingmoUI.LingmoTheme.textColor
+                        rightPadding: LingmoUI.LingmoUnits.smallSpacing / 2
                         Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
                     }
                 }

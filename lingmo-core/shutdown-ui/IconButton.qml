@@ -21,7 +21,7 @@ import QtQuick 2.0
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
 import LingmoUI.GraphicalEffects
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 
 Item {
     id: control
@@ -45,7 +45,7 @@ Item {
     ColumnLayout {
         id: layout
         anchors.fill: parent
-        spacing: LingmoUI.Units.largeSpacing * 1.5
+        spacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
         Item {
             Layout.fillHeight: true
@@ -57,8 +57,8 @@ Item {
 
             Rectangle {
                 anchors.centerIn: parent
-                width: parent.height + LingmoUI.Units.largeSpacing * 2
-                height: parent.height + LingmoUI.Units.largeSpacing * 2
+                width: parent.height + LingmoUI.LingmoUnits.largeSpacing * 2
+                height: parent.height + LingmoUI.LingmoUnits.largeSpacing * 2
                 z: -1
                 color: "white"
                 opacity: mouseArea.pressed ? 0.1 : mouseArea.containsMouse || control.checked ? 0.2 : 0

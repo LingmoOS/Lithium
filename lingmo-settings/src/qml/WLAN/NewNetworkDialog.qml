@@ -38,13 +38,13 @@ LingmoUI.Window {
     maximumHeight: contentHeight
     modality: Qt.WindowModal
 
-    property int contentWidth: _mainLayout.implicitWidth + header.height + LingmoUI.Units.largeSpacing * 2
-    property int contentHeight: _mainLayout.implicitHeight + header.height + LingmoUI.Units.largeSpacing * 2
+    property int contentWidth: _mainLayout.implicitWidth + header.height + LingmoUI.LingmoUnits.largeSpacing * 2
+    property int contentHeight: _mainLayout.implicitHeight + header.height + LingmoUI.LingmoUnits.largeSpacing * 2
 
     visible: false
     minimizeButtonVisible: false
 
-    background.color: LingmoUI.Theme.secondBackgroundColor
+    background.color: LingmoUI.LingmoTheme.secondBackgroundColor
     flags: Qt.Dialog | Qt.FramelessWindowHint
 
     signal connect(var ssid, var username, var pwd, var type)
@@ -63,14 +63,14 @@ LingmoUI.Window {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
         anchors.topMargin: 0
-        spacing: LingmoUI.Units.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         GridLayout {
             columns: 2
-            columnSpacing: LingmoUI.Units.largeSpacing * 2
-            rowSpacing: LingmoUI.Units.largeSpacing
+            columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
+            rowSpacing: LingmoUI.LingmoUnits.largeSpacing
 
             Label {
                 text: qsTr("Name")
@@ -124,7 +124,7 @@ LingmoUI.Window {
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

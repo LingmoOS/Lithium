@@ -83,9 +83,9 @@ ItemPage {
 
             Label {
                 text: qsTr("Output Devices")
-                leftPadding: LingmoUI.Units.largeSpacing
-                bottomPadding: LingmoUI.Units.smallSpacing
-                color: LingmoUI.Theme.disabledTextColor
+                leftPadding: LingmoUI.LingmoUnits.largeSpacing
+                bottomPadding: LingmoUI.LingmoUnits.smallSpacing
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 visible: sinks.count >= 1
             }
 
@@ -94,7 +94,7 @@ ItemPage {
                 id: sinks
                 Layout.fillWidth: true
                 interactive: false
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Layout.preferredHeight: {
                     var totalHeight = 0
@@ -108,35 +108,35 @@ ItemPage {
 
                 delegate: Item {
                     width: ListView.view.width
-                    height: _itemLayout.implicitHeight + LingmoUI.Units.largeSpacing * 2
+                    height: _itemLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
 
                     readonly property var currentPort: Ports[ActivePortIndex]
 
                     Rectangle {
                         anchors.fill: parent
-                        color: LingmoUI.Theme.secondBackgroundColor
-                        radius: LingmoUI.Theme.bigRadius
+                        color: LingmoUI.LingmoTheme.secondBackgroundColor
+                        radius: LingmoUI.LingmoTheme.bigRadius
                     }
 
                     ColumnLayout {
                         id: _itemLayout
                         anchors.fill: parent
-                        anchors.margins: LingmoUI.Units.largeSpacing
-                        spacing: LingmoUI.Units.largeSpacing
+                        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+                        spacing: LingmoUI.LingmoUnits.largeSpacing
 
                         Label {
                             text: !currentPort ? Description : currentPort.description
                         }
 
                         RowLayout {
-                            spacing: LingmoUI.Units.largeSpacing
+                            spacing: LingmoUI.LingmoUnits.largeSpacing
 
                             Image {
                                 Layout.leftMargin: 2
                                 height: 16
                                 width: height
                                 sourceSize: Qt.size(width, height)
-                                source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/" + audioIcon(slider.value / slider.to * 100) + ".svg"
+                                source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/" + audioIcon(slider.value / slider.to * 100) + ".svg"
                                 smooth: false
                                 antialiasing: true
                             }
@@ -167,14 +167,14 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing * 2
+                height: LingmoUI.LingmoUnits.largeSpacing * 2
             }
 
             Label {
                 text: qsTr("Input Devices")
-                leftPadding: LingmoUI.Units.largeSpacing
-                bottomPadding: LingmoUI.Units.smallSpacing
-                color: LingmoUI.Theme.disabledTextColor
+                leftPadding: LingmoUI.LingmoUnits.largeSpacing
+                bottomPadding: LingmoUI.LingmoUnits.smallSpacing
+                color: LingmoUI.LingmoTheme.disabledTextColor
                 visible: sinkInputView.count >= 1
             }
 
@@ -185,40 +185,40 @@ ItemPage {
                 Layout.preferredHeight: contentHeight
 
                 interactive: false
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
                 model: paSourceFilterModel
 
                 delegate: Item {
                     width: ListView.view.width
-                    height: _layout.implicitHeight + LingmoUI.Units.largeSpacing * 2
+                    height: _layout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
 
                     readonly property var currentPort: Ports[ActivePortIndex]
 
                     Rectangle {
                         anchors.fill: parent
-                        color: LingmoUI.Theme.secondBackgroundColor
-                        radius: LingmoUI.Theme.bigRadius
+                        color: LingmoUI.LingmoTheme.secondBackgroundColor
+                        radius: LingmoUI.LingmoTheme.bigRadius
                     }
 
                     ColumnLayout {
                         id: _layout
                         anchors.fill: parent
-                        anchors.margins: LingmoUI.Units.largeSpacing
-                        spacing: LingmoUI.Units.largeSpacing
+                        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+                        spacing: LingmoUI.LingmoUnits.largeSpacing
 
                         Label {
                             text: !currentPort ? Description : currentPort.description
                         }
 
                         RowLayout {
-                            spacing: LingmoUI.Units.largeSpacing
+                            spacing: LingmoUI.LingmoUnits.largeSpacing
 
                             Image {
                                 Layout.leftMargin: 2
                                 height: 16
                                 width: height
                                 sourceSize: Qt.size(width, height)
-                                source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/" + microphoneIcon(_slider.value / _slider.to * 100) + ".svg"
+                                source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/" + microphoneIcon(_slider.value / _slider.to * 100) + ".svg"
                                 smooth: false
                                 antialiasing: true
                             }
@@ -249,7 +249,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing * 2
+                height: LingmoUI.LingmoUnits.largeSpacing * 2
             }
         }
     }

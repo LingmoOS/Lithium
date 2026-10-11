@@ -69,8 +69,8 @@ ItemPage {
         ColumnLayout {
             id: mainLayout
             anchors.fill: parent
-            anchors.bottomMargin: LingmoUI.Units.largeSpacing
-            spacing: LingmoUI.Units.largeSpacing * 2
+            anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
                 WifiView {
@@ -86,8 +86,8 @@ ItemPage {
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                    anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
+                    anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("Add other...")
@@ -114,7 +114,7 @@ ItemPage {
 //                RowLayout {
 //                    Label {
 //                        text: qsTr("Hotspot")
-//                        color: LingmoUI.Theme.disabledTextColor
+//                        color: LingmoUI.LingmoTheme.disabledTextColor
 //                    }
 
 //                    Item {
@@ -136,7 +136,7 @@ ItemPage {
 //                }
 
 //                Item {
-//                    height: LingmoUI.Units.largeSpacing
+//                    height: LingmoUI.LingmoUnits.largeSpacing
 //                }
 
 //                TextField {
@@ -153,7 +153,7 @@ ItemPage {
 //            }
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
         }
     }

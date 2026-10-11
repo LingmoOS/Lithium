@@ -26,8 +26,8 @@ import LingmoUI.CompatibleModule as LingmoUI
 Item {
     id: control
 
-    property real radius: LingmoUI.Theme.smallRadius
-    property var color: LingmoUI.Theme.backgroundColor
+    property real radius: LingmoUI.LingmoTheme.smallRadius
+    property var color: LingmoUI.LingmoTheme.backgroundColor
     property bool borderEnabled: true
 
     property bool animationEnabled: true
@@ -53,9 +53,9 @@ Item {
         anchors.fill: parent
         color: "transparent"
         radius: _background.radius
-        border.width: 1 / LingmoUI.Theme.devicePixelRatio
-        border.pixelAligned: LingmoUI.Theme.devicePixelRatio > 1 ? false : true
-        border.color: LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1) : Qt.rgba(0, 0, 0, 0.1)
+        border.width: 1 / LingmoUI.LingmoTheme.devicePixelRatio
+        border.pixelAligned: LingmoUI.LingmoTheme.devicePixelRatio > 1 ? false : true
+        border.color: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1) : Qt.rgba(0, 0, 0, 0.1)
         visible: control.borderEnabled
         antialiasing: true
     }

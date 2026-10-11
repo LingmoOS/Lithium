@@ -14,7 +14,7 @@ LingmoUI.Window {
     visible: false
     flags: Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint
 
-    background.color: LingmoUI.Theme.secondBackgroundColor
+    background.color: LingmoUI.LingmoTheme.secondBackgroundColor
     background.opacity: control.compositing ? 0.5 : 1.0
     contentTopMargin: 0
 
@@ -61,13 +61,13 @@ LingmoUI.Window {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
 
         Image {
             id: _worldMap
             Layout.fillWidth: true
             Layout.fillHeight: true
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/world.svg" : "qrc:/images/light/world.svg"
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/world.svg" : "qrc:/images/light/world.svg"
             sourceSize: Qt.size(width, height)
             fillMode: Image.PreserveAspectFit
 
@@ -76,13 +76,13 @@ LingmoUI.Window {
                 width: 20
                 height: 20
                 radius: height / 2
-                color: LingmoUI.Theme.highlightColor
+                color: LingmoUI.LingmoTheme.highlightColor
                 z: 99
                 visible: false
                 border.width: 5
-                border.color: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-                                      LingmoUI.Theme.highlightColor.g,
-                                      LingmoUI.Theme.highlightColor.b, 0.5)
+                border.color: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+                                      LingmoUI.LingmoTheme.highlightColor.g,
+                                      LingmoUI.LingmoTheme.highlightColor.b, 0.5)
 
                 function show(x, y) {
                     dot.x = x - dot.width / 2
@@ -94,20 +94,20 @@ LingmoUI.Window {
             Item {
                 id: popupItem
                 visible: popupText.text !== ""
-                width: popupText.implicitWidth + LingmoUI.Units.largeSpacing
-                height: popupText.implicitHeight + LingmoUI.Units.largeSpacing
+                width: popupText.implicitWidth + LingmoUI.LingmoUnits.largeSpacing
+                height: popupText.implicitHeight + LingmoUI.LingmoUnits.largeSpacing
 
                 Rectangle {
                     anchors.fill: parent
-                    radius: LingmoUI.Theme.smallRadius
-                    color: LingmoUI.Theme.highlightColor
+                    radius: LingmoUI.LingmoTheme.smallRadius
+                    color: LingmoUI.LingmoTheme.highlightColor
                 }
 
                 Label {
                     id: popupText
                     anchors.centerIn: parent
                     text: timeZoneMap.availableList[0] ? timeZoneMap.availableList[0] : ""
-                    color: LingmoUI.Theme.highlightedTextColor
+                    color: LingmoUI.LingmoTheme.highlightedTextColor
                 }
             }
 
@@ -118,8 +118,8 @@ LingmoUI.Window {
                     timeZoneMap.clicked(mouse.x, mouse.y, _worldMap.width, _worldMap.height)
                     dot.show(mouse.x, mouse.y)
 
-                    popupItem.x = mouse.x + LingmoUI.Units.smallSpacing * 1.5
-                    popupItem.y = mouse.y + LingmoUI.Units.smallSpacing * 1.5
+                    popupItem.x = mouse.x + LingmoUI.LingmoUnits.smallSpacing * 1.5
+                    popupItem.y = mouse.y + LingmoUI.LingmoUnits.smallSpacing * 1.5
 
                     if (popupItem.x + popupItem.width >= _worldMap.width)
                         popupItem.x = _worldMap.width - popupItem.width - 2
@@ -133,7 +133,7 @@ LingmoUI.Window {
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Item {
                 Layout.fillWidth: true

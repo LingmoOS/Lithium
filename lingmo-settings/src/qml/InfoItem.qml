@@ -19,7 +19,7 @@ Item {
         id: background
         anchors.fill: parent
         color: "transparent"
-        radius: LingmoUI.Theme.smallRadius
+        radius: LingmoUI.LingmoTheme.smallRadius
     }
 
     ColumnLayout {
@@ -46,7 +46,7 @@ Item {
 
         Label {
             id: keyLabel
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         // Item {
@@ -55,7 +55,7 @@ Item {
 
         Label {
             id: valueLabel
-            color: LingmoUI.Theme.disabledTextColor
+            color: LingmoUI.LingmoTheme.disabledTextColor
         }
     }
 }

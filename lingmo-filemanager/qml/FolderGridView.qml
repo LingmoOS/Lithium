@@ -258,7 +258,7 @@ GridView {
     }
 
     cellHeight: {
-        var iconHeight = iconSize + (LingmoUI.Units.fontMetrics.height * 2) + LingmoUI.Units.largeSpacing * 2
+        var iconHeight = iconSize + (LingmoUI.LingmoUnits.fontMetrics.height * 2) + LingmoUI.LingmoUnits.largeSpacing * 2
         if (isDesktopView) {
             var extraHeight = calcExtraSpacing(iconHeight, control.height - topMargin - bottomMargin)
             return iconHeight + extraHeight
@@ -267,7 +267,7 @@ GridView {
     }
 
     cellWidth: {
-        var iconWidth = iconSize + LingmoUI.Units.largeSpacing * 4
+        var iconWidth = iconSize + LingmoUI.LingmoUnits.largeSpacing * 4
         var extraWidth = calcExtraSpacing(iconWidth, control.width - leftMargin - rightMargin)
         return iconWidth + extraWidth
     }
@@ -534,8 +534,8 @@ GridView {
         var step = rows ? cellWidth : cellHeight
         var perStripe = Math.floor(axis / step)
         var stripes = Math.ceil(control.count / perStripe)
-        var cWidth = control.cellWidth - (2 * LingmoUI.Units.smallSpacing)
-        var cHeight = control.cellHeight - (2 * LingmoUI.Units.smallSpacing)
+        var cWidth = control.cellWidth - (2 * LingmoUI.LingmoUnits.smallSpacing)
+        var cHeight = control.cellHeight - (2 * LingmoUI.LingmoUnits.smallSpacing)
         var midWidth = control.cellWidth / 2
         var midHeight = control.cellHeight / 2
         var indices = []
@@ -563,7 +563,7 @@ GridView {
 
                 // Check if the rubberband intersects this cell first to avoid doing more
                 // expensive work.
-                if (control.rubberBand.intersects(Qt.rect(itemX + LingmoUI.Units.smallSpacing, itemY + LingmoUI.Units.smallSpacing,
+                if (control.rubberBand.intersects(Qt.rect(itemX + LingmoUI.LingmoUnits.smallSpacing, itemY + LingmoUI.LingmoUnits.smallSpacing,
                     cWidth, cHeight))) {
                     var item = control.contentItem.childAt(itemX + midWidth, itemY + midHeight)
 
@@ -642,8 +642,8 @@ GridView {
             visible: false
             wrapMode: TextEdit.Wrap
             horizontalAlignment: TextEdit.AlignHCenter
-            topPadding: LingmoUI.Units.smallSpacing
-            bottomPadding: LingmoUI.Units.smallSpacing
+            topPadding: LingmoUI.LingmoUnits.smallSpacing
+            bottomPadding: LingmoUI.LingmoUnits.smallSpacing
             z: 999
 
             property Item targetItem: null
@@ -651,10 +651,10 @@ GridView {
             onTargetItemChanged: {
                 if (targetItem != null) {
                     var pos = control.mapFromItem(targetItem, targetItem.labelArea.x, targetItem.labelArea.y)
-                    width = targetItem.width - LingmoUI.Units.smallSpacing
-                    height = targetItem.labelArea.paintedHeight + LingmoUI.Units.largeSpacing * 2
+                    width = targetItem.width - LingmoUI.LingmoUnits.smallSpacing
+                    height = targetItem.labelArea.paintedHeight + LingmoUI.LingmoUnits.largeSpacing * 2
                     x = targetItem.x + Math.abs(Math.min(control.contentX, control.originX))
-                    y = pos.y - LingmoUI.Units.smallSpacing
+                    y = pos.y - LingmoUI.LingmoUnits.smallSpacing
                     text = targetItem.labelArea.text
                     targetItem.labelArea.visible = false
                     _editor.select(0, dirModel.fileExtensionBoundary(targetItem.index))

@@ -21,7 +21,7 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import LingmoUI.GraphicalEffects
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 
 Item {
     id: control
@@ -30,10 +30,10 @@ Item {
     height: size
     width: size
 
-    property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.5)
-                                                       : Qt.darker(LingmoUI.Theme.backgroundColor, 1.2)
-    property color pressedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.3)
-                                                       : Qt.darker(LingmoUI.Theme.backgroundColor, 1.3)
+    property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.5)
+                                                       : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.2)
+    property color pressedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.3)
+                                                       : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.3)
     property alias source: image.source
     signal clicked()
 

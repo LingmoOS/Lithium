@@ -58,7 +58,7 @@ LingmoUI.Window {
         }
 
         Item {
-            height: LingmoUI.Units.largeSpacing
+            height: LingmoUI.LingmoUnits.largeSpacing
         }
 
         Label {
@@ -75,7 +75,7 @@ LingmoUI.Window {
         Label {
             text: "<a href=\"%1\">%1</a>".arg(control.link)
             Layout.alignment: Qt.AlignHCenter
-            linkColor: LingmoUI.Theme.highlightColor
+            linkColor: LingmoUI.LingmoTheme.highlightColor
 
             MouseArea {
                 anchors.fill: parent

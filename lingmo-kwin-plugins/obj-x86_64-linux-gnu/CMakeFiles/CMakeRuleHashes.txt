@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+72690bb0a547242c7ac566b9b1036f0c plugins/decoration/CMakeFiles/lingdecoration_autogen
+a4d74bb5ac23e68c98aa7f69cbb60d15 plugins/decoration/lingdecoration_autogen/EWIEGA46WW/qrc_resources.cpp
+42ddd130d05e498fcd5d1eefc321a2e5 plugins/decoration/lingdecoration_autogen/timestamp

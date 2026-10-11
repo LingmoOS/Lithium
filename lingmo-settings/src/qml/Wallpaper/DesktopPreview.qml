@@ -52,7 +52,7 @@ Item {
 
         radius: height * 0.2
         opacity: 0.5
-        color: LingmoUI.Theme.backgroundColor
+        color: LingmoUI.LingmoTheme.backgroundColor
     }
 
     Rectangle {
@@ -69,7 +69,7 @@ Item {
 
         radius: height * 0.2
         opacity: 0.5
-        color: LingmoUI.Theme.backgroundColor
+        color: LingmoUI.LingmoTheme.backgroundColor
     }
 
     Rectangle {
@@ -84,7 +84,7 @@ Item {
 
         height: 38
         radius: height * 0.3
-        color: LingmoUI.Theme.backgroundColor
+        color: LingmoUI.LingmoTheme.backgroundColor
         opacity: 0.7
     }
 
@@ -96,7 +96,7 @@ Item {
 
             Rectangle {
                 anchors.fill: parent
-                radius: LingmoUI.Theme.bigRadius
+                radius: LingmoUI.LingmoTheme.bigRadius
             }
         }
     }

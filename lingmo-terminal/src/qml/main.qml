@@ -9,7 +9,7 @@ import QtQuick.Layouts 1.12
 import LingmoUI.GraphicalEffects
 
 import Lingmo.TermWidget 1.0
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 
 LingmoUI.Window {
     id: root
@@ -21,7 +21,7 @@ LingmoUI.Window {
 
     GlobalSettings { id: settings }
 
-    background.color: LingmoUI.Theme.darkMode ? settings.darkbackgroundColor : settings.lightbackgroundColor
+    background.color: LingmoUI.LingmoTheme.darkMode ? settings.darkbackgroundColor : settings.lightbackgroundColor
     background.opacity: root.compositing ? settings.opacity : 1
 //    background.opacity: rootWindow.compositing ? 0.95 : 1.0
     header.height: 40
@@ -98,8 +98,8 @@ LingmoUI.Window {
         LingmoUI.TabBar {
             id: _tabbar
             anchors.fill: parent
-            anchors.margins: LingmoUI.Units.smallSpacing / 2
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 4
+            anchors.margins: LingmoUI.LingmoUnits.smallSpacing / 2
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 4
 
             currentIndex: _tabView.currentIndex
             model: _tabView.count
@@ -110,7 +110,7 @@ LingmoUI.Window {
                 id: _tabBtn
                 text: _tabView.contentModel.get(index).title
                 Layout.fillHeight: true
-                height: _tabbar.height - LingmoUI.Units.smallSpacing / 2
+                height: _tabbar.height - LingmoUI.LingmoUnits.smallSpacing / 2
                 width: Math.min(_tabbar.width / _tabbar.count,
                                 _tabBtn.contentWidth)
 

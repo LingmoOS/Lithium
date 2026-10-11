@@ -28,6 +28,6 @@ T.Page {
     contentHeight: contentItem.implicitHeight || (contentChildren.length === 1 ? contentChildren[0].implicitHeight : 0)
 
     background: Rectangle {
-        color: LingmoUI.Theme.backgroundColor
+        color: LingmoUI.LingmoTheme.backgroundColor
     }
 }

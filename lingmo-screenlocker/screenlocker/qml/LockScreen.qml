@@ -14,7 +14,7 @@ import LingmoUI.GraphicalEffects
 
 import Lingmo.Accounts 1.0 as Accounts
 import Lingmo.System 1.0 as System
-import LingmoUI 1.0 as CuteUI
+import LingmoUI as CuteUI
 
 Item {
     id: root

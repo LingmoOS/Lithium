@@ -63,14 +63,14 @@ Item {
     Rectangle {
         id: _background
         width: Math.max(_iconItem.width, _label.paintedWidth)
-        height: _iconItem.height + _label.paintedHeight + LingmoUI.Units.largeSpacing
+        height: _iconItem.height + _label.paintedHeight + LingmoUI.LingmoUnits.largeSpacing
         x: (parent.width - width) / 2
         y: _iconItem.y
 
         // (Deprecated) Rectangle rounded corner.
-        //color: selected || hovered ? LingmoUI.Theme.highlightColor : "transparent"
+        //color: selected || hovered ? LingmoUI.LingmoTheme.highlightColor : "transparent"
         color: "transparent"
-        // radius: LingmoUI.Theme.mediumRadius
+        // radius: LingmoUI.LingmoTheme.mediumRadius
         // visible: selected || hovered
         // opacity: selected ? 1.0 : 0.2
     }
@@ -79,11 +79,11 @@ Item {
         id: _iconItem
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: LingmoUI.Units.smallSpacing
-        anchors.bottomMargin: LingmoUI.Units.smallSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
         z: 2
 
-        width: parent.width - LingmoUI.Units.largeSpacing * 2
+        width: parent.width - LingmoUI.LingmoUnits.largeSpacing * 2
         height: control.GridView.view.iconSize
 
         opacity: model.isHidden ? 0.5 : 1.0
@@ -103,9 +103,9 @@ Item {
         Image {
             id: _image
             anchors.fill: parent
-            anchors.topMargin: LingmoUI.Units.smallSpacing
-            anchors.leftMargin: LingmoUI.Units.smallSpacing
-            anchors.rightMargin: LingmoUI.Units.smallSpacing
+            anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+            anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
             fillMode: Image.PreserveAspectFit
             visible: status === Image.Ready
             horizontalAlignment: Qt.AlignHCenter
@@ -147,7 +147,7 @@ Item {
             id: _selectedColorOverlay
             anchors.fill: _iconItem
             source: _iconItem
-            color: LingmoUI.Theme.highlightColor
+            color: LingmoUI.LingmoTheme.highlightColor
             opacity: 0.5
             visible: control.selected
         }
@@ -167,28 +167,28 @@ Item {
         z: 2
         anchors.top: _iconItem.bottom
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: LingmoUI.Units.smallSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
         maximumLineCount: control.selected ? 3 : 2
         horizontalAlignment: Text.AlignHCenter
-        width: parent.width - LingmoUI.Units.largeSpacing * 2 - LingmoUI.Units.smallSpacing
+        width: parent.width - LingmoUI.LingmoUnits.largeSpacing * 2 - LingmoUI.LingmoUnits.smallSpacing
         textFormat: Text.PlainText
         elide: Qt.ElideRight
         wrapMode: Text.Wrap
         text: control.fileName
         color: control.GridView.view.isDesktopView ? "white"
-                                                   : selected ? LingmoUI.Theme.highlightColor
-                                                              : LingmoUI.Theme.textColor
+                                                   : selected ? LingmoUI.LingmoTheme.highlightColor
+                                                              : LingmoUI.LingmoTheme.textColor
         opacity: model.isHidden ? 0.8 : 1.0
     }
 
     Rectangle {
         z: 1
-        x: _label.x + (_label.width - _label.paintedWidth) / 2 - (LingmoUI.Units.smallSpacing / 2)
+        x: _label.x + (_label.width - _label.paintedWidth) / 2 - (LingmoUI.LingmoUnits.smallSpacing / 2)
         y: _label.y
-        width: _label.paintedWidth + LingmoUI.Units.smallSpacing
+        width: _label.paintedWidth + LingmoUI.LingmoUnits.smallSpacing
         height: _label.paintedHeight
         radius: 4
-        color: LingmoUI.Theme.highlightColor
+        color: LingmoUI.LingmoTheme.highlightColor
 
         opacity: {
             if (control.selected && control.GridView.view.isDesktopView)
@@ -211,7 +211,7 @@ Item {
         z: 1
         horizontalOffset: 1
         verticalOffset: 1
-        radius: Math.round(4 * LingmoUI.Units.devicePixelRatio)
+        radius: Math.round(4 * LingmoUI.LingmoUnits.devicePixelRatio)
         samples: radius * 2 + 1
         spread: 0.35
         color: Qt.rgba(0, 0, 0, 0.3)

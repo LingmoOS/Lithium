@@ -26,7 +26,7 @@ import LingmoUI.CompatibleModule as LingmoUI
 Popup {
     id: control
     x: Math.round(parent.width / 2 - width / 2)
-    y: parent.height - height - LingmoUI.Units.largeSpacing
+    y: parent.height - height - LingmoUI.LingmoUnits.largeSpacing
     implicitWidth: Math.max(background ? background.implicitWidth : 0,
                             contentWidth + leftPadding + rightPadding) + leftInset + rightInset
     implicitHeight: Math.max(background ? background.implicitHeight : 0 ,
@@ -34,10 +34,10 @@ Popup {
     height: implicitHeight
     width: implicitWidth
 
-    topPadding: LingmoUI.Units.smallSpacing
-    leftPadding: LingmoUI.Units.smallSpacing
-    rightPadding: LingmoUI.Units.smallSpacing
-    bottomPadding: LingmoUI.Units.largeSpacing
+    topPadding: LingmoUI.LingmoUnits.smallSpacing
+    leftPadding: LingmoUI.LingmoUnits.smallSpacing
+    rightPadding: LingmoUI.LingmoUnits.smallSpacing
+    bottomPadding: LingmoUI.LingmoUnits.largeSpacing
 
     modal: false
     closePolicy: Popup.NoAutoClose
@@ -103,10 +103,10 @@ Popup {
                 closeAnim.running = true;
             }
 
-            leftPadding: LingmoUI.Units.largeSpacing
-            rightPadding: LingmoUI.Units.largeSpacing
-            topPadding: LingmoUI.Units.largeSpacing
-            bottomPadding: LingmoUI.Units.largeSpacing
+            leftPadding: LingmoUI.LingmoUnits.largeSpacing
+            rightPadding: LingmoUI.LingmoUnits.largeSpacing
+            topPadding: LingmoUI.LingmoUnits.largeSpacing
+            bottomPadding: LingmoUI.LingmoUnits.largeSpacing
 
             Component.onCompleted: openAnim.restart()
             ParallelAnimation {
@@ -173,7 +173,7 @@ Popup {
 
                 Label {
                     id: label
-                    Layout.maximumWidth: Math.min(control.parent.width - LingmoUI.Units.largeSpacing * 4, implicitWidth)
+                    Layout.maximumWidth: Math.min(control.parent.width - LingmoUI.LingmoUnits.largeSpacing * 4, implicitWidth)
                     elide: Text.ElideRight
                     wrapMode: Text.WordWrap
                     maximumLineCount: 4
@@ -192,8 +192,8 @@ Popup {
             }
 
             background: Rectangle {
-                color: LingmoUI.Theme.backgroundColor
-                radius: LingmoUI.Theme.mediumRadius
+                color: LingmoUI.LingmoTheme.backgroundColor
+                radius: LingmoUI.LingmoTheme.mediumRadius
                 opacity: 0.9
                 layer.enabled: true
                 layer.effect: DropShadow {

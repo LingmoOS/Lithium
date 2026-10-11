@@ -47,10 +47,10 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
-                spacing: LingmoUI.Units.largeSpacing * 1.5
+                spacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                 RowLayout {
                     Label {
@@ -97,8 +97,8 @@ ItemPage {
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                    anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
+                    anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("Time Zone")

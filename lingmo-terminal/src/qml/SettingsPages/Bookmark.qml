@@ -2,23 +2,23 @@ import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 ItemPage {
     headerTitle: qsTr("Bookmark")
     ScrollView {
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.bottomMargin: LingmoUI.Units.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
         RoundedItem {
             Label {
                 text: qsTr("Bookmark")
-                color: LingmoUI.Theme.disabledTextColor
+                color: LingmoUI.LingmoTheme.disabledTextColor
             }
             ColumnLayout{
-                spacing: LingmoUI.Units.smallSpacing
+                spacing: LingmoUI.LingmoUnits.smallSpacing
                 Repeater {
                     model: settings.bookmark
                     delegate: RowLayout{
@@ -34,7 +34,7 @@ ItemPage {
                             flat: true
                             width: height
                             implicitWidth: height
-                            icon.source: LingmoUI.Theme.darkMode ? "qrc:/images/light/close.svg" : "qrc:/images/dark/close.svg"
+                            icon.source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/light/close.svg" : "qrc:/images/dark/close.svg"
                             onClicked: {
                                 var mbm = settings.bookmark;
                                 mbm.splice(index, 1)
@@ -56,7 +56,7 @@ ItemPage {
                         flat: true
                         width: height
                         implicitWidth: height
-                        icon.source: LingmoUI.Theme.darkMode ? "qrc:/images/light/add.svg" : "qrc:/images/dark/add.svg"
+                        icon.source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/light/add.svg" : "qrc:/images/dark/add.svg"
                         onClicked: {
                             var mbm = settings.bookmark;
                             mbm.push(_dirurl.text)

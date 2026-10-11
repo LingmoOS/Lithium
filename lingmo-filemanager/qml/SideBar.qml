@@ -48,13 +48,13 @@ ListView {
     model: placesModel
     clip: true
 
-    leftMargin: LingmoUI.Units.smallSpacing * 1.5
-    rightMargin: LingmoUI.Units.smallSpacing * 1.5
-    bottomMargin: LingmoUI.Units.smallSpacing
-    spacing: LingmoUI.Units.smallSpacing
+    leftMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+    rightMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+    bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+    spacing: LingmoUI.LingmoUnits.smallSpacing
 
     ScrollBar.vertical: ScrollBar {
-        bottomPadding: LingmoUI.Units.smallSpacing
+        bottomPadding: LingmoUI.LingmoUnits.smallSpacing
     }
 
     highlightFollowsCurrentItem: true
@@ -62,32 +62,32 @@ ListView {
     highlightResizeDuration : 0
 
     highlight: Rectangle {
-        radius: LingmoUI.Theme.mediumRadius
-        color: LingmoUI.Theme.secondBackgroundColor
+        radius: LingmoUI.LingmoTheme.mediumRadius
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
         smooth: true
 
         Rectangle {
             anchors.fill: parent
-            radius: LingmoUI.Theme.mediumRadius
-            color: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-                           LingmoUI.Theme.highlightColor.g,
-                           LingmoUI.Theme.highlightColor.b, LingmoUI.Theme.darkMode ? 0.3 : 0.2)
+            radius: LingmoUI.LingmoTheme.mediumRadius
+            color: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+                           LingmoUI.LingmoTheme.highlightColor.g,
+                           LingmoUI.LingmoTheme.highlightColor.b, LingmoUI.LingmoTheme.darkMode ? 0.3 : 0.2)
         }
     }
 
     section.property: "category"
     section.delegate: Item {
         width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-        height: LingmoUI.Units.fontMetrics.height + LingmoUI.Units.largeSpacing + LingmoUI.Units.smallSpacing
+        height: LingmoUI.LingmoUnits.fontMetrics.height + LingmoUI.LingmoUnits.largeSpacing + LingmoUI.LingmoUnits.smallSpacing
 
         Text {
             anchors.left: parent.left
             anchors.top: parent.top
-            anchors.leftMargin: Qt.application.layoutDirection === Qt.RightToLeft ? 0 : LingmoUI.Units.smallSpacing
-            anchors.rightMargin: LingmoUI.Units.smallSpacing
-            anchors.topMargin: LingmoUI.Units.largeSpacing
-            anchors.bottomMargin: LingmoUI.Units.smallSpacing
-            color: LingmoUI.Theme.textColor
+            anchors.leftMargin: Qt.application.layoutDirection === Qt.RightToLeft ? 0 : LingmoUI.LingmoUnits.smallSpacing
+            anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+            anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
+            anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+            color: LingmoUI.LingmoTheme.textColor
             font.pointSize: 9
             font.bold: true
             text: section
@@ -97,11 +97,11 @@ ListView {
     delegate: Item {
         id: _item
         width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-        height: LingmoUI.Units.fontMetrics.height + LingmoUI.Units.largeSpacing * 1.5
+        height: LingmoUI.LingmoUnits.fontMetrics.height + LingmoUI.LingmoUnits.largeSpacing * 1.5
 
         property bool checked: sideBar.currentIndex === index
-        property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.1)
-                                                         : Qt.darker(LingmoUI.Theme.backgroundColor, 1.1)
+        property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.1)
+                                                         : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.1)
         MouseArea {
             id: _mouseArea
             anchors.fill: parent
@@ -175,13 +175,13 @@ ListView {
 
         Rectangle {
             anchors.fill: parent
-            radius: LingmoUI.Theme.mediumRadius
-            color: _mouseArea.pressed ? Qt.rgba(LingmoUI.Theme.textColor.r,
-                                               LingmoUI.Theme.textColor.g,
-                                               LingmoUI.Theme.textColor.b, LingmoUI.Theme.darkMode ? 0.05 : 0.1) :
-                   _mouseArea.containsMouse && !checked ? Qt.rgba(LingmoUI.Theme.textColor.r,
-                                                                  LingmoUI.Theme.textColor.g,
-                                                                  LingmoUI.Theme.textColor.b, LingmoUI.Theme.darkMode ? 0.1 : 0.05) :
+            radius: LingmoUI.LingmoTheme.mediumRadius
+            color: _mouseArea.pressed ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                                               LingmoUI.LingmoTheme.textColor.g,
+                                               LingmoUI.LingmoTheme.textColor.b, LingmoUI.LingmoTheme.darkMode ? 0.05 : 0.1) :
+                   _mouseArea.containsMouse && !checked ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                                                                  LingmoUI.LingmoTheme.textColor.g,
+                                                                  LingmoUI.LingmoTheme.textColor.b, LingmoUI.LingmoTheme.darkMode ? 0.1 : 0.05) :
                                                           "transparent"
 
             smooth: true
@@ -189,16 +189,16 @@ ListView {
 
         RowLayout {
             anchors.fill: parent
-            anchors.leftMargin: LingmoUI.Units.smallSpacing
-            anchors.rightMargin: LingmoUI.Units.smallSpacing
-            spacing: LingmoUI.Units.smallSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+            anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+            spacing: LingmoUI.LingmoUnits.smallSpacing
 
             Image {
                 height: 22
                 width: height
                 sourceSize: Qt.size(22, 22)
                 // source: "qrc:/images/dark/" + model.iconPath
-//                source: "qrc:/images/" + (LingmoUI.Theme.darkMode || checked ? "dark/" : "light/") + model.iconPath
+//                source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode || checked ? "dark/" : "light/") + model.iconPath
                 source: "qrc:/images/" + model.iconPath
                 Layout.alignment: Qt.AlignVCenter
                 smooth: false
@@ -206,14 +206,14 @@ ListView {
 
                 layer.enabled: true
                 layer.effect: ColorOverlay {
-                    color: checked ? LingmoUI.Theme.highlightColor : LingmoUI.Theme.textColor
+                    color: checked ? LingmoUI.LingmoTheme.highlightColor : LingmoUI.LingmoTheme.textColor
                 }
             }
 
             Label {
                 id: _label
                 text: model.name
-                color: checked ? LingmoUI.Theme.highlightColor : LingmoUI.Theme.textColor
+                color: checked ? LingmoUI.LingmoTheme.highlightColor : LingmoUI.LingmoTheme.textColor
                 elide: Text.ElideRight
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignVCenter

@@ -3,15 +3,14 @@ import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 
-import org.kde.plasma.core as PlasmaCore
-import org.kde.plasma.components as PlasmaComponents
+import org.kde.kirigami as Kirigami
 import org.kde.kwin as KWin
 
 import LingmoUI as LingmoUI
 
 // https://techbase.kde.org/Development/Tutorials/KWin/WindowSwitcher
 
-KWin.Switcher {
+KWin.TabBoxSwitcher {
     id: tabBox
     currentIndex: thumbnailGridView.currentIndex
 
@@ -35,32 +34,18 @@ KWin.Switcher {
         x: tabBox.screenGeometry.x + (tabBox.screenGeometry.width - dialog.width) / 2
         y: tabBox.screenGeometry.y + (tabBox.screenGeometry.height - dialog.height) / 2
 
-        LingmoUI.WindowHelper {
-            id: windowHelper
-        }
 
-        LingmoUI.WindowBlur {
-            view: dialog
-            geometry: Qt.rect(dialog.x, dialog.y, dialog.width, dialog.height)
-            windowRadius: _background.radius
-            enabled: windowHelper.compositing
-        }
 
-        LingmoUI.WindowShadow {
-            view: dialog
-            geometry: Qt.rect(dialog.x, dialog.y, dialog.width, dialog.height)
-            radius: _background.radius
-        }
 
         Rectangle {
             id: _background
             anchors.fill: parent
-            radius: windowHelper.compositing ? 14 : 0
-            color: LingmoUI.Theme.backgroundColor
-            opacity: windowHelper.compositing ? LingmoUI.Theme.darkMode ? 0.3 : 0.4 : 1.0
+            radius: 14
+            color: LingmoUI.LingmoTheme.backgroundColor
+            opacity: LingmoUI.LingmoTheme.darkMode ? 0.3 : 0.4
 
-            border.color: LingmoUI.Theme.darkMode ? "#686868" : "#D9D9D9"
-            border.width: windowHelper.compositing ? 0 : 1
+            border.color: LingmoUI.LingmoTheme.darkMode ? "#686868" : "#D9D9D9"
+            border.width: 0
         }
 
         onVisibleChanged: {
@@ -183,13 +168,12 @@ KWin.Switcher {
                         anchors.fill: parent
                         anchors.margins: 16
 
-                        QPlasmaComponents.IconItem {
+                        Kirigami.Icon {
                             id: iconItem
                             // source: model.icon
-                            icon: model.icon
-                            width: parent.height * 0.5
-                            height: parent.height * 0.5
-                            state: index == thumbnailGridView.currentIndex ? QIconItem.ActiveState : QIconItem.DefaultState
+                            source: model.icon
+                            Layout.preferredWidth: parent.height * 0.5
+                            Layout.preferredHeight: parent.height * 0.5
                             Layout.alignment: Qt.AlignHCenter
                         }
 
@@ -198,7 +182,7 @@ KWin.Switcher {
                             Layout.fillWidth: true
                             elide: Text.ElideRight
                             horizontalAlignment: Text.AlignHCenter
-                            color: isCurrent ? LingmoUI.Theme.highlightedTextColor : LingmoUI.Theme.textColor
+                            color: isCurrent ? LingmoUI.LingmoTheme.highlightedTextColor : LingmoUI.LingmoTheme.textColor
                         }
                     }
                 } // GridView.delegate
@@ -208,9 +192,9 @@ KWin.Switcher {
 
                     Rectangle {
                         anchors.fill: parent
-                        anchors.margins: LingmoUI.Units.largeSpacing
+                        anchors.margins: Kirigami.Units.largeSpacing
                         radius: _background.radius
-                        color: LingmoUI.Theme.highlightColor
+                        color: LingmoUI.LingmoTheme.highlightColor
                         opacity: 0.7
                     }
                 }

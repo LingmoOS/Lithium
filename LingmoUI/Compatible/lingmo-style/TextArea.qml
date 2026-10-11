@@ -38,15 +38,15 @@ T.TextArea {
 
     padding: 6
 
-    color: LingmoUI.Theme.textColor
-    selectionColor: LingmoUI.Theme.highlightColor
-    selectedTextColor: LingmoUI.Theme.highlightedTextColor
+    color: LingmoUI.LingmoTheme.textColor
+    selectionColor: LingmoUI.LingmoTheme.highlightColor
+    selectedTextColor: LingmoUI.LingmoTheme.highlightedTextColor
     opacity: control.enabled ? 1 : 0.6
     wrapMode: Text.WordWrap
     verticalAlignment: TextEdit.AlignTop
     hoverEnabled: false
 
-    renderType: LingmoUI.Theme.renderType
+    renderType: LingmoUI.LingmoTheme.renderType
 
     selectByMouse: true
 
@@ -59,7 +59,7 @@ T.TextArea {
 
         text: control.placeholderText
         font: control.font
-        color: LingmoUI.Theme.disabledTextColor
+        color: LingmoUI.LingmoTheme.disabledTextColor
         horizontalAlignment: control.horizontalAlignment
         verticalAlignment: control.verticalAlignment
         visible: !control.length && !control.preeditText && (!control.activeFocus || control.horizontalAlignment !== Qt.AlignHCenter)
@@ -70,6 +70,6 @@ T.TextArea {
         y: parent.height - height - control.bottomPadding / 2
         implicitWidth: 120
         height: control.activeFocus ? 2 : 1
-        color: control.LingmoUI.Theme.backgroundColor
+        color: control.LingmoUI.LingmoTheme.backgroundColor
     }
 }

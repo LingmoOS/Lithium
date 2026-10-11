@@ -6,15 +6,15 @@ import LingmoUI.CompatibleModule 3.0 as LingmoUI
 T.MenuSeparator {
     id: control
 
-    implicitHeight: LingmoUI.Units.largeSpacing + separator.height
+    implicitHeight: LingmoUI.LingmoUnits.largeSpacing + separator.height
     width: parent.width
 
     background: Rectangle {
         id: separator
         anchors.centerIn: control
-        width: control.width - LingmoUI.Units.largeSpacing * 2
+        width: control.width - LingmoUI.LingmoUnits.largeSpacing * 2
         height: 1
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
         opacity: 0.3
     }
 }

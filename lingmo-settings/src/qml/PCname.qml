@@ -35,7 +35,7 @@ Item {
     //         anchors.horizontalCenter: parent.horizontalCenter
     //         anchors.verticalCenter: parent.verticalCenter/2
     //         text: qsTr("Enter your new device name")
-    //         color: LingmoUI.Theme.textColor
+    //         color: LingmoUI.LingmoTheme.textColor
     //         font.pointSize: 15
     //     }
 
@@ -72,7 +72,7 @@ Item {
         id: background
         anchors.fill: parent
         color: "transparent"
-        radius: LingmoUI.Theme.smallRadius
+        radius: LingmoUI.LingmoTheme.smallRadius
     }
 
     RowLayout {
@@ -81,7 +81,7 @@ Item {
 
         Label {
             id: keyLabel
-            color: LingmoUI.Theme.textColor
+            color: LingmoUI.LingmoTheme.textColor
         }
 
         Item {
@@ -90,7 +90,7 @@ Item {
 
         Label {
             id: valueLabel
-            color: LingmoUI.Theme.disabledTextColor
+            color: LingmoUI.LingmoTheme.disabledTextColor
         }
 
         Image {
@@ -101,7 +101,7 @@ Item {
                 // leftMargin: 2
             }
             // width: 3
-            source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/edit.svg" : "qrc:/images/light/edit.svg"
+            source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/edit.svg" : "qrc:/images/light/edit.svg"
 
             MouseArea {
                 id: changePCname

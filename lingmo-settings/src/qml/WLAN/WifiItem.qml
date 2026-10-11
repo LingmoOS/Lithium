@@ -32,7 +32,7 @@ import "../"
 Item {
     id: control
 
-    height: _itemLayout.implicitHeight + LingmoUI.Units.largeSpacing
+    height: _itemLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing
 
     property bool passwordIsStatic: (model.securityType === NM.Enums.StaticWep || model.securityType === NM.Enums.WpaPsk ||
                                      model.securityType === NM.Enums.Wpa2Psk || model.securityType === NM.Enums.SAE)
@@ -43,19 +43,19 @@ Item {
         anchors.fill: parent
         anchors.leftMargin: 0
         anchors.rightMargin: 0
-        anchors.topMargin: LingmoUI.Units.smallSpacing
-        anchors.bottomMargin: LingmoUI.Units.smallSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
         spacing: 0
 
         // 顶部项
         Item {
             Layout.fillWidth: true
-            Layout.preferredHeight: _topItem.implicitHeight + LingmoUI.Units.largeSpacing
+            Layout.preferredHeight: _topItem.implicitHeight + LingmoUI.LingmoUnits.largeSpacing
 
             Rectangle {
                 anchors.fill: parent
-                radius: LingmoUI.Theme.smallRadius
-                color: LingmoUI.Theme.textColor
+                radius: LingmoUI.LingmoTheme.smallRadius
+                color: LingmoUI.LingmoTheme.textColor
                 opacity: mouseArea.pressed ? 0.15 :  mouseArea.containsMouse ? 0.1 : 0.0
             }
 
@@ -110,15 +110,15 @@ Item {
             RowLayout {
                 id: _topItem
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.smallSpacing
-                anchors.rightMargin: LingmoUI.Units.smallSpacing
-                spacing: LingmoUI.Units.largeSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Image {
                     width: 22
                     height: width
                     sourceSize: Qt.size(width, height)
-                    source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + model.connectionIcon + ".svg"
+                    source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + model.connectionIcon + ".svg"
                     smooth: false
                 }
 
@@ -150,7 +150,7 @@ Item {
                     ColorOverlay {
                         anchors.fill: parent
                         source: parent
-                        color: LingmoUI.Theme.highlightColor
+                        color: LingmoUI.LingmoTheme.highlightColor
                         opacity: 1
                         visible: true
                     }
@@ -161,7 +161,7 @@ Item {
                     width: 22
                     height: width
                     sourceSize: Qt.size(width, height)
-                    source: LingmoUI.Theme.darkMode ? "qrc:/images/dark/locked.svg" : "qrc:/images/light/locked.svg"
+                    source: LingmoUI.LingmoTheme.darkMode ? "qrc:/images/dark/locked.svg" : "qrc:/images/light/locked.svg"
                     visible: (model.securityType === -1 | model.securityType === 0) ? false : true
                     smooth: false
                 }
@@ -194,13 +194,13 @@ Item {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing * 2
+                height: LingmoUI.LingmoUnits.largeSpacing * 2
             }
 
             // 密码对话
             RowLayout {
                 visible: predictableWirelessPassword
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Label {
                     text: qsTr("Password")
@@ -265,7 +265,7 @@ Item {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
 
             HorizontalDivider {}

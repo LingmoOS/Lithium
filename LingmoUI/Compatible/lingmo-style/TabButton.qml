@@ -5,8 +5,8 @@ import LingmoUI.CompatibleModule 3.0 as LingmoUI
 T.TabButton {
     id: control
 
-    property int standardHeight: LingmoUI.Units.iconSizes.medium + LingmoUI.Units.smallSpacing
-    property color pressedColor: Qt.rgba(LingmoUI.Theme.textColor.r, LingmoUI.Theme.textColor.g, LingmoUI.Theme.textColor.b, 0.5)
+    property int standardHeight: LingmoUI.LingmoUnits.iconSizes.medium + LingmoUI.LingmoUnits.smallSpacing
+    property color pressedColor: Qt.rgba(LingmoUI.LingmoTheme.textColor.r, LingmoUI.LingmoTheme.textColor.g, LingmoUI.LingmoTheme.textColor.b, 0.5)
 
     implicitWidth: Math.max(background ? background.implicitWidth : 0,
                             contentItem.implicitWidth + leftPadding + rightPadding)
@@ -24,6 +24,6 @@ T.TabButton {
 
         text: control.text
         font: control.font
-        color: !control.enabled ? LingmoUI.Theme.disabledTextColor : control.pressed ? pressedColor : control.checked ? LingmoUI.Theme.textColor : LingmoUI.Theme.textColor
+        color: !control.enabled ? LingmoUI.LingmoTheme.disabledTextColor : control.pressed ? pressedColor : control.checked ? LingmoUI.LingmoTheme.textColor : LingmoUI.LingmoTheme.textColor
     }
 }

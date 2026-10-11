@@ -102,7 +102,7 @@ Item {
             if (containsMouse && control.popupText !== "") {
                 popupTips.popupText = control.popupText
                 popupTips.position = Qt.point(control.mapToGlobal(0, 0).x + (control.width / 2 - popupTips.width / 2),
-                                              control.height + LingmoUI.Units.smallSpacing)
+                                              control.height + LingmoUI.LingmoUnits.smallSpacing)
                 popupTips.show()
             } else {
                 popupTips.hide()
@@ -116,7 +116,7 @@ Item {
 
     Rectangle {
         id: _bgRect
-        radius: LingmoUI.Theme.smallRadius
+        radius: LingmoUI.LingmoTheme.smallRadius
 
         state: "hidden"
         states: [

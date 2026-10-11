@@ -52,7 +52,7 @@ NotificationPopup {
         id: _background
         anchors.fill: parent
         radius: height * 0.2
-        color: LingmoUI.Theme.backgroundColor
+        color: LingmoUI.LingmoTheme.backgroundColor
         opacity: 0.5
     }
 
@@ -75,11 +75,11 @@ NotificationPopup {
 
     RowLayout {
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.smallSpacing * 1.5
-        anchors.rightMargin: LingmoUI.Units.smallSpacing
-        anchors.topMargin: LingmoUI.Units.smallSpacing
-        anchors.bottomMargin: LingmoUI.Units.smallSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Image {
             id: _icon
@@ -118,13 +118,13 @@ NotificationPopup {
                 visible: text
                 elide: Text.ElideRight
                 Layout.fillWidth: true
-                rightPadding: LingmoUI.Units.smallSpacing
+                rightPadding: LingmoUI.LingmoUnits.smallSpacing
             }
 
             Label {
                 text: model.body
                 visible: text
-                rightPadding: LingmoUI.Units.smallSpacing
+                rightPadding: LingmoUI.LingmoUnits.smallSpacing
                 maximumLineCount: 2
                 elide: Text.ElideRight
                 wrapMode: Text.Wrap
@@ -142,20 +142,20 @@ NotificationPopup {
     Image {
         anchors.top: parent.top
         anchors.right: parent.right
-        anchors.topMargin: LingmoUI.Units.smallSpacing / 2
-        anchors.rightMargin: LingmoUI.Units.smallSpacing
+        anchors.topMargin: LingmoUI.LingmoUnits.smallSpacing / 2
+        anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
         width: 24
         height: 24
-        source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/close.svg"
+        source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/close.svg"
         sourceSize: Qt.size(width, height)
         visible: _mouseArea.containsMouse || _closeBtnArea.containsMouse
         z: 9999
 
         Rectangle {
-            property color hoveredColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 2)
-                                                               : Qt.darker(LingmoUI.Theme.backgroundColor, 1.2)
-            property color pressedColor: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.5)
-                                                               : Qt.darker(LingmoUI.Theme.backgroundColor, 1.3)
+            property color hoveredColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 2)
+                                                               : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.2)
+            property color pressedColor: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.5)
+                                                               : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.3)
 
             z: -1
             anchors.fill: parent

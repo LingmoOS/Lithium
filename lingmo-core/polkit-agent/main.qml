@@ -6,7 +6,7 @@ import LingmoUI.Compatible 3.0 as LingmoUI
 Item {
     id: root
 
-    property var heightValue: mainLayout.implicitHeight + LingmoUI.Units.largeSpacing * 2
+    property var heightValue: mainLayout.implicitHeight + LingmoUI.LingmoUnits.largeSpacing * 2
 
     width: 450
     height: heightValue
@@ -35,8 +35,8 @@ Item {
     Rectangle {
         id: _background
         anchors.fill: parent
-        radius: LingmoUI.Theme.bigRadius
-        color: LingmoUI.Theme.secondBackgroundColor
+        radius: LingmoUI.LingmoTheme.bigRadius
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
     }
 
     DragHandler {
@@ -63,7 +63,7 @@ Item {
     RowLayout {
         id: mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
 
         Image {
             id: icon
@@ -85,12 +85,12 @@ Item {
         }
 
         Item {
-            width: LingmoUI.Units.largeSpacing
+            width: LingmoUI.LingmoUnits.largeSpacing
         }
 
         ColumnLayout {
             id: column
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Text {
                 text: confirmation.message
@@ -100,7 +100,7 @@ Item {
                 maximumLineCount: 2
                 wrapMode: Text.Wrap
                 elide: Text.ElideRight
-                color: LingmoUI.Theme.textColor
+                color: LingmoUI.LingmoTheme.textColor
             }
 
             TextField {
@@ -129,7 +129,7 @@ Item {
             }
 
             RowLayout {
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 Button {
                     text: qsTr("Cancel")

@@ -20,16 +20,16 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             RoundedItem {
                 Label {
                     text: qsTr("Style")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing * 2
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                     IconCheckBox {
                         source: "qrc:/images/dock_straight.svg"
@@ -51,11 +51,11 @@ ItemPage {
            RoundedItem {
                Label {
                    text: qsTr("Position on screen")
-                   color: LingmoUI.Theme.disabledTextColor
+                   color: LingmoUI.LingmoTheme.disabledTextColor
                }
 
                RowLayout {
-                   spacing: LingmoUI.Units.largeSpacing * 2
+                   spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
                    IconCheckBox {
                        source: "qrc:/images/dock_left.svg"
@@ -84,13 +84,13 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Size")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 TabBar {
                     id: dockSizeTabbar
                     Layout.fillWidth: true
-                    bottomPadding: LingmoUI.Units.smallSpacing
+                    bottomPadding: LingmoUI.LingmoUnits.smallSpacing
 
                     TabButton {
                         text: qsTr("Small")
@@ -150,7 +150,7 @@ ItemPage {
             RoundedItem {
                 Label {
                     text: qsTr("Display mode")
-                    color: LingmoUI.Theme.disabledTextColor
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                 }
 
                 TabBar {

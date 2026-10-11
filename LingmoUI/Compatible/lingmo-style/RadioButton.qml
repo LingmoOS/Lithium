@@ -38,8 +38,8 @@ T.RadioButton {
                                       indicator ? indicator.implicitHeight : 0) + topPadding + bottomPadding)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    padding: LingmoUI.Units.smallSpacing
-    spacing: LingmoUI.Units.smallSpacing
+    padding: LingmoUI.LingmoUnits.smallSpacing
+    spacing: LingmoUI.LingmoUnits.smallSpacing
 
     opacity: control.enabled ? 1.0 : 0.5
 
@@ -56,7 +56,7 @@ T.RadioButton {
         text: control.text
         font: control.font
 
-        color: LingmoUI.Theme.textColor
+        color: LingmoUI.LingmoTheme.textColor
         elide: Text.ElideRight
         visible: control.text
         horizontalAlignment: Text.AlignLeft

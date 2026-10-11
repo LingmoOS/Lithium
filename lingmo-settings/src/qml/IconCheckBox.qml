@@ -8,7 +8,7 @@ import LingmoUI.CompatibleModule 3.0 as LingmoUI
 Item {
     id: control
 
-    property var iconSpacing: LingmoUI.Units.smallSpacing * 0.8
+    property var iconSpacing: LingmoUI.LingmoUnits.smallSpacing * 0.8
     property alias source: icon.source
     property alias text: label.text
     property bool checked: false
@@ -32,15 +32,15 @@ Item {
             height: width
             color: "transparent"
             border.width: 3
-            border.color: control.checked ? LingmoUI.Theme.highlightColor : "transparent"
+            border.color: control.checked ? LingmoUI.LingmoTheme.highlightColor : "transparent"
 
-            radius: LingmoUI.Theme.bigRadius + control.iconSpacing
+            radius: LingmoUI.LingmoTheme.bigRadius + control.iconSpacing
             visible: true
 
             Image {
                 id: icon
                 anchors.fill: parent
-                anchors.margins: LingmoUI.Units.smallSpacing
+                anchors.margins: LingmoUI.LingmoUnits.smallSpacing
                 sourceSize: Qt.size(icon.width, icon.height)
                 opacity: 1
                 smooth: false
@@ -53,7 +53,7 @@ Item {
 
                         Rectangle {
                             anchors.fill: parent
-                            radius: LingmoUI.Theme.bigRadius
+                            radius: LingmoUI.LingmoTheme.bigRadius
                         }
                     }
                 }
@@ -81,7 +81,7 @@ Item {
 
         Label {
             id: label
-            color: control.checked ? LingmoUI.Theme.highlightColor : LingmoUI.Theme.textColor
+            color: control.checked ? LingmoUI.LingmoTheme.highlightColor : LingmoUI.LingmoTheme.textColor
             visible: label.text
             Layout.alignment: Qt.AlignHCenter
         }

@@ -37,7 +37,7 @@ Item {
 
     RowLayout {
         anchors.fill: parent
-        spacing: LingmoUI.Units.smallSpacing / 2
+        spacing: LingmoUI.LingmoUnits.smallSpacing / 2
 
         ListView {
             id: _listView
@@ -61,7 +61,7 @@ Item {
             Layout.preferredWidth: visible ? height : 0
 
             sourceComponent: LingmoUI.RoundImageButton {
-                source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark/" : "light/") + "add.svg"
+                source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark/" : "light/") + "add.svg"
                 onClicked: control.newTabClicked()
                 iconMargins: 2
             }

@@ -91,7 +91,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: parent.top
         anchors.bottom: label.top
-        anchors.margins: LingmoUI.Units.largeSpacing * 2
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing * 2
 
         width: height
         height: width
@@ -207,10 +207,10 @@ Item {
         anchors {
             horizontalCenter: parent.horizontalCenter
             bottom: label.top
-            bottomMargin: LingmoUI.Units.smallSpacing
+            bottomMargin: LingmoUI.LingmoUnits.smallSpacing
         }
 
-        color: LingmoUI.Theme.highlightColor
+        color: LingmoUI.LingmoTheme.highlightColor
         radius: height / 2
     }
 
@@ -220,7 +220,7 @@ Item {
         anchors {
             horizontalCenter: parent.horizontalCenter
             bottom: parent.bottom
-            margins: LingmoUI.Units.smallSpacing
+            margins: LingmoUI.LingmoUnits.smallSpacing
         }
 
         visible: !dragStarted
@@ -232,7 +232,7 @@ Item {
         wrapMode: "WordWrap"
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignTop
-        width: parent.width - 2 * LingmoUI.Units.smallSpacing
+        width: parent.width - 2 * LingmoUI.LingmoUnits.smallSpacing
         height: fontMetrics.height * 2
         color: "white"
 

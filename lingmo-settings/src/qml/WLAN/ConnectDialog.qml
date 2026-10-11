@@ -36,15 +36,15 @@ LingmoUI.Window {
     maximumHeight: contentHeight
 
     property int contentWidth: _mainLayout.implicitWidth + header.height
-                               + LingmoUI.Units.largeSpacing * 2
+                               + LingmoUI.LingmoUnits.largeSpacing * 2
     property int contentHeight: _mainLayout.implicitHeight + header.height
-                                + LingmoUI.Units.largeSpacing * 2
+                                + LingmoUI.LingmoUnits.largeSpacing * 2
 
     visible: false
     minimizeButtonVisible: false
     modality: Qt.WindowModal
 
-    background.color: LingmoUI.Theme.secondBackgroundColor
+    background.color: LingmoUI.LingmoTheme.secondBackgroundColor
     flags: Qt.Dialog | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint
 
     signal connect(var devicePath, var specificPath, var password)
@@ -71,13 +71,13 @@ LingmoUI.Window {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
         anchors.topMargin: 0
-        spacing: LingmoUI.Units.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Label {
             text: qsTr("Enter the password for %1").arg(control.name)
-            color: LingmoUI.Theme.disabledTextColor
+            color: LingmoUI.LingmoTheme.disabledTextColor
             wrapMode: Text.WordWrap
         }
 
@@ -108,7 +108,7 @@ LingmoUI.Window {
         }
 
         RowLayout {
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Button {
                 text: qsTr("Cancel")

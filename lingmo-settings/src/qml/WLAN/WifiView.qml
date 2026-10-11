@@ -28,7 +28,7 @@ import Lingmo.NetworkManagement 1.0 as NM
 
 ColumnLayout {
     id: _contentLayout
-    spacing: LingmoUI.Units.largeSpacing
+    spacing: LingmoUI.LingmoUnits.largeSpacing
 
     ConnectDialog {
         id: connectDialog
@@ -45,12 +45,12 @@ ColumnLayout {
     }
 
     RowLayout {
-        spacing: LingmoUI.Units.smallSpacing * 1.5
+        spacing: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
         Label {
             id: wlanLabel
             text: qsTr("WLAN")
-            color: LingmoUI.Theme.disabledTextColor
+            color: LingmoUI.LingmoTheme.disabledTextColor
         }
 
         Item {

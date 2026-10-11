@@ -23,7 +23,7 @@ import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
 import QtQuick.Window 2.12
 
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 import Lingmo.TermWidget 1.0
 
 Page {
@@ -112,7 +112,7 @@ Page {
     QMLTermWidget {
         id: _terminal
         anchors.fill: parent
-        colorScheme: LingmoUI.Theme.darkMode ? settings.darkcolorScheme : settings.lightcolorScheme
+        colorScheme: LingmoUI.LingmoTheme.darkMode ? settings.darkcolorScheme : settings.lightcolorScheme
         font.family: settings.fontName
         font.pointSize: settings.fontPointSize
         blinkingCursor: settings.blinkingCursor
@@ -125,7 +125,7 @@ Page {
         Keys.onPressed: control.keyPressed(event)
 
         onBackgroundColorChanged: {
-            if(LingmoUI.Theme.darkMode)
+            if(LingmoUI.LingmoTheme.darkMode)
                 {
                     settings.darkbackgroundColor = backgroundColor
                 }else
@@ -301,7 +301,7 @@ Page {
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        anchors.bottomMargin: LingmoUI.Units.smallSpacing * 1.5
+        anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing * 1.5
         hoverEnabled: true
         active: hovered || pressed
         orientation: Qt.Vertical

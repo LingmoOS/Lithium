@@ -120,25 +120,25 @@ Item {
         id: _background
         anchors.fill: parent
         anchors.rightMargin: 1
-        radius: LingmoUI.Theme.mediumRadius
-        color: LingmoUI.Theme.secondBackgroundColor
+        radius: LingmoUI.LingmoTheme.mediumRadius
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
 
         Rectangle {
             id: _topRightRect
             anchors.right: parent.right
             anchors.top: parent.top
-            height: LingmoUI.Theme.mediumRadius
-            width: LingmoUI.Theme.mediumRadius
-            color: LingmoUI.Theme.secondBackgroundColor
+            height: LingmoUI.LingmoTheme.mediumRadius
+            width: LingmoUI.LingmoTheme.mediumRadius
+            color: LingmoUI.LingmoTheme.secondBackgroundColor
         }
 
         Rectangle {
             id: _bottomLeftRect
             anchors.left: parent.left
             anchors.bottom: parent.bottom
-            height: LingmoUI.Theme.mediumRadius
-            width: LingmoUI.Theme.mediumRadius
-            color: LingmoUI.Theme.secondBackgroundColor
+            height: LingmoUI.LingmoTheme.mediumRadius
+            width: LingmoUI.LingmoTheme.mediumRadius
+            color: LingmoUI.LingmoTheme.secondBackgroundColor
         }
     }
 
@@ -247,7 +247,7 @@ Item {
 
 //        Rectangle {
 //            anchors.fill: parent
-//            color: LingmoUI.Theme.backgroundColor
+//            color: LingmoUI.LingmoTheme.backgroundColor
 //            opacity: 0.7
 //        }
 
@@ -257,10 +257,10 @@ Item {
 
         RowLayout {
             anchors.fill: parent
-            anchors.leftMargin: LingmoUI.Units.smallSpacing
-            anchors.rightMargin: LingmoUI.Units.smallSpacing
+            anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+            anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
             // anchors.bottomMargin: 1
-            spacing: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             Label {
                 Layout.alignment: Qt.AlignLeft
@@ -324,10 +324,10 @@ Item {
             model: dirModel
             delegate: FolderGridItem {}
 
-            leftMargin: LingmoUI.Units.smallSpacing
-            rightMargin: LingmoUI.Units.largeSpacing
+            leftMargin: LingmoUI.LingmoUnits.smallSpacing
+            rightMargin: LingmoUI.LingmoUnits.largeSpacing
             topMargin: 0
-            bottomMargin: LingmoUI.Units.smallSpacing
+            bottomMargin: LingmoUI.LingmoUnits.smallSpacing
 
             onIconSizeChanged: {
                 // Save
@@ -347,11 +347,11 @@ Item {
             id: _folderListView
             model: dirModel
 
-            topMargin: LingmoUI.Units.smallSpacing
-            leftMargin: LingmoUI.Units.largeSpacing
-            rightMargin: LingmoUI.Units.largeSpacing
-            bottomMargin: LingmoUI.Units.smallSpacing
-            spacing: LingmoUI.Units.largeSpacing
+            topMargin: LingmoUI.LingmoUnits.smallSpacing
+            leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            rightMargin: LingmoUI.LingmoUnits.largeSpacing
+            bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing
 
             onCountChanged: {
                 _fileTips.visible = count === 0
@@ -370,7 +370,7 @@ Item {
             width: 0
             height: 0
             z: 99999
-            color: LingmoUI.Theme.highlightColor
+            color: LingmoUI.LingmoTheme.highlightColor
 
             function close() {
                 opacityAnimation.restart()

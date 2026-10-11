@@ -1,0 +1,10 @@
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/lingmo-filemanager.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/translations.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/edit_cache.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/list_install_components.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/install.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/install/local.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/install/strip.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/lingmo-filemanager_autogen_timestamp_deps.dir
+/home/lingmo/Lithium/lingmo-filemanager/obj-x86_64-linux-gnu/CMakeFiles/lingmo-filemanager_autogen.dir

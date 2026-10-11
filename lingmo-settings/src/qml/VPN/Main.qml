@@ -48,12 +48,12 @@ ItemPage {
 
             RoundedItem {
                 id: mainItem
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 RowLayout {
                     Label {
                         text: qsTr("VPN")
-                        color: LingmoUI.Theme.disabledTextColor
+                        color: LingmoUI.LingmoTheme.disabledTextColor
                     }
 
                     Item {
@@ -70,7 +70,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.smallSpacing
             }
         }
     }

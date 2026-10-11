@@ -30,8 +30,8 @@ T.DialogButtonBox {
     implicitWidth: contentItem.implicitWidth + leftPadding + rightPadding
     implicitHeight: contentItem.implicitHeight + topPadding + bottomPadding
 
-    spacing: LingmoUI.Units.smallSpacing
-    padding: LingmoUI.Units.smallSpacing
+    spacing: LingmoUI.LingmoUnits.smallSpacing
+    padding: LingmoUI.LingmoUnits.smallSpacing
     alignment: Qt.AlignRight
 
     delegate: Button {

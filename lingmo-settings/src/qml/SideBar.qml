@@ -38,8 +38,8 @@ Item {
 
     Rectangle {
         anchors.fill: parent
-        color: LingmoUI.Theme.darkMode ? Qt.lighter(LingmoUI.Theme.backgroundColor, 1.5)
-                                     : Qt.darker(LingmoUI.Theme.backgroundColor, 1.05)
+        color: LingmoUI.LingmoTheme.darkMode ? Qt.lighter(LingmoUI.LingmoTheme.backgroundColor, 1.5)
+                                     : Qt.darker(LingmoUI.LingmoTheme.backgroundColor, 1.05)
         opacity: rootWindow.compositing ? 0.3 : 0.4
 
         Behavior on color {
@@ -269,11 +269,11 @@ Item {
 
         Label {
             text: rootWindow.title
-            color: rootWindow.active ? LingmoUI.Theme.textColor : LingmoUI.Theme.disabledTextColor
+            color: rootWindow.active ? LingmoUI.LingmoTheme.textColor : LingmoUI.LingmoTheme.disabledTextColor
             Layout.preferredHeight: rootWindow.header.height
-            leftPadding: LingmoUI.Units.largeSpacing + LingmoUI.Units.smallSpacing
-            rightPadding: LingmoUI.Units.largeSpacing + LingmoUI.Units.smallSpacing
-            topPadding: LingmoUI.Units.smallSpacing
+            leftPadding: LingmoUI.LingmoUnits.largeSpacing + LingmoUI.LingmoUnits.smallSpacing
+            rightPadding: LingmoUI.LingmoUnits.largeSpacing + LingmoUI.LingmoUnits.smallSpacing
+            topPadding: LingmoUI.LingmoUnits.smallSpacing
             bottomPadding: 0
             font.pointSize: 13
         }
@@ -285,11 +285,11 @@ Item {
             clip: true
             model: listModel
 
-            spacing: LingmoUI.Units.smallSpacing
-            leftMargin: LingmoUI.Units.largeSpacing
-            rightMargin: LingmoUI.Units.largeSpacing
+            spacing: LingmoUI.LingmoUnits.smallSpacing
+            leftMargin: LingmoUI.LingmoUnits.largeSpacing
+            rightMargin: LingmoUI.LingmoUnits.largeSpacing
             topMargin: 0
-            bottomMargin: LingmoUI.Units.largeSpacing
+            bottomMargin: LingmoUI.LingmoUnits.largeSpacing
 
             ScrollBar.vertical: ScrollBar {}
 
@@ -297,23 +297,23 @@ Item {
             highlightMoveDuration: 0
             highlightResizeDuration : 0
             highlight: Rectangle {
-                radius: LingmoUI.Theme.mediumRadius
-                color: LingmoUI.Theme.highlightColor
+                radius: LingmoUI.LingmoTheme.mediumRadius
+                color: LingmoUI.LingmoTheme.highlightColor
                 smooth: true
             }
 
             section.property: "category"
             section.delegate: Item {
                 width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                height: LingmoUI.Units.fontMetrics.height + LingmoUI.Units.largeSpacing + LingmoUI.Units.smallSpacing
+                height: LingmoUI.LingmoUnits.fontMetrics.height + LingmoUI.LingmoUnits.largeSpacing + LingmoUI.LingmoUnits.smallSpacing
 
                 Text {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.smallSpacing
-                    anchors.rightMargin: LingmoUI.Units.largeSpacing
-                    anchors.topMargin: LingmoUI.Units.largeSpacing
-                    anchors.bottomMargin: LingmoUI.Units.smallSpacing
-                    color: LingmoUI.Theme.disabledTextColor
+                    anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+                    anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing
+                    anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
+                    anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+                    color: LingmoUI.LingmoTheme.disabledTextColor
                     text: section
                 }
             }
@@ -322,10 +322,10 @@ Item {
             // highlightMoveDuration: 0
             // highlightResizeDuration : 0
             // highlight: Rectangle {
-            //     radius: LingmoUI.Theme.mediumRadius
-            //     color: Qt.rgba(LingmoUI.Theme.textColor.r,
-            //                    LingmoUI.Theme.textColor.g,
-            //                    LingmoUI.Theme.textColor.b, 0.05)
+            //     radius: LingmoUI.LingmoTheme.mediumRadius
+            //     color: Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+            //                    LingmoUI.LingmoTheme.textColor.g,
+            //                    LingmoUI.LingmoTheme.textColor.b, 0.05)
             //     // color: "#4DA4ED"
             //     smooth: true
             // }
@@ -333,16 +333,16 @@ Item {
             // section.property: "category"
             // section.delegate: Item {
             //     width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-            //     height: LingmoUI.Units.fontMetrics.height + LingmoUI.Units.largeSpacing + LingmoUI.Units.smallSpacing
+            //     height: LingmoUI.LingmoUnits.fontMetrics.height + LingmoUI.LingmoUnits.largeSpacing + LingmoUI.LingmoUnits.smallSpacing
 
             //     Text {
             //         anchors.left: parent.left
             //         anchors.top: parent.top
-            //         anchors.leftMargin: Qt.application.layoutDirection === Qt.RightToLeft ? 0 : LingmoUI.Units.smallSpacing
-            //         anchors.rightMargin: LingmoUI.Units.smallSpacing
-            //         anchors.topMargin: LingmoUI.Units.largeSpacing
-            //         anchors.bottomMargin: LingmoUI.Units.smallSpacing
-            //         color: LingmoUI.Theme.disabledTextColor
+            //         anchors.leftMargin: Qt.application.layoutDirection === Qt.RightToLeft ? 0 : LingmoUI.LingmoUnits.smallSpacing
+            //         anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+            //         anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
+            //         anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+            //         color: LingmoUI.LingmoTheme.disabledTextColor
             //         font.pointSize: 8
             //         text: section
             //     }
@@ -355,7 +355,7 @@ Item {
             delegate: Item {
                 id: item
                 width: ListView.view.width - ListView.view.leftMargin - ListView.view.rightMargin
-                height: LingmoUI.Units.fontMetrics.height + LingmoUI.Units.largeSpacing * 1.5
+                height: LingmoUI.LingmoUnits.fontMetrics.height + LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                 property bool isCurrent: listView.currentIndex === index
 
@@ -370,10 +370,10 @@ Item {
                         onClicked: listView.currentIndex = index
                     }
 
-                    radius: LingmoUI.Theme.mediumRadius
-                    color: mouseArea.containsMouse && !isCurrent ? Qt.rgba(LingmoUI.Theme.textColor.r,
-                                                                           LingmoUI.Theme.textColor.g,
-                                                                           LingmoUI.Theme.textColor.b,
+                    radius: LingmoUI.LingmoTheme.mediumRadius
+                    color: mouseArea.containsMouse && !isCurrent ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+                                                                           LingmoUI.LingmoTheme.textColor.g,
+                                                                           LingmoUI.LingmoTheme.textColor.b,
                                                                    0.1) : "transparent"
 
                     smooth: true
@@ -381,14 +381,14 @@ Item {
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.largeSpacing
-                    spacing: LingmoUI.Units.smallSpacing * 1.5
+                    anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing
+                    spacing: LingmoUI.LingmoUnits.smallSpacing * 1.5
 
                     // Image {
                     //     id: icon
                     //     width: 16
                     //     height: width
-                    //     source: LingmoUI.Theme.darkMode || isCurrent ? "qrc:/images/sidebar/dark/" + model.iconSource
+                    //     source: LingmoUI.LingmoTheme.darkMode || isCurrent ? "qrc:/images/sidebar/dark/" + model.iconSource
                     //                                                : "qrc:/images/sidebar/light/" + model.iconSource
                     //     sourceSize: Qt.size(width, height)
                     //     Layout.alignment: Qt.AlignVCenter
@@ -400,7 +400,7 @@ Item {
                         height: 24
                         Layout.alignment: Qt.AlignVCenter
                         radius: 20
-                        color: LingmoUI.Theme.highlightColor
+                        color: LingmoUI.LingmoTheme.highlightColor
                         // color: model.iconColor
                         // color: "transparent"
 
@@ -451,7 +451,7 @@ Item {
                     Label {
                         id: itemTitle
                         text: model.title
-                        color: isCurrent ? LingmoUI.Theme.highlightedTextColor : LingmoUI.Theme.textColor
+                        color: isCurrent ? LingmoUI.LingmoTheme.highlightedTextColor : LingmoUI.LingmoTheme.textColor
                     }
 
                     Item {
@@ -478,7 +478,7 @@ Item {
             //         //     samples: 10
             //         //     horizontalOffset: 5
             //         //     verticalOffset: 5
-            //         //     color: LingmoUI.Theme.darkMode ? LingmoUI.Theme.textColor : "#363636"                        
+            //         //     color: LingmoUI.LingmoTheme.darkMode ? LingmoUI.LingmoTheme.textColor : "#363636"                        
             //         // }
 
             //         MouseArea {
@@ -489,18 +489,18 @@ Item {
             //             onClicked: listView.currentIndex = index
             //         }
 
-            //         radius: LingmoUI.Theme.mediumRadius
-            //         // color: mouseArea.pressed ? Qt.rgba(LingmoUI.Theme.textColor.r,
-            //         //                                     LingmoUI.Theme.textColor.g,
-            //         //                                     LingmoUI.Theme.textColor.b, LingmoUI.Theme.darkMode ? 0.05 : 0.1) :
+            //         radius: LingmoUI.LingmoTheme.mediumRadius
+            //         // color: mouseArea.pressed ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+            //         //                                     LingmoUI.LingmoTheme.textColor.g,
+            //         //                                     LingmoUI.LingmoTheme.textColor.b, LingmoUI.LingmoTheme.darkMode ? 0.05 : 0.1) :
             //         //        mouseArea.containsMouse || isCurrent ? "#2277FF" :
             //         //                                               "transparent"
-            //         color: mouseArea.pressed ? Qt.rgba(LingmoUI.Theme.textColor.r,
-            //                                            LingmoUI.Theme.textColor.g,
-            //                                            LingmoUI.Theme.textColor.b, LingmoUI.Theme.darkMode ? 0.05 : 0.1) :
-            //                mouseArea.containsMouse || isCurrent ? Qt.rgba(LingmoUI.Theme.textColor.r,
-            //                                                               LingmoUI.Theme.textColor.g,
-            //                                                               LingmoUI.Theme.textColor.b, LingmoUI.Theme.darkMode ? 0.1 : 0.05) :
+            //         color: mouseArea.pressed ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+            //                                            LingmoUI.LingmoTheme.textColor.g,
+            //                                            LingmoUI.LingmoTheme.textColor.b, LingmoUI.LingmoTheme.darkMode ? 0.05 : 0.1) :
+            //                mouseArea.containsMouse || isCurrent ? Qt.rgba(LingmoUI.LingmoTheme.textColor.r,
+            //                                                               LingmoUI.LingmoTheme.textColor.g,
+            //                                                               LingmoUI.LingmoTheme.textColor.b, LingmoUI.LingmoTheme.darkMode ? 0.1 : 0.05) :
             //                                                       "transparent"
 
             //         smooth: true
@@ -508,8 +508,8 @@ Item {
 
             //     RowLayout {
             //         anchors.fill: parent
-            //         anchors.leftMargin: LingmoUI.Units.smallSpacing
-            //         spacing: LingmoUI.Units.smallSpacing
+            //         anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+            //         spacing: LingmoUI.LingmoUnits.smallSpacing
 
             //         Rectangle {
             //             id: iconRect
@@ -540,7 +540,7 @@ Item {
             //         Label {
             //             id: itemTitle
             //             text: model.title
-            //             color: LingmoUI.Theme.darkMode ? LingmoUI.Theme.textColor : "#363636"
+            //             color: LingmoUI.LingmoTheme.darkMode ? LingmoUI.LingmoTheme.textColor : "#363636"
             //             font.pointSize: 9
             //         }
 

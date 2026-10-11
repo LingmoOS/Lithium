@@ -67,20 +67,20 @@ ItemPage {
         ColumnLayout {
             id: mainLayout
             anchors.fill: parent
-            anchors.bottomMargin: LingmoUI.Units.largeSpacing
-            spacing: LingmoUI.Units.largeSpacing * 2
+            anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             // Wired connection
             RoundedItem {
                 visible: enabledConnections.wwanHwEnabled
-                spacing: LingmoUI.Units.largeSpacing
+                spacing: LingmoUI.LingmoUnits.largeSpacing
 
                 RowLayout {
-                    spacing: LingmoUI.Units.largeSpacing
+                    spacing: LingmoUI.LingmoUnits.largeSpacing
 
                     Label {
                         text: qsTr("Ethernet")
-                        color: LingmoUI.Theme.disabledTextColor
+                        color: LingmoUI.LingmoTheme.disabledTextColor
                         Layout.fillWidth: true
                     }
 
@@ -127,7 +127,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
         }
     }

@@ -26,7 +26,7 @@ T.Switch {
 
         text: control.text
         font: control.font
-        color: control.enabled ? LingmoUI.Theme.textColor : LingmoUI.Theme.disabledTextColor
+        color: control.enabled ? LingmoUI.LingmoTheme.textColor : LingmoUI.LingmoTheme.disabledTextColor
         elide: Label.ElideRight
         verticalAlignment: Label.AlignVCenter
     }

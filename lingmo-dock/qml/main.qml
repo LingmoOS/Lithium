@@ -27,20 +27,20 @@ Item {
     Rectangle {
         id: _background
 
-        property var borderColor: root.compositing ? LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                           : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
+        property var borderColor: root.compositing ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                           : Qt.rgba(0, 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
                                                                                                                            : Qt.rgba(0, 0, 0, 0.15)
 
         anchors.fill: parent
         radius: root.compositing && Settings.style === 0 ? windowRadius : 0
-        // color: LingmoUI.Theme.darkMode ? "#333333" : "#F2F2F2"
-        // opacity: LingmoUI.Theme.darkMode ? 0.5 : 0.4
-        opacity: windowHelper.compositing ? LingmoUI.Theme.darkMode ? 0.5 : 0.4 : 1
-        color: LingmoUI.Theme.darkMode ? "#666666" : "#E6E6E6"
-        // opacity: root.compositing ? LingmoUI.Theme.darkMode ? 0.5 : 0.5 : 0.9
+        // color: LingmoUI.LingmoTheme.darkMode ? "#333333" : "#F2F2F2"
+        // opacity: LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.4
+        opacity: windowHelper.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.4 : 1
+        color: LingmoUI.LingmoTheme.darkMode ? "#666666" : "#E6E6E6"
+        // opacity: root.compositing ? LingmoUI.LingmoTheme.darkMode ? 0.5 : 0.5 : 0.9
         // opacity: 0.8
-        border.width: 1 / LingmoUI.Units.devicePixelRatio
-        border.pixelAligned: LingmoUI.Units.devicePixelRatio > 1 ? false : true
+        border.width: 1 / LingmoUI.LingmoUnits.devicePixelRatio
+        border.pixelAligned: LingmoUI.LingmoUnits.devicePixelRatio > 1 ? false : true
         border.color: borderColor
 
         Behavior on color {
@@ -131,12 +131,12 @@ Item {
 
             Rectangle {
                 anchors.fill: parent
-                anchors.margins: LingmoUI.Units.smallSpacing / 2
+                anchors.margins: LingmoUI.LingmoUnits.smallSpacing / 2
                 color: "transparent"
-                border.color: LingmoUI.Theme.textColor
+                border.color: LingmoUI.LingmoTheme.textColor
                 radius: height * 0.3
-                border.width: 1 / LingmoUI.Units.devicePixelRatio
-                border.pixelAligned: LingmoUI.Units.devicePixelRatio > 1 ? false : true
+                border.width: 1 / LingmoUI.LingmoUnits.devicePixelRatio
+                border.pixelAligned: LingmoUI.LingmoUnits.devicePixelRatio > 1 ? false : true
                 opacity: trashItem.dropArea.containsDrag ? 0.5 : 0
 
                 Behavior on opacity {

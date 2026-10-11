@@ -29,8 +29,8 @@ Rectangle {
     property alias spacing: _mainLayout.spacing
     property alias layout: _mainLayout
 
-    color: LingmoUI.Theme.secondBackgroundColor
-    radius: LingmoUI.Theme.mediumRadius
+    color: LingmoUI.LingmoTheme.secondBackgroundColor
+    radius: LingmoUI.LingmoTheme.mediumRadius
 
     Behavior on color {
         ColorAnimation {
@@ -46,10 +46,10 @@ Rectangle {
     ColumnLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-        anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
-        anchors.topMargin: LingmoUI.Units.largeSpacing
-        anchors.bottomMargin: LingmoUI.Units.largeSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+        anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+        anchors.topMargin: LingmoUI.LingmoUnits.largeSpacing
+        anchors.bottomMargin: LingmoUI.LingmoUnits.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
     }
 }

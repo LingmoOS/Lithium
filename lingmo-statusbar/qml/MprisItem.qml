@@ -61,15 +61,15 @@ Item {
     Rectangle {
         anchors.fill: parent
         color: "white"
-        radius: LingmoUI.Theme.bigRadius
-        opacity: LingmoUI.Theme.darkMode ? 0.2 : 0.7
+        radius: LingmoUI.LingmoTheme.bigRadius
+        opacity: LingmoUI.LingmoTheme.darkMode ? 0.2 : 0.7
     }
 
     RowLayout {
         id: _mainLayout
         anchors.fill: parent
-        anchors.margins: LingmoUI.Units.largeSpacing
-        spacing: LingmoUI.Units.largeSpacing
+        anchors.margins: LingmoUI.LingmoUnits.largeSpacing
+        spacing: LingmoUI.LingmoUnits.largeSpacing
 
         Image {
             id: defaultImage
@@ -87,7 +87,7 @@ Item {
 
                     Rectangle {
                         anchors.fill: parent
-                        radius: LingmoUI.Theme.bigRadius
+                        radius: LingmoUI.LingmoTheme.bigRadius
                     }
                 }
             }
@@ -109,7 +109,7 @@ Item {
 
                     Rectangle {
                         anchors.fill: parent
-                        radius: LingmoUI.Theme.bigRadius
+                        radius: LingmoUI.LingmoTheme.bigRadius
                     }
                 }
             }
@@ -154,12 +154,12 @@ Item {
             RowLayout {
                 id: _buttonsLayout
                 anchors.fill: parent
-                spacing: LingmoUI.Units.smallSpacing
+                spacing: LingmoUI.LingmoUnits.smallSpacing
 
                 IconButton {
                     width: 30
                     height: 30
-                    source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/media-skip-backward-symbolic.svg"
+                    source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/media-skip-backward-symbolic.svg"
                     onLeftButtonClicked: if (mprisManager.canGoPrevious) mprisManager.previous()
                     visible: mprisManager.canGoPrevious
                     Layout.alignment: Qt.AlignRight
@@ -168,8 +168,8 @@ Item {
                 IconButton {
                     width: 30
                     height: 30
-                    source: control.isPlaying ? "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/media-playback-pause-symbolic.svg"
-                                              : "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/media-playback-start-symbolic.svg"
+                    source: control.isPlaying ? "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/media-playback-pause-symbolic.svg"
+                                              : "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/media-playback-start-symbolic.svg"
                     Layout.alignment: Qt.AlignRight
                     visible: mprisManager.canPause || mprisManager.canPlay
                     onLeftButtonClicked:
@@ -181,7 +181,7 @@ Item {
                 IconButton {
                     width: 30
                     height: 30
-                    source: "qrc:/images/" + (LingmoUI.Theme.darkMode ? "dark" : "light") + "/media-skip-forward-symbolic.svg"
+                    source: "qrc:/images/" + (LingmoUI.LingmoTheme.darkMode ? "dark" : "light") + "/media-skip-forward-symbolic.svg"
                     Layout.alignment: Qt.AlignRight
                     visible: mprisManager.canGoNext
                     onLeftButtonClicked: if (mprisManager.canGoNext) mprisManager.next()

@@ -22,12 +22,12 @@ T.ScrollBar {
     }
 
     contentItem: Rectangle {
-        radius: LingmoUI.Theme.smallRadius
+        radius: LingmoUI.LingmoTheme.smallRadius
         implicitWidth: control.interactive ? 6 : 4
         implicitHeight: control.interactive ? 6 : 4
 
-        color: control.pressed ? LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.4) : Qt.rgba(0, 0, 0, 0.5)
-                               : LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.5) : Qt.rgba(0, 0, 0, 0.4)
+        color: control.pressed ? LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.4) : Qt.rgba(0, 0, 0, 0.5)
+                               : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.5) : Qt.rgba(0, 0, 0, 0.4)
         opacity: 0.0
     }
 

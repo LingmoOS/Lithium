@@ -60,13 +60,13 @@ ItemPage {
         ColumnLayout {
             id: layout
             anchors.fill: parent
-            spacing: LingmoUI.Units.largeSpacing * 2
+            spacing: LingmoUI.LingmoUnits.largeSpacing * 2
 
             ListView {
                 id: _userView
                 model: userModel
                 Layout.fillWidth: true
-                spacing: LingmoUI.Units.largeSpacing * 2
+                spacing: LingmoUI.LingmoUnits.largeSpacing * 2
                 interactive: false
 
                 Layout.preferredHeight: {
@@ -97,7 +97,7 @@ ItemPage {
 
                 ColumnLayout {
                     id: _mainLayout
-                    spacing: LingmoUI.Units.largeSpacing * 1.5
+                    spacing: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("Add new user")
@@ -105,8 +105,8 @@ ItemPage {
 
                     GridLayout {
                         columns: 2
-                        columnSpacing: LingmoUI.Units.largeSpacing * 2
-                        rowSpacing: LingmoUI.Units.smallSpacing * 2
+                        columnSpacing: LingmoUI.LingmoUnits.largeSpacing * 2
+                        rowSpacing: LingmoUI.LingmoUnits.smallSpacing * 2
 
                         Label {
                             text: qsTr("User name")
@@ -163,7 +163,7 @@ ItemPage {
 
                     RowLayout {
                         id: footerLayout
-                        spacing: LingmoUI.Units.largeSpacing
+                        spacing: LingmoUI.LingmoUnits.largeSpacing
 
                         Button {
                             id: cancelButton
@@ -206,8 +206,8 @@ ItemPage {
 
                 RowLayout {
                     anchors.fill: parent
-                    anchors.leftMargin: LingmoUI.Units.largeSpacing * 1.5
-                    anchors.rightMargin: LingmoUI.Units.largeSpacing * 1.5
+                    anchors.leftMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
+                    anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 1.5
 
                     Label {
                         text: qsTr("Add user")
@@ -224,7 +224,7 @@ ItemPage {
             }
 
             Item {
-                height: LingmoUI.Units.largeSpacing
+                height: LingmoUI.LingmoUnits.largeSpacing
             }
         }
     }

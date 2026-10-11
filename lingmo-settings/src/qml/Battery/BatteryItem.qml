@@ -17,9 +17,9 @@ Item {
     Rectangle {
         id: bgRect
         anchors.fill: parent
-        color: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-                       LingmoUI.Theme.highlightColor.g,
-                       LingmoUI.Theme.highlightColor.b, 0.4)
+        color: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+                       LingmoUI.LingmoTheme.highlightColor.g,
+                       LingmoUI.LingmoTheme.highlightColor.b, 0.4)
         radius: control.radius
 
         layer.enabled: true
@@ -41,17 +41,17 @@ Item {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: control.width * (control.value / 100)
-            color: LingmoUI.Theme.highlightColor
+            color: LingmoUI.LingmoTheme.highlightColor
             opacity: 1
 
             gradient: Gradient {
                 orientation: Gradient.Horizontal
-                GradientStop { position: 0.0; color: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-                                                             LingmoUI.Theme.highlightColor.g,
-                                                             LingmoUI.Theme.highlightColor.b, 1) }
-                GradientStop { position: 1.0; color: Qt.rgba(LingmoUI.Theme.highlightColor.r,
-                                                             LingmoUI.Theme.highlightColor.g,
-                                                             LingmoUI.Theme.highlightColor.b, 0.3) }
+                GradientStop { position: 0.0; color: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+                                                             LingmoUI.LingmoTheme.highlightColor.g,
+                                                             LingmoUI.LingmoTheme.highlightColor.b, 1) }
+                GradientStop { position: 1.0; color: Qt.rgba(LingmoUI.LingmoTheme.highlightColor.r,
+                                                             LingmoUI.LingmoTheme.highlightColor.g,
+                                                             LingmoUI.LingmoTheme.highlightColor.b, 0.3) }
             }
 
             Behavior on width {

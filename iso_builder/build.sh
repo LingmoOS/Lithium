@@ -5,7 +5,9 @@ set -e
 # Use return code for any command errors in part of a pipe
 set -o pipefail # Bashism
 
-source ../tools/build_version.sh
+# tools/build_version.sh is not part of this tree; LINGMO_BUILD_VER is
+# set below, so only source it when it exists.
+[ -f ../tools/build_version.sh ] && source ../tools/build_version.sh || true
 
 # Lingmo's default values
 LINGMO_DIST="${LINGMO_DIST:-forky}"

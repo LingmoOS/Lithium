@@ -7,7 +7,7 @@ import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 import QtQuick.Dialogs 1.3
-import LingmoUI 1.0 as LingmoUI
+import LingmoUI as LingmoUI
 import Lingmo.TextEditor 1.0
 
 LingmoUI.Window {
@@ -47,14 +47,14 @@ LingmoUI.Window {
     headerItem: Item {
         Rectangle {
             anchors.fill: parent
-            color: LingmoUI.Theme.backgroundColor
+            color: LingmoUI.LingmoTheme.backgroundColor
         }
 
         LingmoUI.TabBar {
             id: _tabbar
             anchors.fill: parent
-            anchors.margins: LingmoUI.Units.smallSpacing / 2
-            anchors.rightMargin: LingmoUI.Units.largeSpacing * 4
+            anchors.margins: LingmoUI.LingmoUnits.smallSpacing / 2
+            anchors.rightMargin: LingmoUI.LingmoUnits.largeSpacing * 4
 
             model: _tabView.count
             currentIndex : _tabView.currentIndex
@@ -117,18 +117,18 @@ LingmoUI.Window {
             id: _bottomItem
             z: 999
             Layout.fillWidth: true
-            Layout.preferredHeight: 20 + LingmoUI.Units.smallSpacing
+            Layout.preferredHeight: 20 + LingmoUI.LingmoUnits.smallSpacing
 
             Rectangle {
                 anchors.fill: parent
-                color: LingmoUI.Theme.backgroundColor
+                color: LingmoUI.LingmoTheme.backgroundColor
             }
 
             ColumnLayout {
                 anchors.fill: parent
-                anchors.leftMargin: LingmoUI.Units.smallSpacing
-                anchors.rightMargin: LingmoUI.Units.smallSpacing
-                anchors.bottomMargin: LingmoUI.Units.smallSpacing
+                anchors.leftMargin: LingmoUI.LingmoUnits.smallSpacing
+                anchors.rightMargin: LingmoUI.LingmoUnits.smallSpacing
+                anchors.bottomMargin: LingmoUI.LingmoUnits.smallSpacing
 
                 Label {
                     text: _tabView.currentItem ? qsTr("Characters %1").arg(_tabView.currentItem.characterCount)

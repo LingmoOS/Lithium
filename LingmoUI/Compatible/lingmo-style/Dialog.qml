@@ -35,7 +35,7 @@ T.Dialog {
 
     contentWidth: contentItem.implicitWidth || (contentChildren.length === 1 ? contentChildren[0].implicitWidth : 0)
     contentHeight: contentItem.implicitHeight + header.implicitHeight || (contentChildren.length === 1 ? contentChildren[0].implicitHeight : 0) + header.implicitHeight + footer.implicitHeight
-    padding: LingmoUI.Theme.hugeRadius
+    padding: LingmoUI.LingmoTheme.hugeRadius
 
     enter: Transition {
         NumberAnimation {
@@ -60,8 +60,8 @@ T.Dialog {
     contentItem: Item {}
 
     background: Rectangle {
-        radius: LingmoUI.Theme.hugeRadius
-        color: LingmoUI.Theme.secondBackgroundColor
+        radius: LingmoUI.LingmoTheme.hugeRadius
+        color: LingmoUI.LingmoTheme.secondBackgroundColor
         border.width: 0
 
         layer.enabled: true
@@ -77,7 +77,7 @@ T.Dialog {
 
     header: Item {
         id: _headerItem
-        implicitHeight: _headerLabel.visible ? _headerLabel.implicitHeight + LingmoUI.Units.largeSpacing : 0
+        implicitHeight: _headerLabel.visible ? _headerLabel.implicitHeight + LingmoUI.LingmoUnits.largeSpacing : 0
 
         Label {
             id: _headerLabel
@@ -91,6 +91,6 @@ T.Dialog {
 
     footer: DialogButtonBox {
         visible: count > 0
-        padding: LingmoUI.Units.largeSpacing * 2
+        padding: LingmoUI.LingmoUnits.largeSpacing * 2
     }
 }

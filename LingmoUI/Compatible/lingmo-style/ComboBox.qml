@@ -51,15 +51,15 @@ T.ComboBox {
                              implicitContentHeight + topPadding + bottomPadding,
                              implicitIndicatorHeight + topPadding + bottomPadding)
 
-    topInset: LingmoUI.Units.smallSpacing
-    bottomInset: LingmoUI.Units.smallSpacing
+    topInset: LingmoUI.LingmoUnits.smallSpacing
+    bottomInset: LingmoUI.LingmoUnits.smallSpacing
 
-    spacing: LingmoUI.Units.smallSpacing
-    padding: LingmoUI.Units.smallSpacing
-    leftPadding: LingmoUI.Units.largeSpacing
-    rightPadding: LingmoUI.Units.largeSpacing
+    spacing: LingmoUI.LingmoUnits.smallSpacing
+    padding: LingmoUI.LingmoUnits.smallSpacing
+    leftPadding: LingmoUI.LingmoUnits.largeSpacing
+    rightPadding: LingmoUI.LingmoUnits.largeSpacing
 
-    property bool darkMode: LingmoUI.Theme.darkMode
+    property bool darkMode: LingmoUI.LingmoTheme.darkMode
 
     onDarkModeChanged: {
         updateTimer.restart()
@@ -77,7 +77,7 @@ T.ComboBox {
         x: control.mirrored ? control.leftPadding : control.width - width - control.rightPadding
         y: control.topPadding + (control.availableHeight - height) / 2
 
-        height: LingmoUI.Units.iconSizes.small
+        height: LingmoUI.LingmoUnits.iconSizes.small
         width: height
 
         cache: false
@@ -99,9 +99,9 @@ T.ComboBox {
     }
 
     contentItem: T.TextField {
-        padding: LingmoUI.Units.smallSpacing
+        padding: LingmoUI.LingmoUnits.smallSpacing
         leftPadding: 0
-        rightPadding: LingmoUI.Units.smallSpacing
+        rightPadding: LingmoUI.LingmoUnits.smallSpacing
 
         text: control.editable ? control.editText : control.displayText
 
@@ -112,26 +112,26 @@ T.ComboBox {
         validator: control.validator
 
         font: control.font
-        color: control.enabled ? control.LingmoUI.Theme.textColor : control.LingmoUI.Theme.highlightColor
-        selectionColor:  control.LingmoUI.Theme.highlightColor
-        selectedTextColor: control.LingmoUI.Theme.highlightedTextColor
+        color: control.enabled ? control.LingmoUI.LingmoTheme.textColor : control.LingmoUI.LingmoTheme.highlightColor
+        selectionColor:  control.LingmoUI.LingmoTheme.highlightColor
+        selectedTextColor: control.LingmoUI.LingmoTheme.highlightedTextColor
         verticalAlignment: Text.AlignVCenter
     }
 
     background: Rectangle {
-        implicitWidth:  (LingmoUI.Units.iconSizes.medium * 3) + LingmoUI.Units.largeSpacing
-        implicitHeight: LingmoUI.Units.iconSizes.medium + LingmoUI.Units.smallSpacing
+        implicitWidth:  (LingmoUI.LingmoUnits.iconSizes.medium * 3) + LingmoUI.LingmoUnits.largeSpacing
+        implicitHeight: LingmoUI.LingmoUnits.iconSizes.medium + LingmoUI.LingmoUnits.smallSpacing
 
-        radius: LingmoUI.Theme.smallRadius
-        color: LingmoUI.Theme.alternateBackgroundColor
+        radius: LingmoUI.LingmoTheme.smallRadius
+        color: LingmoUI.LingmoTheme.alternateBackgroundColor
 
-        border.color: control.activeFocus ? LingmoUI.Theme.highlightColor : color
+        border.color: control.activeFocus ? LingmoUI.LingmoTheme.highlightColor : color
         border.width: 1
     }
 
     popup: T.Popup {
         width: Math.max(control.width, 150)
-        implicitHeight: Math.min(contentItem.implicitHeight, control.Window.height - topMargin - bottomMargin) + LingmoUI.Units.largeSpacing
+        implicitHeight: Math.min(contentItem.implicitHeight, control.Window.height - topMargin - bottomMargin) + LingmoUI.LingmoUnits.largeSpacing
         transformOrigin: Item.Top
 
         enter: Transition {
@@ -160,16 +160,16 @@ T.ComboBox {
             model: control.delegateModel
             currentIndex: control.highlightedIndex
             highlightMoveDuration: 0
-            topMargin: LingmoUI.Units.smallSpacing
-            bottomMargin: LingmoUI.Units.smallSpacing
-            spacing: LingmoUI.Units.smallSpacing
+            topMargin: LingmoUI.LingmoUnits.smallSpacing
+            bottomMargin: LingmoUI.LingmoUnits.smallSpacing
+            spacing: LingmoUI.LingmoUnits.smallSpacing
 
             T.ScrollBar.vertical: ScrollBar {}
         }
 
         background: Rectangle {
-            radius: LingmoUI.Theme.smallRadius
-            color: parent.LingmoUI.Theme.secondBackgroundColor
+            radius: LingmoUI.LingmoTheme.smallRadius
+            color: parent.LingmoUI.LingmoTheme.secondBackgroundColor
             border.width: 0
 
             layer.enabled: true

@@ -13,7 +13,7 @@ LingmoUI.Window {
     minimumHeight: 550
     title: qsTr("Calculator")
 
-    background.color: LingmoUI.Theme.darkMode ? Qt.rgba(46 / 255, 46 / 255, 46 / 255, 1.0)
+    background.color: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(46 / 255, 46 / 255, 46 / 255, 1.0)
                                             : Qt.rgba(240 / 255, 238 / 255, 241 / 255, 1.0)
     background.opacity: rootWindow.compositing ? 0.95 : 1.0
 
@@ -55,7 +55,7 @@ LingmoUI.Window {
 
     ColumnLayout {
         anchors.fill: parent
-        spacing: LingmoUI.Units.smallSpacing
+        spacing: LingmoUI.LingmoUnits.smallSpacing
 
         Zone {
             id: zone
@@ -70,7 +70,7 @@ LingmoUI.Window {
             Rectangle {
                 z: -1
                 anchors.fill: parent
-                color: LingmoUI.Theme.secondBackgroundColor
+                color: LingmoUI.LingmoTheme.secondBackgroundColor
                 opacity: 0.9
             }
 

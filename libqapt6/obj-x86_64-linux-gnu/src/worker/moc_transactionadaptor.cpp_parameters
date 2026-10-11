@@ -1,0 +1,14 @@
+-I/home/lingmo/Lithium/libqapt6
+-I/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu
+-I/usr/include/polkit-qt6-1
+-I/usr/include
+-I/usr/include
+-I/home/lingmo/Lithium/libqapt6/src/worker
+-I/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/worker
+-I/home/lingmo/Lithium/libqapt6/src
+-DQAPT_WORKER_VERSION_STRING="6"
+-DQAPT_WORKER_RDN_VERSIONED_STRING="org.kubuntu.qaptworker6"
+-DCMAKE_PROJECT_VERSION="6.0.0"
+-o
+/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/worker/moc_transactionadaptor.cpp
+/home/lingmo/Lithium/libqapt6/obj-x86_64-linux-gnu/src/worker/transactionadaptor.h
