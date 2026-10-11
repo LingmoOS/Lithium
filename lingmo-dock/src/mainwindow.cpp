@@ -32,6 +32,8 @@
 
 #include <NETWM>
 #include <KWindowSystem>
+
+#include <LingmoPlatform.h>
 #include <KWindowEffects>
 #include <KX11Extras>
 
@@ -55,7 +57,8 @@ MainWindow::MainWindow(QQuickView *parent)
 
     setFlags(Qt::FramelessWindowHint | Qt::WindowDoesNotAcceptFocus);
     // KWindowSystem::setOnDesktop(winId(), NET::OnAllDesktops);
-    KX11Extras::setType(winId(), NET::Dock);
+    if (LingmoPlatform::getInstance()->isX11())
+        KX11Extras::setType(winId(), NET::Dock);
 
     engine()->rootContext()->setContextProperty("appModel", m_appModel);
     engine()->rootContext()->setContextProperty("process", new ProcessProvider);

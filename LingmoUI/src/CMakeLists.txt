@@ -19,11 +19,21 @@ target_link_libraries(${TARGET}
         )
 target_include_directories(${TARGET} PRIVATE ${QHOTKEY_INCLUDE_DIR})
 
+# Headers for C++ consumers (installed under include/${TARGET})
+target_include_directories(${TARGET} PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+    $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}/${TARGET}>)
+
 if (UNIX)
     if (NOT APPLE)
         target_link_libraries(${TARGET} PRIVATE Qt6::Gui Qt6::GuiPrivate)
         if (KF6WindowSystem_FOUND)
             target_link_libraries(${TARGET} PRIVATE KF6::WindowSystem)
+        endif ()
+        # Wayland panel surfaces (optional: X11 only builds stay possible)
+        if (LayerShellQt_FOUND)
+            target_compile_definitions(${TARGET} PRIVATE HAVE_LAYERSHELLQT)
+            target_link_libraries(${TARGET} PRIVATE LayerShellQt::Interface)
         endif ()
     endif ()
 endif ()

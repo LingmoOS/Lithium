@@ -34,6 +34,8 @@
 
 #include <NETWM>
 #include <KWindowSystem>
+
+#include <LingmoPlatform.h>
 #include <KX11Extras>
 #include <KWindowEffects>
 
@@ -47,8 +49,12 @@ StatusBar::StatusBar(QQuickView *parent)
     setFlags(Qt::FramelessWindowHint | Qt::WindowDoesNotAcceptFocus);
     setColor(Qt::transparent);
 
-    KX11Extras::setOnDesktop(winId(), NET::OnAllDesktops);
-    KX11Extras::setType(winId(), NET::Dock);
+    // X11: a Dock window on all desktops. Wayland: setupPanel() below turns
+    // this QQuickView into a layer-shell panel instead.
+    if (LingmoPlatform::getInstance()->isX11()) {
+        KX11Extras::setOnDesktop(winId(), NET::OnAllDesktops);
+        KX11Extras::setType(winId(), NET::Dock);
+    }
 
     new StatusbarAdaptor(this);
     new AppMenu(this);
@@ -112,11 +118,22 @@ void StatusBar::updateGeometry()
     setGeometry(windowRect);
     updateViewStruts();
 
-    KWindowEffects::enableBlurBehind(fromWinId(winId()), true);
+    if (LingmoPlatform::getInstance()->isX11())
+        KWindowEffects::enableBlurBehind(fromWinId(winId()), true);
 }
 
 void StatusBar::updateViewStruts()
 {
+    const QRect rect0 = geometry();
+
+    if (LingmoPlatform::getInstance()->isWayland()) {
+        // Layer-shell panels reserve their own space; the compositor ignores
+        // EWMH struts, and there is no X11 window id to set them on anyway.
+        LingmoPlatform::getInstance()->setupPanel(this, Qt::TopEdge,
+                                                  rect0.height(), false);
+        return;
+    }
+
     const QRect wholeScreen(QPoint(0, 0), screen()->virtualSize());
     const QRect rect = geometry();
     const int topOffset = screen()->geometry().top();
@@ -144,7 +161,8 @@ void StatusBar::updateViewStruts()
 void StatusBar::initState()
 {
     // Remain below the face launchpad.
-    KX11Extras::setState(winId(), m_acticity->launchPad() ? NET::KeepBelow : NET::KeepAbove);
+    if (LingmoPlatform::getInstance()->isX11())
+        KX11Extras::setState(winId(), m_acticity->launchPad() ? NET::KeepBelow : NET::KeepAbove);
 }
 
 void StatusBar::onPrimaryScreenChanged(QScreen *screen)

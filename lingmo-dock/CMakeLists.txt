@@ -13,6 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 CONFIG REQUIRED Widgets DBus Gui GuiPrivate Concurrent LinguistTools QuickControls2)
 
 find_package(KF6WindowSystem REQUIRED)
+find_package(LingmoUI3 3.0 REQUIRED)
 
 set(SRCS
     src/applicationitem.h
@@ -51,6 +52,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
         Qt6::Concurrent
         Qt6::DBus
         KF6::WindowSystem
+        LingmoUI3
 )
 
 file(GLOB TS_FILES translations/*.ts)

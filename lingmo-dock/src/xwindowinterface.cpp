@@ -28,6 +28,8 @@
 
 #include <KWindowEffects>
 #include <KWindowSystem>
+
+#include <LingmoPlatform.h>
 #include <KWindowInfo>
 #include <KX11Extras>
 
@@ -146,6 +148,26 @@ bool XWindowInterface::isAcceptableWindow(quint64 wid)
 
 void XWindowInterface::setViewStruts(QWindow *view, DockSettings::Direction direction, const QRect &rect, bool compositing)
 {
+    if (LingmoPlatform::getInstance()->isWayland()) {
+        // Wayland: layer-shell surface anchored to the dock edge; the space it
+        // reserves is the exclusive zone (no EWMH struts on Wayland).
+        // DockSettings only knows left/bottom/right.
+        Qt::Edges anchors;
+        switch (direction) {
+        case DockSettings::Left:   anchors = Qt::LeftEdge;   break;
+        case DockSettings::Right:  anchors = Qt::RightEdge;  break;
+        case DockSettings::Bottom:
+        default:                   anchors = Qt::BottomEdge; break;
+        }
+
+        const bool vertical = direction == DockSettings::Left || direction == DockSettings::Right;
+        const int zone = (vertical ? rect.width() : rect.height())
+                       + (compositing && DockSettings::self()->style() == DockSettings::Round
+                              ? DockSettings::self()->edgeMargins() : 0);
+        LingmoPlatform::getInstance()->setupPanel(view, anchors, zone, false);
+        return;
+    }
+
     NETExtendedStrut strut;
 
     const auto screen = view->screen();

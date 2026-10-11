@@ -39,6 +39,14 @@ if (UNIX)
     if (NOT APPLE)
         list(APPEND QT GuiPrivate)
         find_package(KF6WindowSystem )
+# Optional: wlr-layer-shell support for panels/docks on Wayland. Without it the
+# library still builds and the X11 backends keep working.
+find_package(LayerShellQt QUIET)
+if (LayerShellQt_FOUND)
+    message(STATUS "LayerShellQt found: Wayland layer-shell panels enabled")
+else()
+    message(STATUS "LayerShellQt not found: Wayland panels disabled, X11 only")
+endif()
         # If not found, warn and continue
         if (NOT KF6WindowSystem_FOUND)
             message(WARNING "KF6WindowSystem not found. Some features may not work.")
