@@ -42,8 +42,7 @@ ControlCenterDialog {
     property bool bluetoothDisConnected: Bluez.Manager.bluetoothBlocked
     property var defaultSinkValue: defaultSink ? defaultSink.volume / PulseAudio.NormalVolume * 100.0 : -1
 
-    property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3), 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
-                                                                                                                  : Qt.rgba(0, 0, 0, 0.15)
+    property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(255, 255, 255, 0.15)
 
     property var volumeIconName: {
         if (defaultSinkValue <= 0)

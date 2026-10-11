@@ -41,8 +41,7 @@ ControlCenterDialog {
 
     property point position: Qt.point(0, 0)
     property var margin: 4 * Screen.devicePixelRatio
-    property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3), 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
-                                                                                                                  : Qt.rgba(0, 0, 0, 0.15)
+    property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(255, 255, 255, 0.15)
 
     Accounts.UserAccount {
         id: currentUser

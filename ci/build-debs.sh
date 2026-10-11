@@ -14,6 +14,12 @@ OUT="${1:-/tmp/lingmo-debs}"
 JOBS="$(nproc)"
 mkdir -p "$OUT"
 
+# Our libraries live in /usr/local and in Qt's QML directory (LingmoUI is a
+# QML module), so dpkg-shlibdeps cannot resolve them from the package
+# database in a local build. Tell it to look there and to tolerate the rest.
+QMLDIR="$(find /usr/lib/*/qt6/qml -maxdepth 1 -type d -name LingmoUI 2>/dev/null | head -1)"
+export DEB_DH_SHLIBDEPS_ARGS_ALL="--dpkg-shlibdeps-params=--ignore-missing-info${QMLDIR:+ -l$QMLDIR} -l/usr/local/lib"
+
 # dependency order matters: the libraries first, then the shell components
 COMPONENTS=(
     LingmoUI lib_lingmo lingmo-core libqapt6

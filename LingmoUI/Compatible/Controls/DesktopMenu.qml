@@ -37,8 +37,7 @@ LingmoUI.MenuPopupWindow {
         border.width: 1 / LingmoUI.LingmoUnits.devicePixelRatio
         border.pixelAligned: LingmoUI.LingmoUnits.devicePixelRatio > 1 ? false : true
 
-        property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3), 0, 0, 0.2) : LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
-                                                                                                                      : Qt.rgba(0, 0, 0, 0.05)
+        property var borderColor: LingmoUI.LingmoTheme.darkMode ? Qt.rgba(255, 255, 255, 0.3) : Qt.rgba(255, 255, 255, 0.1)
 
 
         LingmoUI.LingmoShadow {
