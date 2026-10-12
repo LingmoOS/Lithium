@@ -138,7 +138,8 @@ cp -rT lingmo-config/common config
 # (vmlinuz-6.12.12-amd64 against the installed 7.2.9+deb14-amd64) and UEFI
 # boots failed. Substitute the version the archive actually provides.
 kver="$(apt-cache show linux-image-amd64 2>/dev/null \
-    | sed -n 's/^Depends: *linux-image-\([^ ,(]*\).*/\1/p' | head -1)"
+    | grep -m1 '^Depends' \
+    | grep -oE 'linux-image-[0-9][^, ]*' | head -1 | sed 's/^linux-image-//')"
 if [ -n "$kver" ]; then
     echo "Using kernel version: $kver"
     for f in config/bootloaders/grub-pc/grub.cfg config/bootloaders/grub-pc/loopback.cfg; do
@@ -159,6 +160,10 @@ if [ -n "$enable_pu" ]; then
 	# 	> config/archives/lingmo-proposed-updates.list.binary
 fi
 
+# live-build own firmware list contains firmware-b43-installer, whose
+# maintainer script downloads Broadcom firmware over the network and aborts
+# the build; hardware-support.list.chroot lists what the image needs, so
+# --firmware-chroot is off below.
 lb config noauto \
 	--apt-indices=false \
 	--distribution "$dist" \
@@ -173,10 +178,6 @@ lb config noauto \
 	--source false \
  	--bootloaders "grub-efi grub-pc" \
 	--firmware-binary true \
-	# live-build own firmware list includes firmware-b43-installer,
-	# whose maintainer script downloads firmware from the network and fails
-	# inside the chroot; hardware-support.list.chroot lists the firmware the
-	# image needs explicitly instead.
 	--firmware-chroot false \
 	--uefi-secure-boot enable \
  	--initramfs live-boot \
