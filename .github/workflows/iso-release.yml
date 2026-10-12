@@ -74,6 +74,12 @@ jobs:
           name: lingmo-debs
           path: /tmp/lingmo-debs
 
+      - name: Use an internationally reachable mirror
+        # .mirror in the repository points at the Tsinghua mirror, which is
+        # slow from GitHub runners; the local mirror only helps where the
+        # build runs on a Chinese network.
+        run: echo "https://deb.debian.org/debian" > iso_builder/.mirror
+
       - name: Build the image
         env:
           SKIP_DEBS: '1'
