@@ -51,44 +51,43 @@ jobs:
   iso:
     needs: debs
     runs-on: ubuntu-latest
-    container: debian:testing
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
       - name: Free disk space
         run: |
-          rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/share/swift || true
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/share/swift || true
           df -h /
-
-      - name: Install live-build
-        run: |
-          apt-get update
-          apt-get install -y --no-install-recommends \
-            live-build simple-cdd xorriso squashfs-tools mtools dosfstools \
-            debootstrap syslinux syslinux-common isolinux grub-pc-bin grub-efi-amd64-bin \
-            debhelper devscripts fakeroot apt-utils wget gnupg jq bc python3 zstd
 
       - uses: actions/download-artifact@v4
         with:
           name: lingmo-debs
-          path: /tmp/lingmo-debs
-
-      - name: Use an internationally reachable mirror
-        # .mirror in the repository points at the Tsinghua mirror, which is
-        # slow from GitHub runners; the local mirror only helps where the
-        # build runs on a Chinese network.
-        run: echo "https://deb.debian.org/debian" > iso_builder/.mirror
+          path: lingmo-debs
 
       - name: Build the image
-        env:
-          SKIP_DEBS: '1'
-          DEB_DIR: /tmp/lingmo-debs
-          LINGMO_DIST: ${{ inputs.distribution || 'forky' }}
-          DEBIAN_FRONTEND: noninteractive
+        # live-build mounts /proc, /sys and /dev/pts inside its chroot, which a
+        # plain container job cannot do, so the build runs in a privileged
+        # container instead. debian:testing is the same release as forky, so
+        # its debootstrap knows the distribution.
         run: |
-          mkdir -p /srv/lingmo-local-repo
-          bash ci/iso-local.sh
+          echo "https://deb.debian.org/debian" > iso_builder/.mirror
+          docker run --privileged --rm \
+            -v "$PWD":/work -v "$PWD/lingmo-debs":/tmp/lingmo-debs -w /work \
+            -e SKIP_DEBS=1 -e DEB_DIR=/tmp/lingmo-debs \
+            -e LINGMO_DIST="${{ inputs.distribution || 'forky' }}" \
+            -e DEBIAN_FRONTEND=noninteractive \
+            debian:testing bash -c '
+              set -e
+              apt-get update
+              apt-get install -y --no-install-recommends \
+                live-build simple-cdd xorriso squashfs-tools mtools dosfstools \
+                debootstrap syslinux syslinux-common isolinux grub-pc-bin grub-efi-amd64-bin \
+                debhelper devscripts fakeroot apt-utils wget gnupg jq bc python3 zstd git ca-certificates
+              mkdir -p /srv/lingmo-local-repo
+              bash ci/iso-local.sh
+            '
+          ls -la iso_builder/images/
 
       - name: Collect and verify
         id: image
