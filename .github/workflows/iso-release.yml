@@ -17,6 +17,15 @@ on:
   push:
     tags:
       - 'v*'
+    branches:
+      - qt6-wayland
+      - main
+    # only when the image or the build helpers change: a full run takes hours
+    paths:
+      - 'iso_builder/**'
+      - 'ci/**'
+      - '.github/workflows/iso-release.yml'
+      - '*/debian/**'
 
 permissions:
   contents: write
