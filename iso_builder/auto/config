@@ -173,7 +173,11 @@ lb config noauto \
 	--source false \
  	--bootloaders "grub-efi grub-pc" \
 	--firmware-binary true \
-	--firmware-chroot true \
+	# live-build own firmware list includes firmware-b43-installer,
+	# whose maintainer script downloads firmware from the network and fails
+	# inside the chroot; hardware-support.list.chroot lists the firmware the
+	# image needs explicitly instead.
+	--firmware-chroot false \
 	--uefi-secure-boot enable \
  	--initramfs live-boot \
 	--mirror-bootstrap "$lingmo_mirror" \
