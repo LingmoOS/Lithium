@@ -139,7 +139,7 @@ cp -rT lingmo-config/common config
 # boots failed. Substitute the version the archive actually provides.
 kver="$(apt-cache show linux-image-amd64 2>/dev/null \
     | grep -m1 '^Depends' \
-    | grep -oE 'linux-image-[0-9][^, ]*' | head -1 | sed 's/^linux-image-//')"
+    | grep -oE 'linux-image-[0-9][^, ]*' | head -1 | sed 's/^linux-image-//' || true)"
 if [ -n "$kver" ]; then
     echo "Using kernel version: $kver"
     for f in config/bootloaders/grub-pc/grub.cfg config/bootloaders/grub-pc/loopback.cfg; do
