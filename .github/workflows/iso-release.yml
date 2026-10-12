@@ -39,12 +39,21 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install build dependencies
+        # one unavailable package makes apt install nothing at all, so install
+        # the list one by one and report what had to be skipped
         run: |
           apt-get update
-          grep -v '^#' ci/debian-deps.txt | xargs -r apt-get install -y --no-install-recommends || true
           apt-get install -y --no-install-recommends \
             build-essential cmake ninja-build pkg-config git ca-certificates \
             debhelper dh-make devscripts fakeroot dpkg-dev apt-utils
+          missing=""
+          for pkg in $(grep -v '^#' ci/debian-deps.txt | tr -d ' '); do
+            apt-get install -y --no-install-recommends "$pkg" > /dev/null 2>&1 || missing="$missing $pkg"
+          done
+          if [ -n "$missing" ]; then
+            echo "::warning::packages not available in this container:$missing"
+          fi
+          echo "installed, unavailable:$missing"
 
       - name: Build .deb packages
         env:
