@@ -1,16 +1,18 @@
 #!/bin/sh
-# Create the live user while the image is built, not at boot: live-config only
-# creates its default user (and the boot hook that used to create "lingmo" ran
-# too late, so TTY autologin and SDDM login both failed with
-# "Authentication failure").
-set -e
-
+# Create the live user inside the image, so the account exists no matter what
+# live-config decides to do at boot (it used to create its own default user,
+# while SDDM and the TTY autologin both expect "lingmo").
 if ! id lingmo > /dev/null 2>&1; then
-    useradd -m -s /bin/bash -G sudo,audio,video,cdrom,floppy,plugdev,netdev,bluetooth,scanner,disk lingmo
-    echo 'lingmo:lingmo' | chpasswd
+    useradd -m -s /bin/bash lingmo || exit 0
 fi
+echo 'lingmo:lingmo' | chpasswd || true
 
-# passwordless sudo for the live session
+# add whichever of these groups exist; a missing one must not break the build
+for g in sudo audio video cdrom floppy plugdev netdev bluetooth scanner disk; do
+    getent group "$g" > /dev/null 2>&1 && usermod -aG "$g" lingmo || true
+done
+
 mkdir -p /etc/sudoers.d
 printf 'lingmo ALL=(ALL) NOPASSWD: ALL\n' > /etc/sudoers.d/99-lingmo
 chmod 0440 /etc/sudoers.d/99-lingmo
+echo "0100-lingmo-user: $(getent passwd lingmo)"
