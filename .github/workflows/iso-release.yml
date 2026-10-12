@@ -1,0 +1,134 @@
+name: Build and release ISO
+
+# Builds the components, the .deb packages and the live image, then publishes
+# it as a release. GitHub caps release assets at 2 GiB, so a bigger image is
+# uploaded in 1900 MiB parts together with a sha256 and a REASSEMBLE note.
+#
+# Reference timings on 12 cores: debs 60-90 min, ISO 45 min. Runners are
+# smaller, hence two jobs and the long timeouts.
+
+on:
+  workflow_dispatch:
+    inputs:
+      distribution:
+        description: Debian distribution used for the image
+        default: forky
+        required: false
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  debs:
+    runs-on: ubuntu-latest
+    container: debian:testing
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install build dependencies
+        run: |
+          apt-get update
+          grep -v '^#' ci/debian-deps.txt | xargs -r apt-get install -y --no-install-recommends || true
+          apt-get install -y --no-install-recommends \
+            build-essential cmake ninja-build pkg-config git ca-certificates \
+            debhelper dh-make devscripts fakeroot dpkg-dev apt-utils
+
+      - name: Build .deb packages
+        env:
+          DEB_BUILD_OPTIONS: noautodbgsym
+        run: ci/build-debs.sh /tmp/lingmo-debs
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lingmo-debs
+          path: /tmp/lingmo-debs/*.deb
+          retention-days: 5
+
+  iso:
+    needs: debs
+    runs-on: ubuntu-latest
+    container: debian:testing
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Free disk space
+        run: |
+          rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/share/swift || true
+          df -h /
+
+      - name: Install live-build
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            live-build simple-cdd xorriso squashfs-tools mtools dosfstools \
+            debootstrap syslinux syslinux-common isolinux grub-pc-bin grub-efi-amd64-bin \
+            debhelper devscripts fakeroot apt-utils wget gnupg jq bc python3 zstd
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: lingmo-debs
+          path: /tmp/lingmo-debs
+
+      - name: Build the image
+        env:
+          SKIP_DEBS: '1'
+          DEB_DIR: /tmp/lingmo-debs
+          LINGMO_DIST: ${{ inputs.distribution || 'forky' }}
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          mkdir -p /srv/lingmo-local-repo
+          bash ci/iso-local.sh
+
+      - name: Collect and verify
+        id: image
+        run: |
+          set -e
+          ISO=$(ls iso_builder/images/*.iso | head -1)
+          cp "$ISO" .
+          NAME=$(basename "$ISO")
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+          echo "size=$(stat -c%s "$NAME")" >> "$GITHUB_OUTPUT"
+          ls -la "$NAME"
+          sha256sum "$NAME" > "$NAME.sha256"
+
+      - name: Split when larger than 2 GiB
+        run: |
+          set -e
+          NAME="${{ steps.image.outputs.name }}"
+          SIZE="${{ steps.image.outputs.size }}"
+          mkdir -p dist
+          if [ "$SIZE" -gt 2147483648 ]; then
+            split -b 1900M -d -a 2 --additional-suffix=.part "$NAME" "dist/$NAME."
+            {
+              echo "This image exceeds GitHub's 2 GiB asset limit and is split."
+              echo
+              echo "Reassemble with:"
+              echo "    cat $NAME.*.part > $NAME"
+              echo "    sha256sum -c $NAME.sha256"
+              echo
+              echo "Parts:"
+              ls -1 dist/"$NAME".*.part | xargs -n1 basename
+            } > "dist/$NAME.REASSEMBLE.txt"
+          else
+            mv "$NAME" "dist/$NAME"
+          fi
+          mv "$NAME.sha256" dist/
+          ls -la dist/
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          fail_on_unmatched_files: true
+          generate_release_notes: true
+          name: ${{ github.ref_type == 'tag' && github.ref_name || 'ISO build' }}
+          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || format('iso-{0}', github.run_number) }}
+          body: |
+            Lingmo OS live image built from `${{ github.sha }}`.
+
+            * the image auto logs in as `lingmo` (password `lingmo`, passwordless sudo)
+            * when the asset is split, follow the REASSEMBLE file next to the parts
