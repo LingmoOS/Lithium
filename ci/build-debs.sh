@@ -10,6 +10,12 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# Keep a single transcript next to the tree so the build can be followed with
+#   tail -f log.log
+LOG_FILE="${LOG_FILE:-$ROOT/log.log}"
+exec > >(tee -a "$LOG_FILE") 2>&1
+echo "=== $(date '+%F %T') $0 $*"
 OUT="${1:-/tmp/lingmo-debs}"
 JOBS="$(nproc)"
 mkdir -p "$OUT"

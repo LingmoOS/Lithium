@@ -21,13 +21,13 @@ Changes:
    * build(thirdparty): fix deprecated api in QHotkey by @elysia-best in #57
 Checksums-Sha1:
  c605ebdc941623314f9c82446b3bc746088624b9 26762644 lingmoui3-dbgsym_3.1.3_amd64.deb
- 4e08a7c58cd32e00f79fe9f9060157107b5bac9c 2498588 lingmoui3_3.1.3_amd64.deb
- d372ae86ed62025b476d16c8fdb7ad60e95221cb 15575 lingmoui_3.1.3_amd64.buildinfo
+ d7fcf7854fefa167613013021857b540081f0f3d 2498448 lingmoui3_3.1.3_amd64.deb
+ 3fb679171c91810aec1d0a5dd4d3a70f0f520d68 15575 lingmoui_3.1.3_amd64.buildinfo
 Checksums-Sha256:
  ae0e26b8eae5b60765f4b8147218ab3294fef139bf11c8a790c4d627e3a8710d 26762644 lingmoui3-dbgsym_3.1.3_amd64.deb
- cf19839362373b21844f5f30fc9c04f0ec952659bf98749a22a8ec326f8150e4 2498588 lingmoui3_3.1.3_amd64.deb
- b0d86d589cf4e737d46ae6349015fa35517c05d60d23175010fd0af1e5756b59 15575 lingmoui_3.1.3_amd64.buildinfo
+ fe622b7045398ab5e30d7a0b6c795b6df2d722472f6192cf6c8c9d985c61c190 2498448 lingmoui3_3.1.3_amd64.deb
+ 3e29a402d306fe50bcdc90d7a2efb4a4dbff8e54b94add2929a65cfea4c94e28 15575 lingmoui_3.1.3_amd64.buildinfo
 Files:
  f5693ded5a6722e9e96e710e786712c2 26762644 debug optional lingmoui3-dbgsym_3.1.3_amd64.deb
- c779054c645d6d79eb44102d7f78fe85 2498588 devel optional lingmoui3_3.1.3_amd64.deb
- f7610bc8c36809aae30934383856ebbb 15575 devel optional lingmoui_3.1.3_amd64.buildinfo
+ 65a5193356486761191ee0af7180b7df 2498448 devel optional lingmoui3_3.1.3_amd64.deb
+ d78ba47ad84468287a987d1287ff3fb3 15575 devel optional lingmoui_3.1.3_amd64.buildinfo

@@ -1,3 +1,2 @@
-shlibs:Depends=libc6 (>= 2.32), libgcc-s1 (>= 3.0), libkdecorations3-6 (>= 4:6.2.90), libkf6coreaddons6 (>= 6.0.0), libqt6core6t64 (>= 6.11.2), libqt6gui6 (>= 6.9.1), libstdc++6 (>= 5)
 misc:Depends=
 misc:Pre-Depends=

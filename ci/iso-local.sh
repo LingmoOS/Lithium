@@ -12,6 +12,12 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+# Keep a single transcript next to the tree so the build can be followed with
+#   tail -f log.log
+LOG_FILE="${LOG_FILE:-$ROOT/log.log}"
+exec > >(tee -a "$LOG_FILE") 2>&1
+echo "=== $(date '+%F %T') $0 $*"
 DEB_DIR="${DEB_DIR:-/tmp/lingmo-debs}"
 REPO_DIR="${REPO_DIR:-/srv/lingmo-local-repo}"
 LINGMO_DIST="${LINGMO_DIST:-forky}"

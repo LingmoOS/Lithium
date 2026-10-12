@@ -1,18 +1,9 @@
 #!/bin/sh
-# Live session setup: create the user the display manager auto-logs in as and
-# use a theme that works with SDDM's Qt6 build.
-#
-# The Lingmo theme (/usr/share/sddm/themes/lingmo) still uses Qt5 Controls 1
-# types (IconLabel), so SDDM refuses to load it:
-#   Main.qml: Type SessionMenu unavailable /
-#   SessionMenu.qml: IconLabel is not a type
-# Switch to the Debian Breeze theme until the theme is ported to Qt6.
+# Keep the display manager usable: the Lingmo theme in this tree still uses
+# Qt5 Controls 1 types (IconLabel), which SDDM's Qt6 build cannot load, so the
+# Debian Breeze theme is selected instead. No autologin: the live system uses
+# the default live user created by live-config.
 set -e
-
-if ! id lingmo > /dev/null 2>&1; then
-    useradd -m -s /bin/bash -G sudo,audio,video,cdrom,floppy,plugdev,netdev,bluetooth,scanner lingmo || true
-    echo 'lingmo:lingmo' | chpasswd || true
-fi
 
 rm -f /etc/sddm.conf
 cat << 'CONF' > /etc/sddm.conf
@@ -20,14 +11,7 @@ cat << 'CONF' > /etc/sddm.conf
 Current=debian-breeze
 
 [Users]
-# Default $PATH for logged in users
-# Don't change this, See issue in
-# https://github.com/orgs/LingmoOS/discussions/25#discussioncomment-11029445
 DefaultPath=/usr/bin:/bin
-
-[Autologin]
-User=lingmo
-Session=lingmo-xsession
 
 [General]
 Numlock=on

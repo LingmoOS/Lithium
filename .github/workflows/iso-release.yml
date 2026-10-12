@@ -38,6 +38,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Use the Tsinghua mirror
+        run: |
+          printf 'deb https://mirrors.tuna.tsinghua.edu.cn/debian testing main contrib non-free non-free-firmware\n' \
+            > /etc/apt/sources.list.d/debian.sources.list
+          rm -f /etc/apt/sources.list.d/debian.sources
+          apt-get update
+          echo "https://mirrors.tuna.tsinghua.edu.cn/debian" > iso_builder/.mirror
+
       - name: Install build dependencies
         # one unavailable package makes apt install nothing at all, so install
         # the list one by one and report what had to be skipped
@@ -82,6 +90,14 @@ jobs:
         with:
           name: lingmo-debs
           path: lingmo-debs
+
+      - name: Use the Tsinghua mirror
+        run: |
+          printf 'deb https://mirrors.tuna.tsinghua.edu.cn/debian testing main contrib non-free non-free-firmware\n' \
+            > /etc/apt/sources.list.d/debian.sources.list
+          rm -f /etc/apt/sources.list.d/debian.sources
+          apt-get update
+          echo "https://mirrors.tuna.tsinghua.edu.cn/debian" > iso_builder/.mirror
 
       - name: Build the image
         # live-build mounts /proc, /sys and /dev/pts inside its chroot, which a
