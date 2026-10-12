@@ -189,7 +189,7 @@ lb config noauto \
 	--iso-volume "Lingmo OS 5.0" \
 	--linux-packages "linux-image linux-headers" \
 	--memtest none \
-	--bootappend-live "boot=live components quiet splash noeject" \
+	--bootappend-live "boot=live components quiet splash noeject username=lingmo" \
 	--bootappend-live-failsafe "boot=live components noeject memtest noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal" \
 	--bootappend-install "net.ifnames=0" \
 	--debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
