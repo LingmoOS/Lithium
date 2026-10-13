@@ -1,0 +1,12 @@
+# Live user support. live-config creates the default live user (and its
+# autologin) with user-setup; Debian live images list these explicitly and
+# this tree did not, so no account existed at all and every login attempt
+# ended in "Authentication failure".
+user-setup
+live-config
+live-boot
+live-tools
+sudo
+locales
+console-setup
+keyboard-configuration
